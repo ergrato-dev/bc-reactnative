@@ -9,6 +9,7 @@
 ### 🔐 Estos archivos son CONFIDENCIALES
 
 Los solucionarios contienen:
+
 - ✅ Respuestas correctas de todos los bugs
 - ✅ Explicaciones detalladas
 - ✅ Código corregido completo
@@ -50,13 +51,13 @@ Los solucionarios están en `.gitignore`:
 
 ### ¿Qué significa esto?
 
-| Aspecto | Estado |
-|---------|--------|
-| **Git tracking** | ❌ NO trackeados (gitignore) |
-| **Visible en VS Code** | ✅ SÍ, visible localmente |
-| **Sube a GitHub** | ❌ NO, protegido |
-| **Estudiantes ven** | ❌ NO, al clonar no los obtienen |
-| **Instructores ven** | ✅ SÍ, en su máquina local |
+| Aspecto                | Estado                           |
+| ---------------------- | -------------------------------- |
+| **Git tracking**       | ❌ NO trackeados (gitignore)     |
+| **Visible en VS Code** | ✅ SÍ, visible localmente        |
+| **Sube a GitHub**      | ❌ NO, protegido                 |
+| **Estudiantes ven**    | ❌ NO, al clonar no los obtienen |
+| **Instructores ven**   | ✅ SÍ, en su máquina local       |
 
 ---
 
@@ -297,14 +298,17 @@ Cuando un nuevo instructor se una al bootcamp:
 ### ¿Por qué este diseño?
 
 1. **Transparencia con límites**
+
    - El código con bugs es público → estudiantes pueden verlo
    - Los solucionarios son privados → solo instructores tienen acceso
 
 2. **Anti-copia efectivo**
+
    - Sin acceso a las respuestas, deben resolver por sí mismos
    - Cada estudiante tiene proceso único de debugging
 
 3. **Flexibilidad para instructores**
+
    - Solucionarios editables localmente
    - No requiere conexión a internet para consultarlos
    - Cada instructor puede agregar sus propias notas

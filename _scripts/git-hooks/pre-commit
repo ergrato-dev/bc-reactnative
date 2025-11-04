@@ -1,0 +1,75 @@
+#!/bin/bash
+# Pre-commit hook para prevenir subida de solucionarios confidenciales
+# Este script se ejecuta automáticamente antes de cada commit
+
+# Colores para output
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+# Verificar si hay archivos de solucionarios en el staging area
+SOLUCIONARIOS=$(git diff --cached --name-only | grep -E "(solucionario|instructor-notes|notas-instructor)")
+
+if [ -n "$SOLUCIONARIOS" ]; then
+    echo "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+    echo "${RED}❌ ERROR: INTENTO DE COMMIT DE ARCHIVOS CONFIDENCIALES${NC}"
+    echo "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+    echo ""
+    echo "${YELLOW}Los siguientes archivos son CONFIDENCIALES y NO deben subirse a GitHub:${NC}"
+    echo ""
+    echo "$SOLUCIONARIOS" | while read -r file; do
+        echo "  🔒 $file"
+    done
+    echo ""
+    echo "${YELLOW}¿Por qué se bloqueó este commit?${NC}"
+    echo "  • Los solucionarios contienen respuestas correctas de los bugs"
+    echo "  • Solo los instructores deben tener acceso"
+    echo "  • Los estudiantes no deben ver las soluciones antes de intentarlo"
+    echo ""
+    echo "${YELLOW}¿Qué hacer?${NC}"
+    echo "  1. Quita estos archivos del staging area:"
+    echo "     ${YELLOW}git reset HEAD <archivo>${NC}"
+    echo ""
+    echo "  2. Verifica que estén en .gitignore:"
+    echo "     ${YELLOW}cat .gitignore | grep solucionario${NC}"
+    echo ""
+    echo "  3. Si necesitas los archivos localmente, guárdalos pero NO los commitees"
+    echo ""
+    echo "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+    echo "${RED}Commit bloqueado para proteger información confidencial${NC}"
+    echo "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+    echo ""
+    exit 1
+fi
+
+# Verificar si hay archivos de _docs/instructor/ en staging
+INSTRUCTOR_DOCS=$(git diff --cached --name-only | grep "_docs/instructor/")
+
+if [ -n "$INSTRUCTOR_DOCS" ]; then
+    echo "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+    echo "${YELLOW}⚠️  ADVERTENCIA: Archivos del directorio instructor${NC}"
+    echo "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+    echo ""
+    echo "Estás a punto de commitear archivos de la carpeta instructor:"
+    echo ""
+    echo "$INSTRUCTOR_DOCS" | while read -r file; do
+        echo "  📄 $file"
+    done
+    echo ""
+    echo "${YELLOW}¿Estos archivos son seguros para subir a GitHub?${NC}"
+    echo "  • Los solucionarios NO deben subirse (confidenciales)"
+    echo "  • La metodología de bugs SÍ puede subirse (es pública para instructores)"
+    echo "  • Los templates SÍ pueden subirse (los estudiantes los necesitan)"
+    echo ""
+    read -p "¿Continuar con el commit? (y/N): " -n 1 -r
+    echo ""
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+        echo ""
+        echo "${RED}Commit cancelado por el usuario${NC}"
+        echo ""
+        exit 1
+    fi
+fi
+
+# Si llegamos aquí, el commit es seguro
+exit 0
