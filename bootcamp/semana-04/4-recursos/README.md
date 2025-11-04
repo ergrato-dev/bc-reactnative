@@ -11,6 +11,7 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ### Beginner-Friendly
 
 1. **"HTTP: The Definitive Guide"** (Selecciones)
+
    - 📍 Ubicación: `./ebooks-free/http-definitive-guide-selections.pdf`
    - 📝 Contenido: Fundamentos de HTTP, request/response, headers
    - ⏱️ Tiempo: ~2 horas de lectura
@@ -25,6 +26,7 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ### Intermediate
 
 3. **"JavaScript Promises and Async/Await"**
+
    - 📍 Ubicación: `./ebooks-free/js-async-programming.pdf`
    - 📝 Contenido: Promesas, async/await, manejo de errores
    - ⏱️ Tiempo: ~2 horas
@@ -51,12 +53,14 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ### Videos Esenciales (MUST WATCH)
 
 1. **"Fetch API Explained in 10 Minutes"**
+
    - 🔗 Link: [Ver README de videografía](./videografia/README.md)
    - ⏱️ Duración: 10 min
    - 📝 Temas: Fetch básico, response.json(), error handling
    - 🎯 Ver: Antes de practicar con fetch
 
 2. **"JWT Authentication Complete Guide"**
+
    - 🔗 Link: [Ver README de videografía](./videografia/README.md)
    - ⏱️ Duración: 25 min
    - 📝 Temas: Qué es JWT, cómo funciona, implementación
@@ -71,11 +75,13 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ### Videos Complementarios
 
 4. **"AsyncStorage vs SecureStore - When to Use Each"**
+
    - 🔗 Link: [Ver README de videografía](./videografia/README.md)
    - ⏱️ Duración: 12 min
    - 📝 Temas: Diferencias, casos de uso, ejemplos prácticos
 
 5. **"Custom Hooks for API Calls"**
+
    - 🔗 Link: [Ver README de videografía](./videografia/README.md)
    - ⏱️ Duración: 22 min
    - 📝 Temas: useFetch, useAuth, patrones reutilizables
@@ -88,6 +94,7 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ### Videos Avanzados
 
 7. **"Refresh Token Flow Implementation"**
+
    - 🔗 Link: [Ver README de videografía](./videografia/README.md)
    - ⏱️ Duración: 30 min
    - 📝 Temas: Renovación automática, interceptores, flujo completo
@@ -104,16 +111,19 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ### Documentación Oficial (ESSENTIAL)
 
 1. **Fetch API - MDN**
+
    - 🔗 Link: [Ver README de webgrafía](./webgrafia/README.md)
    - 📝 Contenido: Referencia completa de fetch API
    - 🎯 Usar: Como referencia constante
 
 2. **Axios Documentation**
+
    - 🔗 Link: [Ver README de webgrafía](./webgrafia/README.md)
    - 📝 Contenido: Guías, ejemplos, API reference
    - 🎯 Usar: Al implementar Axios
 
 3. **Expo SecureStore**
+
    - 🔗 Link: [Ver README de webgrafía](./webgrafia/README.md)
    - 📝 Contenido: API docs, ejemplos de uso
    - 🎯 Usar: Al almacenar tokens
@@ -126,11 +136,13 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ### Artículos y Tutoriales
 
 5. **"REST API Best Practices"**
+
    - 🔗 Link: [Ver README de webgrafía](./webgrafia/README.md)
    - 📝 Temas: Diseño de endpoints, convenciones, versionado
    - ⏱️ Lectura: ~15 min
 
 6. **"JWT Best Practices and Security"**
+
    - 🔗 Link: [Ver README de webgrafía](./webgrafia/README.md)
    - 📝 Temas: Almacenamiento seguro, expiración, renovación
    - ⏱️ Lectura: ~20 min
@@ -143,11 +155,13 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ### Herramientas Online
 
 8. **JWT.io - JWT Debugger**
+
    - 🔗 Link: [Ver README de webgrafía](./webgrafia/README.md)
    - 📝 Función: Decodificar y validar JWT tokens
    - 🎯 Usar: Para debuggear tokens
 
 9. **HTTP Status Codes Cheat Sheet**
+
    - 🔗 Link: [Ver README de webgrafía](./webgrafia/README.md)
    - 📝 Función: Referencia rápida de códigos HTTP
    - 🎯 Usar: Al manejar respuestas
@@ -171,17 +185,16 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ### Durante Trabajo Autónomo (Opcional 1-2h)
 
 **Prioridad Alta (~1 hora)**:
+
 1. Ver video "Fetch API Explained" (10 min)
 2. Ver video "JWT Authentication Guide" (25 min)
 3. Leer artículo "REST API Best Practices" (15 min)
 4. Experimentar con JWT.io con tus propios tokens (10 min)
 
-**Prioridad Media (~1 hora adicional)**:
-5. Ver video "Custom Hooks for API Calls" (22 min)
-6. Leer artículo "JWT Best Practices" (20 min)
-7. Ver video "AsyncStorage vs SecureStore" (12 min)
+**Prioridad Media (~1 hora adicional)**: 5. Ver video "Custom Hooks for API Calls" (22 min) 6. Leer artículo "JWT Best Practices" (20 min) 7. Ver video "AsyncStorage vs SecureStore" (12 min)
 
 **Prioridad Baja (Solo si tienes más tiempo)**:
+
 - Leer capítulos de ebooks
 - Ver videos avanzados
 - Profundizar en seguridad
@@ -189,16 +202,19 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ### Para Reforzar Conceptos Específicos
 
 **Si no entiendes fetch**:
+
 1. Video "Fetch API Explained" (10 min)
 2. MDN Fetch API docs
 3. Práctica 1: Fetch básico
 
 **Si no entiendes JWT**:
+
 1. Video "JWT Authentication Complete Guide" (25 min)
 2. JWT.io para ver tokens reales
 3. Artículo "JWT Best Practices"
 
 **Si tienes problemas con async/await**:
+
 1. eBook "JavaScript Promises and Async/Await"
 2. Video "Handling Loading States"
 3. Ejercicios de prácticas 4-6
@@ -228,18 +244,21 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ## 💡 Tips de Estudio
 
 ### Para Aprovechar Videos
+
 1. **Velocidad 1.5x**: Para videos teóricos
 2. **Velocidad 1x**: Para videos de código (para codear junto)
 3. **Toma notas**: Timestamps importantes
 4. **Pausa y practica**: No solo mires, programa junto al video
 
 ### Para Aprovechar Documentación
+
 1. **Busca ejemplos primero**: La teoría sin ejemplos es abstracta
 2. **Prueba código**: Copia y modifica ejemplos
 3. **Usa Ctrl/Cmd+F**: Busca términos específicos
 4. **Ten tabs abiertas**: Mantén docs relevantes siempre a mano
 
 ### Para Aprovechar eBooks
+
 1. **No leas todo**: Escanea índice y lee capítulos relevantes
 2. **Lee con código abierto**: Alterna entre leer y programar
 3. **Marca páginas**: Para referencia futura
@@ -250,21 +269,25 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ## 🔗 Recursos Adicionales por Tema
 
 ### HTTP y REST
+
 - 📖 eBook: "HTTP: The Definitive Guide"
 - 🎥 Videos: "Fetch API Explained"
 - 🌐 Web: MDN Fetch API, REST Best Practices
 
 ### Autenticación
+
 - 📖 eBook: "Authentication & Authorization in Web Applications"
 - 🎥 Videos: "JWT Authentication Guide", "Refresh Token Flow"
 - 🌐 Web: JWT.io, Expo SecureStore docs
 
 ### Async Programming
+
 - 📖 eBook: "JavaScript Promises and Async/Await"
 - 🎥 Videos: "Handling Loading States", "Race Conditions"
 - 🌐 Web: MDN Async/Await, React useEffect
 
 ### Tools & Testing
+
 - 🌐 Web: Postman/Insomnia, HTTP Status Codes
 - 🎥 Videos: "API Error Handling Best Practices"
 
@@ -273,22 +296,28 @@ Esta carpeta contiene recursos adicionales para profundizar en los temas de la s
 ## ❓ FAQs sobre Recursos
 
 ### ¿Debo consumir todos los recursos?
+
 **No.** Los recursos son complementarios. Enfócate en:
+
 1. Videos esenciales (2)
 2. Documentación oficial cuando la necesites
 3. Lo demás es opcional según tu interés
 
 ### ¿Cuándo uso videos vs documentación?
+
 - **Videos**: Para aprender conceptos nuevos, ver flujos completos
 - **Documentación**: Para referencia rápida, sintaxis exacta, detalles
 
 ### ¿Los ebooks son necesarios?
+
 No son obligatorios. Úsalos si:
+
 - Prefieres leer a ver videos
 - Quieres profundizar más allá del bootcamp
 - Tienes tiempo extra y curiosidad
 
 ### ¿Qué hago si un link está roto?
+
 1. Reporta en el foro del bootcamp
 2. Busca alternativa en Google con términos clave
 3. Pregunta al instructor en office hours

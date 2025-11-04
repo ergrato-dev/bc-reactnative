@@ -9,24 +9,28 @@ Esta carpeta contiene todo el material teórico necesario para dominar el consum
 ## 📖 Estructura del Contenido
 
 ### Módulo 1: Fundamentos de APIs REST (4 temas)
+
 - `01-fundamentos-http.md` - Conceptos básicos de HTTP
 - `02-metodos-http.md` - GET, POST, PUT, DELETE
 - `03-status-codes.md` - Códigos de estado y su significado
 - `04-headers-content-type.md` - Headers y Content-Type
 
 ### Módulo 2: Consumo de APIs (4 temas)
+
 - `05-fetch-api.md` - Fetch API: Fundamentos
 - `06-axios.md` - Axios: Alternativa poderosa
 - `07-manejo-respuestas.md` - Manejo de respuestas y errores
 - `08-transformacion-datos.md` - Transformación de datos
 
 ### Módulo 3: Autenticación y Seguridad (4 temas)
+
 - `09-jwt-tokens.md` - JWT: JSON Web Tokens
 - `10-storage-seguro.md` - AsyncStorage vs SecureStore
 - `11-refresh-tokens.md` - Refresh tokens y renovación
 - `12-interceptores.md` - Interceptores de peticiones
 
 ### Módulo 4: Patrones y Mejores Prácticas (4 temas)
+
 - `13-custom-hooks-api.md` - Custom hooks para APIs
 - `14-estados-ui.md` - Estados de carga y error
 - `15-retry-timeout.md` - Retry y timeout strategies
@@ -42,22 +46,28 @@ Cada archivo sigue esta estructura:
 # [Título del Tema]
 
 ## 🎯 Objetivos de Aprendizaje
+
 - Objetivo 1
 - Objetivo 2
 
 ## 📖 Conceptos Clave
+
 [Explicación teórica]
 
 ## 💻 Ejemplos de Código
+
 [Código comentado]
 
 ## ⚠️ Errores Comunes
+
 [Problemas frecuentes y soluciones]
 
 ## 🎓 Ejercicio de Reflexión
+
 [Preguntas para consolidar]
 
 ## 🔗 Recursos Adicionales
+
 [Links a docs, videos, artículos]
 ```
 
@@ -65,13 +75,13 @@ Cada archivo sigue esta estructura:
 
 ## ⏱️ Tiempo Estimado de Estudio
 
-| Módulo | Temas | Tiempo Estimado |
-|--------|-------|-----------------|
-| 1. Fundamentos REST | 4 | ~2 horas |
-| 2. Consumo de APIs | 4 | ~2.5 horas |
-| 3. Autenticación | 4 | ~2.5 horas |
-| 4. Mejores Prácticas | 4 | ~2 horas |
-| **TOTAL** | **16** | **~9 horas** |
+| Módulo               | Temas  | Tiempo Estimado |
+| -------------------- | ------ | --------------- |
+| 1. Fundamentos REST  | 4      | ~2 horas        |
+| 2. Consumo de APIs   | 4      | ~2.5 horas      |
+| 3. Autenticación     | 4      | ~2.5 horas      |
+| 4. Mejores Prácticas | 4      | ~2 horas        |
+| **TOTAL**            | **16** | **~9 horas**    |
 
 > **Nota**: La sesión presencial cubre los puntos clave de cada módulo. El estudio profundo de cada tema es opcional para refuerzo.
 
@@ -80,13 +90,16 @@ Cada archivo sigue esta estructura:
 ## 🚀 Cómo Estudiar Este Material
 
 ### Durante la Sesión Presencial (6 horas)
+
 - ✅ Instructor cubre puntos clave de cada módulo
 - ✅ Demos en vivo de conceptos principales
 - ✅ Práctica guiada inmediata
 - ❌ No leas documentos completos en clase
 
 ### Durante Trabajo Autónomo (Opcional 1-2h)
+
 1. **Refuerzo básico** (~1 hora):
+
    - Revisar notas de clase
    - Leer tema que no quedó claro (15-20 min por tema)
    - Hacer ejercicios de reflexión
@@ -101,16 +114,21 @@ Cada archivo sigue esta estructura:
 ## 📋 Progresión Recomendada
 
 ### Día 1 (Sesión Presencial - 6h)
+
 **En clase:**
+
 - Módulo 1: Fundamentos HTTP/REST (teoría + práctica)
 - Módulo 2: Consumo de APIs (demos + ejercicios)
 
 **Opcional casa:**
+
 - Revisar conceptos que costaron
 - Leer tema 05-fetch-api.md completo si fetch no quedó claro
 
 ### Días 2-6 (Trabajo Autónomo Opcional)
+
 **Si quieres reforzar:**
+
 - Leer 2-3 temas completos (~30-45 min)
 - Ver 1-2 videos complementarios (~20-30 min)
 - Experimentar con código de ejemplos (~20-30 min)
@@ -120,12 +138,14 @@ Cada archivo sigue esta estructura:
 ## 💡 Tips de Estudio
 
 ### Para Aprovechar la Teoría
+
 1. **Lee con código abierto**: Prueba los ejemplos mientras lees
 2. **Haz preguntas**: Anota dudas para sesión presencial
 3. **Relaciona con proyecto**: Piensa cómo aplicar a tu proyecto
 4. **Explica en voz alta**: Si puedes explicarlo, lo entendiste
 
 ### Técnica de Estudio Activo
+
 ```
 1. Lee concepto (5 min)
 2. Cierra documento y explica en voz alta (2 min)
@@ -135,6 +155,7 @@ Cada archivo sigue esta estructura:
 ```
 
 ### Cuando un Concepto No Queda Claro
+
 1. Relee con calma
 2. Busca en glosario (semana-04/5-glosario/)
 3. Ve video complementario sobre el tema
@@ -164,11 +185,13 @@ Proyecto Integrador
 ## 📚 Recursos de Apoyo
 
 ### Dentro del Bootcamp
+
 - **Glosario**: `/semana-04/5-glosario/` - Términos técnicos
 - **Prácticas**: `/semana-04/2-practicas/` - Ejercicios por tema
 - **Recursos**: `/semana-04/4-recursos/` - Videos, artículos, docs
 
 ### Externos
+
 - MDN Web Docs (Fetch API)
 - React Native Docs (Networking)
 - Expo Docs (SecureStore, AsyncStorage)
@@ -180,24 +203,28 @@ Proyecto Integrador
 Después de estudiar, deberías poder:
 
 ### Módulo 1: Fundamentos
+
 - [ ] Explicar qué es HTTP y cómo funciona
 - [ ] Describir diferencia entre GET, POST, PUT, DELETE
 - [ ] Interpretar status codes comunes (200, 400, 500)
 - [ ] Entender para qué sirven los headers HTTP
 
 ### Módulo 2: Consumo
+
 - [ ] Hacer peticiones con fetch
 - [ ] Parsear respuestas JSON
 - [ ] Manejar errores HTTP
 - [ ] Configurar headers personalizados
 
 ### Módulo 3: Autenticación
+
 - [ ] Explicar qué es JWT y su estructura
 - [ ] Diferenciar AsyncStorage de SecureStore
 - [ ] Implementar login con token
 - [ ] Entender flujo de refresh token
 
 ### Módulo 4: Mejores Prácticas
+
 - [ ] Crear custom hook para APIs
 - [ ] Manejar estados loading/error/success
 - [ ] Implementar retry strategies
@@ -210,10 +237,12 @@ Después de estudiar, deberías poder:
 La teoría se evalúa en:
 
 1. **Evaluación teórica** (20% de la nota total):
+
    - Comprensión de HTTP/REST (10 pts)
    - Autenticación y Seguridad (10 pts)
 
 2. **Aplicación en prácticas** (30% de la nota total):
+
    - Ejercicios que demuestran dominio de conceptos
 
 3. **Proyecto integrador** (50% de la nota total):
@@ -225,30 +254,38 @@ Ver [RUBRICA-EVALUACION.md](../RUBRICA-EVALUACION.md) para detalles completos.
 
 ## 📝 Plantilla de Notas
 
-```markdown
+````markdown
 # Tema: [Nombre]
+
 Fecha: [DD/MM/YYYY]
 
 ## Conceptos clave que entendí:
-1. 
-2. 
-3. 
+
+1.
+2.
+3.
 
 ## Dudas pendientes:
-- 
-- 
+
+-
+-
 
 ## Código importante:
+
 ```javascript
 // Código que quiero recordar
 ```
+````
 
 ## Para practicar:
-- [ ] 
-- [ ] 
+
+- [ ]
+- [ ]
 
 ## Relación con proyecto:
+
 [Cómo aplicar este concepto en mi proyecto]
+
 ```
 
 ---
@@ -278,3 +315,4 @@ Fecha: [DD/MM/YYYY]
 ---
 
 **Última actualización**: Semana 4 - APIs y Backend Integration
+```

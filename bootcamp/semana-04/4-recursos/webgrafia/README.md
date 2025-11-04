@@ -5,6 +5,7 @@
 ### 📘 Documentación Oficial (ESSENTIAL)
 
 #### 1. Fetch API - MDN Web Docs
+
 - **URL**: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 - **Tipo**: Documentación oficial
 - **Contenido**:
@@ -17,6 +18,7 @@
 - **⭐ Rating**: 5/5 - Documentación definitiva
 
 #### 2. Axios Documentation
+
 - **URL**: https://axios-http.com/docs/intro
 - **Tipo**: Documentación oficial
 - **Contenido**:
@@ -30,6 +32,7 @@
 - **⭐ Rating**: 5/5 - Muy completa y con ejemplos
 
 #### 3. Expo SecureStore
+
 - **URL**: https://docs.expo.dev/versions/latest/sdk/securestore/
 - **Tipo**: Documentación oficial Expo
 - **Contenido**:
@@ -42,6 +45,7 @@
 - **⭐ Rating**: 5/5 - Documentación clara de Expo
 
 #### 4. React Native AsyncStorage
+
 - **URL**: https://react-native-async-storage.github.io/async-storage/
 - **Tipo**: Documentación oficial
 - **Contenido**:
@@ -54,6 +58,7 @@
 - **⭐ Rating**: 5/5 - Bien documentada
 
 #### 5. React Native Networking
+
 - **URL**: https://reactnative.dev/docs/network
 - **Tipo**: Documentación oficial React Native
 - **Contenido**:
@@ -69,6 +74,7 @@
 ### 📄 Artículos y Tutoriales
 
 #### 6. REST API Best Practices
+
 - **URL**: https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/
 - **Autor**: freeCodeCamp
 - **Fecha**: 2023
@@ -83,6 +89,7 @@
 - **⭐ Rating**: 5/5 - Muy completo y didáctico
 
 #### 7. JWT Best Practices and Security
+
 - **URL**: https://www.loginradius.com/blog/engineering/jwt-authentication-best-practices/
 - **Autor**: LoginRadius Engineering
 - **Fecha**: 2023
@@ -96,6 +103,7 @@
 - **⭐ Rating**: 5/5 - Enfocado en seguridad
 
 #### 8. Handling Race Conditions in React
+
 - **URL**: https://maxrozen.com/race-conditions-fetching-data-react-with-useeffect
 - **Autor**: Max Rozen
 - **Fecha**: 2022
@@ -109,6 +117,7 @@
 - **⭐ Rating**: 5/5 - Explica problema común muy bien
 
 #### 9. React Query vs SWR vs Apollo: Comparison
+
 - **URL**: https://blog.logrocket.com/react-query-vs-swr-vs-apollo/
 - **Autor**: LogRocket Blog
 - **Fecha**: 2023
@@ -121,6 +130,7 @@
 - **⭐ Rating**: 4/5 - Útil para conocer alternativas
 
 #### 10. Error Handling in JavaScript - Complete Guide
+
 - **URL**: https://blog.bitsrc.io/a-complete-guide-to-error-handling-in-javascript-31c4af5c3
 - **Autor**: Bits and Pieces
 - **Fecha**: 2023
@@ -134,6 +144,7 @@
 - **⭐ Rating**: 5/5 - Guía completa y práctica
 
 #### 11. Authentication in React Native with JWT
+
 - **URL**: https://www.bezkoder.com/react-native-jwt-authentication/
 - **Autor**: BezKoder
 - **Fecha**: 2023
@@ -151,9 +162,10 @@
 ### 🛠️ Herramientas Online
 
 #### 12. JWT.io - JWT Debugger
+
 - **URL**: https://jwt.io/
 - **Tipo**: Herramienta online
-- **Función**: 
+- **Función**:
   - Decodificar JWT tokens
   - Validar firma de tokens
   - Debuggear payload
@@ -163,6 +175,7 @@
 - **⭐ Rating**: 5/5 - Herramienta esencial
 
 #### 13. HTTP Status Codes - httpstatuses.com
+
 - **URL**: https://httpstatuses.com/
 - **Tipo**: Referencia rápida
 - **Función**:
@@ -174,6 +187,7 @@
 - **⭐ Rating**: 5/5 - Referencia definitiva
 
 #### 14. Postman
+
 - **URL**: https://www.postman.com/
 - **Tipo**: Cliente HTTP
 - **Función**:
@@ -186,6 +200,7 @@
 - **⭐ Rating**: 5/5 - Estándar de la industria
 
 #### 15. Insomnia
+
 - **URL**: https://insomnia.rest/
 - **Tipo**: Cliente HTTP (alternativa a Postman)
 - **Función**:
@@ -197,6 +212,7 @@
 - **⭐ Rating**: 4/5 - Más simple que Postman
 
 #### 16. JSONPlaceholder - Fake REST API
+
 - **URL**: https://jsonplaceholder.typicode.com/
 - **Tipo**: API de prueba gratuita
 - **Función**:
@@ -209,6 +225,7 @@
 - **⭐ Rating**: 5/5 - Perfecto para aprender
 
 #### 17. ReqBin - Online REST API Client
+
 - **URL**: https://reqbin.com/
 - **Tipo**: Cliente HTTP online
 - **Función**:
@@ -224,6 +241,7 @@
 ### 📚 Guías y Cheat Sheets
 
 #### 18. HTTP Status Codes Cheat Sheet
+
 - **URL**: https://www.restapitutorial.com/httpstatuscodes.html
 - **Tipo**: Cheat sheet
 - **Contenido**: Todos los códigos HTTP con explicaciones
@@ -231,6 +249,7 @@
 - **⭐ Rating**: 5/5 - Referencia rápida perfecta
 
 #### 19. Fetch API Cheat Sheet
+
 - **URL**: https://devhints.io/fetch
 - **Tipo**: Cheat sheet
 - **Contenido**: Sintaxis de fetch con ejemplos
@@ -238,6 +257,7 @@
 - **⭐ Rating**: 5/5 - Muy útil tenerla a mano
 
 #### 20. REST API Design Cheat Sheet
+
 - **URL**: https://github.com/RestCheatSheet/api-cheat-sheet
 - **Tipo**: GitHub repository con guía
 - **Contenido**: Mejores prácticas de diseño de APIs
@@ -248,6 +268,7 @@
 ### 🎓 Cursos y Tutoriales Interactivos
 
 #### 21. JavaScript Info - Network Requests
+
 - **URL**: https://javascript.info/network
 - **Tipo**: Tutorial interactivo
 - **Contenido**:
@@ -260,10 +281,11 @@
 - **⭐ Rating**: 5/5 - Explicaciones muy claras
 
 #### 22. freeCodeCamp - APIs and Microservices
+
 - **URL**: https://www.freecodecamp.org/learn/apis-and-microservices/
 - **Tipo**: Curso interactivo gratuito
 - **Duración**: ~300 horas (solo parte relevante: ~30h)
-- **Contenido**: 
+- **Contenido**:
   - APIs desde cero
   - Proyectos prácticos
   - Certificación gratuita
@@ -275,6 +297,7 @@
 ### 🔧 APIs Públicas para Practicar
 
 #### 23. Public APIs Collection
+
 - **URL**: https://github.com/public-apis/public-apis
 - **Tipo**: Lista curada en GitHub
 - **Contenido**: Cientos de APIs públicas por categoría
@@ -287,9 +310,10 @@
 - **⭐ Rating**: 5/5 - Recurso invaluable
 
 #### 24. Rick and Morty API
+
 - **URL**: https://rickandmortyapi.com/
 - **Tipo**: API de prueba gratuita
-- **Función**: 
+- **Función**:
   - API REST completa
   - Bien documentada
   - Sin auth requerida
@@ -302,6 +326,7 @@
 ### 📖 Blogs y Comunidades
 
 #### 25. Dev.to - React Native Tag
+
 - **URL**: https://dev.to/t/reactnative
 - **Tipo**: Comunidad y blog
 - **Contenido**: Artículos diarios sobre React Native
@@ -309,6 +334,7 @@
 - **⭐ Rating**: 4/5 - Contenido variado
 
 #### 26. React Native Blog Oficial
+
 - **URL**: https://reactnative.dev/blog
 - **Tipo**: Blog oficial
 - **Contenido**: Anuncios, releases, best practices
@@ -316,9 +342,10 @@
 - **⭐ Rating**: 5/5 - Fuente oficial
 
 #### 27. Stack Overflow - React Native
+
 - **URL**: https://stackoverflow.com/questions/tagged/react-native
 - **Tipo**: Q&A Community
-- **Función**: 
+- **Función**:
   - Resolver dudas específicas
   - Ver soluciones a problemas comunes
 - **Cuándo usar**: Cuando tengas un error específico
@@ -329,6 +356,7 @@
 ## 🗂️ Recursos Organizados por Tema
 
 ### HTTP y REST
+
 - 📘 MDN Fetch API
 - 📄 REST API Best Practices
 - 📄 REST API Design Cheat Sheet
@@ -336,18 +364,21 @@
 - 🛠️ Postman/Insomnia
 
 ### Autenticación y JWT
+
 - 📘 Expo SecureStore
 - 📄 JWT Best Practices
 - 📄 Authentication in RN with JWT
 - 🛠️ JWT.io Debugger
 
 ### Async Programming
+
 - 📄 Error Handling Guide
 - 📄 Race Conditions in React
 - 📘 JavaScript Info - Network
 - 📘 MDN Async/Await
 
 ### Testing y Práctica
+
 - 🛠️ JSONPlaceholder
 - 🛠️ Rick and Morty API
 - 📚 Public APIs Collection
@@ -358,6 +389,7 @@
 ## 💡 Cómo Usar Esta Webgrafía
 
 ### Para Aprender
+
 1. **Lee artículos en orden**:
    - REST Best Practices → JWT Best Practices → Error Handling
 2. **Practica con herramientas**:
@@ -366,12 +398,14 @@
    - Siempre ten tabs abiertas de MDN, Expo, Axios
 
 ### Para Resolver Problemas
+
 1. **Error específico**: Stack Overflow
 2. **Concepto no claro**: JavaScript Info o freeCodeCamp
 3. **Referencia rápida**: Cheat sheets
 4. **Debuggear tokens**: JWT.io
 
 ### Para Practicar
+
 1. **APIs de prueba**: JSONPlaceholder, Rick and Morty
 2. **Herramientas**: Postman para probar antes de codear
 3. **Public APIs**: Busca API de tu interés en la colección
@@ -381,18 +415,21 @@
 ## 📋 Checklist de Recursos Esenciales
 
 ### Antes de Empezar
+
 - [ ] Bookmark MDN Fetch API
 - [ ] Bookmark Expo SecureStore docs
 - [ ] Instalar Postman o Insomnia
 - [ ] Crear cuenta en JWT.io (opcional)
 
 ### Durante Desarrollo
+
 - [ ] Probar endpoints en Postman primero
 - [ ] Consultar status codes en httpstatuses.com
 - [ ] Debuggear tokens en JWT.io
 - [ ] Leer artículo de Race Conditions si tienes bugs
 
 ### Para Profundizar
+
 - [ ] Leer REST Best Practices completo
 - [ ] Leer JWT Security completo
 - [ ] Explorar Public APIs para ideas de proyectos
@@ -403,6 +440,7 @@
 ## 🔄 Actualizaciones
 
 Este README se actualiza regularmente con:
+
 - Nuevos artículos relevantes
 - Herramientas emergentes
 - Feedback de estudiantes

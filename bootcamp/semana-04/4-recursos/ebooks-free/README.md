@@ -16,21 +16,25 @@
 Los siguientes eBooks están referenciados en el material del bootcamp:
 
 1. **http-definitive-guide-selections.pdf**
+
    - Fundamentos de HTTP
    - Request/Response cycle
    - Headers y métodos
 
 2. **restful-web-apis-intro.pdf**
+
    - Principios REST
    - Diseño de APIs
    - Mejores prácticas
 
 3. **js-async-programming.pdf**
+
    - Promesas
    - Async/Await
    - Error handling asíncrono
 
 4. **auth-web-apps.pdf**
+
    - JWT tokens
    - OAuth flows
    - Seguridad en autenticación
