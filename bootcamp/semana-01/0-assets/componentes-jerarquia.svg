@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Título -->
+  <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">
+    Jerarquía de Componentes en React Native
+  </text>
+  
+  <!-- App Component (Raíz) -->
+  <rect x="325" y="60" width="150" height="60" rx="8" fill="#61DAFB" stroke="#333" stroke-width="2"/>
+  <text x="400" y="85" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">App</text>
+  <text x="400" y="105" font-size="12" text-anchor="middle" fill="#000">(Componente raíz)</text>
+  
+  <!-- Flecha a Screen -->
+  <line x1="400" y1="120" x2="400" y2="160" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Screen Component -->
+  <rect x="300" y="160" width="200" height="60" rx="8" fill="#98D8C8" stroke="#333" stroke-width="2"/>
+  <text x="400" y="185" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">HomeScreen</text>
+  <text x="400" y="205" font-size="12" text-anchor="middle" fill="#000">(Pantalla completa)</text>
+  
+  <!-- Flechas a componentes hijos -->
+  <line x1="300" y1="220" x2="150" y2="260" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="220" x2="400" y2="260" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="220" x2="650" y2="260" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Header Component -->
+  <rect x="50" y="260" width="200" height="60" rx="8" fill="#F6AD55" stroke="#333" stroke-width="2"/>
+  <text x="150" y="285" font-size="14" font-weight="bold" text-anchor="middle" fill="#000">Header</text>
+  <text x="150" y="305" font-size="11" text-anchor="middle" fill="#000">(Cabecera reutilizable)</text>
+  
+  <!-- Content Component -->
+  <rect x="300" y="260" width="200" height="60" rx="8" fill="#F6AD55" stroke="#333" stroke-width="2"/>
+  <text x="400" y="285" font-size="14" font-weight="bold" text-anchor="middle" fill="#000">Content</text>
+  <text x="400" y="305" font-size="11" text-anchor="middle" fill="#000">(Contenido principal)</text>
+  
+  <!-- Footer Component -->
+  <rect x="550" y="260" width="200" height="60" rx="8" fill="#F6AD55" stroke="#333" stroke-width="2"/>
+  <text x="650" y="285" font-size="14" font-weight="bold" text-anchor="middle" fill="#000">Footer</text>
+  <text x="650" y="305" font-size="11" text-anchor="middle" fill="#000">(Pie de página)</text>
+  
+  <!-- Flechas a componentes básicos desde Content -->
+  <line x1="350" y1="320" x2="250" y2="360" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="450" y1="320" x2="550" y2="360" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Text Component -->
+  <rect x="150" y="360" width="200" height="60" rx="8" fill="#FBD38D" stroke="#333" stroke-width="2"/>
+  <text x="250" y="385" font-size="14" font-weight="bold" text-anchor="middle" fill="#000">&lt;Text&gt;</text>
+  <text x="250" y="405" font-size="11" text-anchor="middle" fill="#000">(Componente básico)</text>
+  
+  <!-- Image Component -->
+  <rect x="450" y="360" width="200" height="60" rx="8" fill="#FBD38D" stroke="#333" stroke-width="2"/>
+  <text x="550" y="385" font-size="14" font-weight="bold" text-anchor="middle" fill="#000">&lt;Image&gt;</text>
+  <text x="550" y="405" font-size="11" text-anchor="middle" fill="#000">(Componente básico)</text>
+  
+  <!-- Leyenda -->
+  <g transform="translate(50, 480)">
+    <text x="0" y="0" font-size="16" font-weight="bold" fill="#333">Leyenda:</text>
+    
+    <rect x="0" y="15" width="40" height="30" rx="4" fill="#61DAFB" stroke="#333" stroke-width="1"/>
+    <text x="50" y="35" font-size="13" fill="#333">Componente raíz (App)</text>
+    
+    <rect x="250" y="15" width="40" height="30" rx="4" fill="#98D8C8" stroke="#333" stroke-width="1"/>
+    <text x="300" y="35" font-size="13" fill="#333">Pantalla/Screen</text>
+    
+    <rect x="0" y="55" width="40" height="30" rx="4" fill="#F6AD55" stroke="#333" stroke-width="1"/>
+    <text x="50" y="75" font-size="13" fill="#333">Componentes personalizados</text>
+    
+    <rect x="250" y="55" width="40" height="30" rx="4" fill="#FBD38D" stroke="#333" stroke-width="1"/>
+    <text x="300" y="75" font-size="13" fill="#333">Componentes básicos de RN</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
