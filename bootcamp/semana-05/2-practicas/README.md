@@ -174,15 +174,16 @@ Cada práctica sigue esta estructura:
 
 ## ⏱️ Tiempo Estimado
 
-| Práctica                 | Presencial | Autónomo (Opcional) | Total   |
-| ------------------------ | ---------- | ------------------- | ------- |
-| 1. Camera Básica         | 45 min     | 15 min              | 1 hora  |
-| 2. Image Selector        | 45 min     | 15 min              | 1 hora  |
-| 3. Location Tracker      | 45 min     | 15 min              | 1 hora  |
-| 4. Push Notifications    | 45 min     | 15 min              | 1 hora  |
-| **TOTAL**                | **3 horas**| **1 hora**          | **4h**  |
+| Práctica              | Presencial  | Autónomo (Opcional) | Total  |
+| --------------------- | ----------- | ------------------- | ------ |
+| 1. Camera Básica      | 45 min      | 15 min              | 1 hora |
+| 2. Image Selector     | 45 min      | 15 min              | 1 hora |
+| 3. Location Tracker   | 45 min      | 15 min              | 1 hora |
+| 4. Push Notifications | 45 min      | 15 min              | 1 hora |
+| **TOTAL**             | **3 horas** | **1 hora**          | **4h** |
 
 > **Nota:** Las 3 horas presenciales incluyen tiempo para:
+>
 > - Explicación del instructor (10-15 min)
 > - Coding en vivo guiado (25-30 min)
 > - Q&A y debugging (5-10 min)
@@ -309,13 +310,13 @@ await Camera.requestCameraPermissionsAsync()
 // ✅ CORRECTO: Cleanup de watchers
 useEffect(() => {
   let subscription
-  
+
   const startWatch = async () => {
     subscription = await Location.watchPositionAsync({}, callback)
   }
-  
+
   startWatch()
-  
+
   return () => subscription?.remove() // Cleanup
 }, [])
 
@@ -460,5 +461,5 @@ Una vez completadas las 4 prácticas, estarás listo para el **[Proyecto Integra
 
 **¡A programar con features nativas!** 📱✨
 
-*Bootcamp React Native - Semana 5*  
-*Prácticas Guiadas de Features Nativas*
+_Bootcamp React Native - Semana 5_  
+_Prácticas Guiadas de Features Nativas_

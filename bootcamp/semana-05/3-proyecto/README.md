@@ -65,13 +65,13 @@ Demostrar dominio de features nativas integrándolas en una aplicación cohesiva
 
 ### Distribución de Bugs
 
-| Categoría               | Bugs | Dificultad |
-| ----------------------- | ---- | ---------- |
-| Permisos                | 2    | Media      |
-| Camera API              | 2    | Media-Alta |
-| Estado y Refs           | 1    | Media      |
-| Manejo de Errores       | 1    | Alta       |
-| Performance/Memoria     | 1    | Alta       |
+| Categoría           | Bugs | Dificultad |
+| ------------------- | ---- | ---------- |
+| Permisos            | 2    | Media      |
+| Camera API          | 2    | Media-Alta |
+| Estado y Refs       | 1    | Media      |
+| Manejo de Errores   | 1    | Alta       |
+| Performance/Memoria | 1    | Alta       |
 
 ### ¿Cómo Encontrar los Bugs?
 
@@ -287,7 +287,7 @@ export interface NotificationSettings {
 ```typescript
 /**
  * La app DEBE permitir capturar fotos usando la cámara nativa
- * 
+ *
  * Criterios de aceptación:
  * - Solicita permisos correctamente
  * - Muestra preview de cámara
@@ -303,7 +303,7 @@ export interface NotificationSettings {
 ```typescript
 /**
  * La app DEBE permitir seleccionar fotos desde la galería
- * 
+ *
  * Criterios de aceptación:
  * - Solicita permisos de galería
  * - Abre galería nativa del dispositivo
@@ -318,7 +318,7 @@ export interface NotificationSettings {
 ```typescript
 /**
  * La app DEBE manejar todos los estados de permisos
- * 
+ *
  * Criterios de aceptación:
  * - Verifica estado antes de solicitar
  * - Muestra mensajes claros al usuario
@@ -333,7 +333,7 @@ export interface NotificationSettings {
 ```typescript
 /**
  * Las fotos DEBEN persistir entre sesiones
- * 
+ *
  * Criterios de aceptación:
  * - Fotos guardadas en MediaLibrary
  * - Metadata guardada en AsyncStorage
@@ -350,7 +350,7 @@ export interface NotificationSettings {
 ```typescript
 /**
  * La app DEBERÍA agregar ubicación GPS a las fotos
- * 
+ *
  * Criterios de aceptación:
  * - Obtiene coordenadas al capturar
  * - Muestra ubicación en UI
@@ -365,7 +365,7 @@ export interface NotificationSettings {
 ```typescript
 /**
  * La app DEBERÍA enviar recordatorios
- * 
+ *
  * Criterios de aceptación:
  * - Notificación al capturar foto
  * - Recordatorio diario configurable
@@ -463,9 +463,15 @@ import * as Location from 'expo-location'
 import * as Notifications from 'expo-notifications'
 
 export function usePermissions() {
-  const [cameraPermission, setCameraPermission] = useState<'granted' | 'denied' | 'undetermined'>('undetermined')
-  const [mediaLibraryPermission, setMediaLibraryPermission] = useState<'granted' | 'denied' | 'undetermined'>('undetermined')
-  const [locationPermission, setLocationPermission] = useState<'granted' | 'denied' | 'undetermined'>('undetermined')
+  const [cameraPermission, setCameraPermission] = useState<
+    'granted' | 'denied' | 'undetermined'
+  >('undetermined')
+  const [mediaLibraryPermission, setMediaLibraryPermission] = useState<
+    'granted' | 'denied' | 'undetermined'
+  >('undetermined')
+  const [locationPermission, setLocationPermission] = useState<
+    'granted' | 'denied' | 'undetermined'
+  >('undetermined')
 
   useEffect(() => {
     checkPermissions()
@@ -506,7 +512,7 @@ export function usePermissions() {
     requestCameraPermission,
     requestMediaLibraryPermission,
     requestLocationPermission,
-    checkPermissions
+    checkPermissions,
   }
 }
 ```
@@ -535,12 +541,11 @@ export function useCamera() {
       const photo = await cameraRef.current.takePictureAsync({
         quality: 0.8,
         base64: false,
-        exif: true
+        exif: true,
       })
 
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success)
       return photo
-
     } catch (error) {
       console.error('Error taking picture:', error)
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error)
@@ -551,14 +556,14 @@ export function useCamera() {
   }
 
   const toggleFacing = () => {
-    setFacing(current =>
+    setFacing((current) =>
       current === CameraType.back ? CameraType.front : CameraType.back
     )
     Haptics.selectionAsync()
   }
 
   const toggleFlash = () => {
-    setFlash(current => {
+    setFlash((current) => {
       if (current === FlashMode.off) return FlashMode.on
       if (current === FlashMode.on) return FlashMode.auto
       return FlashMode.off
@@ -573,7 +578,7 @@ export function useCamera() {
     isCapturing,
     takePicture,
     toggleFacing,
-    toggleFlash
+    toggleFlash,
   }
 }
 ```
@@ -661,5 +666,5 @@ Ver carpeta [`./codigo-ejemplo/`](./codigo-ejemplo/) para:
 
 **¡A construir tu Photo Gallery App profesional!** 📸✨
 
-*Bootcamp React Native - Semana 5*  
-*Proyecto Integrador de Features Nativas*
+_Bootcamp React Native - Semana 5_  
+_Proyecto Integrador de Features Nativas_

@@ -373,5 +373,5 @@ Notifications
 
 **¡Prepárate para dominar las APIs nativas de React Native!** 🚀
 
-*Bootcamp React Native - Semana 5*  
-*Material Teórico de Features Nativas*
+_Bootcamp React Native - Semana 5_  
+_Material Teórico de Features Nativas_
