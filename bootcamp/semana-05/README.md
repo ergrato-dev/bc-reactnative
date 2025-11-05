@@ -10,16 +10,16 @@
 
 ## 📊 Vista General de la Semana
 
-| Aspecto            | Detalle                                                        |
-| ------------------ | -------------------------------------------------------------- |
-| 🎯 **Enfoque**     | APIs Nativas, Permisos, Multimedia, Sensores                   |
-| ⏱️ **Duración**    | 6 horas presenciales + 2-3h autónomas (refuerzo opcional)      |
-| 📚 **Temas**       | Camera, Location, Notifications, ImagePicker, Sensors, Haptics |
-| 💻 **Prácticas**   | 4 apps guiadas en clase (resultados inmediatos)                |
-| 🚀 **Proyecto**    | Photo Gallery App completada en sesión presencial              |
-| 🐛 **Bugs**        | 7 bugs pedagógicos a resolver y documentar                     |
-| 📈 **Dificultad**  | ⭐⭐⭐⭐ Avanzada                                              |
-| ✅ **Evaluación**  | 100 puntos (teoría + prácticas + proyecto + bugs)              |
+| Aspecto           | Detalle                                                        |
+| ----------------- | -------------------------------------------------------------- |
+| 🎯 **Enfoque**    | APIs Nativas, Permisos, Multimedia, Sensores                   |
+| ⏱️ **Duración**   | 6 horas presenciales + 2-3h autónomas (refuerzo opcional)      |
+| 📚 **Temas**      | Camera, Location, Notifications, ImagePicker, Sensors, Haptics |
+| 💻 **Prácticas**  | 4 apps guiadas en clase (resultados inmediatos)                |
+| 🚀 **Proyecto**   | Photo Gallery App completada en sesión presencial              |
+| 🐛 **Bugs**       | 7 bugs pedagógicos a resolver y documentar                     |
+| 📈 **Dificultad** | ⭐⭐⭐⭐ Avanzada                                              |
+| ✅ **Evaluación** | 100 puntos (teoría + prácticas + proyecto + bugs)              |
 
 ---
 
@@ -29,11 +29,11 @@
 
 **Flujo de Permisos del Sistema**  
 ![Permissions Flow](./0-assets/permissions-flow.svg)  
-*Entiende cómo solicitar y manejar permisos de forma profesional*
+_Entiende cómo solicitar y manejar permisos de forma profesional_
 
 **Expo Camera API - Flujo Completo**  
 ![Camera Flow](./0-assets/camera-flow.svg)  
-*Visualiza el proceso completo de captura de fotos con la cámara*
+_Visualiza el proceso completo de captura de fotos con la cámara_
 
 > 💡 **Tip:** Estos diagramas muestran las mejores prácticas para trabajar con features nativas. [Ver todos los assets →](./0-assets/)
 
@@ -107,6 +107,7 @@ Fundamentos teóricos presentados con demos en vivo:
    - Geocoding y reverse geocoding
 
 5. **[Notificaciones Push](./1-teoria/05-notificaciones-push.md)** (45 min)
+
    - Notificaciones locales
    - Expo Push Notifications
    - Scheduling y triggers
@@ -232,24 +233,24 @@ Términos técnicos clave de la semana:
 
 ### Sesión Presencial (6 horas obligatorias)
 
-| Actividad                | Tiempo      | Descripción                         |
-| ------------------------ | ----------- | ----------------------------------- |
-| 🎓 Teoría + Demos        | 4 horas     | Sistema permisos, Camera, Location  |
-| 💻 Prácticas Guiadas     | 1.5 horas   | 4 ejercicios prácticos              |
-| 🚀 Inicio Proyecto       | 30 min      | Setup y arquitectura                |
-| **BREAK**                | **15 min**  | **Cada 90 minutos**                 |
-| **TOTAL OBLIGATORIO**    | **6 horas** | **TODO completado en clase**        |
+| Actividad             | Tiempo      | Descripción                        |
+| --------------------- | ----------- | ---------------------------------- |
+| 🎓 Teoría + Demos     | 4 horas     | Sistema permisos, Camera, Location |
+| 💻 Prácticas Guiadas  | 1.5 horas   | 4 ejercicios prácticos             |
+| 🚀 Inicio Proyecto    | 30 min      | Setup y arquitectura               |
+| **BREAK**             | **15 min**  | **Cada 90 minutos**                |
+| **TOTAL OBLIGATORIO** | **6 horas** | **TODO completado en clase**       |
 
 ### Trabajo Autónomo (2-3h opcional - Solo refuerzo)
 
 > **IMPORTANTE:** El bootcamp está diseñado para completar TODO en la sesión presencial. El trabajo autónomo es **opcional** solo para reforzar.
 
-| Actividad                     | Tiempo Sugerido | Obligatorio |
-| ----------------------------- | --------------- | ----------- |
-| Revisar documentación de Expo | 30-45 min       | ❌ Opcional |
-| Videos sobre Camera API       | 30-45 min       | ❌ Opcional |
-| Experimentar con sensores     | 45-60 min       | ❌ Opcional |
-| Personalizar proyecto         | 30-45 min       | ❌ Opcional |
+| Actividad                     | Tiempo Sugerido | Obligatorio  |
+| ----------------------------- | --------------- | ------------ |
+| Revisar documentación de Expo | 30-45 min       | ❌ Opcional  |
+| Videos sobre Camera API       | 30-45 min       | ❌ Opcional  |
+| Experimentar con sensores     | 45-60 min       | ❌ Opcional  |
+| Personalizar proyecto         | 30-45 min       | ❌ Opcional  |
 | **TOTAL AUTÓNOMO**            | **2-3 horas**   | **Opcional** |
 
 **NO necesitas:**
@@ -269,13 +270,13 @@ Términos técnicos clave de la semana:
 
 El código del proyecto contiene **7 bugs intencionales** distribuidos en:
 
-| Categoría             | Cantidad | Dificultad |
-| --------------------- | -------- | ---------- |
-| Permisos              | 2 bugs   | Media      |
-| Camera API            | 2 bugs   | Media-Alta |
-| Estado y Refs         | 1 bug    | Media      |
-| Manejo de Errores     | 1 bug    | Alta       |
-| Performance/Memoria   | 1 bug    | Alta       |
+| Categoría           | Cantidad | Dificultad |
+| ------------------- | -------- | ---------- |
+| Permisos            | 2 bugs   | Media      |
+| Camera API          | 2 bugs   | Media-Alta |
+| Estado y Refs       | 1 bug    | Media      |
+| Manejo de Errores   | 1 bug    | Alta       |
+| Performance/Memoria | 1 bug    | Alta       |
 
 ### Proceso de Identificación
 
@@ -295,13 +296,13 @@ Ver [RUBRICA-EVALUACION.md](./RUBRICA-EVALUACION.md) para detalles completos.
 
 ### Distribución de Puntos
 
-| Criterio                  | Peso | Puntos |
-| ------------------------- | ---- | ------ |
-| 🎓 Teoría                 | 15%  | 15     |
-| 💻 Prácticas              | 25%  | 25     |
-| 🚀 Proyecto               | 40%  | 40     |
-| 🐛 Bugs Identificados     | 20%  | 20     |
-| **TOTAL**                 | 100% | **100** |
+| Criterio              | Peso | Puntos  |
+| --------------------- | ---- | ------- |
+| 🎓 Teoría             | 15%  | 15      |
+| 💻 Prácticas          | 25%  | 25      |
+| 🚀 Proyecto           | 40%  | 40      |
+| 🐛 Bugs Identificados | 20%  | 20      |
+| **TOTAL**             | 100% | **100** |
 
 ### Aspectos Clave
 
@@ -473,5 +474,5 @@ Al completar esta semana:
 
 **¡Prepárate para crear experiencias móviles nativas impresionantes!** 📱✨
 
-*Bootcamp React Native - Semana 5*  
-*Features Nativas y APIs del Dispositivo*
+_Bootcamp React Native - Semana 5_  
+_Features Nativas y APIs del Dispositivo_
