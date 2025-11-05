@@ -1,6 +1,6 @@
 /**
  * TypeScript Types & Interfaces
- * 
+ *
  * Definiciones de tipos para toda la aplicación
  */
 
@@ -14,22 +14,22 @@ import { CameraType, FlashMode } from 'expo-camera'
  * Interfaz principal para una foto en la galería
  */
 export interface Photo {
-  id: string                      // UUID único
-  uri: string                     // URI local de la imagen
-  timestamp: number               // Unix timestamp de captura
-  location?: LocationData         // Datos de GPS (opcional)
-  metadata?: PhotoMetadata        // Metadata adicional
+  id: string // UUID único
+  uri: string // URI local de la imagen
+  timestamp: number // Unix timestamp de captura
+  location?: LocationData // Datos de GPS (opcional)
+  metadata?: PhotoMetadata // Metadata adicional
 }
 
 /**
  * Metadata de una foto
  */
 export interface PhotoMetadata {
-  width: number                   // Ancho en pixels
-  height: number                  // Alto en pixels
-  size: number                    // Tamaño en bytes
-  format: 'jpg' | 'png'          // Formato de imagen
-  exif?: Record<string, any>     // Datos EXIF (opcional)
+  width: number // Ancho en pixels
+  height: number // Alto en pixels
+  size: number // Tamaño en bytes
+  format: 'jpg' | 'png' // Formato de imagen
+  exif?: Record<string, any> // Datos EXIF (opcional)
 }
 
 // ============================================================================
@@ -40,12 +40,12 @@ export interface PhotoMetadata {
  * Datos de ubicación GPS
  */
 export interface LocationData {
-  latitude: number                // Latitud
-  longitude: number               // Longitud
-  altitude?: number               // Altitud en metros (opcional)
-  accuracy?: number               // Precisión en metros (opcional)
-  timestamp: number               // Unix timestamp
-  address?: string                // Dirección geocodificada (opcional)
+  latitude: number // Latitud
+  longitude: number // Longitud
+  altitude?: number // Altitud en metros (opcional)
+  accuracy?: number // Precisión en metros (opcional)
+  timestamp: number // Unix timestamp
+  address?: string // Dirección geocodificada (opcional)
 }
 
 /**
@@ -64,20 +64,20 @@ export interface Coordinates {
  * Configuración de la cámara
  */
 export interface CameraSettings {
-  type: CameraType                // 'back' | 'front'
-  flash: FlashMode                // 'on' | 'off' | 'auto'
-  quality: number                 // 0-1
-  ratio?: string                  // Aspect ratio (ej: '16:9')
+  type: CameraType // 'back' | 'front'
+  flash: FlashMode // 'on' | 'off' | 'auto'
+  quality: number // 0-1
+  ratio?: string // Aspect ratio (ej: '16:9')
 }
 
 /**
  * Opciones para capturar foto
  */
 export interface CaptureOptions {
-  quality?: number                // 0-1 (default: 0.8)
-  base64?: boolean                // Incluir base64 (default: false)
-  exif?: boolean                  // Incluir EXIF data (default: true)
-  skipProcessing?: boolean        // Skip image processing (default: false)
+  quality?: number // 0-1 (default: 0.8)
+  base64?: boolean // Incluir base64 (default: false)
+  exif?: boolean // Incluir EXIF data (default: true)
+  skipProcessing?: boolean // Skip image processing (default: false)
 }
 
 // ============================================================================
@@ -88,21 +88,21 @@ export interface CaptureOptions {
  * Configuración de notificaciones
  */
 export interface NotificationSettings {
-  enabled: boolean                // Notificaciones habilitadas
-  dailyReminder: boolean          // Recordatorio diario activo
-  reminderTime: string            // Hora en formato HH:mm
-  soundEnabled: boolean           // Sonido habilitado
-  vibrationEnabled: boolean       // Vibración habilitada
+  enabled: boolean // Notificaciones habilitadas
+  dailyReminder: boolean // Recordatorio diario activo
+  reminderTime: string // Hora en formato HH:mm
+  soundEnabled: boolean // Sonido habilitado
+  vibrationEnabled: boolean // Vibración habilitada
 }
 
 /**
  * Datos de una notificación
  */
 export interface NotificationData {
-  id: string                      // ID de la notificación
-  title: string                   // Título
-  body: string                    // Mensaje
-  data?: Record<string, any>      // Data adicional (opcional)
+  id: string // ID de la notificación
+  title: string // Título
+  body: string // Mensaje
+  data?: Record<string, any> // Data adicional (opcional)
 }
 
 // ============================================================================
@@ -117,10 +117,10 @@ export type PermissionStatus = 'granted' | 'denied' | 'undetermined'
 /**
  * Tipos de permisos necesarios
  */
-export type PermissionType = 
-  | 'camera' 
-  | 'mediaLibrary' 
-  | 'location' 
+export type PermissionType =
+  | 'camera'
+  | 'mediaLibrary'
+  | 'location'
   | 'notifications'
 
 /**

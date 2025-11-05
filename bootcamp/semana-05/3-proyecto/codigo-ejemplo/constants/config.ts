@@ -1,6 +1,6 @@
 /**
  * Configuración y Constantes de la Aplicación
- * 
+ *
  * ⚠️ 🐛 BUG #2: CONFIGURACIÓN INCOMPLETA
  * El app.json no incluye todos los plugins necesarios de Expo
  * Faltan configuraciones importantes para Location y Notifications
@@ -27,7 +27,7 @@ export const APP_BUNDLE_ID = 'com.bootcamp.photogallery'
 export const DEFAULT_CAMERA_SETTINGS: CameraSettings = {
   type: CameraType.back,
   flash: FlashMode.off,
-  quality: 0.8,              // 80% de calidad
+  quality: 0.8, // 80% de calidad
   ratio: '16:9',
 }
 
@@ -49,21 +49,21 @@ export const QUALITY_OPTIONS = [
  * Configuración de precisión del GPS
  */
 export const LOCATION_ACCURACY = {
-  LOW: 3,          // ~3km
-  BALANCED: 4,     // ~100m
-  HIGH: 5,         // ~10m
-  BEST: 6,         // ~1m
+  LOW: 3, // ~3km
+  BALANCED: 4, // ~100m
+  HIGH: 5, // ~10m
+  BEST: 6, // ~1m
 } as const
 
 /**
  * Timeout para obtener ubicación (ms)
  */
-export const LOCATION_TIMEOUT = 10000  // 10 segundos
+export const LOCATION_TIMEOUT = 10000 // 10 segundos
 
 /**
  * Intervalo para watch location (ms)
  */
-export const LOCATION_INTERVAL = 5000  // 5 segundos
+export const LOCATION_INTERVAL = 5000 // 5 segundos
 
 // ============================================================================
 // NOTIFICATIONS DEFAULTS
@@ -75,7 +75,7 @@ export const LOCATION_INTERVAL = 5000  // 5 segundos
 export const DEFAULT_NOTIFICATION_SETTINGS: NotificationSettings = {
   enabled: true,
   dailyReminder: false,
-  reminderTime: '09:00',    // 9:00 AM
+  reminderTime: '09:00', // 9:00 AM
   soundEnabled: true,
   vibrationEnabled: true,
 }
@@ -87,7 +87,7 @@ export const NOTIFICATION_CHANNEL = {
   id: 'photo-gallery-channel',
   name: 'Photo Gallery',
   description: 'Notificaciones de la app de galería de fotos',
-  importance: 3,            // Default importance
+  importance: 3, // Default importance
   sound: 'default',
   vibrate: true,
   badge: true,
@@ -198,23 +198,25 @@ export const ERROR_MESSAGES = {
   // Permisos
   CAMERA_PERMISSION_DENIED: 'Se requiere permiso de cámara para tomar fotos',
   MEDIA_PERMISSION_DENIED: 'Se requiere permiso para acceder a la galería',
-  LOCATION_PERMISSION_DENIED: 'Se requiere permiso de ubicación para agregar GPS',
-  NOTIFICATION_PERMISSION_DENIED: 'Se requiere permiso para enviar notificaciones',
-  
+  LOCATION_PERMISSION_DENIED:
+    'Se requiere permiso de ubicación para agregar GPS',
+  NOTIFICATION_PERMISSION_DENIED:
+    'Se requiere permiso para enviar notificaciones',
+
   // Cámara
   CAMERA_NOT_AVAILABLE: 'La cámara no está disponible en este dispositivo',
   CAMERA_CAPTURE_FAILED: 'Error al capturar la foto',
-  
+
   // Location
   LOCATION_UNAVAILABLE: 'No se pudo obtener la ubicación',
   LOCATION_TIMEOUT: 'Tiempo de espera agotado para obtener ubicación',
-  
+
   // Storage
   SAVE_PHOTO_FAILED: 'Error al guardar la foto',
   LOAD_PHOTOS_FAILED: 'Error al cargar las fotos',
   DELETE_PHOTO_FAILED: 'Error al eliminar la foto',
   STORAGE_FULL: 'Almacenamiento lleno. Elimina algunas fotos.',
-  
+
   // Generic
   UNKNOWN_ERROR: 'Ocurrió un error inesperado',
   NETWORK_ERROR: 'Error de conexión. Verifica tu internet.',
