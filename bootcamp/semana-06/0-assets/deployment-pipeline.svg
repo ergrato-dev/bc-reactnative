@@ -121,21 +121,21 @@
     <!-- PR Flow -->
     <rect x="50" y="420" width="400" height="100" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
     <text x="70" y="445" class="stage-title" fill="#6366F1">📋 Pull Request Flow</text>
-    <text x="70" y="470" class="stage-text">on: pull_request → Run tests only</text>
+    <text x="70" y="470" class="stage-text">on: pull_request - Run tests only</text>
     <text x="70" y="490" class="stage-text">✓ No build, just validation</text>
     <text x="70" y="510" class="stage-text">✓ Fast feedback for PRs</text>
     
     <!-- Preview Flow -->
     <rect x="480" y="420" width="400" height="100" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
     <text x="500" y="445" class="stage-title" fill="#F59E0B">🔍 Preview/Staging Flow</text>
-    <text x="500" y="470" class="stage-text">on: push: [develop] → Build preview</text>
+    <text x="500" y="470" class="stage-text">on: push: [develop] - Build preview</text>
     <text x="500" y="490" class="stage-text">✓ Internal testing builds</text>
     <text x="500" y="510" class="stage-text">✓ QA environment</text>
     
     <!-- Scheduled Flow -->
     <rect x="910" y="420" width="400" height="100" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
     <text x="930" y="445" class="stage-title" fill="#10B981">⏰ Scheduled Flow</text>
-    <text x="930" y="470" class="stage-text">on: schedule: cron → Nightly builds</text>
+    <text x="930" y="470" class="stage-text">on: schedule: cron - Nightly builds</text>
     <text x="930" y="490" class="stage-text">✓ Automated regression testing</text>
     <text x="930" y="510" class="stage-text">✓ Latest dependency testing</text>
   </g>
@@ -147,16 +147,17 @@
     <text x="70" y="600" class="stage-text" font-family="monospace">- uses: actions/setup-node@v3</text>
     <text x="70" y="620" class="stage-text" font-family="monospace">  with:</text>
     <text x="70" y="640" class="stage-text" font-family="monospace">    node-version: 18</text>
-    <text x="70" y="660" class="stage-text" font-family="monospace">    cache: 'npm'  # ✨ <tspan fill="#F59E0B" font-weight="bold">Bug #6 fix!</tspan></text>
+    <text x="70" y="660" class="stage-text" font-family="monospace">    cache: 'npm'</text>
+    <text x="250" y="660" class="stage-text" fill="#F59E0B" font-weight="bold">← Bug #6 fix!</text>
   </g>
   
   <!-- Secrets Note -->
   <g id="secrets-note">
     <rect x="530" y="550" width="450" height="120" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
     <text x="550" y="575" class="stage-title" fill="#EF4444">🔐 Security: Secrets Management</text>
-    <text x="550" y="600" class="stage-text">GitHub Settings → Secrets → Actions</text>
+    <text x="550" y="600" class="stage-text">GitHub Settings - Secrets - Actions</text>
     <text x="550" y="620" class="stage-text">Required secrets:</text>
-    <text x="550" y="640" class="stage-text">• EXPO_TOKEN (from `eas whoami`)</text>
+    <text x="550" y="640" class="stage-text">• EXPO_TOKEN (from eas whoami)</text>
     <text x="550" y="660" class="stage-text">• API_KEYS (if needed)</text>
   </g>
   
@@ -171,5 +172,5 @@
   </g>
   
   <!-- Footer -->
-  <text x="700" y="695" text-anchor="middle" class="label">💡 Full pipeline time: ~20-30 minutes | With cache: ~10-15 minutes</text>
+  <text x="700" y="695" text-anchor="middle" class="label">Full pipeline time: ~20-30 minutes | With cache: ~10-15 minutes</text>
 </svg>
