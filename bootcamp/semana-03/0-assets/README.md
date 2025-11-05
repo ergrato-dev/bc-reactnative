@@ -10,18 +10,21 @@ Este directorio contiene recursos visuales educativos diseñados para apoyar la 
 
 **¿Qué ilustra?**  
 Visualización de los 4 hooks fundamentales de React con su ciclo de vida y uso:
+
 - **useState**: Manejo de estado local
 - **useEffect**: Efectos secundarios y ciclo de vida
 - **useContext**: Consumo de contexto global
 - **useRef**: Referencias mutables sin re-render
 
 **¿Cuándo usarlo?**
+
 - Al introducir hooks por primera vez
 - Para comparar cuándo usar cada hook
 - Al explicar el ciclo de vida de componentes funcionales
 - Para entender la diferencia entre state y refs
 
 **Conceptos que refuerza:**
+
 - React Hooks API
 - Ciclo de vida de componentes
 - State management patterns
@@ -37,15 +40,15 @@ Visualización de los 4 hooks fundamentales de React con su ciclo de vida y uso:
 
 Todos los diagramas utilizan una paleta consistente optimizada para tema oscuro:
 
-| Color    | Hex Code  | Uso                          |
-|----------|-----------|------------------------------|
-| Fondo    | `#1E1E1E` | Background principal         |
-| Cyan     | `#61DAFB` | React/elementos principales  |
-| Verde    | `#4EC9B0` | Estados activos/éxito        |
-| Púrpura  | `#C586C0` | Elementos secundarios        |
-| Amarillo | `#DCDCAA` | Highlights/advertencias      |
-| Blanco   | `#FFFFFF` | Texto principal              |
-| Gris     | `#CCCCCC` | Texto secundario             |
+| Color    | Hex Code  | Uso                         |
+| -------- | --------- | --------------------------- |
+| Fondo    | `#1E1E1E` | Background principal        |
+| Cyan     | `#61DAFB` | React/elementos principales |
+| Verde    | `#4EC9B0` | Estados activos/éxito       |
+| Púrpura  | `#C586C0` | Elementos secundarios       |
+| Amarillo | `#DCDCAA` | Highlights/advertencias     |
+| Blanco   | `#FFFFFF` | Texto principal             |
+| Gris     | `#CCCCCC` | Texto secundario            |
 
 ### Tipografía
 
@@ -79,6 +82,7 @@ Todos los diagramas utilizan una paleta consistente optimizada para tema oscuro:
 ### En Presentaciones
 
 Los SVGs son escalables y se pueden importar directamente en:
+
 - Google Slides
 - PowerPoint
 - Figma
@@ -95,6 +99,7 @@ Los archivos SVG son código XML y pueden editarse con:
 3. **Online**: [SVG Editor](https://svgeditor.dev/), [Boxy SVG](https://boxy-svg.com/)
 
 **Importante:** Al editar, mantén la consistencia con:
+
 - Paleta de colores establecida
 - Tipografía sans-serif
 - Tema oscuro
@@ -110,14 +115,14 @@ Los archivos SVG son código XML y pueden editarse con:
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
   <!-- Fondo oscuro -->
   <rect width="900" height="650" fill="#1E1E1E"/>
-  
+
   <!-- Título -->
   <text x="450" y="40" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
     Tu Título Aquí
   </text>
-  
+
   <!-- Tu contenido -->
-  
+
 </svg>
 ```
 
@@ -156,5 +161,5 @@ Los archivos SVG son código XML y pueden editarse con:
 
 ---
 
-*Estos assets son parte del Bootcamp React Native - Semana 3*  
-*Diseñados para apoyar el aprendizaje visual y conceptual*
+_Estos assets son parte del Bootcamp React Native - Semana 3_  
+_Diseñados para apoyar el aprendizaje visual y conceptual_

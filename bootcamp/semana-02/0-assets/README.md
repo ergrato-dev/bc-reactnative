@@ -10,16 +10,19 @@ Este directorio contiene recursos visuales educativos diseñados para apoyar la 
 
 **¿Qué ilustra?**  
 Comparación visual de los tres tipos principales de navegación en React Native:
+
 - **Stack Navigator**: Navegación jerárquica con pila de pantallas
 - **Tab Navigator**: Pestañas en la parte inferior/superior
 - **Drawer Navigator**: Menú lateral deslizable
 
 **¿Cuándo usarlo?**
+
 - Al explicar diferencias entre navegadores
 - Para decidir qué tipo de navegación usar en un proyecto
 - Al enseñar patrones de navegación móvil
 
 **Conceptos que refuerza:**
+
 - Arquitectura de navegación
 - UX patterns en mobile
 - Componentes de React Navigation
@@ -33,15 +36,15 @@ Comparación visual de los tres tipos principales de navegación en React Native
 
 Todos los diagramas utilizan una paleta consistente optimizada para tema oscuro:
 
-| Color    | Hex Code  | Uso                          |
-|----------|-----------|------------------------------|
-| Fondo    | `#1E1E1E` | Background principal         |
-| Cyan     | `#61DAFB` | React/elementos principales  |
-| Verde    | `#4EC9B0` | Estados activos/éxito        |
-| Púrpura  | `#C586C0` | Elementos secundarios        |
-| Amarillo | `#DCDCAA` | Highlights/advertencias      |
-| Blanco   | `#FFFFFF` | Texto principal              |
-| Gris     | `#CCCCCC` | Texto secundario             |
+| Color    | Hex Code  | Uso                         |
+| -------- | --------- | --------------------------- |
+| Fondo    | `#1E1E1E` | Background principal        |
+| Cyan     | `#61DAFB` | React/elementos principales |
+| Verde    | `#4EC9B0` | Estados activos/éxito       |
+| Púrpura  | `#C586C0` | Elementos secundarios       |
+| Amarillo | `#DCDCAA` | Highlights/advertencias     |
+| Blanco   | `#FFFFFF` | Texto principal             |
+| Gris     | `#CCCCCC` | Texto secundario            |
 
 ### Tipografía
 
@@ -69,12 +72,16 @@ Todos los diagramas utilizan una paleta consistente optimizada para tema oscuro:
 ### En HTML
 
 ```html
-<img src="./0-assets/navegacion-tipos.svg" alt="Tipos de Navegación en React Native" />
+<img
+  src="./0-assets/navegacion-tipos.svg"
+  alt="Tipos de Navegación en React Native"
+/>
 ```
 
 ### En Presentaciones
 
 Los SVGs son escalables y se pueden importar directamente en:
+
 - Google Slides
 - PowerPoint
 - Figma
@@ -91,6 +98,7 @@ Los archivos SVG son código XML y pueden editarse con:
 3. **Online**: [SVG Editor](https://svgeditor.dev/), [Boxy SVG](https://boxy-svg.com/)
 
 **Importante:** Al editar, mantén la consistencia con:
+
 - Paleta de colores establecida
 - Tipografía sans-serif
 - Tema oscuro
@@ -106,14 +114,14 @@ Los archivos SVG son código XML y pueden editarse con:
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
   <!-- Fondo oscuro -->
   <rect width="900" height="650" fill="#1E1E1E"/>
-  
+
   <!-- Título -->
   <text x="450" y="40" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
     Tu Título Aquí
   </text>
-  
+
   <!-- Tu contenido -->
-  
+
 </svg>
 ```
 
@@ -149,5 +157,5 @@ Los archivos SVG son código XML y pueden editarse con:
 
 ---
 
-*Estos assets son parte del Bootcamp React Native - Semana 2*  
-*Diseñados para apoyar el aprendizaje visual y conceptual*
+_Estos assets son parte del Bootcamp React Native - Semana 2_  
+_Diseñados para apoyar el aprendizaje visual y conceptual_

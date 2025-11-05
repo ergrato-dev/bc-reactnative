@@ -33,11 +33,11 @@ Visualizaciones que te ayudarán a entender los conceptos clave de esta semana:
 
 **Jerarquía de Componentes en React Native**  
 ![Component Hierarchy](./0-assets/componentes-jerarquia.svg)  
-*Entiende cómo se estructuran los componentes desde la raíz hasta los elementos UI*
+_Entiende cómo se estructuran los componentes desde la raíz hasta los elementos UI_
 
 **Layouts con Flexbox**  
 ![Flexbox Layout](./0-assets/flexbox-layout.svg)  
-*Visualiza cómo funcionan flexDirection, justifyContent y alignItems*
+_Visualiza cómo funcionan flexDirection, justifyContent y alignItems_
 
 > 💡 **Tip:** Estos diagramas están diseñados con tema oscuro para mejor visualización. [Ver todos los assets →](./0-assets/)
 

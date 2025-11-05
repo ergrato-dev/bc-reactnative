@@ -29,7 +29,7 @@
 
 **Tipos de Navegación en React Native**  
 ![Navigation Types](./0-assets/navegacion-tipos.svg)  
-*Compara Stack, Tab y Drawer Navigator para entender cuándo usar cada uno*
+_Compara Stack, Tab y Drawer Navigator para entender cuándo usar cada uno_
 
 > 💡 **Tip:** Este diagrama muestra las diferencias visuales y casos de uso de cada navegador. [Ver todos los assets →](./0-assets/)
 

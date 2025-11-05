@@ -29,7 +29,7 @@
 
 **Hooks Principales de React**  
 ![React Hooks](./0-assets/hooks-principales.svg)  
-*Visualiza useState, useEffect, useContext y useRef con su ciclo de vida*
+_Visualiza useState, useEffect, useContext y useRef con su ciclo de vida_
 
 > 💡 **Tip:** Este diagrama te ayudará a entender cuándo y cómo usar cada hook. [Ver todos los assets →](./0-assets/)
 
