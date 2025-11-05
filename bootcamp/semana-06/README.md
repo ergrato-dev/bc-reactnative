@@ -9,6 +9,7 @@
 Al finalizar esta semana, serás capaz de:
 
 ### Conocimientos
+
 - [ ] Comprender el proceso de build de aplicaciones React Native
 - [ ] Entender la diferencia entre development y production builds
 - [ ] Conocer los requisitos de App Store y Google Play
@@ -16,6 +17,7 @@ Al finalizar esta semana, serás capaz de:
 - [ ] Comprender OTA (Over-The-Air) updates con Expo
 
 ### Habilidades Técnicas
+
 - [ ] Configurar EAS Build para iOS y Android
 - [ ] Crear y gestionar certificados y perfiles de aprovisionamiento
 - [ ] Generar builds de producción (APK/AAB, IPA)
@@ -26,6 +28,7 @@ Al finalizar esta semana, serás capaz de:
 - [ ] Realizar testing pre-producción
 
 ### Competencias Profesionales
+
 - [ ] Seguir workflows profesionales de deployment
 - [ ] Gestionar releases y versiones
 - [ ] Documentar procesos de publicación
@@ -37,6 +40,7 @@ Al finalizar esta semana, serás capaz de:
 ## 📖 Contenido Teórico
 
 ### [1. Testing Pre-Deployment](./1-teoria/README.md#1-testing-pre-deployment) (45 minutos)
+
 - Unit testing con Jest
 - Component testing con Testing Library
 - E2E testing básico
@@ -44,6 +48,7 @@ Al finalizar esta semana, serás capaz de:
 - Debugging production builds
 
 ### [2. EAS Build Configuration](./1-teoria/README.md#2-eas-build-configuration) (1 hora)
+
 - Introducción a EAS (Expo Application Services)
 - Configuración de eas.json
 - Perfiles de build (development, preview, production)
@@ -51,6 +56,7 @@ Al finalizar esta semana, serás capaz de:
 - Build workflows
 
 ### [3. iOS Deployment](./1-teoria/README.md#3-ios-deployment) (1.5 horas)
+
 - Requisitos de Apple Developer Program
 - Certificados y perfiles de aprovisionamiento
 - App Store Connect setup
@@ -59,6 +65,7 @@ Al finalizar esta semana, serás capaz de:
 - App Store guidelines críticas
 
 ### [4. Android Deployment](./1-teoria/README.md#4-android-deployment) (1 hora)
+
 - Google Play Console setup
 - Keystores y firma de apps
 - AAB vs APK
@@ -67,6 +74,7 @@ Al finalizar esta semana, serás capaz de:
 - Google Play policies
 
 ### [5. OTA Updates](./1-teoria/README.md#5-ota-updates) (45 minutos)
+
 - Expo Updates explicado
 - Cuándo usar OTA vs native builds
 - Configuración de channels
@@ -74,6 +82,7 @@ Al finalizar esta semana, serás capaz de:
 - Limitaciones de OTA
 
 ### [6. CI/CD y Automation](./1-teoria/README.md#6-cicd-automation) (45 minutos)
+
 - Introducción a CI/CD
 - GitHub Actions para React Native
 - Automated builds con EAS
@@ -85,9 +94,11 @@ Al finalizar esta semana, serás capaz de:
 ## 💻 Prácticas Guiadas
 
 ### [Práctica 1: Build Local y Testing](./2-practicas/README.md#practica-1) (45 min)
+
 Configura el entorno de testing y genera tu primer build de producción local.
 
 **Objetivos:**
+
 - Configurar Jest y Testing Library
 - Escribir tests básicos
 - Generar build de desarrollo
@@ -98,9 +109,11 @@ Configura el entorno de testing y genera tu primer build de producción local.
 ---
 
 ### [Práctica 2: EAS Build - Android](./2-practicas/README.md#practica-2) (1 hora)
+
 Genera y publica tu primera build de Android en Google Play (internal testing).
 
 **Objetivos:**
+
 - Configurar EAS Build
 - Generar AAB de producción
 - Configurar Google Play Console
@@ -111,9 +124,11 @@ Genera y publica tu primera build de Android en Google Play (internal testing).
 ---
 
 ### [Práctica 3: EAS Build - iOS](./2-practicas/README.md#practica-3) (1.5 horas)
+
 Genera y publica tu primera build de iOS en TestFlight.
 
 **Objetivos:**
+
 - Configurar Apple Developer account
 - Generar certificados
 - Build de producción iOS
@@ -124,9 +139,11 @@ Genera y publica tu primera build de iOS en TestFlight.
 ---
 
 ### [Práctica 4: OTA Updates](./2-practicas/README.md#practica-4) (45 min)
+
 Implementa actualizaciones over-the-air sin rebuild.
 
 **Objetivos:**
+
 - Configurar Expo Updates
 - Publicar update OTA
 - Verificar actualización en app
@@ -145,6 +162,7 @@ Implementa actualizaciones over-the-air sin rebuild.
 ### Features del Proyecto:
 
 #### Must Have (Críticos):
+
 - ✅ Tests unitarios para funciones críticas
 - ✅ Build de producción Android (AAB)
 - ✅ Build de producción iOS (IPA)
@@ -154,6 +172,7 @@ Implementa actualizaciones over-the-air sin rebuild.
 - ✅ OTA update funcional implementado
 
 #### Should Have (Importantes):
+
 - ✅ Tests de componentes principales
 - ✅ CI/CD pipeline básico (GitHub Actions)
 - ✅ Versioning automático
@@ -161,6 +180,7 @@ Implementa actualizaciones over-the-air sin rebuild.
 - ✅ Screenshots y assets para stores
 
 #### Nice to Have (Opcionales):
+
 - ⭐ E2E tests con Detox
 - ⭐ Automated deployment
 - ⭐ Analytics integrado
@@ -186,6 +206,7 @@ Implementa actualizaciones over-the-air sin rebuild.
 ### [🔍 Guía de Bugs](./3-proyecto/BUGS-GUIA.md)
 
 Consulta la guía para pistas sobre:
+
 - Bug #1: app.json con configuración incompleta para stores
 - Bug #2: eas.json sin perfiles correctos
 - Bug #3: Keystore no configurado correctamente
@@ -198,21 +219,25 @@ Consulta la guía para pistas sobre:
 ## 📦 Stack Tecnológico
 
 ### Build y Deployment
+
 - **EAS Build** - Servicio de build en la nube de Expo
 - **EAS Submit** - Herramienta para subir a stores
 - **Expo Updates** - Sistema OTA
 - **eas-cli** - CLI para EAS services
 
 ### Testing
+
 - **Jest** - Framework de testing
 - **React Native Testing Library** - Testing de componentes
 - **Detox** (opcional) - E2E testing
 
 ### CI/CD
+
 - **GitHub Actions** - Automation y CI/CD
 - **Fastlane** (opcional) - Deployment automation
 
 ### Monitoring (Opcional)
+
 - **Sentry** - Error tracking
 - **Expo Analytics** - Usage analytics
 
@@ -223,6 +248,7 @@ Consulta la guía para pistas sobre:
 ### Prerrequisitos
 
 #### Para Android:
+
 ```bash
 # 1. Cuenta de Google Play Developer ($25 único)
 # 2. Instalar EAS CLI
@@ -233,6 +259,7 @@ eas login
 ```
 
 #### Para iOS:
+
 ```bash
 # 1. Cuenta de Apple Developer ($99/año)
 # 2. Xcode instalado (solo en Mac)
@@ -259,6 +286,7 @@ eas build:list
 ### Sesión Presencial (6 horas obligatorias)
 
 #### Bloque 1: Testing y Build Local (1.5 horas)
+
 - Teoría: Testing pre-deployment (30 min)
 - Demo en vivo: Setup de tests (20 min)
 - Práctica 1: Build local (40 min)
@@ -266,6 +294,7 @@ eas build:list
 #### Break (15 min)
 
 #### Bloque 2: Android Deployment (2 horas)
+
 - Teoría: EAS Build y Android deployment (45 min)
 - Demo en vivo: Google Play Console (15 min)
 - Práctica 2: Deploy Android (1 hora)
@@ -273,11 +302,13 @@ eas build:list
 #### Break (15 min)
 
 #### Bloque 3: iOS Deployment (2 horas)
+
 - Teoría: iOS deployment y App Store (45 min)
 - Demo en vivo: TestFlight (15 min)
 - Práctica 3: Deploy iOS (1 hora)
 
 #### Bloque 4: OTA y CI/CD (30 minutos)
+
 - Teoría: OTA Updates y CI/CD (20 min)
 - Demo: OTA update (10 min)
 
@@ -290,17 +321,20 @@ eas build:list
 > **IMPORTANTE:** Como en las semanas anteriores, el bootcamp se completa en la sesión presencial. El trabajo autónomo es **opcional** solo para refuerzo y extras.
 
 #### Refuerzo Básico (1-2 horas opcional):
+
 - Revisar documentación de stores (30-45 min)
 - Ver videos de troubleshooting (30-45 min)
 - Completar metadata y screenshots (30-45 min)
 
 #### Proyecto Integrador (2-3 horas opcional):
+
 - Práctica 4: OTA Updates (45 min)
 - Setup CI/CD básico (1 hora)
 - Preparar submission a producción (1 hora)
 - Documentar proceso (30 min)
 
 #### NO necesitas:
+
 - ❌ Publicar a producción (opcional, no requerido)
 - ❌ Setup complejo de CI/CD
 - ❌ E2E tests extensivos
@@ -313,16 +347,19 @@ eas build:list
 ## 📚 Recursos Adicionales
 
 ### eBooks y Guías
+
 - [App Store Review Guidelines](./4-recursos/ebooks-free/)
 - [Google Play Policy Center](./4-recursos/ebooks-free/)
 - [EAS Build Documentation](./4-recursos/ebooks-free/)
 
 ### Videografía
+
 - [Expo Official: EAS Build Tutorial](./4-recursos/videografia/)
 - [Publishing to App Store Walkthrough](./4-recursos/videografia/)
 - [Android Deployment Complete Guide](./4-recursos/videografia/)
 
 ### Webgrafía
+
 - [Expo EAS Documentation](./4-recursos/webgrafia/)
 - [Apple Developer Portal](./4-recursos/webgrafia/)
 - [Google Play Console Help](./4-recursos/webgrafia/)
@@ -332,6 +369,7 @@ eas build:list
 ## 📖 Glosario
 
 Consulta el [glosario completo](./5-glosario/) con 40+ términos de deployment:
+
 - AAB, APK, IPA
 - Code Signing, Provisioning Profiles
 - OTA, CI/CD, TestFlight
@@ -356,6 +394,7 @@ Ver [RUBRICA-EVALUACION.md](./RUBRICA-EVALUACION.md) para detalles completos.
 | Bugs Encontrados | 20 pts | 6 bugs identificados y corregidos  |
 
 ### Escala de Calificación
+
 - **90-100**: Excelente - App en ambas stores + OTA + docs
 - **80-89**: Muy Bueno - App en ambas stores + OTA
 - **70-79**: Bueno - App en una store + intentos en otra
@@ -382,18 +421,21 @@ Al terminar, habrás:
 ## 💡 Consejos para el Éxito
 
 ### Antes de la Sesión:
+
 1. ✅ Crea tu cuenta de Google Play Developer ($25)
 2. ✅ Si tienes Mac, considera Apple Developer ($99)
 3. ✅ Instala EAS CLI: `npm install -g eas-cli`
 4. ✅ Revisa los [requisitos de stores](./1-teoria/README.md)
 
 ### Durante la Sesión:
+
 1. 📝 Toma notas de cada paso (lo necesitarás)
 2. 📸 Captura pantallas del proceso
 3. ❓ Pregunta cuando algo no funcione
 4. 🤝 Colabora con compañeros si uno tiene iOS y otro Android
 
 ### Después de la Sesión:
+
 1. 📄 Documenta tu proceso mientras esté fresco
 2. 🔄 Practica el flujo completo de nuevo
 3. 🐛 Encuentra y corrige los bugs pedagógicos
@@ -404,16 +446,19 @@ Al terminar, habrás:
 ## ⚠️ Advertencias Importantes
 
 ### Costos:
+
 - **Google Play Developer**: $25 USD (único)
 - **Apple Developer**: $99 USD (anual)
 - **EAS Build**: Gratis para proyectos pequeños, planes desde $29/mes
 
 ### Tiempos:
+
 - **Primera revisión iOS**: 1-7 días
 - **Primera revisión Android**: 1-3 días
 - **Updates posteriores**: Similar o más rápido
 
 ### Rechazos Comunes:
+
 - ❌ Falta información de privacidad
 - ❌ Funcionalidad incompleta
 - ❌ Bugs evidentes
@@ -425,18 +470,21 @@ Al terminar, habrás:
 ## 🆘 Soporte y Ayuda
 
 ### Problemas con Builds:
+
 1. Revisa logs de EAS Build
 2. Consulta [troubleshooting guide](./1-teoria/README.md#troubleshooting)
 3. Busca en Expo Forums
 4. Pregunta en el foro del bootcamp
 
 ### Problemas con Stores:
+
 1. Lee el mensaje de rechazo completo
 2. Consulta las guidelines específicas
 3. Corrige y resubmit
 4. No te desanimes - los rechazos son normales
 
 ### Problemas Técnicos:
+
 1. Stack Overflow con tags específicos
 2. Expo Discord
 3. Documentación oficial
@@ -449,6 +497,7 @@ Al terminar, habrás:
 Esta semana cierra el bootcamp llevando tu código a las manos de usuarios reales. Deployment es donde la teoría se encuentra con la realidad de las tiendas de apps.
 
 **Recuerda:**
+
 - La primera vez siempre es la más difícil
 - Los errores son oportunidades de aprendizaje
 - Documenta todo para futuras apps
@@ -458,7 +507,7 @@ Esta semana cierra el bootcamp llevando tu código a las manos de usuarios reale
 
 ## 🚀 ¡Adelante!
 
-Es hora de transformar tu código en una aplicación real que millones puedan descargar. 
+Es hora de transformar tu código en una aplicación real que millones puedan descargar.
 
 **¡Mucha suerte con tu deployment!** 🎉
 
