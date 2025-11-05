@@ -30,6 +30,7 @@ Al completar este proyecto serás capaz de:
 ## 🛠️ Stack Tecnológico
 
 ### Herramientas de Deployment
+
 - **EAS Build**: Builds en la nube
 - **EAS Submit**: Subida automatizada a stores
 - **Expo Updates**: OTA updates
@@ -38,6 +39,7 @@ Al completar este proyecto serás capaz de:
 - **GitHub Actions**: CI/CD básico
 
 ### Servicios Externos
+
 - **Google Play Console**: Android store
 - **App Store Connect**: iOS store
 - **TestFlight**: iOS beta testing
@@ -85,11 +87,13 @@ deployment-project/
 ### 1. Testing (15 puntos)
 
 #### 1.1 Unit Tests
+
 Crear mínimo **5 tests unitarios** para funciones utility:
 
 **Archivo:** `__tests__/utils/validation.test.ts`
 
 Testear:
+
 - Validación de email
 - Validación de contraseña
 - Validación de teléfono
@@ -97,26 +101,31 @@ Testear:
 - Cálculos matemáticos
 
 #### 1.2 Component Tests
+
 Crear mínimo **3 tests de componentes**:
 
 **Archivos sugeridos:**
+
 - `__tests__/components/CustomButton.test.tsx`
 - `__tests__/components/InputField.test.tsx`
 - `__tests__/components/Card.test.tsx`
 
 Testear:
+
 - Renderizado correcto
 - Eventos de usuario (press, change, etc.)
 - Estados (disabled, loading)
 - Props condicionales
 
 #### 1.3 Coverage Mínimo
+
 - **Statements**: > 50%
 - **Branches**: > 40%
 - **Functions**: > 50%
 - **Lines**: > 50%
 
 **Comando:**
+
 ```bash
 npm run test:coverage
 ```
@@ -126,18 +135,21 @@ npm run test:coverage
 ### 2. Android Deployment (20 puntos)
 
 #### 2.1 Configuración
+
 - [ ] `app.json` completo con toda la información requerida
 - [ ] `eas.json` con perfiles correctos (development, preview, production)
 - [ ] Keystore generado y guardado de forma segura
 - [ ] Permisos justificados y documentados
 
 #### 2.2 Build Production
+
 - [ ] Build AAB exitoso
 - [ ] Sin warnings críticos
 - [ ] Tamaño optimizado (< 50 MB típico)
 - [ ] Versionado correcto (versionCode, version)
 
 #### 2.3 Google Play Console
+
 - [ ] App creada en Play Console
 - [ ] Screenshots de calidad (mínimo 3)
 - [ ] Feature graphic (1024x500)
@@ -146,6 +158,7 @@ npm run test:coverage
 - [ ] Metadata completa
 
 **Evidencia requerida:**
+
 - Screenshot del build exitoso en EAS
 - Screenshots de la configuración en Play Console
 - Link a la app en Play Store (o Internal Testing track)
@@ -155,18 +168,21 @@ npm run test:coverage
 ### 3. iOS Deployment (20 puntos)
 
 #### 3.1 Configuración
+
 - [ ] Bundle ID único registrado
 - [ ] Certificados configurados (automático con EAS)
 - [ ] `NSXxxUsageDescription` para todos los permisos
 - [ ] Icon y splash configurados
 
 #### 3.2 Build Production
+
 - [ ] Build IPA exitoso
 - [ ] Sin warnings de Xcode
 - [ ] Tamaño optimizado
 - [ ] Build number auto-incrementado
 
 #### 3.3 TestFlight y App Store Connect
+
 - [ ] App creada en App Store Connect
 - [ ] Build subido a TestFlight
 - [ ] Internal testing configurado
@@ -175,6 +191,7 @@ npm run test:coverage
 - [ ] Privacy Policy URL válida
 
 **Evidencia requerida:**
+
 - Screenshot del build exitoso en EAS
 - Screenshots de TestFlight
 - Screenshots de App Store Connect
@@ -185,23 +202,27 @@ npm run test:coverage
 ### 4. OTA Updates (15 puntos)
 
 #### 4.1 Configuración
+
 - [ ] Expo Updates instalado y configurado
 - [ ] Channels definidos en eas.json
 - [ ] Runtime version configurado
 - [ ] Hook de updates implementado
 
 #### 4.2 Publicación de Updates
+
 - [ ] Mínimo 1 update publicado exitosamente
 - [ ] Update verificado en dispositivo real
 - [ ] Logs de update implementados
 - [ ] Manejo de errores en update
 
 #### 4.3 Testing de Rollback
+
 - [ ] Simular update problemático
 - [ ] Realizar rollback exitosamente
 - [ ] Documentar proceso
 
 **Evidencia requerida:**
+
 - Screenshot de update publicado en EAS
 - Video o screenshots de app recibiendo update
 - Documentación del proceso de rollback
@@ -211,73 +232,90 @@ npm run test:coverage
 ### 5. Documentación (10 puntos)
 
 #### 5.1 DEPLOYMENT.md
+
 Crear documentación completa del proceso:
 
 **Estructura sugerida:**
+
 ```markdown
 # Guía de Deployment
 
 ## Requisitos Previos
+
 - Cuentas necesarias
 - Herramientas instaladas
 - Configuración inicial
 
 ## Build de Desarrollo
+
 - Comandos paso a paso
 - Troubleshooting común
 
 ## Build de Producción
 
 ### Android
+
 1. Configuración
 2. Generación de build
 3. Subida a Play Store
 4. Proceso de revisión
 
 ### iOS
+
 1. Configuración
 2. Generación de build
 3. Subida a TestFlight
 4. Subida a App Store
 
 ## OTA Updates
+
 - Cómo publicar updates
 - Rollback process
 - Monitoreo
 
 ## CI/CD (Opcional)
+
 - Configuración de GitHub Actions
 - Flujo automatizado
 
 ## Troubleshooting
+
 - Problemas comunes y soluciones
 ```
 
 #### 5.2 BUGS-SOLUCION.md
+
 Documentar la solución de los 6 bugs pedagógicos.
 
 **Formato:**
-```markdown
+
+````markdown
 ## Bug #X: [Título]
 
 ### Descripción del Problema
+
 [Qué ocurría]
 
 ### Causa
+
 [Por qué ocurría]
 
 ### Solución
+
 [Cómo se solucionó]
 
 ### Código Antes
-```[código con bug]```
+
+`[código con bug]`
 
 ### Código Después
-```[código corregido]```
+
+`[código corregido]`
 
 ### Lección Aprendida
+
 [Qué aprendiste]
-```
+````
 
 ---
 
@@ -300,15 +338,15 @@ Ver detalles en: [BUGS-GUIA.md](./BUGS-GUIA.md)
 
 ### Distribución de Puntos
 
-| Componente | Puntos | Descripción |
-|------------|--------|-------------|
-| Testing | 15 | Unit tests + component tests + coverage |
-| Android Build | 20 | Configuración + Build + Play Store |
-| iOS Build | 20 | Configuración + Build + TestFlight |
-| OTA Updates | 15 | Configuración + Publicación + Testing |
-| Documentación | 10 | DEPLOYMENT.md + BUGS-SOLUCION.md |
-| Bugs | 20 | 6 bugs pedagógicos encontrados y solucionados |
-| **TOTAL** | **100** | |
+| Componente    | Puntos  | Descripción                                   |
+| ------------- | ------- | --------------------------------------------- |
+| Testing       | 15      | Unit tests + component tests + coverage       |
+| Android Build | 20      | Configuración + Build + Play Store            |
+| iOS Build     | 20      | Configuración + Build + TestFlight            |
+| OTA Updates   | 15      | Configuración + Publicación + Testing         |
+| Documentación | 10      | DEPLOYMENT.md + BUGS-SOLUCION.md              |
+| Bugs          | 20      | 6 bugs pedagógicos encontrados y solucionados |
+| **TOTAL**     | **100** |                                               |
 
 ---
 
@@ -361,9 +399,7 @@ Ver detalles en: [BUGS-GUIA.md](./BUGS-GUIA.md)
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
     },
@@ -449,7 +485,7 @@ Ver detalles en: [BUGS-GUIA.md](./BUGS-GUIA.md)
 module.exports = {
   preset: 'jest-expo',
   transformIgnorePatterns: [
-    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)'
+    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)',
   ],
   setupFilesAfterEnv: ['<rootDir>/jest-setup.js'],
   collectCoverageFrom: [
@@ -466,9 +502,7 @@ module.exports = {
     },
   },
   coverageReporters: ['text', 'lcov', 'html'],
-  testMatch: [
-    '**/__tests__/**/*.test.[jt]s?(x)',
-  ],
+  testMatch: ['**/__tests__/**/*.test.[jt]s?(x)'],
 }
 ```
 
@@ -488,19 +522,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Run tests
         run: npm test -- --coverage
-      
+
       - name: Upload coverage
         uses: codecov/codecov-action@v3
 
@@ -510,14 +544,14 @@ jobs:
     if: github.event_name == 'pull_request'
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Setup Expo
         uses: expo/expo-github-action@v8
         with:
           expo-version: latest
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
-      
+
       - name: Build Preview
         run: eas build --platform android --profile preview --non-interactive
 
@@ -527,14 +561,14 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Setup Expo
         uses: expo/expo-github-action@v8
         with:
           expo-version: latest
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
-      
+
       - name: Publish OTA Update
         run: eas update --branch production --message "Deploy from CI/CD"
 ```
@@ -546,6 +580,7 @@ jobs:
 ### Formato de Entrega
 
 **Repositorio Git** con:
+
 1. Código fuente completo
 2. Configuraciones (app.json, eas.json, etc.)
 3. Tests implementados
@@ -559,21 +594,25 @@ jobs:
 Incluir en carpeta `/evidencias/`:
 
 **Android:**
+
 - Screenshot de build exitoso en EAS
 - Screenshot de Play Console con app configurada
 - Screenshots de la app en dispositivo Android
 
 **iOS:**
+
 - Screenshot de build exitoso en EAS
 - Screenshot de TestFlight
 - Screenshot de App Store Connect
 - Screenshots de la app en dispositivo iOS (o simulador)
 
 **OTA Updates:**
+
 - Screenshot de update publicado
 - Video corto (< 1 min) mostrando update en dispositivo
 
 **CI/CD (opcional):**
+
 - Screenshot de workflow ejecutándose
 
 ---
@@ -583,11 +622,13 @@ Incluir en carpeta `/evidencias/`:
 ### Sesión Presencial (6 horas)
 
 **Teoría y Demo (2h):**
+
 - Testing basics (30 min)
 - EAS Build explanation (30 min)
 - Store submission process (1h)
 
 **Hands-On Guiado (4h):**
+
 - Configurar testing (45 min)
 - Android build y submission (1h 15min)
 - iOS build y submission (1h 30min)
@@ -596,12 +637,14 @@ Incluir en carpeta `/evidencias/`:
 ### Trabajo Autónomo (Recomendado: 3-4h)
 
 **Finalizar Deployment (2-3h):**
+
 - Completar builds para ambas plataformas
 - Ajustar metadata y screenshots
 - Probar OTA updates
 - Solucionar bugs encontrados
 
 **Documentación (1h):**
+
 - Completar DEPLOYMENT.md
 - Completar BUGS-SOLUCION.md
 - Capturar evidencias
@@ -611,40 +654,46 @@ Incluir en carpeta `/evidencias/`:
 ## 💡 Tips para el Éxito
 
 ### Testing
+
 ✅ Usa `test:watch` durante desarrollo  
 ✅ Comienza con tests simples  
 ✅ Alcanza coverage mínimo progresivamente  
-✅ Mock módulos nativos correctamente  
+✅ Mock módulos nativos correctamente
 
 ### Android
+
 ✅ Verifica package name único  
 ✅ Guarda keystore de forma segura  
 ✅ Usa Internal Testing primero  
-✅ Lee rejection reasons cuidadosamente  
+✅ Lee rejection reasons cuidadosamente
 
 ### iOS
+
 ✅ Espera aprobación de Apple Developer (24-48h)  
 ✅ Bundle ID único y sin cambios  
 ✅ TestFlight antes de producción  
-✅ Revisa App Store Guidelines  
+✅ Revisa App Store Guidelines
 
 ### OTA Updates
+
 ✅ Prueba en build de preview primero  
 ✅ No updates para cambios nativos  
 ✅ Siempre incluye mensaje descriptivo  
-✅ Ten plan de rollback  
+✅ Ten plan de rollback
 
 ### Documentación
+
 ✅ Documenta mientras trabajas, no al final  
 ✅ Screenshots claros y con contexto  
 ✅ Incluye comandos ejecutados  
-✅ Explica decisiones tomadas  
+✅ Explica decisiones tomadas
 
 ---
 
 ## ⚠️ Limitaciones y Consideraciones
 
 ### Costos
+
 - **Google Play**: $25 USD (pago único)
 - **Apple Developer**: $99 USD/año
 - **EAS Build**: Free tier (builds limitados)
@@ -652,11 +701,13 @@ Incluir en carpeta `/evidencias/`:
 💡 **Alternativa para práctica**: Usa Internal Testing y TestFlight (no requiere publicación en stores)
 
 ### Tiempos de Revisión
+
 - **Google Play**: 1-3 días
 - **Apple App Store**: 1-7 días
 - **TestFlight**: Sin revisión (inmediato)
 
 ### Requisitos de Hardware
+
 - **Android**: No requiere Mac
 - **iOS**: No requiere Mac con EAS, pero Mac recomendado
 
@@ -665,6 +716,7 @@ Incluir en carpeta `/evidencias/`:
 ## 📚 Recursos Adicionales
 
 ### Documentación Oficial
+
 - [EAS Build Docs](https://docs.expo.dev/build/introduction/)
 - [EAS Submit Docs](https://docs.expo.dev/submit/introduction/)
 - [Expo Updates Docs](https://docs.expo.dev/versions/latest/sdk/updates/)
@@ -672,6 +724,7 @@ Incluir en carpeta `/evidencias/`:
 - [App Store Connect Help](https://developer.apple.com/help/app-store-connect/)
 
 ### Tutoriales Recomendados
+
 - [EAS Build Tutorial](https://www.youtube.com/watch?v=...)
 - [App Store Submission Guide](https://www.youtube.com/watch?v=...)
 - [Google Play Publishing](https://www.youtube.com/watch?v=...)
@@ -683,29 +736,35 @@ Incluir en carpeta `/evidencias/`:
 ### Mínimo para Aprobar (60 puntos)
 
 ✅ **Testing (8 pts):**
+
 - Mínimo 3 tests unitarios
 - Mínimo 1 test de componente
 - Coverage > 40%
 
 ✅ **Android (12 pts):**
+
 - Build exitoso
 - App configurada en Play Console
 - Metadata básica completa
 
 ✅ **iOS (12 pts):**
+
 - Build exitoso
 - Subido a TestFlight
 - Metadata básica completa
 
 ✅ **OTA (8 pts):**
+
 - Configuración básica
 - 1 update publicado
 
 ✅ **Documentación (8 pts):**
+
 - DEPLOYMENT.md básico
 - BUGS-SOLUCION.md con 3 bugs
 
 ✅ **Bugs (12 pts):**
+
 - Mínimo 3 bugs encontrados y solucionados
 
 ### Excelencia (90+ puntos)
@@ -715,7 +774,7 @@ Incluir en carpeta `/evidencias/`:
 🌟 **OTA updates funcionando perfectamente**  
 🌟 **CI/CD configurado y funcionando**  
 🌟 **Documentación exhaustiva y profesional**  
-🌟 **Todos los 6 bugs solucionados**  
+🌟 **Todos los 6 bugs solucionados**
 
 ---
 

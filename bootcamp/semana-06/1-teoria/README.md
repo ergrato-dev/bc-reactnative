@@ -18,6 +18,7 @@ Contenido teórico completo para dominar el proceso de deployment de aplicacione
 ## 1. Testing Pre-Deployment
 
 ### 🎯 Objetivos
+
 - Comprender la importancia del testing antes de deployment
 - Configurar Jest y React Native Testing Library
 - Escribir tests efectivos
@@ -26,6 +27,7 @@ Contenido teórico completo para dominar el proceso de deployment de aplicacione
 ### ¿Por Qué Testing?
 
 **Antes de subir a producción:**
+
 ```
 Sin Tests → 😱 Bugs en producción → 😡 Usuarios molestos → ⭐️ Reviews negativas
 
@@ -35,9 +37,11 @@ Con Tests → ✅ Bugs detectados temprano → 😊 App estable → ⭐⭐⭐⭐
 ### Tipos de Tests
 
 #### 1.1 Unit Tests (Tests Unitarios)
+
 Prueban funciones individuales en aislamiento.
 
 **Ejemplo:**
+
 ```typescript
 // utils/validation.ts
 export const validateEmail = (email: string): boolean => {
@@ -66,9 +70,11 @@ describe('validateEmail', () => {
 ```
 
 #### 1.2 Component Tests
+
 Prueban componentes React en aislamiento.
 
 **Ejemplo:**
+
 ```typescript
 // __tests__/components/Button.test.tsx
 import React from 'react'
@@ -86,7 +92,7 @@ describe('CustomButton', () => {
     const { getByText } = render(
       <CustomButton title="Press Me" onPress={onPressMock} />
     )
-    
+
     fireEvent.press(getByText('Press Me'))
     expect(onPressMock).toHaveBeenCalledTimes(1)
   })
@@ -96,7 +102,7 @@ describe('CustomButton', () => {
     const { getByText } = render(
       <CustomButton title="Press Me" onPress={onPressMock} disabled />
     )
-    
+
     fireEvent.press(getByText('Press Me'))
     expect(onPressMock).not.toHaveBeenCalled()
   })
@@ -106,12 +112,13 @@ describe('CustomButton', () => {
 ### Configuración de Testing
 
 #### Jest Configuration
+
 ```javascript
 // jest.config.js
 module.exports = {
   preset: 'jest-expo',
   transformIgnorePatterns: [
-    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)'
+    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)',
   ],
   collectCoverageFrom: [
     'src/**/*.{js,jsx,ts,tsx}',
@@ -134,6 +141,7 @@ module.exports = {
 Antes de deployment, verifica manualmente:
 
 **Funcionalidad:**
+
 - [ ] Todas las pantallas son accesibles
 - [ ] Navegación funciona correctamente
 - [ ] Formularios validan datos correctamente
@@ -142,6 +150,7 @@ Antes de deployment, verifica manualmente:
 - [ ] Permisos nativos se solicitan correctamente
 
 **UX:**
+
 - [ ] Loading states visibles
 - [ ] Error messages claros y útiles
 - [ ] Sin texto hardcodeado de desarrollo
@@ -149,12 +158,14 @@ Antes de deployment, verifica manualmente:
 - [ ] Animaciones son suaves
 
 **Rendimiento:**
+
 - [ ] App inicia en < 3 segundos
 - [ ] Sin memory leaks visibles
 - [ ] Scroll suave en listas
 - [ ] Sin crashes en uso normal
 
 **Dispositivos:**
+
 - [ ] Probado en Android (mínimo API 21)
 - [ ] Probado en iOS (mínimo iOS 13)
 - [ ] Probado en diferentes tamaños de pantalla
@@ -165,6 +176,7 @@ Antes de deployment, verifica manualmente:
 ## 2. EAS Build Configuration
 
 ### 🎯 Objetivos
+
 - Comprender qué es EAS y por qué usarlo
 - Configurar EAS Build en tu proyecto
 - Entender perfiles de build
@@ -178,11 +190,12 @@ Antes de deployment, verifica manualmente:
 ✅ Maneja certificados y permisos automáticamente  
 ✅ Permite builds desde cualquier SO  
 ✅ Proporciona logs detallados  
-✅ Es gratis para proyectos pequeños  
+✅ Es gratis para proyectos pequeños
 
 ### Instalación y Setup
 
 #### 1. Instalar EAS CLI
+
 ```bash
 npm install -g eas-cli
 
@@ -191,6 +204,7 @@ eas --version
 ```
 
 #### 2. Login en Expo
+
 ```bash
 eas login
 
@@ -199,6 +213,7 @@ eas whoami
 ```
 
 #### 3. Inicializar EAS en tu Proyecto
+
 ```bash
 cd tu-proyecto
 
@@ -232,7 +247,9 @@ Esto crea `eas.json`:
 ### Perfiles de Build
 
 #### Development Build
+
 Para desarrollo con Expo Dev Client:
+
 ```json
 "development": {
   "developmentClient": true,
@@ -244,7 +261,9 @@ Para desarrollo con Expo Dev Client:
 ```
 
 #### Preview Build
+
 Para testing interno antes de producción:
+
 ```json
 "preview": {
   "distribution": "internal",
@@ -258,7 +277,9 @@ Para testing interno antes de producción:
 ```
 
 #### Production Build
+
 Para publicación en stores:
+
 ```json
 "production": {
   "android": {
@@ -273,6 +294,7 @@ Para publicación en stores:
 ### Variables de Entorno
 
 #### Configuración en eas.json
+
 ```json
 {
   "build": {
@@ -293,12 +315,15 @@ Para publicación en stores:
 ```
 
 #### Uso en el Código
+
 ```typescript
 // constants/config.ts
 import Constants from 'expo-constants'
 
-export const API_URL = Constants.expoConfig?.extra?.API_URL || 'http://localhost:3000'
-export const ANALYTICS_KEY = Constants.expoConfig?.extra?.ANALYTICS_KEY || 'dev-key'
+export const API_URL =
+  Constants.expoConfig?.extra?.API_URL || 'http://localhost:3000'
+export const ANALYTICS_KEY =
+  Constants.expoConfig?.extra?.ANALYTICS_KEY || 'dev-key'
 ```
 
 ### app.json para Deployment
@@ -317,9 +342,7 @@ export const ANALYTICS_KEY = Constants.expoConfig?.extra?.ANALYTICS_KEY || 'dev-
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "assets/**/*"
-    ],
+    "assetBundlePatterns": ["assets/**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.tucompania.tuapp",
@@ -375,6 +398,7 @@ eas build --platform all --profile production
 ## 3. iOS Deployment
 
 ### 🎯 Objetivos
+
 - Configurar Apple Developer account
 - Generar certificados y provisioning profiles
 - Crear build de producción para iOS
@@ -383,10 +407,12 @@ eas build --platform all --profile production
 ### Requisitos Previos
 
 **Costos:**
+
 - 💰 Apple Developer Program: $99 USD/año
 - 💻 Mac (recomendado pero no obligatorio con EAS)
 
 **Cuentas:**
+
 - Apple ID
 - Apple Developer enrollment
 
@@ -419,6 +445,7 @@ Bundle ID: com.tucompania.tuapp
 ### Certificados y Provisioning Profiles
 
 **Con EAS** (Recomendado - Automático):
+
 ```bash
 eas build --platform ios --profile production
 ```
@@ -426,6 +453,7 @@ eas build --platform ios --profile production
 EAS maneja todo automáticamente.
 
 **Manual** (Avanzado):
+
 1. Ir a: developer.apple.com/account
 2. Certificates, Identifiers & Profiles
 3. Crear Distribution Certificate
@@ -434,6 +462,7 @@ EAS maneja todo automáticamente.
 ### Build de Producción iOS
 
 #### 1. Configurar eas.json
+
 ```json
 {
   "build": {
@@ -448,11 +477,13 @@ EAS maneja todo automáticamente.
 ```
 
 #### 2. Generar Build
+
 ```bash
 eas build --platform ios --profile production
 ```
 
 #### 3. Monitorear Build
+
 ```bash
 # Ver builds
 eas build:list
@@ -466,11 +497,13 @@ eas build:view <build-id>
 #### Subir a TestFlight
 
 **Con EAS Submit:**
+
 ```bash
 eas submit --platform ios --latest
 ```
 
 **Manual:**
+
 1. Descargar IPA de EAS
 2. Usar Transporter app o Xcode
 3. Subir a App Store Connect
@@ -487,6 +520,7 @@ eas submit --platform ios --latest
 #### 1. Preparar Metadata
 
 **Requerido:**
+
 - 📱 Screenshots (varios tamaños)
 - 🎬 Preview videos (opcional)
 - 📝 Description
@@ -499,6 +533,7 @@ eas submit --platform ios --latest
 #### 2. Screenshots Requeridos
 
 Para iOS:
+
 - iPhone 6.7" (iPhone 14 Pro Max)
 - iPhone 6.5" (iPhone 11 Pro Max)
 - iPad Pro 12.9" (opcional pero recomendado)
@@ -508,17 +543,19 @@ Puedes generar con simulador o herramientas online.
 #### 3. Privacy Policy
 
 Obligatorio si:
+
 - Recoges datos personales
 - Usas analytics
 - Usas autenticación
 - Usas location services
 
 **Ejemplo mínimo:**
+
 ```
 Privacy Policy
 
-[Nombre App] no recopila, almacena ni comparte ninguna información 
-personal de los usuarios. Toda la información se guarda localmente 
+[Nombre App] no recopila, almacena ni comparte ninguna información
+personal de los usuarios. Toda la información se guarda localmente
 en el dispositivo del usuario.
 
 Si tienes preguntas, contacta: [email]
@@ -542,21 +579,25 @@ Si tienes preguntas, contacta: [email]
 **Causas Comunes de Rechazo:**
 
 ❌ **2.1 - App Completeness**
+
 - App crashea al iniciar
 - Funcionalidad incompleta
 - Contenido placeholder
 
 ❌ **4.0 - Design**
+
 - UI inconsistente
 - Mala UX
 - Botones que no funcionan
 
 ❌ **5.1.1 - Privacy**
+
 - Sin privacy policy
 - Permisos sin justificación
 - Recopilación de datos sin consentimiento
 
 ❌ **2.3 - Metadata**
+
 - Screenshots engañosos
 - Description incorrecta
 - Keywords spam
@@ -573,6 +614,7 @@ Si tienes preguntas, contacta: [email]
 ## 4. Android Deployment
 
 ### 🎯 Objetivos
+
 - Configurar Google Play Console
 - Generar keystore y firmar app
 - Crear build de producción (AAB)
@@ -581,9 +623,11 @@ Si tienes preguntas, contacta: [email]
 ### Requisitos Previos
 
 **Costos:**
+
 - 💰 Google Play Developer: $25 USD (único)
 
 **Cuentas:**
+
 - Google Account
 
 ### Google Play Console Setup
@@ -636,6 +680,7 @@ keytool -genkey -v -keystore my-release-key.keystore \
 ```
 
 **⚠️ IMPORTANTE:**
+
 - Guarda el keystore en lugar seguro
 - Guarda las passwords
 - Haz backups
@@ -644,11 +689,13 @@ keytool -genkey -v -keystore my-release-key.keystore \
 ### AAB vs APK
 
 **APK (Android Package):**
+
 - Archivo único para todas las arquitecturas
 - Más grande (~50-100 MB típico)
 - Fácil de instalar directamente
 
 **AAB (Android App Bundle):**
+
 - Optimizado por Google Play
 - Genera APKs específicos por dispositivo
 - Más pequeño (30-50% menos)
@@ -701,9 +748,11 @@ eas build:download <build-id>
 #### 1. Contenido de la App
 
 **Categoría:**
+
 - Seleccionar categoría apropiada
 
 **Datos de Contacto:**
+
 - Email
 - Sitio web (opcional)
 - Teléfono (opcional)
@@ -711,6 +760,7 @@ eas build:download <build-id>
 #### 2. Clasificación de Contenido
 
 Cuestionario obligatorio:
+
 - Violencia
 - Contenido sexual
 - Lenguaje
@@ -733,21 +783,25 @@ Cuestionario obligatorio:
 Google Play tiene varios "tracks":
 
 #### Internal Testing
+
 - Hasta 100 testers
 - Disponible inmediatamente (sin revisión)
 - Perfecto para QA interno
 
 #### Closed Testing (Alpha/Beta)
+
 - Hasta 20,000 testers
 - Requiere revisión (más rápida que producción)
 - Testers por lista de emails
 
 #### Open Testing
+
 - Sin límite de testers
 - Cualquiera puede unirse
 - Requiere revisión completa
 
 #### Production
+
 - Disponible públicamente en Play Store
 - Revisión completa (1-3 días)
 
@@ -774,19 +828,23 @@ eas submit --platform android
 ### Store Listing
 
 **Screenshots Requeridos:**
+
 - 📱 Mínimo 2 screenshots
 - 📐 Tamaño: 320-3840 px
 - 📋 Formatos: JPEG o PNG de 24 bits
 
 **Feature Graphic:**
+
 - 📐 1024 x 500 px
 - Aparece en búsquedas y featured apps
 
 **App Icon:**
+
 - 📐 512 x 512 px
 - PNG de 32 bits con alpha
 
 **Video Promocional (Opcional):**
+
 - Link de YouTube
 
 ### Release Notes
@@ -799,12 +857,14 @@ Version 1.0.0
 🎉 Lanzamiento inicial!
 
 ✨ Características:
+
 - Captura de fotos con cámara
 - Galería de fotos con ubicación GPS
 - Notificaciones de recordatorio
 - Diseño intuitivo y moderno
 
 🐛 Correcciones:
+
 - Mejoras de performance
 - Corrección de bugs menores
 
@@ -816,18 +876,22 @@ Version 1.0.0
 **Causas Comunes de Rechazo:**
 
 ❌ **Metadata Engañosa**
+
 - Screenshots falsos
 - Description incorrecta
 
 ❌ **Permisos Excesivos**
+
 - Pedir permisos innecesarios
 - No explicar por qué se necesitan
 
 ❌ **Contenido Inapropiado**
+
 - Contenido que viola políticas
 - Copyright infringement
 
 ❌ **Funcionalidad Rota**
+
 - Crashes al iniciar
 - Features que no funcionan
 
@@ -843,6 +907,7 @@ Version 1.0.0
 ## 5. OTA Updates
 
 ### 🎯 Objetivos
+
 - Comprender qué son las actualizaciones OTA
 - Configurar Expo Updates
 - Publicar updates sin rebuild
@@ -854,7 +919,7 @@ Version 1.0.0
 
 ```
 Tradicional:                  Con OTA:
-Cambio → Build → Submit     Cambio → Publish → 
+Cambio → Build → Submit     Cambio → Publish →
 → Revisión → Deploy         Update Instantáneo ✨
 (1-7 días)                   (Minutos)
 ```
@@ -862,6 +927,7 @@ Cambio → Build → Submit     Cambio → Publish →
 ### Cuándo Usar OTA
 
 #### ✅ SÍ usar OTA para:
+
 - Correcciones de bugs en JS
 - Cambios de texto/copy
 - Actualizaciones de estilos
@@ -870,6 +936,7 @@ Cambio → Build → Submit     Cambio → Publish →
 - Actualizar assets (imágenes, etc.)
 
 #### ❌ NO usar OTA para:
+
 - Cambios en código nativo
 - Nuevos permisos nativos
 - Actualizar librerías nativas
@@ -903,6 +970,7 @@ npx expo install expo-updates
 ```
 
 **Opciones de `checkAutomatically`:**
+
 - `ON_LOAD`: Verifica al iniciar app
 - `ON_ERROR_RECOVERY`: Solo si hay error
 - `NEVER`: Manual
@@ -954,7 +1022,7 @@ eas update --branch staging --message "Test new feature"
 **Branch**: Stream de updates
 
 ```
-Build (channel: production) 
+Build (channel: production)
   ↓
 Updates (branch: production)
 ```
@@ -983,7 +1051,7 @@ export default function App() {
     async function checkForUpdates() {
       try {
         const update = await Updates.checkForUpdateAsync()
-        
+
         if (update.isAvailable) {
           await Updates.fetchUpdateAsync()
           await Updates.reloadAsync()
@@ -992,7 +1060,7 @@ export default function App() {
         console.error('Error checking for updates:', error)
       }
     }
-    
+
     checkForUpdates()
   }, [])
 
@@ -1015,6 +1083,7 @@ eas update:republish --group <previous-update-id>
 ### Limitaciones de OTA
 
 **No puedes actualizar:**
+
 - ❌ Código nativo (Swift, Kotlin, Java, Objective-C)
 - ❌ Configuración de `app.json` que afecta build
 - ❌ Dependencias nativas nuevas
@@ -1028,6 +1097,7 @@ Para estos cambios, necesitas un **nuevo build**.
 ## 6. CI/CD y Automation
 
 ### 🎯 Objetivos
+
 - Comprender conceptos de CI/CD
 - Configurar GitHub Actions
 - Automatizar builds y tests
@@ -1036,11 +1106,13 @@ Para estos cambios, necesitas un **nuevo build**.
 ### ¿Qué es CI/CD?
 
 **CI (Continuous Integration):**
+
 - Integrar código frecuentemente
 - Tests automáticos
 - Build automático
 
 **CD (Continuous Delivery/Deployment):**
+
 - Deployment automatizado
 - Release automático
 
@@ -1068,19 +1140,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm install
-      
+
       - name: Run tests
         run: npm test
-      
+
       - name: Run linter
         run: npm run lint
 
@@ -1090,14 +1162,14 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Setup Expo
         uses: expo/expo-github-action@v8
         with:
           expo-version: latest
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
-      
+
       - name: Build Android
         run: eas build --platform android --non-interactive --no-wait
 ```
@@ -1107,6 +1179,7 @@ jobs:
 En GitHub: Settings → Secrets → Actions
 
 Agregar:
+
 - `EXPO_TOKEN`: Token de Expo (obtener con `eas login`)
 
 ### Workflow Completo
@@ -1130,13 +1203,13 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Run tests
         run: npm test -- --coverage
-      
+
       - name: Upload coverage
         uses: codecov/codecov-action@v3
 
@@ -1149,13 +1222,13 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Run ESLint
         run: npm run lint
-      
+
       - name: Run TypeScript check
         run: npm run type-check
 
@@ -1169,7 +1242,7 @@ jobs:
       - uses: expo/expo-github-action@v8
         with:
           token: ${{ secrets.EXPO_TOKEN }}
-      
+
       - name: Build Preview
         run: eas build --platform android --profile preview --non-interactive
 
@@ -1183,11 +1256,11 @@ jobs:
       - uses: expo/expo-github-action@v8
         with:
           token: ${{ secrets.EXPO_TOKEN }}
-      
+
       - name: Build Production
         run: |
           eas build --platform all --profile production --non-interactive --no-wait
-      
+
       - name: Publish OTA Update
         run: eas update --branch production --message "Deploy from CI/CD"
 ```
@@ -1199,21 +1272,23 @@ jobs:
 Sin caché, cada build instala todas las dependencias desde cero (5-10 minutos).
 
 **Sin optimizar:**
+
 ```yaml
 - name: Install dependencies
-  run: npm install  # ⏱️ 5-10 minutos cada vez
+  run: npm install # ⏱️ 5-10 minutos cada vez
 ```
 
 **Optimizado con caché:**
+
 ```yaml
 - name: Setup Node with cache
   uses: actions/setup-node@v3
   with:
     node-version: 18
-    cache: 'npm'  # ✨ Cache automático
+    cache: 'npm' # ✨ Cache automático
 
 - name: Install dependencies
-  run: npm ci  # ⏱️ 30 segundos con cache hit
+  run: npm ci # ⏱️ 30 segundos con cache hit
 ```
 
 ### Automated Testing en CI
@@ -1226,12 +1301,12 @@ test:
   runs-on: ubuntu-latest
   steps:
     - uses: actions/checkout@v3
-    
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    
+
     - run: npm ci
     - run: npm test
 ```
@@ -1278,6 +1353,7 @@ test:
 ### Checklist Final
 
 **Antes de Build:**
+
 - [ ] Tests pasando
 - [ ] Sin errores de lint
 - [ ] Código en main/master
@@ -1285,18 +1361,21 @@ test:
 - [ ] app.json completo
 
 **Android:**
+
 - [ ] Keystore configurado
 - [ ] Bundle ID único
 - [ ] Version code incrementado
 - [ ] Permisos justificados
 
 **iOS:**
+
 - [ ] Apple Developer account activo
 - [ ] Bundle ID registrado
 - [ ] Certificados válidos
 - [ ] Build number incrementado
 
 **Stores:**
+
 - [ ] Screenshots preparados
 - [ ] Privacy policy URL
 - [ ] Description completa

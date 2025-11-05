@@ -7,6 +7,7 @@ Colección curada de libros digitales gratuitos sobre deployment, testing y publ
 ## 📖 Libros Esenciales
 
 ### 1. **EAS Build and Submit Guide** ⭐⭐⭐⭐⭐
+
 **Autor:** Expo Team  
 **Idioma:** Inglés  
 **Nivel:** Intermedio  
@@ -16,6 +17,7 @@ Colección curada de libros digitales gratuitos sobre deployment, testing y publ
 Guía oficial de Expo sobre EAS Build y EAS Submit. Cubre desde configuración básica hasta workflows avanzados.
 
 **Contenido:**
+
 - EAS Build fundamentals
 - Build profiles y configuración
 - Credenciales y firma de apps
@@ -29,6 +31,7 @@ Guía oficial de Expo sobre EAS Build y EAS Submit. Cubre desde configuración b
 ---
 
 ### 2. **React Native Testing Handbook**
+
 **Autor:** Formidable Labs  
 **Idioma:** Inglés  
 **Nivel:** Intermedio-Avanzado  
@@ -38,6 +41,7 @@ Guía oficial de Expo sobre EAS Build y EAS Submit. Cubre desde configuración b
 Handbook completo sobre testing en React Native. Desde unit tests hasta E2E testing.
 
 **Contenido:**
+
 - Jest fundamentals para React Native
 - React Native Testing Library
 - Mocking native modules
@@ -45,12 +49,13 @@ Handbook completo sobre testing en React Native. Desde unit tests hasta E2E test
 - E2E testing con Detox
 - CI/CD integration
 
-**Link:** [testingrnapp.com](https://testingrnapp.com/) *(ficticio para ejemplo)*  
+**Link:** [testingrnapp.com](https://testingrnapp.com/) _(ficticio para ejemplo)_  
 **Formato:** PDF
 
 ---
 
 ### 3. **iOS App Distribution Guide**
+
 **Autor:** Apple Inc.  
 **Idioma:** Inglés  
 **Nivel:** Intermedio  
@@ -60,6 +65,7 @@ Handbook completo sobre testing en React Native. Desde unit tests hasta E2E test
 Guía oficial de Apple sobre distribución de apps iOS. Fundamental para entender TestFlight y App Store.
 
 **Contenido:**
+
 - Apple Developer Program
 - Certificados y provisioning profiles
 - TestFlight beta testing
@@ -73,6 +79,7 @@ Guía oficial de Apple sobre distribución de apps iOS. Fundamental para entende
 ---
 
 ### 4. **Android Publishing Guide**
+
 **Autor:** Google / Android Team  
 **Idioma:** Inglés  
 **Nivel:** Intermedio  
@@ -82,6 +89,7 @@ Guía oficial de Apple sobre distribución de apps iOS. Fundamental para entende
 Documentación oficial de Google sobre publicación en Play Store. Incluye best practices y políticas.
 
 **Contenido:**
+
 - Google Play Console setup
 - App signing y keystores
 - Release management
@@ -95,6 +103,7 @@ Documentación oficial de Google sobre publicación en Play Store. Incluye best 
 ---
 
 ### 5. **Continuous Integration with React Native**
+
 **Autor:** Open Source Community  
 **Idioma:** Inglés  
 **Nivel:** Intermedio-Avanzado  
@@ -104,6 +113,7 @@ Documentación oficial de Google sobre publicación en Play Store. Incluye best 
 Guía práctica sobre configuración de CI/CD para proyectos React Native.
 
 **Contenido:**
+
 - GitHub Actions basics
 - Automated testing
 - Build automation
@@ -111,7 +121,7 @@ Guía práctica sobre configuración de CI/CD para proyectos React Native.
 - Secret management
 - Optimization strategies
 
-**Link:** [github.com/react-native-community/ci-guide](https://github.com/react-native-community/) *(Buscar en repos)*  
+**Link:** [github.com/react-native-community/ci-guide](https://github.com/react-native-community/) _(Buscar en repos)_  
 **Formato:** Markdown / GitHub
 
 ---
@@ -119,6 +129,7 @@ Guía práctica sobre configuración de CI/CD para proyectos React Native.
 ## 📚 Recursos Complementarios
 
 ### 6. **Expo Updates Documentation**
+
 **Tipo:** Documentación técnica  
 **Idioma:** Inglés  
 **Nivel:** Intermedio
@@ -127,6 +138,7 @@ Guía práctica sobre configuración de CI/CD para proyectos React Native.
 Guía completa sobre OTA updates con Expo Updates.
 
 **Temas:**
+
 - Update lifecycle
 - Channels y branches
 - Runtime versions
@@ -138,6 +150,7 @@ Guía completa sobre OTA updates con Expo Updates.
 ---
 
 ### 7. **App Store Review Guidelines**
+
 **Tipo:** Guidelines oficiales  
 **Idioma:** Inglés (Traducción español disponible)  
 **Nivel:** Todos
@@ -146,6 +159,7 @@ Guía completa sobre OTA updates con Expo Updates.
 Guidelines completas de Apple. Lectura OBLIGATORIA antes de submit.
 
 **Secciones críticas:**
+
 - Safety
 - Performance
 - Business
@@ -157,6 +171,7 @@ Guidelines completas de Apple. Lectura OBLIGATORIA antes de submit.
 ---
 
 ### 8. **Google Play Developer Policy Center**
+
 **Tipo:** Políticas oficiales  
 **Idioma:** Múltiples (incluyendo español)  
 **Nivel:** Todos
@@ -165,6 +180,7 @@ Guidelines completas de Apple. Lectura OBLIGATORIA antes de submit.
 Políticas de Google Play. Esencial para evitar rechazos.
 
 **Secciones:**
+
 - Restricted content
 - Intellectual property
 - Privacy and security
@@ -176,6 +192,7 @@ Políticas de Google Play. Esencial para evitar rechazos.
 ---
 
 ### 9. **Jest Documentation**
+
 **Tipo:** Documentación oficial  
 **Idioma:** Inglés  
 **Nivel:** Básico-Intermedio
@@ -184,6 +201,7 @@ Políticas de Google Play. Esencial para evitar rechazos.
 Documentación completa de Jest, el framework de testing.
 
 **Contenido:**
+
 - Getting started
 - Using matchers
 - Mocking
@@ -195,6 +213,7 @@ Documentación completa de Jest, el framework de testing.
 ---
 
 ### 10. **React Native Testing Library Docs**
+
 **Tipo:** Documentación oficial  
 **Idioma:** Inglés  
 **Nivel:** Intermedio
@@ -203,6 +222,7 @@ Documentación completa de Jest, el framework de testing.
 Documentación de la librería para testing de componentes React Native.
 
 **Contenido:**
+
 - API reference
 - Queries
 - FireEvent
@@ -216,25 +236,30 @@ Documentación de la librería para testing de componentes React Native.
 ## 🗂️ Organización por Tema
 
 ### Testing (Prioritario)
+
 1. React Native Testing Handbook
 2. Jest Documentation
 3. React Native Testing Library Docs
 
 ### iOS Deployment
+
 1. iOS App Distribution Guide
 2. App Store Review Guidelines
 3. EAS Build Guide (iOS specific)
 
 ### Android Deployment
+
 1. Android Publishing Guide
 2. Google Play Developer Policy
 3. EAS Build Guide (Android specific)
 
 ### OTA Updates
+
 1. Expo Updates Documentation
 2. EAS Build Guide (Updates section)
 
 ### CI/CD
+
 1. Continuous Integration with React Native
 2. GitHub Actions docs (externo)
 
@@ -245,18 +270,22 @@ Documentación de la librería para testing de componentes React Native.
 ### Semana 6 - Durante el Bootcamp
 
 **Día 1 (Pre-sesión):**
+
 - [ ] EAS Build Guide (2 horas)
 - [ ] Scan de iOS Distribution Guide (30 min)
 
 **Día 2 (Post-sesión):**
+
 - [ ] React Native Testing Handbook - Capítulos 1-3 (1.5 horas)
 - [ ] Android Publishing Guide (1 hora)
 
 **Día 3:**
+
 - [ ] App Store Review Guidelines (1 hora)
 - [ ] Google Play Policy Center (1 hora)
 
 **Día 4:**
+
 - [ ] Expo Updates Documentation (1 hora)
 - [ ] CI/CD Guide - Setup básico (1 hora)
 
@@ -265,7 +294,9 @@ Documentación de la librería para testing de componentes React Native.
 ## 🎯 Lectura por Objetivo
 
 ### Si vas a publicar en iOS:
+
 **Prioridad Alta:**
+
 1. iOS App Distribution Guide
 2. App Store Review Guidelines
 3. EAS Build Guide
@@ -273,7 +304,9 @@ Documentación de la librería para testing de componentes React Native.
 **Lectura:** ~5-6 horas total
 
 ### Si vas a publicar en Android:
+
 **Prioridad Alta:**
+
 1. Android Publishing Guide
 2. Google Play Developer Policy
 3. EAS Build Guide
@@ -281,7 +314,9 @@ Documentación de la librería para testing de componentes React Native.
 **Lectura:** ~4-5 horas total
 
 ### Si vas a implementar Testing:
+
 **Prioridad Alta:**
+
 1. React Native Testing Handbook
 2. Jest Documentation
 3. React Native Testing Library Docs
@@ -289,7 +324,9 @@ Documentación de la librería para testing de componentes React Native.
 **Lectura:** ~4-5 horas total
 
 ### Si vas a implementar CI/CD:
+
 **Prioridad Alta:**
+
 1. Continuous Integration with React Native
 2. GitHub Actions Documentation
 3. EAS Build Guide (CI/CD section)
@@ -301,33 +338,40 @@ Documentación de la librería para testing de componentes React Native.
 ## 💡 Tips de Estudio
 
 ### Lectura Efectiva
+
 ✅ No leas todo linealmente - busca lo que necesitas  
 ✅ Toma notas de comandos importantes  
 ✅ Bookmarkea páginas de referencia  
-✅ Practica mientras lees  
+✅ Practica mientras lees
 
 ### Documentación Oficial
+
 ✅ Siempre verifica la versión (puede estar desactualizada)  
 ✅ Revisa los "Getting Started" primero  
-✅ Lee los "Common Issues" / FAQ  
+✅ Lee los "Common Issues" / FAQ
 
 ### Políticas de Stores
+
 ✅ Lee las secciones que aplican a tu app  
 ✅ Entiende los "Do's and Don'ts"  
-✅ Revisa casos de rechazo comunes  
+✅ Revisa casos de rechazo comunes
 
 ---
 
 ## 📥 Cómo Acceder
 
 ### Documentación Web
+
 La mayoría de recursos están disponibles online gratuitamente en los sites oficiales.
 
 ### PDFs y eBooks
+
 Algunos pueden requerir registro gratuito o descarga desde repositorios oficiales.
 
 ### Mirrors y Backups
+
 Para docs que cambian frecuentemente, considera usar:
+
 - Internet Archive (archive.org)
 - DevDocs (devdocs.io)
 - Dash / Zeal (offline docs)
@@ -337,6 +381,7 @@ Para docs que cambian frecuentemente, considera usar:
 ## 🔄 Actualización
 
 Esta lista fue actualizada para:
+
 - **Expo SDK:** 50+
 - **EAS CLI:** 5.0+
 - **React Native:** 0.73+
@@ -349,26 +394,31 @@ Esta lista fue actualizada para:
 ## ✅ Checklist de Lectura
 
 **Antes de Build:**
+
 - [ ] Lei EAS Build Guide
 - [ ] Entiendo build profiles
 - [ ] Sé cómo generar keystores/certificados
 
 **Antes de Submit:**
+
 - [ ] Lei App Store Review Guidelines (iOS)
 - [ ] Lei Google Play Developer Policy (Android)
 - [ ] Preparé toda la metadata requerida
 
 **Antes de Testing:**
+
 - [ ] Entiendo Jest basics
 - [ ] Sé usar React Native Testing Library
 - [ ] Configuré jest.config.js
 
 **Antes de OTA:**
+
 - [ ] Lei Expo Updates docs
 - [ ] Entiendo channels y branches
 - [ ] Sé cómo hacer rollback
 
 **Antes de CI/CD:**
+
 - [ ] Entiendo GitHub Actions basics
 - [ ] Sé configurar secrets
 - [ ] Entiendo caching strategies
@@ -378,6 +428,7 @@ Esta lista fue actualizada para:
 ## 📧 Soporte
 
 Si encuentras links rotos o recursos desactualizados, reporta en:
+
 - Foro del bootcamp
 - Issues del repositorio
 - Email al instructor
@@ -385,4 +436,3 @@ Si encuentras links rotos o recursos desactualizados, reporta en:
 ---
 
 **¡Feliz lectura!** 📖 Estos recursos son la base para un deployment exitoso.
-

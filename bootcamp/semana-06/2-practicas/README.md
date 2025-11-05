@@ -16,12 +16,14 @@ Ejercicios prácticos paso a paso para dominar el proceso de deployment.
 ## Práctica 1: Build Local y Testing
 
 ### 🎯 Objetivos
+
 - Configurar testing con Jest
 - Escribir tests unitarios y de componentes
 - Ejecutar tests antes de deployment
 - Generar coverage report
 
 ### ⏱️ Tiempo Estimado
+
 45 minutos
 
 ---
@@ -45,10 +47,10 @@ Crear `jest.config.js` en la raíz del proyecto:
 ```javascript
 /**
  * Jest Configuration
- * 
+ *
  * ¿Qué hace?
  * Configura Jest para trabajar con React Native y Expo
- * 
+ *
  * ¿Para qué?
  * - Definir preset de Expo
  * - Configurar transformaciones de módulos
@@ -57,15 +59,15 @@ Crear `jest.config.js` en la raíz del proyecto:
 
 module.exports = {
   preset: 'jest-expo',
-  
+
   // Transformar node_modules específicos
   transformIgnorePatterns: [
-    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)'
+    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)',
   ],
-  
+
   // Setup después de environment
   setupFilesAfterEnv: ['<rootDir>/jest-setup.js'],
-  
+
   // Archivos a considerar para coverage
   collectCoverageFrom: [
     'src/**/*.{js,jsx,ts,tsx}',
@@ -74,7 +76,7 @@ module.exports = {
     '!src/**/*.stories.{js,jsx,ts,tsx}',
     '!src/**/index.{js,ts}',
   ],
-  
+
   // Thresholds mínimos de coverage
   coverageThreshold: {
     global: {
@@ -84,7 +86,7 @@ module.exports = {
       lines: 50,
     },
   },
-  
+
   // Reporter de coverage
   coverageReporters: ['text', 'lcov', 'html'],
 }
@@ -95,7 +97,7 @@ module.exports = {
 ```javascript
 /**
  * Jest Setup File
- * 
+ *
  * Configuración global para todos los tests
  */
 
@@ -148,7 +150,7 @@ Crear `src/utils/__tests__/validation.test.ts`:
 ```typescript
 /**
  * Tests para funciones de validación
- * 
+ *
  * ¿Qué testea?
  * - validateEmail: formato de email válido
  * - validatePassword: requisitos de contraseña
@@ -165,12 +167,12 @@ describe('validateEmail', () => {
       'test.user@domain.co',
       'name+tag@company.org',
     ]
-    
-    validEmails.forEach(email => {
+
+    validEmails.forEach((email) => {
       expect(validateEmail(email)).toBe(true)
     })
   })
-  
+
   // Edge cases - casos inválidos
   it('should return false for invalid emails', () => {
     const invalidEmails = [
@@ -181,8 +183,8 @@ describe('validateEmail', () => {
       'user @example.com',
       'user@example',
     ]
-    
-    invalidEmails.forEach(email => {
+
+    invalidEmails.forEach((email) => {
       expect(validateEmail(email)).toBe(false)
     })
   })
@@ -190,26 +192,22 @@ describe('validateEmail', () => {
 
 describe('validatePassword', () => {
   it('should return true for strong passwords', () => {
-    const strongPasswords = [
-      'MyP@ssw0rd',
-      'SecureP@ss123',
-      'C0mpl3x!Pass',
-    ]
-    
-    strongPasswords.forEach(password => {
+    const strongPasswords = ['MyP@ssw0rd', 'SecureP@ss123', 'C0mpl3x!Pass']
+
+    strongPasswords.forEach((password) => {
       expect(validatePassword(password)).toBe(true)
     })
   })
-  
+
   it('should return false for weak passwords', () => {
     const weakPasswords = [
-      '12345',           // too short
-      'password',        // no numbers or special chars
-      'PASSWORD',        // no lowercase or numbers
-      'Pass123',         // no special chars
+      '12345', // too short
+      'password', // no numbers or special chars
+      'PASSWORD', // no lowercase or numbers
+      'Pass123', // no special chars
     ]
-    
-    weakPasswords.forEach(password => {
+
+    weakPasswords.forEach((password) => {
       expect(validatePassword(password)).toBe(false)
     })
   })
@@ -223,21 +221,16 @@ describe('validatePhone', () => {
       '(123) 456-7890',
       '+1 (123) 456-7890',
     ]
-    
-    validPhones.forEach(phone => {
+
+    validPhones.forEach((phone) => {
       expect(validatePhone(phone)).toBe(true)
     })
   })
-  
+
   it('should reject invalid phone numbers', () => {
-    const invalidPhones = [
-      '',
-      '123',
-      'abc-def-ghij',
-      '12345',
-    ]
-    
-    invalidPhones.forEach(phone => {
+    const invalidPhones = ['', '123', 'abc-def-ghij', '12345']
+
+    invalidPhones.forEach((phone) => {
       expect(validatePhone(phone)).toBe(false)
     })
   })
@@ -255,7 +248,7 @@ Crear `src/components/__tests__/CustomButton.test.tsx`:
 ```typescript
 /**
  * Tests para CustomButton
- * 
+ *
  * ¿Qué testea?
  * - Renderizado correcto
  * - Manejo de eventos
@@ -273,45 +266,45 @@ describe('CustomButton', () => {
     const { getByText } = render(<CustomButton title="Press Me" />)
     expect(getByText('Press Me')).toBeTruthy()
   })
-  
+
   // Test de eventos
   it('calls onPress when pressed', () => {
     const onPressMock = jest.fn()
     const { getByText } = render(
       <CustomButton title="Press Me" onPress={onPressMock} />
     )
-    
+
     fireEvent.press(getByText('Press Me'))
     expect(onPressMock).toHaveBeenCalledTimes(1)
   })
-  
+
   // Test de estado disabled
   it('does not call onPress when disabled', () => {
     const onPressMock = jest.fn()
     const { getByText } = render(
       <CustomButton title="Press Me" onPress={onPressMock} disabled />
     )
-    
+
     fireEvent.press(getByText('Press Me'))
     expect(onPressMock).not.toHaveBeenCalled()
   })
-  
+
   // Test de estado loading
   it('shows loading indicator when loading', () => {
     const { getByTestId, queryByText } = render(
       <CustomButton title="Press Me" loading />
     )
-    
+
     expect(getByTestId('loading-indicator')).toBeTruthy()
     expect(queryByText('Press Me')).toBeNull()
   })
-  
+
   // Test de variantes
   it('applies correct styles for variant', () => {
     const { getByTestId } = render(
       <CustomButton title="Press Me" variant="outline" testID="button" />
     )
-    
+
     const button = getByTestId('button')
     expect(button.props.style).toContainEqual(
       expect.objectContaining({
@@ -329,7 +322,7 @@ Crear `src/components/__tests__/LoginForm.test.tsx`:
 ```typescript
 /**
  * Tests para LoginForm
- * 
+ *
  * ¿Qué testea?
  * - Entrada de datos
  * - Validación
@@ -345,57 +338,57 @@ describe('LoginForm', () => {
   // Test de renderizado inicial
   it('renders email and password inputs', () => {
     const { getByPlaceholderText } = render(<LoginForm onSubmit={jest.fn()} />)
-    
+
     expect(getByPlaceholderText('Email')).toBeTruthy()
     expect(getByPlaceholderText('Password')).toBeTruthy()
   })
-  
+
   // Test de entrada de datos
   it('updates input values when typing', () => {
     const { getByPlaceholderText } = render(<LoginForm onSubmit={jest.fn()} />)
-    
+
     const emailInput = getByPlaceholderText('Email')
     const passwordInput = getByPlaceholderText('Password')
-    
+
     fireEvent.changeText(emailInput, 'test@example.com')
     fireEvent.changeText(passwordInput, 'password123')
-    
+
     expect(emailInput.props.value).toBe('test@example.com')
     expect(passwordInput.props.value).toBe('password123')
   })
-  
+
   // Test de validación
   it('shows error for invalid email', async () => {
     const { getByPlaceholderText, getByText, getByTestId } = render(
       <LoginForm onSubmit={jest.fn()} />
     )
-    
+
     const emailInput = getByPlaceholderText('Email')
     const submitButton = getByTestId('submit-button')
-    
+
     fireEvent.changeText(emailInput, 'invalid-email')
     fireEvent.press(submitButton)
-    
+
     await waitFor(() => {
       expect(getByText('Email inválido')).toBeTruthy()
     })
   })
-  
+
   // Test de envío exitoso
   it('calls onSubmit with correct data', async () => {
     const onSubmitMock = jest.fn()
     const { getByPlaceholderText, getByTestId } = render(
       <LoginForm onSubmit={onSubmitMock} />
     )
-    
+
     const emailInput = getByPlaceholderText('Email')
     const passwordInput = getByPlaceholderText('Password')
     const submitButton = getByTestId('submit-button')
-    
+
     fireEvent.changeText(emailInput, 'test@example.com')
     fireEvent.changeText(passwordInput, 'SecureP@ss123')
     fireEvent.press(submitButton)
-    
+
     await waitFor(() => {
       expect(onSubmitMock).toHaveBeenCalledWith({
         email: 'test@example.com',
@@ -403,23 +396,25 @@ describe('LoginForm', () => {
       })
     })
   })
-  
+
   // Test de loading state
   it('disables button and shows loading when submitting', async () => {
-    const onSubmitMock = jest.fn(() => new Promise(resolve => setTimeout(resolve, 1000)))
-    
+    const onSubmitMock = jest.fn(
+      () => new Promise((resolve) => setTimeout(resolve, 1000))
+    )
+
     const { getByPlaceholderText, getByTestId } = render(
       <LoginForm onSubmit={onSubmitMock} />
     )
-    
+
     const emailInput = getByPlaceholderText('Email')
     const passwordInput = getByPlaceholderText('Password')
     const submitButton = getByTestId('submit-button')
-    
+
     fireEvent.changeText(emailInput, 'test@example.com')
     fireEvent.changeText(passwordInput, 'SecureP@ss123')
     fireEvent.press(submitButton)
-    
+
     expect(submitButton.props.disabled).toBe(true)
     expect(getByTestId('loading-indicator')).toBeTruthy()
   })
@@ -437,6 +432,7 @@ npm test
 ```
 
 **Output esperado:**
+
 ```
 PASS  src/utils/__tests__/validation.test.ts
 PASS  src/components/__tests__/CustomButton.test.tsx
@@ -455,6 +451,7 @@ npm run test:coverage
 ```
 
 **Output esperado:**
+
 ```
 --------------------------|---------|----------|---------|---------|
 File                      | % Stmts | % Branch | % Funcs | % Lines |
@@ -515,12 +512,14 @@ Ahora los tests se ejecutan automáticamente antes de cada commit.
 ## Práctica 2: EAS Build - Android
 
 ### 🎯 Objetivos
+
 - Configurar EAS Build para Android
 - Generar keystore de producción
 - Crear build AAB
 - Preparar para Google Play
 
 ### ⏱️ Tiempo Estimado
+
 1 hora
 
 ---
@@ -687,6 +686,7 @@ eas build --platform android --profile production
 ```
 
 EAS preguntará:
+
 ```
 ? Generate a new Android Keystore? (Y/n)
 ```
@@ -714,6 +714,7 @@ eas build --platform android --profile production
 ```
 
 **Output esperado:**
+
 ```
 ✔ Logged in as: tu-usuario
 ✔ Linked to project: tu-proyecto
@@ -727,6 +728,7 @@ Build details: https://expo.dev/accounts/tu-usuario/projects/tu-proyecto/builds/
 #### 5.2 Monitorear Build
 
 **En la consola:**
+
 ```bash
 # Ver builds recientes
 eas build:list
@@ -784,16 +786,19 @@ adb install apks/universal.apk
 #### 7.1 Assets Requeridos
 
 **Icon:**
+
 - 512 x 512 px
 - PNG de 32 bits con alpha
 - Ubicación: `./assets/icon.png`
 
 **Screenshots:**
+
 - Mínimo 2, máximo 8
 - Formato: JPEG o PNG de 24 bits
 - Tamaño: 320px - 3840px
 
 **Feature Graphic:**
+
 - 1024 x 500 px
 - JPEG o PNG de 24 bits
 
@@ -831,7 +836,7 @@ Características:
 ✅ Notificaciones inteligentes
 ✅ Diseño intuitivo
 
-Perfecto para profesionales, estudiantes y cualquiera que quiera 
+Perfecto para profesionales, estudiantes y cualquiera que quiera
 aumentar su productividad.
 
 KEYWORDS:
@@ -847,12 +852,14 @@ https://miapp.com/privacy
 ## Práctica 3: EAS Build - iOS
 
 ### 🎯 Objetivos
+
 - Configurar Apple Developer account
 - Generar build IPA
 - Subir a TestFlight
 - Preparar para App Store
 
 ### ⏱️ Tiempo Estimado
+
 1.5 horas
 
 ---
@@ -862,6 +869,7 @@ https://miapp.com/privacy
 #### 1.1 Apple Developer Account
 
 **Si no tienes cuenta:**
+
 1. Ir a: https://developer.apple.com/programs/
 2. Clic en "Enroll"
 3. Completar información
@@ -911,6 +919,7 @@ eas whoami
 ```
 
 **⚠️ Importante:**
+
 - El `bundleIdentifier` debe ser único
 - Los mensajes de permisos (`NSXxxUsageDescription`) son obligatorios
 
@@ -925,6 +934,7 @@ eas build --platform ios --profile production
 ```
 
 EAS preguntará:
+
 ```
 ? Set up a new Apple App Identifier and Provisioning Profile? (Y/n)
 ```
@@ -932,6 +942,7 @@ EAS preguntará:
 Responde **Y** (Yes).
 
 EAS automáticamente:
+
 1. Crea el App Identifier en Apple Developer
 2. Genera Distribution Certificate
 3. Crea Provisioning Profile
@@ -956,6 +967,7 @@ eas build --platform ios --profile production
 ```
 
 **Output esperado:**
+
 ```
 ✔ Logged in as: tu-usuario
 ✔ Using remote iOS credentials
@@ -988,6 +1000,7 @@ eas build:view <build-id>
 #### 5.1 Configurar App Store Connect API Key
 
 **Crear API Key:**
+
 1. Ir a: https://appstoreconnect.apple.com/access/api
 2. Click "Generate API Key" (con rol Admin o App Manager)
 3. Descargar el archivo `.p8`
@@ -996,12 +1009,14 @@ eas build:view <build-id>
    - Key ID
 
 **Guardar en tu proyecto:**
+
 ```bash
 mkdir -p ./ios-keys
 mv AuthKey_XXXXXX.p8 ./ios-keys/
 ```
 
 **Configurar en eas.json:**
+
 ```json
 {
   "submit": {
@@ -1027,6 +1042,7 @@ eas submit --platform ios --latest --profile production
 ```
 
 **Output esperado:**
+
 ```
 ✔ Uploading to App Store Connect
 ✔ Build successfully uploaded
@@ -1049,13 +1065,14 @@ Your build has been submitted to TestFlight!
 #### 6.1 Internal Testing
 
 1. En TestFlight → "Internal Testing"
-2. Click "+"  (Add Group)
+2. Click "+" (Add Group)
 3. Nombrar grupo: "QA Team"
 4. Agregar testers (hasta 100)
 5. Seleccionar build
 6. Click "Start Testing"
 
 **Los testers recibirán:**
+
 - Email de invitación
 - Link para instalar TestFlight app
 - Acceso inmediato al build
@@ -1089,14 +1106,17 @@ Your build has been submitted to TestFlight!
 #### 7.2 App Information
 
 **Category:**
+
 - Primary: Productivity
 - Secondary (opcional): Utilities
 
 **Age Rating:**
+
 - Completar cuestionario
 - Típicamente: 4+, 9+, 12+, 17+
 
 **Privacy Policy URL:**
+
 ```
 https://tudominio.com/privacy-policy
 ```
@@ -1106,14 +1126,17 @@ https://tudominio.com/privacy-policy
 **Requeridos:**
 
 **iPhone 6.7" (iPhone 14 Pro Max):**
+
 - Mínimo 3, máximo 10
 - 1290 x 2796 px
 
 **iPhone 6.5" (iPhone 11 Pro Max):**
+
 - Mínimo 3, máximo 10
 - 1242 x 2688 px
 
 **iPad Pro 12.9" (Recomendado):**
+
 - Mínimo 3, máximo 10
 - 2048 x 2732 px
 
@@ -1128,12 +1151,14 @@ https://tudominio.com/privacy-policy
 ## Práctica 4: OTA Updates
 
 ### 🎯 Objetivos
+
 - Configurar Expo Updates
 - Publicar updates sin rebuild
 - Usar channels para diferentes ambientes
 - Implementar rollback
 
 ### ⏱️ Tiempo Estimado
+
 45 minutos
 
 ---
@@ -1165,6 +1190,7 @@ npx expo install expo-updates
 ```
 
 **Opciones de `checkAutomatically`:**
+
 - `ON_LOAD`: Verifica al iniciar (recomendado)
 - `ON_ERROR_RECOVERY`: Solo después de error
 - `NEVER`: Manual
@@ -1239,6 +1265,7 @@ eas update --branch staging --message "Test: nueva validación"
 ```
 
 **Output esperado:**
+
 ```
 ✔ Exported bundle
 ✔ Published update
@@ -1271,10 +1298,10 @@ Crear `src/hooks/useAppUpdates.ts`:
 ```typescript
 /**
  * Hook para manejar actualizaciones OTA
- * 
+ *
  * ¿Qué hace?
  * Verifica y descarga updates automáticamente
- * 
+ *
  * ¿Para qué?
  * Mantener la app actualizada sin rebuild
  */
@@ -1323,7 +1350,7 @@ export function useAppUpdates() {
     try {
       setIsUpdating(true)
       await Updates.fetchUpdateAsync()
-      
+
       Alert.alert(
         'Actualización Lista',
         'La actualización se ha descargado. La app se reiniciará.',
@@ -1381,12 +1408,14 @@ eas update:list --branch production
 #### 5.2 Rollback al Update Anterior
 
 **Opción 1: Publicar versión anterior**
+
 ```bash
 # Re-publicar un update específico
 eas update:republish --group <previous-update-group-id>
 ```
 
 **Opción 2: Publicar nuevo update con código anterior**
+
 ```bash
 # Revertir cambios en Git
 git revert <commit-hash>
@@ -1427,6 +1456,7 @@ eas update --branch preview --message "Test: nueva feature"
 #### 7.1 Ver Estadísticas
 
 En el dashboard de Expo:
+
 1. Ir a: https://expo.dev
 2. Seleccionar proyecto
 3. Click en "Updates"
@@ -1455,6 +1485,7 @@ console.log('Created At:', Updates.createdAt)
 ### Checklist Completo
 
 **Testing:**
+
 - [ ] Jest configurado
 - [ ] Tests unitarios escritos
 - [ ] Tests de componentes escritos
@@ -1462,6 +1493,7 @@ console.log('Created At:', Updates.createdAt)
 - [ ] Pre-commit hooks configurados
 
 **Android Build:**
+
 - [ ] EAS CLI instalado y configurado
 - [ ] app.json completo para Android
 - [ ] eas.json con perfiles correctos
@@ -1470,6 +1502,7 @@ console.log('Created At:', Updates.createdAt)
 - [ ] Assets preparados
 
 **iOS Build:**
+
 - [ ] Apple Developer account activo
 - [ ] app.json completo para iOS
 - [ ] Certificados configurados
@@ -1478,6 +1511,7 @@ console.log('Created At:', Updates.createdAt)
 - [ ] Screenshots preparados
 
 **OTA Updates:**
+
 - [ ] Expo Updates instalado
 - [ ] Channels configurados
 - [ ] Update publicado exitosamente
@@ -1489,4 +1523,3 @@ console.log('Created At:', Updates.createdAt)
 **¡Felicidades!** 🎉 Has completado todas las prácticas de deployment.
 
 Ahora estás listo para el proyecto integrador final.
-

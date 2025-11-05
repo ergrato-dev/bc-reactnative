@@ -17,14 +17,14 @@ Estos bugs representan errores comunes que ocurren durante el proceso de deploym
 
 ## 📋 Lista de Bugs
 
-| Bug | Título | Dificultad | Puntos | Ubicación |
-|-----|--------|------------|--------|-----------|
-| #1 | app.json Incompleto | Media | 4 | `/app.json` |
-| #2 | eas.json Sin Perfiles | Fácil | 3 | `/eas.json` |
-| #3 | Keystore No Configurado | Media | 3 | Configuración EAS |
-| #4 | Metadata Faltante | Fácil | 3 | Stores |
-| #5 | OTA Sin Channel | Media | 4 | `/app.json` + `/eas.json` |
-| #6 | CI/CD Sin Caché | Fácil | 3 | `/.github/workflows/` |
+| Bug | Título                  | Dificultad | Puntos | Ubicación                 |
+| --- | ----------------------- | ---------- | ------ | ------------------------- |
+| #1  | app.json Incompleto     | Media      | 4      | `/app.json`               |
+| #2  | eas.json Sin Perfiles   | Fácil      | 3      | `/eas.json`               |
+| #3  | Keystore No Configurado | Media      | 3      | Configuración EAS         |
+| #4  | Metadata Faltante       | Fácil      | 3      | Stores                    |
+| #5  | OTA Sin Channel         | Media      | 4      | `/app.json` + `/eas.json` |
+| #6  | CI/CD Sin Caché         | Fácil      | 3      | `/.github/workflows/`     |
 
 ---
 
@@ -33,6 +33,7 @@ Estos bugs representan errores comunes que ocurren durante el proceso de deploym
 ### 🔍 Síntomas
 
 Al intentar subir tu app a las stores, recibes errores de:
+
 - Información faltante en Google Play Console
 - Rechazo de Apple por metadata incompleta
 - Warnings durante el build sobre configuración
@@ -73,6 +74,7 @@ Archivo: `app.json`
 ### ✅ Verificación
 
 Tu `app.json` debe tener:
+
 - [ ] `ios.infoPlist` con TODAS las descripciones de permisos
 - [ ] `android.permissions` array completo
 - [ ] `version` y `versionCode`/`buildNumber` correctos
@@ -145,6 +147,7 @@ Archivo: `eas.json`
 ### ✅ Verificación
 
 Tu `eas.json` debe tener:
+
 - [ ] Perfil `development` con `developmentClient: true`
 - [ ] Perfil `preview` con `distribution: "internal"`
 - [ ] Perfil `production` completo
@@ -227,6 +230,7 @@ eas credentials -p android
 ### ✅ Verificación
 
 Keystore configurado correctamente:
+
 - [ ] Keystore existe en EAS (ver con `eas credentials`)
 - [ ] Keystore es válido (no expirado)
 - [ ] Alias configurado correctamente
@@ -275,10 +279,12 @@ eas credentials -p android
 ### 🎯 Dónde Buscar
 
 **Google Play Console:**
+
 - Store presence → Main store listing
 - Store presence → Store settings
 
 **App Store Connect:**
+
 - App Information
 - Pricing and Availability
 - App Store (cada tamaño de pantalla)
@@ -292,6 +298,7 @@ eas credentials -p android
 ### ✅ Verificación
 
 **Google Play:**
+
 - [ ] Mínimo 2 screenshots (hasta 8)
 - [ ] Feature graphic (1024 x 500 px)
 - [ ] App icon (512 x 512 px)
@@ -302,6 +309,7 @@ eas credentials -p android
 - [ ] Target audience definido
 
 **App Store:**
+
 - [ ] Screenshots para iPhone 6.7" (1290 x 2796 px)
 - [ ] Screenshots para iPhone 6.5" (1242 x 2688 px)
 - [ ] iPad screenshots (si soporta iPad)
@@ -315,19 +323,23 @@ eas credentials -p android
 
 ```markdown
 # ❌ INCORRECTO - Privacy Policy inexistente
+
 Privacy Policy URL: [vacío]
 
 # ❌ INCORRECTO - Screenshots de tamaño incorrecto
+
 Screenshot: 1080x1920 (no soportado por iPhone actual)
 
 # ✅ CORRECTO - Metadata completo
+
 Privacy Policy URL: https://miapp.com/privacy
-Screenshots: 
-  - iPhone 6.7": 1290x2796 (4 screenshots)
-  - iPhone 6.5": 1242x2688 (4 screenshots)
-  - iPad: 2048x2732 (4 screenshots)
-Feature Graphic: 1024x500
-Description: Completa y precisa
+Screenshots:
+
+- iPhone 6.7": 1290x2796 (4 screenshots)
+- iPhone 6.5": 1242x2688 (4 screenshots)
+- iPad: 2048x2732 (4 screenshots)
+  Feature Graphic: 1024x500
+  Description: Completa y precisa
 ```
 
 ### 🎓 Lección
@@ -356,6 +368,7 @@ Description: Completa y precisa
 ### 🎯 Dónde Buscar
 
 Archivos afectados:
+
 - `app.json` (sección `updates`)
 - `eas.json` (sección `build` → `channel`)
 
@@ -389,6 +402,7 @@ Archivos afectados:
 ### ✅ Verificación
 
 Configuración correcta de OTA:
+
 - [ ] `app.json` tiene `updates.enabled: true`
 - [ ] `app.json` tiene `updates.url` configurado
 - [ ] `eas.json` tiene `channel` en perfil de producción
@@ -476,7 +490,7 @@ jobs:
   test:
     steps:
       - name: Install dependencies
-        run: npm install  # ¿Usa caché?
+        run: npm install # ¿Usa caché?
 ```
 
 ### 📚 Documentación Útil
@@ -488,6 +502,7 @@ jobs:
 ### ✅ Verificación
 
 Pipeline optimizado debe tener:
+
 - [ ] Cache de `node_modules` configurado
 - [ ] Usa `npm ci` en vez de `npm install`
 - [ ] Cache key basado en `package-lock.json`
@@ -506,7 +521,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      
+
       - name: Install dependencies
         run: npm install  # ⏱️ 5-10 minutos cada vez
 
@@ -516,13 +531,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Setup Node with cache
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'npm'  # ✨ Caché automático
-      
+
       - name: Install dependencies
         run: npm ci  # ⏱️ 30 segundos con cache hit
 ```
@@ -534,7 +549,7 @@ jobs:
   test:
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Cache node modules
         uses: actions/cache@v3
         with:
@@ -542,11 +557,11 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      
+
       - run: npm ci
 ```
 
@@ -560,14 +575,14 @@ jobs:
 
 ## 📊 Resumen de Bugs
 
-| Bug | Dificultad | Impacto | Tiempo Fix | Archivos |
-|-----|------------|---------|------------|----------|
-| #1: app.json incompleto | Media | Alto | 30 min | `app.json` |
-| #2: eas.json sin perfiles | Fácil | Alto | 20 min | `eas.json` |
-| #3: Keystore no configurado | Media | Crítico | 15 min | EAS credentials |
-| #4: Metadata faltante | Fácil | Alto | 1 hora | Play/App Store Console |
-| #5: OTA sin channel | Media | Alto | 20 min | `app.json` + `eas.json` |
-| #6: CI/CD sin caché | Fácil | Medio | 15 min | `.github/workflows/` |
+| Bug                         | Dificultad | Impacto | Tiempo Fix | Archivos                |
+| --------------------------- | ---------- | ------- | ---------- | ----------------------- |
+| #1: app.json incompleto     | Media      | Alto    | 30 min     | `app.json`              |
+| #2: eas.json sin perfiles   | Fácil      | Alto    | 20 min     | `eas.json`              |
+| #3: Keystore no configurado | Media      | Crítico | 15 min     | EAS credentials         |
+| #4: Metadata faltante       | Fácil      | Alto    | 1 hora     | Play/App Store Console  |
+| #5: OTA sin channel         | Media      | Alto    | 20 min     | `app.json` + `eas.json` |
+| #6: CI/CD sin caché         | Fácil      | Medio   | 15 min     | `.github/workflows/`    |
 
 ---
 
@@ -599,39 +614,49 @@ Para cada bug:
 
 Usa este template para documentar cada bug:
 
-```markdown
+````markdown
 ## Bug #X: [Título]
 
 ### 📋 Descripción del Problema
+
 [Explica qué ocurría y cómo lo descubriste]
 
 ### 🔍 Causa Raíz
+
 [Identifica por qué ocurría el problema]
 
 ### 🛠️ Solución Implementada
+
 [Describe paso a paso cómo lo solucionaste]
 
 ### 💻 Código Antes
+
 ```[lenguaje]
 [código con bug]
 ```
+````
 
 ### ✅ Código Después
+
 ```[lenguaje]
 [código corregido]
 ```
 
 ### 🧪 Cómo Verificar
+
 [Comandos o pasos para confirmar que está corregido]
 
 ### 🎓 Lección Aprendida
+
 [Qué aprendiste de este bug]
 
 ### 📚 Referencias
+
 - [Link a documentación]
 - [Link a recurso útil]
 
 ---
+
 ```
 
 ---
@@ -645,3 +670,4 @@ Estos bugs representan problemas reales que encontrarás en el mundo profesional
 ---
 
 **Siguiente:** Comienza a resolver bugs y documenta en `BUGS-SOLUCION.md`
+```
