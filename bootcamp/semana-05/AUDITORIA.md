@@ -62,15 +62,18 @@ semana-05/                                    ✅ COMPLETO
 ## ✅ Checklist de Componentes
 
 ### Documentación Principal
+
 - [x] **README.md** - Introducción y objetivos de la semana
 - [x] **RUBRICA-EVALUACION.md** - Criterios de evaluación detallados
 
 ### 0-assets/
+
 - [x] **README.md** - Documentación de assets visuales
 - [x] **permissions-flow.svg** - Diagrama del flujo de permisos
 - [x] **camera-flow.svg** - Diagrama de Expo Camera API
 
 ### 1-teoria/
+
 - [x] **README.md** - 6 temas teóricos documentados:
   - [x] Sistema de Permisos
   - [x] Expo Camera
@@ -80,6 +83,7 @@ semana-05/                                    ✅ COMPLETO
   - [x] Sensores y Haptics
 
 ### 2-practicas/
+
 - [x] **README.md** - 4 prácticas guiadas:
   - [x] Práctica 1: Camera App Básica
   - [x] Práctica 2: Image Gallery Selector
@@ -87,6 +91,7 @@ semana-05/                                    ✅ COMPLETO
   - [x] Práctica 4: Push Notifications
 
 ### 3-proyecto/
+
 - [x] **README.md** - Especificación completa del Photo Gallery App
 - [x] **BUGS-GUIA.md** - Guía de 7 bugs pedagógicos
 - [x] **codigo-ejemplo/** - Código base con bugs integrados (47% completo)
@@ -98,12 +103,14 @@ semana-05/                                    ✅ COMPLETO
   - [ ] Screens (0/5) - PENDIENTE
 
 ### 4-recursos/
+
 - [x] **README.md** - Índice general de recursos
 - [x] **ebooks-free/README.md** - 11 eBooks gratuitos curados
 - [x] **videografia/README.md** - 16 videos principales + playlists
 - [x] **webgrafia/README.md** - 28 sitios web esenciales
 
 ### 5-glosario/
+
 - [x] **README.md** - Glosario completo con 50+ términos técnicos
 
 ---
@@ -111,31 +118,33 @@ semana-05/                                    ✅ COMPLETO
 ## 📊 Métricas de Contenido
 
 ### Documentación
-| Archivo | Líneas | Estado | Calidad |
-|---------|--------|--------|---------|
-| README.md (principal) | 671 | ✅ | Excelente |
-| RUBRICA-EVALUACION.md | ~950 | ✅ | Excelente |
-| 0-assets/README.md | ~350 | ✅ | Excelente |
-| 1-teoria/README.md | ~350 | ✅ | Excelente |
-| 2-practicas/README.md | ~450 | ✅ | Excelente |
-| 3-proyecto/README.md | ~500 | ✅ | Excelente |
-| 3-proyecto/BUGS-GUIA.md | ~400 | ✅ | Excelente |
-| 4-recursos/README.md | ~558 | ✅ | Excelente |
-| 4-recursos/ebooks-free/README.md | ~350 | ✅ | Excelente |
-| 4-recursos/videografia/README.md | ~400 | ✅ | Excelente |
-| 4-recursos/webgrafia/README.md | ~450 | ✅ | Excelente |
-| 5-glosario/README.md | ~500 | ✅ | Excelente |
+
+| Archivo                          | Líneas | Estado | Calidad   |
+| -------------------------------- | ------ | ------ | --------- |
+| README.md (principal)            | 671    | ✅     | Excelente |
+| RUBRICA-EVALUACION.md            | ~950   | ✅     | Excelente |
+| 0-assets/README.md               | ~350   | ✅     | Excelente |
+| 1-teoria/README.md               | ~350   | ✅     | Excelente |
+| 2-practicas/README.md            | ~450   | ✅     | Excelente |
+| 3-proyecto/README.md             | ~500   | ✅     | Excelente |
+| 3-proyecto/BUGS-GUIA.md          | ~400   | ✅     | Excelente |
+| 4-recursos/README.md             | ~558   | ✅     | Excelente |
+| 4-recursos/ebooks-free/README.md | ~350   | ✅     | Excelente |
+| 4-recursos/videografia/README.md | ~400   | ✅     | Excelente |
+| 4-recursos/webgrafia/README.md   | ~450   | ✅     | Excelente |
+| 5-glosario/README.md             | ~500   | ✅     | Excelente |
 
 **Total de documentación:** ~5,930 líneas
 
 ### Código de Ejemplo
-| Archivo | Líneas | Estado | Bugs |
-|---------|--------|--------|------|
-| types/index.ts | ~271 | ✅ | - |
-| constants/config.ts | ~240 | ✅ | Docs #2, #7 |
-| services/permissionsService.ts | ~263 | ✅ | - |
-| services/storageService.ts | ~303 | ✅ | - |
-| services/photoService.ts | ~316 | ✅ | #4, #7 |
+
+| Archivo                        | Líneas | Estado | Bugs        |
+| ------------------------------ | ------ | ------ | ----------- |
+| types/index.ts                 | ~271   | ✅     | -           |
+| constants/config.ts            | ~240   | ✅     | Docs #2, #7 |
+| services/permissionsService.ts | ~263   | ✅     | -           |
+| services/storageService.ts     | ~303   | ✅     | -           |
+| services/photoService.ts       | ~316   | ✅     | #4, #7      |
 
 **Total de código base:** ~1,393 líneas (de ~3,000 planeadas)
 
@@ -143,15 +152,15 @@ semana-05/                                    ✅ COMPLETO
 
 ## 🐛 Sistema de Bugs - Estado
 
-| Bug | Ubicación | Estado | Implementación |
-|-----|-----------|--------|----------------|
-| #1 | usePermissions.ts | ⏳ Pendiente | Archivo no creado |
-| #2 | app.json | ✅ Integrado | Plugins incompletos |
-| #3 | useCamera.ts | ⏳ Pendiente | Archivo no creado |
-| #4 | photoService.ts | ✅ Integrado | Sin try/catch |
-| #5 | useLocation.ts | ⏳ Pendiente | Archivo no creado |
-| #6 | camera.tsx | ⏳ Pendiente | Screen no creado |
-| #7 | photoService.ts | ✅ Integrado | Sin optimización |
+| Bug | Ubicación         | Estado       | Implementación      |
+| --- | ----------------- | ------------ | ------------------- |
+| #1  | usePermissions.ts | ⏳ Pendiente | Archivo no creado   |
+| #2  | app.json          | ✅ Integrado | Plugins incompletos |
+| #3  | useCamera.ts      | ⏳ Pendiente | Archivo no creado   |
+| #4  | photoService.ts   | ✅ Integrado | Sin try/catch       |
+| #5  | useLocation.ts    | ⏳ Pendiente | Archivo no creado   |
+| #6  | camera.tsx        | ⏳ Pendiente | Screen no creado    |
+| #7  | photoService.ts   | ✅ Integrado | Sin optimización    |
 
 **Bugs integrados:** 3/7 (43%)
 
@@ -160,6 +169,7 @@ semana-05/                                    ✅ COMPLETO
 ## 📈 Progreso por Sección
 
 ### Documentación: 100% ✅
+
 - ✅ Introducción y objetivos
 - ✅ Teoría completa (6 temas)
 - ✅ Prácticas completas (4 ejercicios)
@@ -170,10 +180,12 @@ semana-05/                                    ✅ COMPLETO
 - ✅ Rúbrica de evaluación
 
 ### Assets Visuales: 100% ✅
+
 - ✅ 2 diagramas SVG (permissions-flow, camera-flow)
 - ✅ Documentación de assets
 
 ### Código de Ejemplo: 47% ⏳
+
 - ✅ Configuración (100%)
 - ✅ Types y Constants (100%)
 - ✅ Services (75% - 3 de 4)
@@ -186,6 +198,7 @@ semana-05/                                    ✅ COMPLETO
 ## 🎯 Evaluación de Calidad
 
 ### Criterios Cumplidos:
+
 - ✅ **Nomenclatura:** Código en inglés, docs en español
 - ✅ **Documentación:** Comentarios extensivos (qué, para qué, cómo)
 - ✅ **Estructura:** Sigue estándar del bootcamp
@@ -202,6 +215,7 @@ semana-05/                                    ✅ COMPLETO
 ## ⚠️ Pendientes Identificados
 
 ### Alta Prioridad (Para completar al 100%):
+
 1. **Completar código de ejemplo:**
    - Crear `services/notificationService.ts`
    - Crear 4 hooks (con bugs #1, #3, #5)
@@ -210,12 +224,14 @@ semana-05/                                    ✅ COMPLETO
    - Integrar todos los bugs restantes
 
 ### Media Prioridad (Mejoras):
+
 2. **Código de ejemplo:**
    - Crear archivo SOLUTION.md con soluciones
    - Agregar tests de ejemplo
    - Crear más ejemplos de código
 
 ### Baja Prioridad (Opcionales):
+
 3. **Assets adicionales:**
    - Más diagramas SVG (notification-flow, location-flow)
    - Screenshots de la app funcionando
@@ -226,6 +242,7 @@ semana-05/                                    ✅ COMPLETO
 ## 📝 Notas de Calidad
 
 ### Fortalezas:
+
 1. ✅ Documentación exhaustiva y bien estructurada
 2. ✅ Recursos complementarios abundantes y curados
 3. ✅ Sistema de bugs pedagógico bien diseñado
@@ -235,6 +252,7 @@ semana-05/                                    ✅ COMPLETO
 7. ✅ Guías paso a paso detalladas
 
 ### Áreas de Mejora:
+
 1. ⏳ Completar código de ejemplo (hooks, components, screens)
 2. 💡 Agregar solucionario completo
 3. 💡 Tests de ejemplo para el proyecto
@@ -244,6 +262,7 @@ semana-05/                                    ✅ COMPLETO
 ## 🎓 Evaluación Pedagógica
 
 ### Efectividad Educativa:
+
 - **Teoría:** ⭐⭐⭐⭐⭐ Excelente (completa y clara)
 - **Práctica:** ⭐⭐⭐⭐⭐ Excelente (4 ejercicios guiados)
 - **Proyecto:** ⭐⭐⭐⭐☆ Muy bueno (falta código completo)
@@ -251,6 +270,7 @@ semana-05/                                    ✅ COMPLETO
 - **Evaluación:** ⭐⭐⭐⭐⭐ Excelente (rúbrica detallada)
 
 ### Alineación con Objetivos:
+
 - ✅ Cubre todas las APIs nativas necesarias
 - ✅ Progresión de dificultad adecuada
 - ✅ Balance teoría/práctica óptimo
@@ -262,6 +282,7 @@ semana-05/                                    ✅ COMPLETO
 ## 📊 Comparación con Estándar del Bootcamp
 
 ### Estructura Estándar:
+
 ```
 ✅ README.md principal
 ✅ RUBRICA-EVALUACION.md
@@ -280,18 +301,21 @@ semana-05/                                    ✅ COMPLETO
 ## 🚀 Recomendaciones
 
 ### Para Estudiantes:
+
 1. ✅ La documentación está completa - pueden comenzar
 2. ⏳ El código de ejemplo está 47% - pueden usarlo como referencia
 3. 💡 Sugerencia: Implementar desde cero siguiendo las guías
 4. 💡 O copiar el código base y completar lo que falta
 
 ### Para Instructores:
+
 1. ⏳ Completar código de ejemplo antes de semana 6
 2. 💡 Considerar crear solucionario completo
 3. 💡 Grabar video walkthrough del proyecto
 4. ✅ Material listo para enseñar la parte teórica/práctica
 
 ### Para Desarrollo:
+
 1. ⏳ Priorizar completar hooks (críticos para bugs #1, #3, #5)
 2. ⏳ Seguir con components (necesarios para screens)
 3. ⏳ Finalizar con screens (incluye bug #6)
@@ -306,6 +330,7 @@ semana-05/                                    ✅ COMPLETO
 La Semana 5 está **100% completa en cuanto a documentación** y lista para ser utilizada por estudiantes. El material teórico, prácticas, recursos y evaluación están completos y son de alta calidad.
 
 El código de ejemplo está **47% completo** (base funcional con 3/7 bugs integrados). Los estudiantes pueden:
+
 1. ✅ Usar la documentación para aprender
 2. ✅ Seguir las prácticas guiadas
 3. ✅ Implementar el proyecto desde cero
