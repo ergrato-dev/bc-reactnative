@@ -2,6 +2,16 @@
 
 ## 🎯 Objetivos de Aprendizaje
 
+### 🎨 Diagrama Conceptual
+
+**Flujo de Comunicación HTTP Cliente-Servidor**  
+![HTTP Flow](./0-assets/http-flujo.svg)  
+*Entiende el ciclo completo de una petición HTTP desde el cliente hasta el servidor*
+
+> 💡 **Tip:** Este diagrama muestra la arquitectura completa de comunicación con APIs REST. [Ver todos los assets →](./0-assets/)
+
+---
+
 Al finalizar esta semana, serás capaz de:
 
 - [ ] Consumir APIs REST usando `fetch` y Axios

@@ -25,6 +25,16 @@
 
 ## 🎯 Objetivos de Aprendizaje
 
+### 🎨 Diagrama Conceptual
+
+**Tipos de Navegación en React Native**  
+![Navigation Types](./0-assets/navegacion-tipos.svg)  
+*Compara Stack, Tab y Drawer Navigator para entender cuándo usar cada uno*
+
+> 💡 **Tip:** Este diagrama muestra las diferencias visuales y casos de uso de cada navegador. [Ver todos los assets →](./0-assets/)
+
+---
+
 Al finalizar esta semana, serás capaz de:
 
 ### Conocimientos Fundamentales
