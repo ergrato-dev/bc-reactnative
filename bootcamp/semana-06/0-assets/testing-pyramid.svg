@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 900">
+  <!-- Testing Pyramid Diagram -->
+  <defs>
+    <style>
+      .title { font: bold 28px sans-serif; fill: #1F2937; }
+      .subtitle { font: 16px sans-serif; fill: #6B7280; }
+      .level-title { font: bold 20px sans-serif; fill: white; }
+      .level-text { font: 14px sans-serif; fill: white; }
+      .box-title { font: bold 16px sans-serif; }
+      .box-text { font: 13px sans-serif; fill: #374151; }
+      .code-text { font: 12px monospace; fill: #1F2937; }
+      .label { font: 12px sans-serif; fill: #6B7280; }
+      .highlight { font: bold 14px sans-serif; }
+    </style>
+    
+    <linearGradient id="grad-e2e" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="grad-integration" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="grad-unit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" class="title">Testing Pyramid</text>
+  <text x="500" y="65" text-anchor="middle" class="subtitle">Balance Speed, Cost, and Coverage</text>
+  
+  <!-- Pyramid Levels -->
+  <g id="pyramid">
+    <!-- E2E Tests (Top - Small) -->
+    <polygon points="400,120 600,120 650,230 350,230" fill="url(#grad-e2e)" stroke="#991B1B" stroke-width="3"/>
+    <text x="500" y="160" text-anchor="middle" class="level-title">E2E Tests</text>
+    <text x="500" y="185" text-anchor="middle" class="level-text">End-to-End</text>
+    <text x="500" y="210" text-anchor="middle" class="level-text">~5-10%</text>
+    
+    <!-- Integration Tests (Middle - Medium) -->
+    <polygon points="350,230 650,230 750,400 250,400" fill="url(#grad-integration)" stroke="#92400E" stroke-width="3"/>
+    <text x="500" y="290" text-anchor="middle" class="level-title">Integration Tests</text>
+    <text x="500" y="315" text-anchor="middle" class="level-text">Component Integration</text>
+    <text x="500" y="340" text-anchor="middle" class="level-text">~20-30%</text>
+    <text x="500" y="365" text-anchor="middle" class="level-text">Moderate Speed</text>
+    
+    <!-- Unit Tests (Bottom - Large) -->
+    <polygon points="250,400 750,400 850,600 150,600" fill="url(#grad-unit)" stroke="#065F46" stroke-width="3"/>
+    <text x="500" y="465" text-anchor="middle" class="level-title">Unit Tests</text>
+    <text x="500" y="495" text-anchor="middle" class="level-text">Individual Functions & Components</text>
+    <text x="500" y="525" text-anchor="middle" class="level-text">~60-70%</text>
+    <text x="500" y="555" text-anchor="middle" class="level-text">Fast Execution • Low Cost</text>
+  </g>
+  
+  <!-- Side Annotations -->
+  <g id="annotations-left">
+    <text x="50" y="175" class="label" fill="#EF4444">Slow</text>
+    <text x="50" y="195" class="label" fill="#EF4444">Expensive</text>
+    <text x="50" y="215" class="label" fill="#EF4444">Brittle</text>
+    
+    <text x="50" y="315" class="label" fill="#F59E0B">Medium</text>
+    <text x="50" y="335" class="label" fill="#F59E0B">Moderate</text>
+    
+    <text x="50" y="500" class="label" fill="#10B981">Fast</text>
+    <text x="50" y="520" class="label" fill="#10B981">Cheap</text>
+    <text x="50" y="540" class="label" fill="#10B981">Reliable</text>
+  </g>
+  
+  <g id="annotations-right">
+    <text x="870" y="175" class="label" fill="#EF4444" text-anchor="start">Full app flow</text>
+    <text x="870" y="195" class="label" fill="#EF4444" text-anchor="start">Real environment</text>
+    <text x="870" y="215" class="label" fill="#EF4444" text-anchor="start">Complete scenarios</text>
+    
+    <text x="870" y="315" class="label" fill="#F59E0B" text-anchor="start">API + UI</text>
+    <text x="870" y="335" class="label" fill="#F59E0B" text-anchor="start">Data flow</text>
+    <text x="870" y="355" class="label" fill="#F59E0B" text-anchor="start">State changes</text>
+    
+    <text x="870" y="500" class="label" fill="#10B981" text-anchor="start">Pure logic</text>
+    <text x="870" y="520" class="label" fill="#10B981" text-anchor="start">Isolated</text>
+    <text x="870" y="540" class="label" fill="#10B981" text-anchor="start">Quick feedback</text>
+  </g>
+  
+  <!-- Details Cards -->
+  <g id="details">
+    <!-- E2E Card -->
+    <rect x="50" y="650" width="280" height="220" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+    <text x="190" y="680" text-anchor="middle" class="box-title" fill="#EF4444">🔴 E2E Tests</text>
+    
+    <text x="70" y="710" class="highlight" fill="#EF4444">Tools:</text>
+    <text x="70" y="730" class="code-text">• Detox (React Native)</text>
+    <text x="70" y="750" class="code-text">• Maestro (mobile)</text>
+    
+    <text x="70" y="780" class="highlight" fill="#EF4444">When to use:</text>
+    <text x="70" y="800" class="box-text">• Critical user flows</text>
+    <text x="70" y="820" class="box-text">• Login → Purchase</text>
+    <text x="70" y="840" class="box-text">• Smoke tests</text>
+    
+    <text x="70" y="860" class="label">⏱️ Runtime: 5-15 min</text>
+    
+    <!-- Integration Card -->
+    <rect x="360" y="650" width="280" height="220" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+    <text x="500" y="680" text-anchor="middle" class="box-title" fill="#F59E0B">🟡 Integration Tests</text>
+    
+    <text x="380" y="710" class="highlight" fill="#F59E0B">Tools:</text>
+    <text x="380" y="730" class="code-text">• React Testing Library</text>
+    <text x="380" y="750" class="code-text">• Jest (with mocks)</text>
+    
+    <text x="380" y="780" class="highlight" fill="#F59E0B">When to use:</text>
+    <text x="380" y="800" class="box-text">• Component + API</text>
+    <text x="380" y="820" class="box-text">• Navigation flows</text>
+    <text x="380" y="840" class="box-text">• Context + Hooks</text>
+    
+    <text x="380" y="860" class="label">⏱️ Runtime: 1-5 min</text>
+    
+    <!-- Unit Card -->
+    <rect x="670" y="650" width="280" height="220" rx="8" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+    <text x="810" y="680" text-anchor="middle" class="box-title" fill="#10B981">🟢 Unit Tests</text>
+    
+    <text x="690" y="710" class="highlight" fill="#10B981">Tools:</text>
+    <text x="690" y="730" class="code-text">• Jest (isolated)</text>
+    <text x="690" y="750" class="code-text">• React Test Renderer</text>
+    
+    <text x="690" y="780" class="highlight" fill="#10B981">When to use:</text>
+    <text x="690" y="800" class="box-text">• Utility functions</text>
+    <text x="690" y="820" class="box-text">• Business logic</text>
+    <text x="690" y="840" class="box-text">• Validations</text>
+    
+    <text x="690" y="860" class="label">⏱️ Runtime: &lt;1 min</text>
+  </g>
+  
+  <!-- Best Practice -->
+  <rect x="50" y="880" width="900" height="10" rx="5" fill="#E5E7EB"/>
+  <rect x="50" y="880" width="630" height="10" rx="5" fill="#10B981"/>
+  <text x="500" y="908" text-anchor="middle" class="label">
+    70% Unit + 20% Integration + 10% E2E = Optimal Balance
+  </text>
+</svg>
