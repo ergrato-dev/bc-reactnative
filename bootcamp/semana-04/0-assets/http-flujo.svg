@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <!-- Fondo dark -->
+  <rect width="900" height="650" fill="#1E1E1E"/>
+  
+  <!-- Título -->
+  <text x="450" y="35" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    Flujo de Comunicación HTTP
+  </text>
+  
+  <!-- Cliente (App React Native) -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="180" height="450" rx="12" fill="#2D2D2D" stroke="#61DAFB" stroke-width="3"/>
+    
+    <text x="90" y="35" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#61DAFB">
+      Cliente
+    </text>
+    <text x="90" y="55" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" fill="#CCCCCC">
+      (React Native App)
+    </text>
+    
+    <!-- Componente -->
+    <rect x="20" y="80" width="140" height="60" rx="6" fill="#4EC9B0" stroke="#4EC9B0" stroke-width="2"/>
+    <text x="90" y="105" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#000000">
+      Component
+    </text>
+    <text x="90" y="125" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#000000">
+      (UI + Lógica)
+    </text>
+    
+    <!-- Flecha hacia abajo -->
+    <line x1="90" y1="150" x2="90" y2="185" stroke="#CCCCCC" stroke-width="2" marker-end="url(#arrowdown)"/>
+    
+    <!-- fetch/axios -->
+    <rect x="20" y="185" width="140" height="60" rx="6" fill="#C586C0" stroke="#C586C0" stroke-width="2"/>
+    <text x="90" y="210" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#000000">
+      fetch / Axios
+    </text>
+    <text x="90" y="230" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#000000">
+      (HTTP Client)
+    </text>
+    
+    <!-- Flecha request -->
+    <line x1="160" y1="220" x2="270" y2="220" stroke="#4EC9B0" stroke-width="3" marker-end="url(#arrowright)"/>
+    <text x="215" y="210" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#4EC9B0">
+      REQUEST
+    </text>
+    <text x="215" y="235" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="#CCCCCC">
+      GET /api/users
+    </text>
+    
+    <!-- Storage -->
+    <rect x="20" y="330" width="140" height="100" rx="6" fill="#2D2D2D" stroke="#DCDCAA" stroke-width="2"/>
+    <text x="90" y="355" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#DCDCAA">
+      Storage
+    </text>
+    <text x="90" y="380" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      AsyncStorage
+    </text>
+    <text x="90" y="397" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      SecureStore
+    </text>
+    <text x="90" y="414" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      (Tokens, cache)
+    </text>
+  </g>
+  
+  <!-- Internet / Red -->
+  <g transform="translate(270, 80)">
+    <rect x="0" y="0" width="180" height="450" rx="12" fill="#1A1A1A" stroke="#666666" stroke-width="2" stroke-dasharray="8,4"/>
+    
+    <text x="90" y="35" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#CCCCCC">
+      Internet
+    </text>
+    <text x="90" y="55" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" fill="#999999">
+      (HTTP/HTTPS)
+    </text>
+    
+    <!-- HTTP Request -->
+    <rect x="20" y="100" width="140" height="100" rx="6" fill="#2D2D2D" stroke="#4EC9B0" stroke-width="2"/>
+    <text x="90" y="125" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#4EC9B0">
+      HTTP Request
+    </text>
+    
+    <text x="90" y="150" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      Method: GET
+    </text>
+    <text x="90" y="167" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      Headers: {...}
+    </text>
+    <text x="90" y="184" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      Body: {...}
+    </text>
+    
+    <!-- HTTP Response -->
+    <rect x="20" y="260" width="140" height="120" rx="6" fill="#2D2D2D" stroke="#C586C0" stroke-width="2"/>
+    <text x="90" y="285" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#C586C0">
+      HTTP Response
+    </text>
+    
+    <text x="90" y="310" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      Status: 200 OK
+    </text>
+    <text x="90" y="327" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      Headers: {...}
+    </text>
+    <text x="90" y="344" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      Body: {
+    </text>
+    <text x="90" y="361" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      "users": [...]
+    </text>
+    <text x="90" y="378" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      }
+    </text>
+    
+    <!-- Flecha response -->
+    <line x1="270" y1="320" x2="160" y2="320" stroke="#C586C0" stroke-width="3" marker-end="url(#arrowleft)"/>
+    <text x="215" y="310" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#C586C0">
+      RESPONSE
+    </text>
+    <text x="215" y="335" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="#CCCCCC">
+      200 OK + JSON
+    </text>
+  </g>
+  
+  <!-- Servidor (Backend API) -->
+  <g transform="translate(490, 80)">
+    <rect x="0" y="0" width="180" height="450" rx="12" fill="#2D2D2D" stroke="#DCDCAA" stroke-width="3"/>
+    
+    <text x="90" y="35" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#DCDCAA">
+      Servidor
+    </text>
+    <text x="90" y="55" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" fill="#CCCCCC">
+      (Backend API)
+    </text>
+    
+    <!-- API Endpoints -->
+    <rect x="20" y="80" width="140" height="100" rx="6" fill="#3D3D3D" stroke="#61DAFB" stroke-width="2"/>
+    <text x="90" y="105" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#61DAFB">
+      API Endpoints
+    </text>
+    <text x="90" y="128" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      GET /api/users
+    </text>
+    <text x="90" y="145" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      POST /api/login
+    </text>
+    <text x="90" y="162" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      PUT /api/users/:id
+    </text>
+    
+    <!-- Flecha hacia abajo -->
+    <line x1="90" y1="190" x2="90" y2="225" stroke="#CCCCCC" stroke-width="2" marker-end="url(#arrowdown)"/>
+    
+    <!-- Lógica de Negocio -->
+    <rect x="20" y="225" width="140" height="60" rx="6" fill="#4EC9B0" stroke="#4EC9B0" stroke-width="2"/>
+    <text x="90" y="250" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#000000">
+      Business Logic
+    </text>
+    <text x="90" y="270" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#000000">
+      (Validación, auth)
+    </text>
+    
+    <!-- Flecha hacia abajo -->
+    <line x1="90" y1="295" x2="90" y2="330" stroke="#CCCCCC" stroke-width="2" marker-end="url(#arrowdown)"/>
+    
+    <!-- Base de Datos -->
+    <rect x="20" y="330" width="140" height="100" rx="6" fill="#2D2D2D" stroke="#C586C0" stroke-width="2"/>
+    <text x="90" y="355" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#C586C0">
+      Database
+    </text>
+    <text x="90" y="380" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      PostgreSQL
+    </text>
+    <text x="90" y="397" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      MongoDB
+    </text>
+    <text x="90" y="414" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      MySQL, etc.
+    </text>
+  </g>
+  
+  <!-- Status Codes -->
+  <g transform="translate(720, 80)">
+    <rect x="0" y="0" width="140" height="450" rx="8" fill="#2D2D2D" stroke="#666666" stroke-width="2"/>
+    
+    <text x="70" y="30" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      Status Codes
+    </text>
+    
+    <!-- 2xx Success -->
+    <rect x="10" y="50" width="120" height="70" rx="4" fill="#1E1E1E" stroke="#4EC9B0" stroke-width="2"/>
+    <text x="70" y="70" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#4EC9B0">
+      2xx Success
+    </text>
+    <text x="70" y="90" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      200 OK
+    </text>
+    <text x="70" y="107" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      201 Created
+    </text>
+    
+    <!-- 4xx Client Error -->
+    <rect x="10" y="135" width="120" height="90" rx="4" fill="#1E1E1E" stroke="#DCDCAA" stroke-width="2"/>
+    <text x="70" y="155" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#DCDCAA">
+      4xx Client Error
+    </text>
+    <text x="70" y="175" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      400 Bad Request
+    </text>
+    <text x="70" y="192" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      401 Unauthorized
+    </text>
+    <text x="70" y="209" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      404 Not Found
+    </text>
+    
+    <!-- 5xx Server Error -->
+    <rect x="10" y="240" width="120" height="70" rx="4" fill="#1E1E1E" stroke="#FF6B6B" stroke-width="2"/>
+    <text x="70" y="260" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#FF6B6B">
+      5xx Server Error
+    </text>
+    <text x="70" y="280" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      500 Internal
+    </text>
+    <text x="70" y="297" font-family="Consolas, Monaco, monospace" font-size="10" text-anchor="middle" fill="#CCCCCC">
+      503 Unavailable
+    </text>
+    
+    <!-- Headers -->
+    <rect x="10" y="325" width="120" height="110" rx="4" fill="#1E1E1E" stroke="#C586C0" stroke-width="2"/>
+    <text x="70" y="345" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#C586C0">
+      Headers
+    </text>
+    <text x="70" y="365" font-family="Consolas, Monaco, monospace" font-size="9" text-anchor="middle" fill="#CCCCCC">
+      Content-Type
+    </text>
+    <text x="70" y="380" font-family="Consolas, Monaco, monospace" font-size="9" text-anchor="middle" fill="#CCCCCC">
+      Authorization
+    </text>
+    <text x="70" y="395" font-family="Consolas, Monaco, monospace" font-size="9" text-anchor="middle" fill="#CCCCCC">
+      Accept
+    </text>
+    <text x="70" y="410" font-family="Consolas, Monaco, monospace" font-size="9" text-anchor="middle" fill="#CCCCCC">
+      User-Agent
+    </text>
+    <text x="70" y="425" font-family="Consolas, Monaco, monospace" font-size="9" text-anchor="middle" fill="#CCCCCC">
+      Cache-Control
+    </text>
+  </g>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowright" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#4EC9B0"/>
+    </marker>
+    <marker id="arrowleft" markerWidth="10" markerHeight="10" refX="1" refY="3" orient="auto">
+      <polygon points="10 0, 0 3, 10 6" fill="#C586C0"/>
+    </marker>
+    <marker id="arrowdown" markerWidth="10" markerHeight="10" refX="3" refY="9" orient="auto">
+      <polygon points="0 0, 6 0, 3 10" fill="#CCCCCC"/>
+    </marker>
+  </defs>
+</svg>

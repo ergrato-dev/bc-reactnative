@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <!-- Fondo dark -->
+  <rect width="900" height="700" fill="#1E1E1E"/>
+  
+  <!-- Título -->
+  <text x="450" y="35" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    Flexbox en React Native
+  </text>
+  
+  <!-- flexDirection: 'column' (default) -->
+  <g transform="translate(50, 80)">
+    <text x="125" y="0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      flexDirection: 'column'
+    </text>
+    <text x="125" y="22" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#CCCCCC">
+      (predeterminado en RN)
+    </text>
+    
+    <!-- Container -->
+    <rect x="25" y="40" width="200" height="280" rx="4" fill="none" stroke="#61DAFB" stroke-width="3" stroke-dasharray="8,4"/>
+    <text x="30" y="60" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#61DAFB">Container</text>
+    
+    <!-- Hijos -->
+    <rect x="45" y="75" width="160" height="60" rx="4" fill="#4EC9B0" stroke="#4EC9B0" stroke-width="2"/>
+    <text x="125" y="110" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Child 1</text>
+    
+    <rect x="45" y="150" width="160" height="60" rx="4" fill="#C586C0" stroke="#C586C0" stroke-width="2"/>
+    <text x="125" y="185" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Child 2</text>
+    
+    <rect x="45" y="225" width="160" height="60" rx="4" fill="#DCDCAA" stroke="#DCDCAA" stroke-width="2"/>
+    <text x="125" y="260" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Child 3</text>
+  </g>
+  
+  <!-- flexDirection: 'row' -->
+  <g transform="translate(320, 80)">
+    <text x="235" y="0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      flexDirection: 'row'
+    </text>
+    <text x="235" y="22" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#CCCCCC">
+      (horizontal)
+    </text>
+    
+    <!-- Container -->
+    <rect x="25" y="40" width="420" height="140" rx="4" fill="none" stroke="#61DAFB" stroke-width="3" stroke-dasharray="8,4"/>
+    <text x="30" y="60" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#61DAFB">Container</text>
+    
+    <!-- Hijos -->
+    <rect x="45" y="75" width="120" height="90" rx="4" fill="#4EC9B0" stroke="#4EC9B0" stroke-width="2"/>
+    <text x="105" y="125" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Child 1</text>
+    
+    <rect x="180" y="75" width="120" height="90" rx="4" fill="#C586C0" stroke="#C586C0" stroke-width="2"/>
+    <text x="240" y="125" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Child 2</text>
+    
+    <rect x="315" y="75" width="120" height="90" rx="4" fill="#DCDCAA" stroke="#DCDCAA" stroke-width="2"/>
+    <text x="375" y="125" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Child 3</text>
+  </g>
+  
+  <!-- justifyContent -->
+  <g transform="translate(50, 420)">
+    <text x="400" y="-20" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      justifyContent (Alineación en eje principal)
+    </text>
+    
+    <!-- flex-start -->
+    <g>
+      <text x="110" y="10" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#CCCCCC">
+        'flex-start'
+      </text>
+      <rect x="10" y="20" width="200" height="80" rx="4" fill="none" stroke="#61DAFB" stroke-width="2" stroke-dasharray="4,2"/>
+      <rect x="20" y="30" width="40" height="60" rx="3" fill="#4EC9B0" stroke="#4EC9B0" stroke-width="2"/>
+      <rect x="65" y="30" width="40" height="60" rx="3" fill="#C586C0" stroke="#C586C0" stroke-width="2"/>
+      <rect x="110" y="30" width="40" height="60" rx="3" fill="#DCDCAA" stroke="#DCDCAA" stroke-width="2"/>
+    </g>
+    
+    <!-- center -->
+    <g transform="translate(230, 0)">
+      <text x="110" y="10" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#CCCCCC">
+        'center'
+      </text>
+      <rect x="10" y="20" width="200" height="80" rx="4" fill="none" stroke="#61DAFB" stroke-width="2" stroke-dasharray="4,2"/>
+      <rect x="45" y="30" width="40" height="60" rx="3" fill="#4EC9B0" stroke="#4EC9B0" stroke-width="2"/>
+      <rect x="90" y="30" width="40" height="60" rx="3" fill="#C586C0" stroke="#C586C0" stroke-width="2"/>
+      <rect x="135" y="30" width="40" height="60" rx="3" fill="#DCDCAA" stroke="#DCDCAA" stroke-width="2"/>
+    </g>
+    
+    <!-- space-between -->
+    <g transform="translate(460, 0)">
+      <text x="110" y="10" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#CCCCCC">
+        'space-between'
+      </text>
+      <rect x="10" y="20" width="200" height="80" rx="4" fill="none" stroke="#61DAFB" stroke-width="2" stroke-dasharray="4,2"/>
+      <rect x="20" y="30" width="40" height="60" rx="3" fill="#4EC9B0" stroke="#4EC9B0" stroke-width="2"/>
+      <rect x="90" y="30" width="40" height="60" rx="3" fill="#C586C0" stroke="#C586C0" stroke-width="2"/>
+      <rect x="160" y="30" width="40" height="60" rx="3" fill="#DCDCAA" stroke="#DCDCAA" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- alignItems -->
+  <g transform="translate(50, 560)">
+    <text x="400" y="-10" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      alignItems (Alineación en eje transversal)
+    </text>
+    
+    <!-- flex-start -->
+    <g>
+      <text x="110" y="10" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#CCCCCC">
+        'flex-start'
+      </text>
+      <rect x="10" y="20" width="200" height="80" rx="4" fill="none" stroke="#61DAFB" stroke-width="2" stroke-dasharray="4,2"/>
+      <rect x="20" y="25" width="50" height="30" rx="3" fill="#4EC9B0" stroke="#4EC9B0" stroke-width="2"/>
+      <rect x="75" y="25" width="50" height="50" rx="3" fill="#C586C0" stroke="#C586C0" stroke-width="2"/>
+      <rect x="130" y="25" width="50" height="40" rx="3" fill="#DCDCAA" stroke="#DCDCAA" stroke-width="2"/>
+    </g>
+    
+    <!-- center -->
+    <g transform="translate(230, 0)">
+      <text x="110" y="10" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#CCCCCC">
+        'center'
+      </text>
+      <rect x="10" y="20" width="200" height="80" rx="4" fill="none" stroke="#61DAFB" stroke-width="2" stroke-dasharray="4,2"/>
+      <rect x="20" y="35" width="50" height="30" rx="3" fill="#4EC9B0" stroke="#4EC9B0" stroke-width="2"/>
+      <rect x="75" y="25" width="50" height="50" rx="3" fill="#C586C0" stroke="#C586C0" stroke-width="2"/>
+      <rect x="130" y="30" width="50" height="40" rx="3" fill="#DCDCAA" stroke="#DCDCAA" stroke-width="2"/>
+    </g>
+    
+    <!-- stretch -->
+    <g transform="translate(460, 0)">
+      <text x="110" y="10" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#CCCCCC">
+        'stretch'
+      </text>
+      <rect x="10" y="20" width="200" height="80" rx="4" fill="none" stroke="#61DAFB" stroke-width="2" stroke-dasharray="4,2"/>
+      <rect x="20" y="25" width="50" height="70" rx="3" fill="#4EC9B0" stroke="#4EC9B0" stroke-width="2"/>
+      <rect x="75" y="25" width="50" height="70" rx="3" fill="#C586C0" stroke="#C586C0" stroke-width="2"/>
+      <rect x="130" y="25" width="50" height="70" rx="3" fill="#DCDCAA" stroke="#DCDCAA" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
