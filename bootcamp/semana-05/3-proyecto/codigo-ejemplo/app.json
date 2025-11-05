@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Photo Gallery App",
+    "slug": "photo-gallery-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "photogallery",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "assets/**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bootcamp.photogallery",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Esta app necesita acceso a la cámara para capturar fotos.",
+        "NSPhotoLibraryUsageDescription": "Esta app necesita acceso a tu galería para guardar y seleccionar fotos.",
+        "NSPhotoLibraryAddUsageDescription": "Esta app necesita permiso para guardar fotos en tu galería.",
+        "NSLocationWhenInUseUsageDescription": "Esta app usa tu ubicación para agregar coordenadas GPS a tus fotos."
+      }
+    },
+    "android": {
+      "package": "com.bootcamp.photogallery",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "$(PRODUCT_NAME) necesita acceso a la cámara para capturar fotos."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "$(PRODUCT_NAME) necesita acceso a tu galería para guardar fotos.",
+          "savePhotosPermission": "$(PRODUCT_NAME) necesita permiso para guardar fotos en tu galería."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
