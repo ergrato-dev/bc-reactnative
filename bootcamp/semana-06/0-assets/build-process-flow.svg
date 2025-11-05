@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Build Process Flow Diagram -->
+  <defs>
+    <style>
+      .title { font: bold 28px sans-serif; fill: #1F2937; }
+      .subtitle { font: 16px sans-serif; fill: #6B7280; }
+      .box-title { font: bold 16px sans-serif; fill: #FFFFFF; }
+      .box-text { font: 14px sans-serif; fill: #374151; }
+      .step-number { font: bold 20px sans-serif; fill: #FFFFFF; }
+      .arrow-text { font: 12px sans-serif; fill: #6B7280; }
+    </style>
+    
+    <!-- Arrow marker -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#6B7280" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" class="title">EAS Build Process Flow</text>
+  <text x="600" y="65" text-anchor="middle" class="subtitle">From Code to Store Submission</text>
+  
+  <!-- Step 1: Setup -->
+  <g id="step1">
+    <circle cx="150" cy="150" r="25" fill="#4F46E5"/>
+    <text x="150" y="158" text-anchor="middle" class="step-number">1</text>
+    
+    <rect x="80" y="190" width="140" height="100" rx="8" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+    <text x="150" y="215" text-anchor="middle" class="box-title" fill="#4F46E5">Setup</text>
+    <text x="150" y="240" text-anchor="middle" class="box-text">Install EAS CLI</text>
+    <text x="150" y="260" text-anchor="middle" class="box-text">eas login</text>
+    <text x="150" y="280" text-anchor="middle" class="box-text">eas build:configure</text>
+  </g>
+  
+  <!-- Arrow 1 to 2 -->
+  <line x1="220" y1="240" x2="280" y2="240" stroke="#6B7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Configure -->
+  <g id="step2">
+    <circle cx="380" cy="150" r="25" fill="#4F46E5"/>
+    <text x="380" y="158" text-anchor="middle" class="step-number">2</text>
+    
+    <rect x="310" y="190" width="140" height="120" rx="8" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+    <text x="380" y="215" text-anchor="middle" class="box-title" fill="#4F46E5">Configure</text>
+    <text x="380" y="240" text-anchor="middle" class="box-text">app.json</text>
+    <text x="380" y="260" text-anchor="middle" class="box-text">eas.json</text>
+    <text x="380" y="280" text-anchor="middle" class="box-text">Build profiles</text>
+    <text x="380" y="300" text-anchor="middle" class="box-text">Environment vars</text>
+  </g>
+  
+  <!-- Arrow 2 to 3 -->
+  <line x1="450" y1="250" x2="510" y2="250" stroke="#6B7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Credentials -->
+  <g id="step3">
+    <circle cx="610" cy="150" r="25" fill="#4F46E5"/>
+    <text x="610" y="158" text-anchor="middle" class="step-number">3</text>
+    
+    <rect x="540" y="190" width="140" height="120" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+    <text x="610" y="215" text-anchor="middle" class="box-title" fill="#F59E0B">Credentials</text>
+    <text x="610" y="240" text-anchor="middle" class="box-text">iOS Certificates</text>
+    <text x="610" y="260" text-anchor="middle" class="box-text">Android Keystore</text>
+    <text x="610" y="280" text-anchor="middle" class="box-text">Auto-managed</text>
+    <text x="610" y="300" text-anchor="middle" class="box-text">by EAS ✓</text>
+  </g>
+  
+  <!-- Arrow 3 to 4 -->
+  <line x1="680" y1="250" x2="740" y2="250" stroke="#6B7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: Build -->
+  <g id="step4">
+    <circle cx="840" cy="150" r="25" fill="#4F46E5"/>
+    <text x="840" y="158" text-anchor="middle" class="step-number">4</text>
+    
+    <rect x="770" y="190" width="140" height="140" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+    <text x="840" y="215" text-anchor="middle" class="box-title" fill="#3B82F6">Build</text>
+    <text x="840" y="240" text-anchor="middle" class="box-text">Upload code</text>
+    <text x="840" y="260" text-anchor="middle" class="box-text">Install deps</text>
+    <text x="840" y="280" text-anchor="middle" class="box-text">Compile native</text>
+    <text x="840" y="300" text-anchor="middle" class="box-text">Sign app</text>
+    <text x="840" y="320" text-anchor="middle" class="box-text">⏱️ 10-20 min</text>
+  </g>
+  
+  <!-- Arrow 4 splits to Android and iOS -->
+  <line x1="840" y1="330" x2="840" y2="380" stroke="#6B7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Android Output -->
+  <g id="android-output">
+    <rect x="700" y="400" width="120" height="100" rx="8" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+    <text x="760" y="425" text-anchor="middle" class="box-title" fill="#10B981">Android</text>
+    <text x="760" y="450" text-anchor="middle" class="box-text">📦 AAB</text>
+    <text x="760" y="470" text-anchor="middle" class="box-text">app-bundle</text>
+    <text x="760" y="490" text-anchor="middle" class="box-text">~30-50 MB</text>
+  </g>
+  
+  <!-- iOS Output -->
+  <g id="ios-output">
+    <rect x="880" y="400" width="120" height="100" rx="8" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+    <text x="940" y="425" text-anchor="middle" class="box-title" fill="#10B981">iOS</text>
+    <text x="940" y="450" text-anchor="middle" class="box-text">📦 IPA</text>
+    <text x="940" y="470" text-anchor="middle" class="box-text">app package</text>
+    <text x="940" y="490" text-anchor="middle" class="box-text">~40-70 MB</text>
+  </g>
+  
+  <!-- Arrows to submission -->
+  <line x1="760" y1="500" x2="760" y2="550" stroke="#6B7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="940" y1="500" x2="940" y2="550" stroke="#6B7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 5: Submit -->
+  <g id="step5">
+    <circle cx="150" cy="580" r="25" fill="#4F46E5"/>
+    <text x="150" y="588" text-anchor="middle" class="step-number">5</text>
+    
+    <!-- Google Play -->
+    <rect x="680" y="570" width="160" height="120" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+    <text x="760" y="595" text-anchor="middle" class="box-title" fill="#EF4444">Google Play</text>
+    <text x="760" y="620" text-anchor="middle" class="box-text">eas submit</text>
+    <text x="760" y="640" text-anchor="middle" class="box-text">Internal testing</text>
+    <text x="760" y="660" text-anchor="middle" class="box-text">Production</text>
+    <text x="760" y="680" text-anchor="middle" class="box-text">⏱️ 1-3 days review</text>
+  </g>
+  
+  <!-- App Store -->
+  <g id="appstore">
+    <rect x="860" y="570" width="160" height="120" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+    <text x="940" y="595" text-anchor="middle" class="box-title" fill="#EF4444">App Store</text>
+    <text x="940" y="620" text-anchor="middle" class="box-text">eas submit</text>
+    <text x="940" y="640" text-anchor="middle" class="box-text">TestFlight</text>
+    <text x="940" y="660" text-anchor="middle" class="box-text">Production</text>
+    <text x="940" y="680" text-anchor="middle" class="box-text">⏱️ 1-7 days review</text>
+  </g>
+  
+  <!-- Success icon -->
+  <circle cx="850" cy="750" r="30" fill="#10B981"/>
+  <text x="850" y="765" text-anchor="middle" font-size="36" fill="#FFFFFF">✓</text>
+  <text x="920" y="760" class="box-text" fill="#10B981" font-weight="bold">App Published!</text>
+  
+  <!-- Side note: Commands -->
+  <g id="commands">
+    <rect x="50" y="400" width="240" height="200" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="170" y="425" text-anchor="middle" class="box-title" fill="#4F46E5">Key Commands</text>
+    
+    <text x="60" y="455" class="box-text" font-family="monospace" font-size="12">$ eas build --platform android</text>
+    <text x="60" y="480" class="box-text" font-family="monospace" font-size="12">$ eas build --platform ios</text>
+    <text x="60" y="505" class="box-text" font-family="monospace" font-size="12">$ eas build --platform all</text>
+    
+    <line x1="60" y1="520" x2="280" y2="520" stroke="#E5E7EB" stroke-width="1"/>
+    
+    <text x="60" y="540" class="box-text" font-family="monospace" font-size="12">$ eas submit --platform android</text>
+    <text x="60" y="565" class="box-text" font-family="monospace" font-size="12">$ eas submit --platform ios</text>
+    <text x="60" y="590" class="box-text" font-family="monospace" font-size="12">$ eas submit --latest</text>
+  </g>
+  
+  <!-- Legend -->
+  <g id="legend">
+    <text x="1050" y="425" class="subtitle" font-weight="bold">Status:</text>
+    
+    <rect x="1050" y="440" width="20" height="20" rx="3" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+    <text x="1080" y="455" class="box-text">Setup/Config</text>
+    
+    <rect x="1050" y="470" width="20" height="20" rx="3" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+    <text x="1080" y="485" class="box-text">Credentials</text>
+    
+    <rect x="1050" y="500" width="20" height="20" rx="3" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+    <text x="1080" y="515" class="box-text">Building</text>
+    
+    <rect x="1050" y="530" width="20" height="20" rx="3" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+    <text x="1080" y="545" class="box-text">Success</text>
+    
+    <rect x="1050" y="560" width="20" height="20" rx="3" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+    <text x="1080" y="575" class="box-text">Submission</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="600" y="785" text-anchor="middle" class="arrow-text">🚀 Total time: ~2-3 hours (first build) | ~30-60 min (subsequent builds)</text>
+</svg>
