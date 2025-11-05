@@ -1,116 +1,230 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700"><?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700">
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700">  <!-- CI/CD Deployment Pipeline -->
+  <defs>
 
-  <defs>  <defs>
+    <style><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700">  <!-- CI/CD Deployment Pipeline -->
 
-    <style>    <style>
+      .title { font: bold 28px sans-serif; fill: #1F2937; }
 
-      .title { font: bold 28px sans-serif; fill: #1F2937; }      .title { font: bold 28px sans-serif; fill: #1F2937; }
+      .subtitle { font: 16px sans-serif; fill: #6B7280; }  <defs>  <defs>
 
-      .subtitle { font: 16px sans-serif; fill: #6B7280; }      .subtitle { font: 16px sans-serif; fill: #6B7280; }
+      .stage-title { font: bold 16px sans-serif; }
 
-      .stage-title { font: bold 16px sans-serif; fill: #FFFFFF; }      .stage-title { font: bold 16px sans-serif; fill: #FFFFFF; }
+      .stage-text { font: 13px sans-serif; fill: #374151; }    <style>    <style>
 
-      .stage-text { font: 13px sans-serif; fill: #374151; }      .stage-text { font: 13px sans-serif; fill: #374151; }
+      .label { font: 12px sans-serif; fill: #6B7280; }
 
-      .label { font: 12px sans-serif; fill: #6B7280; }      .label { font: 12px sans-serif; fill: #6B7280; }
+    </style>      .title { font: bold 28px sans-serif; fill: #1F2937; }      .title { font: bold 28px sans-serif; fill: #1F2937; }
 
-      .status-text { font: bold 14px sans-serif; }      .status-text { font: bold 14px sans-serif; }
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 
-    </style>    </style>
+      <polygon points="0 0, 10 3, 0 6" fill="#6B7280"/>      .subtitle { font: 16px sans-serif; fill: #6B7280; }      .subtitle { font: 16px sans-serif; fill: #6B7280; }
 
-        
+    </marker>
 
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <marker id="arrow-success" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">      .stage-title { font: bold 16px sans-serif; fill: #FFFFFF; }      .stage-title { font: bold 16px sans-serif; fill: #FFFFFF; }
 
-      <polygon points="0 0, 10 3, 0 6" fill="#6B7280" />      <polygon points="0 0, 10 3, 0 6" fill="#6B7280" />
+      <polygon points="0 0, 10 3, 0 6" fill="#10B981"/>
 
-    </marker>    </marker>
+    </marker>      .stage-text { font: 13px sans-serif; fill: #374151; }      .stage-text { font: 13px sans-serif; fill: #374151; }
 
-        
+    <marker id="arrow-fail" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 
-    <marker id="arrow-success" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">    <marker id="arrow-success" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#EF4444"/>      .label { font: 12px sans-serif; fill: #6B7280; }      .label { font: 12px sans-serif; fill: #6B7280; }
 
-      <polygon points="0 0, 10 3, 0 6" fill="#10B981" />      <polygon points="0 0, 10 3, 0 6" fill="#10B981" />
+    </marker>
 
-    </marker>    </marker>
+  </defs>      .status-text { font: bold 14px sans-serif; }      .status-text { font: bold 14px sans-serif; }
 
-        
+  
 
-    <marker id="arrow-fail" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">    <marker id="arrow-fail" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+  <text x="700" y="40" text-anchor="middle" class="title">CI/CD Deployment Pipeline</text>    </style>    </style>
 
-      <polygon points="0 0, 10 3, 0 6" fill="#EF4444" />      <polygon points="0 0, 10 3, 0 6" fill="#EF4444" />
+  <text x="700" y="65" text-anchor="middle" class="subtitle">Automated Build, Test and Deploy with GitHub Actions</text>
 
-    </marker>    </marker>
+          
 
-  </defs>  </defs>
+  <!-- Stage 1: Git Push -->
 
-    
+  <rect x="50" y="120" width="180" height="120" rx="8" fill="#EEF2FF" stroke="#4F46E5" stroke-width="3"/>    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 
-  <text x="700" y="40" text-anchor="middle" class="title">CI/CD Deployment Pipeline</text>  <!-- Title -->
+  <text x="140" y="165" text-anchor="middle" class="stage-title" fill="#4F46E5">1. Git Push</text>
 
-  <text x="700" y="65" text-anchor="middle" class="subtitle">Automated Build, Test and Deploy with GitHub Actions</text>  <text x="700" y="40" text-anchor="middle" class="title">CI/CD Deployment Pipeline</text>
+  <text x="140" y="190" text-anchor="middle" class="stage-text">Developer pushes</text>      <polygon points="0 0, 10 3, 0 6" fill="#6B7280" />      <polygon points="0 0, 10 3, 0 6" fill="#6B7280" />
 
-    <text x="700" y="65" text-anchor="middle" class="subtitle">Automated Build, Test and Deploy with GitHub Actions</text>
+  <text x="140" y="210" text-anchor="middle" class="stage-text">code to branch</text>
 
-  <g id="stage-1">  
+      </marker>    </marker>
 
-    <rect x="50" y="120" width="180" height="140" rx="8" fill="#EEF2FF" stroke="#4F46E5" stroke-width="3"/>  <!-- Stage 1: Code Push -->
+  <line x1="230" y1="180" x2="280" y2="180" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>
 
-    <circle cx="140" cy="140" r="15" fill="#4F46E5"/>  <g id="stage-1">
+          
 
-    <text x="140" y="148" text-anchor="middle" class="stage-title">1</text>    <rect x="50" y="120" width="180" height="140" rx="8" fill="#EEF2FF" stroke="#4F46E5" stroke-width="3"/>
+  <!-- Stage 2: CI Triggered -->
 
-    <text x="140" y="175" text-anchor="middle" class="stage-title" fill="#4F46E5">Git Push</text>    <circle cx="140" cy="140" r="15" fill="#4F46E5"/>
+  <rect x="280" y="120" width="180" height="120" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="3"/>    <marker id="arrow-success" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">    <marker id="arrow-success" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 
-    <text x="140" y="200" text-anchor="middle" class="stage-text">Developer pushes</text>    <text x="140" y="148" text-anchor="middle" class="stage-title">1</text>
+  <text x="370" y="165" text-anchor="middle" class="stage-title" fill="#3B82F6">2. CI Triggered</text>
 
-    <text x="140" y="220" text-anchor="middle" class="stage-text">code to branch</text>    
+  <text x="370" y="190" text-anchor="middle" class="stage-text">GitHub Actions</text>      <polygon points="0 0, 10 3, 0 6" fill="#10B981" />      <polygon points="0 0, 10 3, 0 6" fill="#10B981" />
 
-    <text x="140" y="245" text-anchor="middle" class="label">git push origin main</text>    <text x="140" y="175" text-anchor="middle" class="stage-title" fill="#4F46E5">Git Push</text>
+  <text x="370" y="210" text-anchor="middle" class="stage-text">workflow starts</text>
 
-  </g>    <text x="140" y="200" text-anchor="middle" class="stage-text">Developer pushes</text>
+      </marker>    </marker>
 
-      <text x="140" y="220" text-anchor="middle" class="stage-text">code to branch</text>
+  <line x1="460" y1="180" x2="510" y2="180" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>
 
-  <line x1="230" y1="190" x2="280" y2="190" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>    <text x="140" y="245" text-anchor="middle" class="label">$ git push origin main</text>
+          
 
-  <text x="255" y="180" text-anchor="middle" class="label">trigger</text>  </g>
+  <!-- Stage 3: Install & Test -->
 
-    
+  <rect x="510" y="120" width="180" height="120" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="3"/>    <marker id="arrow-fail" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">    <marker id="arrow-fail" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
 
-  <g id="stage-2">  <line x1="230" y1="190" x2="280" y2="190" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="600" y="165" text-anchor="middle" class="stage-title" fill="#F59E0B">3. Install Test</text>
 
-    <rect x="280" y="120" width="200" height="140" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="3"/>  <text x="255" y="180" text-anchor="middle" class="label">trigger</text>
+  <text x="600" y="185" text-anchor="middle" class="stage-text">npm ci cache</text>      <polygon points="0 0, 10 3, 0 6" fill="#EF4444" />      <polygon points="0 0, 10 3, 0 6" fill="#EF4444" />
 
-    <circle cx="380" cy="140" r="15" fill="#3B82F6"/>  
+  <text x="600" y="205" text-anchor="middle" class="stage-text">npm run lint</text>
 
-    <text x="380" y="148" text-anchor="middle" class="stage-title">2</text>  <!-- Stage 2: CI Triggered -->
+  <text x="600" y="225" text-anchor="middle" class="stage-text">npm test</text>    </marker>    </marker>
 
-    <text x="380" y="175" text-anchor="middle" class="stage-title" fill="#3B82F6">CI Triggered</text>  <g id="stage-2">
+  
 
-    <text x="380" y="200" text-anchor="middle" class="stage-text">GitHub Actions</text>    <rect x="280" y="120" width="200" height="140" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="3"/>
+  <line x1="690" y1="180" x2="740" y2="180" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>  </defs>  </defs>
 
-    <text x="380" y="220" text-anchor="middle" class="stage-text">workflow starts</text>    <circle cx="380" cy="140" r="15" fill="#3B82F6"/>
+  
 
-    <text x="380" y="245" text-anchor="middle" class="label">on: push: [main]</text>    <text x="380" y="148" text-anchor="middle" class="stage-title">2</text>
+  <!-- Decision Diamond -->    
 
-  </g>    
+  <polygon points="800,150 840,180 800,210 760,180" fill="#FEF3C7" stroke="#F59E0B" stroke-width="3"/>
 
-      <text x="380" y="175" text-anchor="middle" class="stage-title" fill="#3B82F6">CI Triggered</text>
+  <text x="800" y="190" text-anchor="middle" class="stage-text" font-weight="bold">Pass?</text>  <text x="700" y="40" text-anchor="middle" class="title">CI/CD Deployment Pipeline</text>  <!-- Title -->
 
-  <line x1="480" y1="190" x2="530" y2="190" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>    <text x="380" y="200" text-anchor="middle" class="stage-text">GitHub Actions</text>
+  
 
-      <text x="380" y="220" text-anchor="middle" class="stage-text">workflow starts</text>
+  <!-- Fail Path -->  <text x="700" y="65" text-anchor="middle" class="subtitle">Automated Build, Test and Deploy with GitHub Actions</text>  <text x="700" y="40" text-anchor="middle" class="title">CI/CD Deployment Pipeline</text>
 
-  <g id="stage-3">    <text x="380" y="245" text-anchor="middle" class="label">on: push: [main]</text>
+  <line x1="800" y1="210" x2="800" y2="260" stroke="#EF4444" stroke-width="3" marker-end="url(#arrow-fail)"/>
 
-    <rect x="530" y="120" width="200" height="140" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="3"/>  </g>
+  <rect x="740" y="260" width="120" height="50" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>    <text x="700" y="65" text-anchor="middle" class="subtitle">Automated Build, Test and Deploy with GitHub Actions</text>
 
-    <circle cx="630" cy="140" r="15" fill="#F59E0B"/>  
+  <text x="800" y="290" text-anchor="middle" class="stage-text" fill="#EF4444" font-weight="bold">FAIL</text>
 
-    <text x="630" y="148" text-anchor="middle" class="stage-title">3</text>  <line x1="480" y1="190" x2="530" y2="190" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>
+    <g id="stage-1">  
+
+  <!-- Success Path -->
+
+  <line x1="840" y1="180" x2="890" y2="180" stroke="#10B981" stroke-width="3" marker-end="url(#arrow-success)"/>    <rect x="50" y="120" width="180" height="140" rx="8" fill="#EEF2FF" stroke="#4F46E5" stroke-width="3"/>  <!-- Stage 1: Code Push -->
+
+  
+
+  <!-- Stage 4: EAS Build -->    <circle cx="140" cy="140" r="15" fill="#4F46E5"/>  <g id="stage-1">
+
+  <rect x="890" y="120" width="180" height="120" rx="8" fill="#E0E7FF" stroke="#6366F1" stroke-width="3"/>
+
+  <text x="980" y="165" text-anchor="middle" class="stage-title" fill="#6366F1">4. EAS Build</text>    <text x="140" y="148" text-anchor="middle" class="stage-title">1</text>    <rect x="50" y="120" width="180" height="140" rx="8" fill="#EEF2FF" stroke="#4F46E5" stroke-width="3"/>
+
+  <text x="980" y="185" text-anchor="middle" class="stage-text">eas build</text>
+
+  <text x="980" y="205" text-anchor="middle" class="stage-text">platform all</text>    <text x="140" y="175" text-anchor="middle" class="stage-title" fill="#4F46E5">Git Push</text>    <circle cx="140" cy="140" r="15" fill="#4F46E5"/>
+
+  <text x="980" y="225" text-anchor="middle" class="label">15-20 min</text>
+
+      <text x="140" y="200" text-anchor="middle" class="stage-text">Developer pushes</text>    <text x="140" y="148" text-anchor="middle" class="stage-title">1</text>
+
+  <line x1="1070" y1="180" x2="1120" y2="180" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>
+
+      <text x="140" y="220" text-anchor="middle" class="stage-text">code to branch</text>    
+
+  <!-- Stage 5: Deploy -->
+
+  <rect x="1120" y="120" width="180" height="120" rx="8" fill="#D1FAE5" stroke="#10B981" stroke-width="3"/>    <text x="140" y="245" text-anchor="middle" class="label">git push origin main</text>    <text x="140" y="175" text-anchor="middle" class="stage-title" fill="#4F46E5">Git Push</text>
+
+  <text x="1210" y="165" text-anchor="middle" class="stage-title" fill="#10B981">5. Deploy</text>
+
+  <text x="1210" y="190" text-anchor="middle" class="stage-text">eas update</text>  </g>    <text x="140" y="200" text-anchor="middle" class="stage-text">Developer pushes</text>
+
+  <text x="1210" y="210" text-anchor="middle" class="stage-text" fill="#10B981" font-weight="bold">SUCCESS</text>
+
+        <text x="140" y="220" text-anchor="middle" class="stage-text">code to branch</text>
+
+  <!-- Alternative Workflows -->
+
+  <text x="50" y="370" class="subtitle" font-weight="bold">Alternative Workflows:</text>  <line x1="230" y1="190" x2="280" y2="190" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>    <text x="140" y="245" text-anchor="middle" class="label">$ git push origin main</text>
+
+  
+
+  <rect x="50" y="390" width="350" height="90" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>  <text x="255" y="180" text-anchor="middle" class="label">trigger</text>  </g>
+
+  <text x="70" y="415" class="stage-title" fill="#6366F1">Pull Request Flow</text>
+
+  <text x="70" y="440" class="stage-text">on: pull_request</text>    
+
+  <text x="70" y="460" class="stage-text">Run tests only, no build</text>
+
+    <g id="stage-2">  <line x1="230" y1="190" x2="280" y2="190" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="430" y="390" width="350" height="90" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+
+  <text x="450" y="415" class="stage-title" fill="#F59E0B">Preview Staging</text>    <rect x="280" y="120" width="200" height="140" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="3"/>  <text x="255" y="180" text-anchor="middle" class="label">trigger</text>
+
+  <text x="450" y="440" class="stage-text">on: push develop</text>
+
+  <text x="450" y="460" class="stage-text">Internal testing builds</text>    <circle cx="380" cy="140" r="15" fill="#3B82F6"/>  
+
+  
+
+  <rect x="810" y="390" width="350" height="90" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>    <text x="380" y="148" text-anchor="middle" class="stage-title">2</text>  <!-- Stage 2: CI Triggered -->
+
+  <text x="830" y="415" class="stage-title" fill="#10B981">Scheduled Flow</text>
+
+  <text x="830" y="440" class="stage-text">on: schedule cron</text>    <text x="380" y="175" text-anchor="middle" class="stage-title" fill="#3B82F6">CI Triggered</text>  <g id="stage-2">
+
+  <text x="830" y="460" class="stage-text">Nightly builds</text>
+
+      <text x="380" y="200" text-anchor="middle" class="stage-text">GitHub Actions</text>    <rect x="280" y="120" width="200" height="140" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="3"/>
+
+  <!-- Tips -->
+
+  <rect x="50" y="520" width="400" height="100" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>    <text x="380" y="220" text-anchor="middle" class="stage-text">workflow starts</text>    <circle cx="380" cy="140" r="15" fill="#3B82F6"/>
+
+  <text x="70" y="545" class="stage-title" fill="#F59E0B">Performance: Caching</text>
+
+  <text x="70" y="570" class="stage-text">actions/setup-node@v3</text>    <text x="380" y="245" text-anchor="middle" class="label">on: push: [main]</text>    <text x="380" y="148" text-anchor="middle" class="stage-title">2</text>
+
+  <text x="70" y="590" class="stage-text">with cache: npm</text>
+
+  <text x="70" y="610" class="stage-text" fill="#F59E0B" font-weight="bold">Bug 6 fix!</text>  </g>    
+
+  
+
+  <rect x="480" y="520" width="400" height="100" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>      <text x="380" y="175" text-anchor="middle" class="stage-title" fill="#3B82F6">CI Triggered</text>
+
+  <text x="500" y="545" class="stage-title" fill="#EF4444">Security: Secrets</text>
+
+  <text x="500" y="570" class="stage-text">GitHub Settings Secrets</text>  <line x1="480" y1="190" x2="530" y2="190" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>    <text x="380" y="200" text-anchor="middle" class="stage-text">GitHub Actions</text>
+
+  <text x="500" y="590" class="stage-text">EXPO_TOKEN required</text>
+
+  <text x="500" y="610" class="stage-text">API_KEYS if needed</text>      <text x="380" y="220" text-anchor="middle" class="stage-text">workflow starts</text>
+
+  
+
+  <rect x="910" y="520" width="400" height="100" rx="8" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>  <g id="stage-3">    <text x="380" y="245" text-anchor="middle" class="label">on: push: [main]</text>
+
+  <text x="930" y="545" class="stage-title" fill="#10B981">CI/CD Benefits</text>
+
+  <text x="930" y="570" class="stage-text">Automated quality checks</text>    <rect x="530" y="120" width="200" height="140" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="3"/>  </g>
+
+  <text x="930" y="590" class="stage-text">Faster deployments</text>
+
+  <text x="930" y="610" class="stage-text">Consistent builds</text>    <circle cx="630" cy="140" r="15" fill="#F59E0B"/>  
+
+  
+
+  <text x="700" y="680" text-anchor="middle" class="label">Full pipeline: 20-30 min | With cache: 10-15 min</text>    <text x="630" y="148" text-anchor="middle" class="stage-title">3</text>  <line x1="480" y1="190" x2="530" y2="190" stroke="#6B7280" stroke-width="3" marker-end="url(#arrow)"/>
+
+</svg>
 
     <text x="630" y="175" text-anchor="middle" class="stage-title" fill="#F59E0B">Install and Test</text>  
 
