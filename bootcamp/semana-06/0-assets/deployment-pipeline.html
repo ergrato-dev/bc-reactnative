@@ -1,300 +1,335 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CI/CD Deployment Pipeline</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            padding: 40px;
-            background: white;
-            margin: 0;
-        }
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-        h1 {
-            text-align: center;
-            color: #1F2937;
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-        h2 {
-            text-align: center;
-            color: #6B7280;
-            font-size: 16px;
-            font-weight: normal;
-            margin-bottom: 40px;
-        }
-        .pipeline {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            margin-bottom: 40px;
-            overflow-x: auto;
-            padding: 20px 0;
-        }
-        .stage {
-            min-width: 160px;
-            padding: 20px;
-            border-radius: 8px;
-            position: relative;
-        }
-        .stage-number {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: bold;
-            margin: 0 auto 10px;
-        }
-        .stage-title {
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        .stage-content {
-            font-size: 13px;
-            color: #374151;
-            text-align: center;
-            line-height: 1.6;
-        }
-        .stage-small {
-            font-size: 11px;
-            color: #6B7280;
-            text-align: center;
-            margin-top: 8px;
-        }
-        .arrow {
-            font-size: 24px;
-            color: #6B7280;
-            flex-shrink: 0;
-        }
-        .decision {
-            min-width: 100px;
-            padding: 20px;
-            border: 3px solid #F59E0B;
-            background: #FEF3C7;
-            border-radius: 8px;
-            text-align: center;
-            font-weight: bold;
-            position: relative;
-        }
-        .fail-path {
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            margin-top: 10px;
-            padding: 15px 30px;
-            background: #FEE2E2;
-            border: 2px solid #EF4444;
-            border-radius: 6px;
-            color: #EF4444;
-            font-weight: bold;
-        }
-        .alternatives {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        .alt-box {
-            padding: 20px;
-            border-radius: 8px;
-            background: #F9FAFB;
-            border: 2px solid #E5E7EB;
-        }
-        .alt-title {
-            font-weight: bold;
-            margin-bottom: 10px;
-            font-size: 14px;
-        }
-        .alt-content {
-            font-size: 12px;
-            color: #374151;
-            line-height: 1.6;
-        }
-        .info-boxes {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-            gap: 20px;
-        }
-        .info-box {
-            padding: 20px;
-            border-radius: 8px;
-            border: 2px solid;
-        }
-        .info-title {
-            font-weight: bold;
-            margin-bottom: 10px;
-            font-size: 14px;
-        }
-        .info-content {
-            font-size: 12px;
-            line-height: 1.8;
-        }
-        code {
-            font-family: 'Courier New', monospace;
-            font-size: 11px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 30px;
-            color: #6B7280;
-            font-size: 12px;
-        }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial,
+          sans-serif;
+        padding: 40px;
+        background: white;
+        margin: 0;
+      }
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+      h1 {
+        text-align: center;
+        color: #1f2937;
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+      h2 {
+        text-align: center;
+        color: #6b7280;
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 40px;
+      }
+      .pipeline {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 40px;
+        overflow-x: auto;
+        padding: 20px 0;
+      }
+      .stage {
+        min-width: 160px;
+        padding: 20px;
+        border-radius: 8px;
+        position: relative;
+      }
+      .stage-number {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        margin: 0 auto 10px;
+      }
+      .stage-title {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .stage-content {
+        font-size: 13px;
+        color: #374151;
+        text-align: center;
+        line-height: 1.6;
+      }
+      .stage-small {
+        font-size: 11px;
+        color: #6b7280;
+        text-align: center;
+        margin-top: 8px;
+      }
+      .arrow {
+        font-size: 24px;
+        color: #6b7280;
+        flex-shrink: 0;
+      }
+      .decision {
+        min-width: 100px;
+        padding: 20px;
+        border: 3px solid #f59e0b;
+        background: #fef3c7;
+        border-radius: 8px;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+      }
+      .fail-path {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+        padding: 15px 30px;
+        background: #fee2e2;
+        border: 2px solid #ef4444;
+        border-radius: 6px;
+        color: #ef4444;
+        font-weight: bold;
+      }
+      .alternatives {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 20px;
+        margin-bottom: 30px;
+      }
+      .alt-box {
+        padding: 20px;
+        border-radius: 8px;
+        background: #f9fafb;
+        border: 2px solid #e5e7eb;
+      }
+      .alt-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+      .alt-content {
+        font-size: 12px;
+        color: #374151;
+        line-height: 1.6;
+      }
+      .info-boxes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        gap: 20px;
+      }
+      .info-box {
+        padding: 20px;
+        border-radius: 8px;
+        border: 2px solid;
+      }
+      .info-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+      .info-content {
+        font-size: 12px;
+        line-height: 1.8;
+      }
+      code {
+        font-family: 'Courier New', monospace;
+        font-size: 11px;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 30px;
+        color: #6b7280;
+        font-size: 12px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>CI/CD Deployment Pipeline</h1>
-        <h2>Automated Build, Test and Deploy with GitHub Actions</h2>
-        
-        <div class="pipeline">
-            <div class="stage" style="background: #EEF2FF; border: 3px solid #4F46E5;">
-                <div class="stage-number" style="background: #4F46E5;">1</div>
-                <div class="stage-title" style="color: #4F46E5;">Git Push</div>
-                <div class="stage-content">
-                    Developer pushes<br>
-                    code to branch
-                </div>
-                <div class="stage-small">git push origin main</div>
-            </div>
-            
-            <div class="arrow">→</div>
-            
-            <div class="stage" style="background: #DBEAFE; border: 3px solid #3B82F6;">
-                <div class="stage-number" style="background: #3B82F6;">2</div>
-                <div class="stage-title" style="color: #3B82F6;">CI Triggered</div>
-                <div class="stage-content">
-                    GitHub Actions<br>
-                    workflow starts
-                </div>
-                <div class="stage-small">on: push: [main]</div>
-            </div>
-            
-            <div class="arrow">→</div>
-            
-            <div class="stage" style="background: #FEF3C7; border: 3px solid #F59E0B;">
-                <div class="stage-number" style="background: #F59E0B;">3</div>
-                <div class="stage-title" style="color: #F59E0B;">Install & Test</div>
-                <div class="stage-content">
-                    npm ci (with cache)<br>
-                    npm run lint<br>
-                    npm test --coverage
-                </div>
-            </div>
-            
-            <div class="arrow">→</div>
-            
-            <div class="decision" style="position: relative;">
-                Tests<br>Pass?
-                <div class="fail-path">
-                    ❌ Fail<br>
-                    <small>Notify developer</small>
-                </div>
-            </div>
-            
-            <div class="arrow" style="color: #10B981;">→</div>
-            
-            <div class="stage" style="background: #E0E7FF; border: 3px solid #6366F1;">
-                <div class="stage-number" style="background: #6366F1;">4</div>
-                <div class="stage-title" style="color: #6366F1;">EAS Build</div>
-                <div class="stage-content">
-                    eas build --platform all<br>
-                    --profile production<br>
-                    --non-interactive
-                </div>
-                <div class="stage-small">⏱️ ~15-20 min</div>
-            </div>
-            
-            <div class="arrow">→</div>
-            
-            <div class="stage" style="background: #D1FAE5; border: 3px solid #10B981;">
-                <div class="stage-number" style="background: #10B981;">5</div>
-                <div class="stage-title" style="color: #10B981;">Deploy</div>
-                <div class="stage-content">
-                    eas update<br>
-                    --branch production
-                </div>
-                <div class="stage-small" style="color: #10B981; font-weight: bold;">✓ Success</div>
-            </div>
+      <h1>CI/CD Deployment Pipeline</h1>
+      <h2>Automated Build, Test and Deploy with GitHub Actions</h2>
+
+      <div class="pipeline">
+        <div
+          class="stage"
+          style="background: #eef2ff; border: 3px solid #4f46e5"
+        >
+          <div class="stage-number" style="background: #4f46e5">1</div>
+          <div class="stage-title" style="color: #4f46e5">Git Push</div>
+          <div class="stage-content">
+            Developer pushes<br />
+            code to branch
+          </div>
+          <div class="stage-small">git push origin main</div>
         </div>
-        
-        <h3 style="color: #4F46E5; margin-top: 60px;">Alternative Workflows:</h3>
-        
-        <div class="alternatives">
-            <div class="alt-box">
-                <div class="alt-title" style="color: #6366F1;">📋 Pull Request Flow</div>
-                <div class="alt-content">
-                    • on: pull_request → Run tests only<br>
-                    • ✓ No build, just validation<br>
-                    • ✓ Fast feedback for PRs
-                </div>
-            </div>
-            
-            <div class="alt-box">
-                <div class="alt-title" style="color: #F59E0B;">🔍 Preview/Staging Flow</div>
-                <div class="alt-content">
-                    • on: push: [develop] → Build preview<br>
-                    • ✓ Internal testing builds<br>
-                    • ✓ QA environment
-                </div>
-            </div>
-            
-            <div class="alt-box">
-                <div class="alt-title" style="color: #10B981;">⏰ Scheduled Flow</div>
-                <div class="alt-content">
-                    • on: schedule: cron → Nightly builds<br>
-                    • ✓ Automated regression testing<br>
-                    • ✓ Latest dependency testing
-                </div>
-            </div>
+
+        <div class="arrow">→</div>
+
+        <div
+          class="stage"
+          style="background: #dbeafe; border: 3px solid #3b82f6"
+        >
+          <div class="stage-number" style="background: #3b82f6">2</div>
+          <div class="stage-title" style="color: #3b82f6">CI Triggered</div>
+          <div class="stage-content">
+            GitHub Actions<br />
+            workflow starts
+          </div>
+          <div class="stage-small">on: push: [main]</div>
         </div>
-        
-        <div class="info-boxes">
-            <div class="info-box" style="background: #FEF3C7; border-color: #F59E0B;">
-                <div class="info-title" style="color: #F59E0B;">⚡ Performance Tip: Caching</div>
-                <div class="info-content">
-                    <code>
-                    - uses: actions/setup-node@v3<br>
-                    &nbsp;&nbsp;with:<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;node-version: 18<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;cache: 'npm'  # ✨ Bug #6 fix!
-                    </code>
-                </div>
-            </div>
-            
-            <div class="info-box" style="background: #FEE2E2; border-color: #EF4444;">
-                <div class="info-title" style="color: #EF4444;">🔐 Security: Secrets Management</div>
-                <div class="info-content">
-                    GitHub Settings → Secrets → Actions<br><br>
-                    <strong>Required secrets:</strong><br>
-                    • EXPO_TOKEN (from `eas whoami`)<br>
-                    • API_KEYS (if needed)
-                </div>
-            </div>
-            
-            <div class="info-box" style="background: #D1FAE5; border-color: #10B981;">
-                <div class="info-title" style="color: #10B981;">✨ CI/CD Benefits</div>
-                <div class="info-content">
-                    ✓ Automated quality checks<br>
-                    ✓ Faster deployments<br>
-                    ✓ Consistent builds<br>
-                    ✓ Reduced human error
-                </div>
-            </div>
+
+        <div class="arrow">→</div>
+
+        <div
+          class="stage"
+          style="background: #fef3c7; border: 3px solid #f59e0b"
+        >
+          <div class="stage-number" style="background: #f59e0b">3</div>
+          <div class="stage-title" style="color: #f59e0b">Install & Test</div>
+          <div class="stage-content">
+            npm ci (with cache)<br />
+            npm run lint<br />
+            npm test --coverage
+          </div>
         </div>
-        
-        <div class="footer">
-            💡 Full pipeline time: ~20-30 minutes | With cache: ~10-15 minutes
+
+        <div class="arrow">→</div>
+
+        <div class="decision" style="position: relative">
+          Tests<br />Pass?
+          <div class="fail-path">
+            ❌ Fail<br />
+            <small>Notify developer</small>
+          </div>
         </div>
+
+        <div class="arrow" style="color: #10b981">→</div>
+
+        <div
+          class="stage"
+          style="background: #e0e7ff; border: 3px solid #6366f1"
+        >
+          <div class="stage-number" style="background: #6366f1">4</div>
+          <div class="stage-title" style="color: #6366f1">EAS Build</div>
+          <div class="stage-content">
+            eas build --platform all<br />
+            --profile production<br />
+            --non-interactive
+          </div>
+          <div class="stage-small">⏱️ ~15-20 min</div>
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div
+          class="stage"
+          style="background: #d1fae5; border: 3px solid #10b981"
+        >
+          <div class="stage-number" style="background: #10b981">5</div>
+          <div class="stage-title" style="color: #10b981">Deploy</div>
+          <div class="stage-content">
+            eas update<br />
+            --branch production
+          </div>
+          <div class="stage-small" style="color: #10b981; font-weight: bold">
+            ✓ Success
+          </div>
+        </div>
+      </div>
+
+      <h3 style="color: #4f46e5; margin-top: 60px">Alternative Workflows:</h3>
+
+      <div class="alternatives">
+        <div class="alt-box">
+          <div class="alt-title" style="color: #6366f1">
+            📋 Pull Request Flow
+          </div>
+          <div class="alt-content">
+            • on: pull_request → Run tests only<br />
+            • ✓ No build, just validation<br />
+            • ✓ Fast feedback for PRs
+          </div>
+        </div>
+
+        <div class="alt-box">
+          <div class="alt-title" style="color: #f59e0b">
+            🔍 Preview/Staging Flow
+          </div>
+          <div class="alt-content">
+            • on: push: [develop] → Build preview<br />
+            • ✓ Internal testing builds<br />
+            • ✓ QA environment
+          </div>
+        </div>
+
+        <div class="alt-box">
+          <div class="alt-title" style="color: #10b981">⏰ Scheduled Flow</div>
+          <div class="alt-content">
+            • on: schedule: cron → Nightly builds<br />
+            • ✓ Automated regression testing<br />
+            • ✓ Latest dependency testing
+          </div>
+        </div>
+      </div>
+
+      <div class="info-boxes">
+        <div
+          class="info-box"
+          style="background: #fef3c7; border-color: #f59e0b"
+        >
+          <div class="info-title" style="color: #f59e0b">
+            ⚡ Performance Tip: Caching
+          </div>
+          <div class="info-content">
+            <code>
+              - uses: actions/setup-node@v3<br />
+              &nbsp;&nbsp;with:<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;node-version: 18<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;cache: 'npm' # ✨ Bug #6 fix!
+            </code>
+          </div>
+        </div>
+
+        <div
+          class="info-box"
+          style="background: #fee2e2; border-color: #ef4444"
+        >
+          <div class="info-title" style="color: #ef4444">
+            🔐 Security: Secrets Management
+          </div>
+          <div class="info-content">
+            GitHub Settings → Secrets → Actions<br /><br />
+            <strong>Required secrets:</strong><br />
+            • EXPO_TOKEN (from `eas whoami`)<br />
+            • API_KEYS (if needed)
+          </div>
+        </div>
+
+        <div
+          class="info-box"
+          style="background: #d1fae5; border-color: #10b981"
+        >
+          <div class="info-title" style="color: #10b981">✨ CI/CD Benefits</div>
+          <div class="info-content">
+            ✓ Automated quality checks<br />
+            ✓ Faster deployments<br />
+            ✓ Consistent builds<br />
+            ✓ Reduced human error
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        💡 Full pipeline time: ~20-30 minutes | With cache: ~10-15 minutes
+      </div>
     </div>
-</body>
+  </body>
 </html>
