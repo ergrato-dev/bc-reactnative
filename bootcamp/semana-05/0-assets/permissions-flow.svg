@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <!-- Fondo oscuro -->
+  <rect width="900" height="700" fill="#1E1E1E"/>
+  
+  <!-- Título -->
+  <text x="450" y="40" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    Flujo de Permisos en React Native
+  </text>
+  
+  <!-- Subtítulo -->
+  <text x="450" y="70" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#CCCCCC" text-anchor="middle">
+    Camera, Location, Notifications, Media Library
+  </text>
+  
+  <!-- PASO 1: Solicitud de Permiso -->
+  <g id="step1">
+    <rect x="50" y="110" width="200" height="120" fill="#2D2D2D" stroke="#61DAFB" stroke-width="2" rx="8"/>
+    <text x="150" y="135" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#61DAFB" text-anchor="middle">
+      1. Solicitar Permiso
+    </text>
+    <text x="150" y="160" font-family="Consolas, Monaco, monospace" font-size="12" fill="#FFFFFF" text-anchor="middle">
+      requestPermission()
+    </text>
+    <text x="150" y="185" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">
+      Usuario: Primera vez
+    </text>
+    <text x="150" y="205" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">
+      App solicita acceso
+    </text>
+  </g>
+  
+  <!-- Flecha -->
+  <path d="M 250 170 L 330 170" stroke="#4EC9B0" stroke-width="2" fill="none" marker-end="url(#arrowgreen)"/>
+  
+  <!-- PASO 2: Dialog del Sistema -->
+  <g id="step2">
+    <rect x="340" y="110" width="220" height="120" fill="#2D2D2D" stroke="#C586C0" stroke-width="2" rx="8"/>
+    <text x="450" y="135" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#C586C0" text-anchor="middle">
+      2. System Dialog
+    </text>
+    <rect x="360" y="150" width="180" height="60" fill="#1E1E1E" stroke="#666666" stroke-width="1" rx="4"/>
+    <text x="450" y="170" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">
+      "App necesita acceso"
+    </text>
+    <text x="450" y="188" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">
+      a la cámara
+    </text>
+    <text x="395" y="203" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4EC9B0" text-anchor="middle">
+      [Permitir]
+    </text>
+    <text x="505" y="203" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#F48771" text-anchor="middle">
+      [Denegar]
+    </text>
+  </g>
+  
+  <!-- Flecha hacia Granted -->
+  <path d="M 560 140 L 620 140 L 620 170 L 640 170" stroke="#4EC9B0" stroke-width="2" fill="none" marker-end="url(#arrowgreen)"/>
+  <text x="590" y="130" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4EC9B0">
+    ✓ Permitir
+  </text>
+  
+  <!-- Flecha hacia Denied -->
+  <path d="M 560 200 L 620 200 L 620 280 L 640 280" stroke="#F48771" stroke-width="2" fill="none" marker-end="url(#arrowred)"/>
+  <text x="590" y="215" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#F48771">
+    ✗ Denegar
+  </text>
+  
+  <!-- RESULTADO: GRANTED -->
+  <g id="granted">
+    <rect x="650" y="110" width="200" height="120" fill="#2D2D2D" stroke="#4EC9B0" stroke-width="3" rx="8"/>
+    <text x="750" y="135" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#4EC9B0" text-anchor="middle">
+      ✓ GRANTED
+    </text>
+    <text x="750" y="160" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">
+      Acceso concedido
+    </text>
+    <text x="750" y="185" font-family="Consolas, Monaco, monospace" font-size="11" fill="#CCCCCC" text-anchor="middle">
+      status: 'granted'
+    </text>
+    <text x="750" y="210" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#4EC9B0" text-anchor="middle">
+      → Usar feature
+    </text>
+  </g>
+  
+  <!-- RESULTADO: DENIED -->
+  <g id="denied">
+    <rect x="650" y="250" width="200" height="120" fill="#2D2D2D" stroke="#F48771" stroke-width="3" rx="8"/>
+    <text x="750" y="275" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#F48771" text-anchor="middle">
+      ✗ DENIED
+    </text>
+    <text x="750" y="300" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">
+      Acceso denegado
+    </text>
+    <text x="750" y="325" font-family="Consolas, Monaco, monospace" font-size="11" fill="#CCCCCC" text-anchor="middle">
+      status: 'denied'
+    </text>
+    <text x="750" y="350" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#DCDCAA" text-anchor="middle">
+      → Mostrar mensaje
+    </text>
+  </g>
+  
+  <!-- CASO ESPECIAL: Check Status -->
+  <g id="checkstatus">
+    <rect x="50" y="400" width="200" height="100" fill="#2D2D2D" stroke="#DCDCAA" stroke-width="2" rx="8"/>
+    <text x="150" y="425" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#DCDCAA" text-anchor="middle">
+      Verificar Estado
+    </text>
+    <text x="150" y="450" font-family="Consolas, Monaco, monospace" font-size="12" fill="#FFFFFF" text-anchor="middle">
+      getPermissionsAsync()
+    </text>
+    <text x="150" y="475" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">
+      Sin mostrar dialog
+    </text>
+  </g>
+  
+  <!-- Flechas de Check Status -->
+  <path d="M 250 440 L 300 440 L 300 350 L 640 350" stroke="#DCDCAA" stroke-width="2" fill="none" marker-end="url(#arrowyellow)" stroke-dasharray="5,5"/>
+  
+  <!-- MEJOR PRÁCTICA -->
+  <g id="bestpractice">
+    <rect x="320" y="400" width="260" height="100" fill="#2D2D2D" stroke="#C586C0" stroke-width="2" rx="8"/>
+    <text x="450" y="425" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#C586C0" text-anchor="middle">
+      💡 Mejor Práctica
+    </text>
+    <text x="450" y="450" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">
+      1. Verificar estado primero
+    </text>
+    <text x="450" y="470" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">
+      2. Solicitar solo si es necesario
+    </text>
+    <text x="450" y="490" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">
+      3. Explicar por qué lo necesitas
+    </text>
+  </g>
+  
+  <!-- PLATAFORMAS -->
+  <g id="platforms">
+    <rect x="640" y="540" width="210" height="130" fill="#2D2D2D" stroke="#61DAFB" stroke-width="2" rx="8"/>
+    <text x="745" y="565" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#61DAFB" text-anchor="middle">
+      Consideraciones
+    </text>
+    
+    <text x="660" y="590" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4EC9B0">
+      iOS:
+    </text>
+    <text x="660" y="608" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#CCCCCC">
+      • Info.plist obligatorio
+    </text>
+    <text x="660" y="623" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#CCCCCC">
+      • Mensaje personalizado
+    </text>
+    
+    <text x="660" y="645" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4EC9B0">
+      Android:
+    </text>
+    <text x="660" y="663" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#CCCCCC">
+      • AndroidManifest.xml
+    </text>
+  </g>
+  
+  <!-- PERMISOS COMUNES -->
+  <g id="common">
+    <rect x="50" y="540" width="260" height="130" fill="#2D2D2D" stroke="#61DAFB" stroke-width="2" rx="8"/>
+    <text x="180" y="565" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#61DAFB" text-anchor="middle">
+      Permisos Comunes
+    </text>
+    
+    <text x="70" y="590" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+      📷 CAMERA
+    </text>
+    <text x="200" y="590" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+      📍 LOCATION
+    </text>
+    
+    <text x="70" y="610" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+      🔔 NOTIFICATIONS
+    </text>
+    <text x="200" y="610" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+      🖼️ MEDIA_LIBRARY
+    </text>
+    
+    <text x="70" y="630" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+      🎤 AUDIO_RECORDING
+    </text>
+    <text x="200" y="630" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+      📱 CONTACTS
+    </text>
+    
+    <text x="70" y="650" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+      📅 CALENDAR
+    </text>
+    <text x="200" y="650" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+      ⚡ MOTION
+    </text>
+  </g>
+  
+  <!-- Código de Ejemplo -->
+  <g id="code-example">
+    <rect x="340" y="540" width="270" height="130" fill="#1E1E1E" stroke="#666666" stroke-width="1" rx="4"/>
+    <text x="475" y="560" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#DCDCAA" text-anchor="middle">
+      Ejemplo de Código
+    </text>
+    
+    <text x="350" y="580" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+      const
+    </text>
+    <text x="385" y="580" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">
+      { status } =
+    </text>
+    <text x="350" y="595" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+        await
+    </text>
+    <text x="395" y="595" font-family="Consolas, Monaco, monospace" font-size="10" fill="#DCDCAA">
+      Camera
+    </text>
+    <text x="437" y="595" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">
+      .
+    </text>
+    <text x="445" y="595" font-family="Consolas, Monaco, monospace" font-size="10" fill="#DCDCAA">
+      requestPermissionsAsync
+    </text>
+    <text x="350" y="610" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">
+      ()
+    </text>
+    
+    <text x="350" y="630" font-family="Consolas, Monaco, monospace" font-size="10" fill="#C586C0">
+      if
+    </text>
+    <text x="373" y="630" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">
+      (status ===
+    </text>
+    <text x="450" y="630" font-family="Consolas, Monaco, monospace" font-size="10" fill="#CE9178">
+      'granted'
+    </text>
+    <text x="507" y="630" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">
+      ) {
+    </text>
+    
+    <text x="360" y="645" font-family="Consolas, Monaco, monospace" font-size="10" fill="#6A9955">
+      // Usar cámara
+    </text>
+    
+    <text x="350" y="660" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">
+      }
+    </text>
+  </g>
+  
+  <!-- Definición de flechas -->
+  <defs>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4EC9B0"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#F48771"/>
+    </marker>
+    <marker id="arrowyellow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#DCDCAA"/>
+    </marker>
+  </defs>
+</svg>
