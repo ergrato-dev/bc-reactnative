@@ -1,21 +1,14 @@
 // ============================================================
 // TYPES — src/types/index.ts
 // ============================================================
-// Define aquí la interfaz del elemento de tu dominio asignado.
-// Este type se usará en mockData.ts, ItemCard.tsx y HomeScreen.tsx
+// Dominio: mercado campesino
+// Elemento: Vendor (vendedor/productor del mercado campesino)
 // ============================================================
-
-// TODO: Renombra esta interfaz con el nombre de tu elemento
-// Ejemplos: Book, Medication, Member, Dish, Movie, Destination
-export interface Item {
+export interface Vendor {
   id: string;
   name: string;
   imageUri: string;
-  // TODO: Agrega las propiedades específicas de tu dominio
-  // Ejemplos:
-  //   Biblioteca → author: string; year: number;
-  //   Farmacia → activeIngredient: string; price: number;
-  //   Gimnasio → plan: string; expiresAt: string;
-  //   Restaurante → price: number; description: string;
-  subtitle: string; // campo genérico de apoyo — personaliza según tu dominio
+  productCategory: string; // ej: verduras, frutas, lacteos, granos
+  location: string; // ej: puesto o vereda de procedencia
+  isActive: boolean; // si el vendedor está atendiendo hoy
 }

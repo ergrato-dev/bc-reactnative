@@ -1,43 +1,42 @@
 // ============================================================
 // MOCK DATA — src/data/mockData.ts
 // ============================================================
-// Datos de ejemplo para tu dominio asignado.
-// Reemplaza estos datos con información coherente a tu dominio.
+// Dominio: mercado campesino
+// Elemento: Vendor
 // ============================================================
+import { Vendor } from '../types';
 
-import { Item } from '../types';
-
-// TODO: Reemplaza los valores por datos reales de tu dominio
-// Usa imágenes representativas — puedes usar URLs de picsum.photos
-// o incluir imágenes locales en assets/
-
-export const MOCK_ITEMS: Item[] = [
+export const MOCK_VENDORS: Vendor[] = [
   {
     id: '1',
-    name: 'Nombre del elemento 1',
-    subtitle: 'Subtítulo o descripción corta',
-    imageUri: 'https://picsum.photos/seed/item1/300/200',
-    // TODO: Agrega las propiedades específicas de tu dominio
+    name: 'Finca La Esperanza',
+    productCategory: 'Verduras',
+    location: 'Vereda El Rosal',
+    imageUri: 'https://picsum.photos/seed/vendor1/300/200',
+    isActive: true,
   },
   {
     id: '2',
-    name: 'Nombre del elemento 2',
-    subtitle: 'Subtítulo o descripción corta',
-    imageUri: 'https://picsum.photos/seed/item2/300/200',
-    // TODO: Agrega las propiedades específicas de tu dominio
+    name: 'Frutas Doña Marta',
+    productCategory: 'Frutas',
+    location: 'Vereda Santa Bárbara',
+    imageUri: 'https://picsum.photos/seed/vendor2/300/200',
+    isActive: true,
   },
   {
     id: '3',
-    name: 'Nombre del elemento 3',
-    subtitle: 'Subtítulo o descripción corta',
-    imageUri: 'https://picsum.photos/seed/item3/300/200',
-    // TODO: Agrega las propiedades específicas de tu dominio
+    name: 'Lácteos El Establo',
+    productCategory: 'Lácteos',
+    location: 'Vereda La Cabaña',
+    imageUri: 'https://picsum.photos/seed/vendor3/300/200',
+    isActive: false,
   },
   {
     id: '4',
-    name: 'Nombre del elemento 4',
-    subtitle: 'Subtítulo o descripción corta',
-    imageUri: 'https://picsum.photos/seed/item4/300/200',
-    // TODO: Agrega las propiedades específicas de tu dominio
+    name: 'Granos San Isidro',
+    productCategory: 'Granos',
+    location: 'Vereda El Progreso',
+    imageUri: 'https://picsum.photos/seed/vendor4/300/200',
+    isActive: true,
   },
 ];
