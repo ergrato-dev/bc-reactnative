@@ -1,68 +1,87 @@
 import { Item } from '../types';
-
 // ============================================
 // MOCK DATA — Semana 02
-// Reemplaza estos items genéricos con datos
-// reales de tu dominio asignado.
-//
-// REQUISITO: mínimo 10 items
 // ============================================
 
-// TODO: Renombra ITEMS a algo descriptivo de tu dominio
-//       Ejemplo: BOOKS, MEDICINES, MEMBERS, DISHES...
-// TODO: Actualiza el tipo Item con los campos de tu dominio
-// TODO: Rellena con datos reales y variados de tu dominio
-
-export const ITEMS: Item[] = [
+export const VENDORS: Item[] = [
   {
     id: '1',
-    name: 'Elemento 01',
-    // TODO: agregar campos de tu dominio
+    name: 'Finca La Esperanza',
+    imageUri: 'https://picsum.photos/seed/finca1/300/300',
+    productCategory: 'Verduras',
+    location: 'Vereda El Rosal',
+    isActive: true,
   },
   {
     id: '2',
-    name: 'Elemento 02',
-    // TODO: agregar campos de tu dominio
+    name: 'Frutas Doña Marta',
+    imageUri: 'https://picsum.photos/seed/frutas1/300/300',
+    productCategory: 'Frutas',
+    location: 'Vereda San José',
+    isActive: true,
   },
   {
     id: '3',
-    name: 'Elemento 03',
-    // TODO: agregar campos de tu dominio
+    name: 'Lácteos El Establo',
+    imageUri: 'https://picsum.photos/seed/lacteos1/300/300',
+    productCategory: 'Lácteos',
+    location: 'Vereda La Cabaña',
+    isActive: true,
   },
   {
     id: '4',
-    name: 'Elemento 04',
-    // TODO: agregar campos de tu dominio
+    name: 'Granos San Isidro',
+    imageUri: 'https://picsum.photos/seed/granos1/300/300',
+    productCategory: 'Granos',
+    location: 'Vereda San Isidro',
+    isActive: false,
   },
   {
     id: '5',
-    name: 'Elemento 05',
-    // TODO: agregar campos de tu dominio
+    name: 'Hortalizas El Trébol',
+    imageUri: 'https://picsum.photos/seed/hortalizas1/300/300',
+    productCategory: 'Verduras',
+    location: 'Vereda El Trébol',
+    isActive: true,
   },
   {
     id: '6',
-    name: 'Elemento 06',
-    // TODO: agregar campos de tu dominio
+    name: 'Miel Dorada',
+    imageUri: 'https://picsum.photos/seed/miel1/300/300',
+    productCategory: 'Miel',
+    location: 'Vereda Alto Bonito',
+    isActive: true,
   },
   {
     id: '7',
-    name: 'Elemento 07',
-    // TODO: agregar campos de tu dominio
+    name: 'Panadería Campesina',
+    imageUri: 'https://picsum.photos/seed/pan1/300/300',
+    productCategory: 'Panadería',
+    location: 'Centro Poblado',
+    isActive: true,
   },
   {
     id: '8',
-    name: 'Elemento 08',
-    // TODO: agregar campos de tu dominio
+    name: 'Huevos La Granja',
+    imageUri: 'https://picsum.photos/seed/huevos1/300/300',
+    productCategory: 'Huevos',
+    location: 'Vereda Buenavista',
+    isActive: false,
   },
   {
     id: '9',
-    name: 'Elemento 09',
-    // TODO: agregar campos de tu dominio
+    name: 'Café Los Andes',
+    imageUri: 'https://picsum.photos/seed/cafe1/300/300',
+    productCategory: 'Café',
+    location: 'Vereda Los Andes',
+    isActive: true,
   },
   {
     id: '10',
-    name: 'Elemento 10',
-    // TODO: agregar campos de tu dominio
+    name: 'Aromáticas y Especias',
+    imageUri: 'https://picsum.photos/seed/aromaticas1/300/300',
+    productCategory: 'Especias',
+    location: 'Vereda El Jardín',
+    isActive: true,
   },
-  // TODO: puedes agregar más items para hacer la demo más rica
 ];

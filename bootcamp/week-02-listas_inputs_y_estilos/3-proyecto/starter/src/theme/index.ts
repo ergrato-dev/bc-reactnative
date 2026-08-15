@@ -21,8 +21,8 @@ export const COLORS = {
 
   // Acento — puedes cambiar este color según tu dominio
   // Ejemplos: '#3fb950' (verde), '#f0883e' (naranja), '#a5d6ff' (azul claro)
-  accent: '#61DAFB',
-  accentDim: '#61DAFB33',
+  accent: '#f0883e',
+accentDim: '#f0883e33',
 
   // Semánticos
   success: '#3fb950',

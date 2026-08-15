@@ -1,10 +1,9 @@
 // ============================================================
-// COMPONENT: ItemCard
+// COMPONENT: VendorCard
 // ============================================================
-// Tarjeta reutilizable para mostrar un elemento del dominio.
-// Este componente se renderiza por cada item en HomeScreen.
+// Tarjeta reutilizable para mostrar un vendedor del mercado campesino.
+// Este componente se renderiza por cada vendor en HomeScreen.
 // ============================================================
-
 import React from 'react';
 import {
   View,
@@ -13,81 +12,97 @@ import {
   Pressable,
   StyleSheet,
 } from 'react-native';
-import { Item } from '../types';
+import { Vendor } from '../types';
 
-interface ItemCardProps {
-  item: Item;
-  onPress: (item: Item) => void;
+interface VendorCardProps {
+  vendor: Vendor;
+  onPress: (vendor: Vendor) => void;
 }
 
-export function ItemCard({ item, onPress }: ItemCardProps): React.JSX.Element {
+export function ItemCard({ vendor, onPress }: VendorCardProps): React.JSX.Element {
   return (
-    // TODO: Implementar el layout de la tarjeta usando Flexbox
-    // La tarjeta debe mostrar: imagen, nombre, subtítulo y un botón de acción
-    //
-    // Estructura sugerida:
-    // <Pressable style={...} onPress={() => onPress(item)}>
-    //   <Image source={{ uri: item.imageUri }} style={...} resizeMode="cover" />
-    //   <View style={...}>
-    //     <Text style={...}>{item.name}</Text>
-    //     <Text style={...}>{item.subtitle}</Text>
-    //     {/* TODO: Agrega las propiedades específicas de tu dominio */}
-    //   </View>
-    // </Pressable>
-    <View style={styles.placeholder}>
-      <Text style={styles.placeholderText}>ItemCard — por implementar</Text>
-      <Text style={styles.placeholderHint}>{item.name}</Text>
-    </View>
+    <Pressable
+      style={({ pressed }) => [
+        styles.card,
+        pressed && styles.cardPressed,
+      ]}
+      onPress={() => onPress(vendor)}
+    >
+      <Image
+        source={{ uri: vendor.imageUri }}
+        style={styles.image}
+        resizeMode="cover"
+      />
+      <View style={styles.info}>
+        <Text style={styles.name}>{vendor.name}</Text>
+        <Text style={styles.subtitle}>
+          {vendor.productCategory} · {vendor.location}
+        </Text>
+        <View
+          style={[
+            styles.badge,
+            vendor.isActive ? styles.badgeActive : styles.badgeInactive,
+          ]}
+        >
+          <Text style={styles.badgeText}>
+            {vendor.isActive ? 'Atendiendo hoy' : 'Cerrado hoy'}
+          </Text>
+        </View>
+      </View>
+    </Pressable>
   );
 }
 
 const styles = StyleSheet.create({
-  // TODO: Reemplaza estos estilos placeholder con los de tu tarjeta
-  placeholder: {
-    backgroundColor: '#161b22',
+  card: {
+    flexDirection: 'row',
+    backgroundColor: '#ffffff',
     borderRadius: 12,
-    padding: 24,
-    marginBottom: 12,
-    borderWidth: 1,
-    borderColor: '#30363d',
-    borderStyle: 'dashed',
-    alignItems: 'center',
+    marginBottom: 14,
+    overflow: 'hidden',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    shadowOffset: { width: 0, height: 2 },
   },
-  placeholderText: {
-    color: '#8b949e',
-    fontSize: 12,
-    marginBottom: 4,
+  cardPressed: {
+    opacity: 0.7,
   },
-  placeholderHint: {
-    color: '#ffffff',
+  image: {
+    width: 100,
+    height: 100,
+  },
+  info: {
+    flex: 1,
+    padding: 12,
+    justifyContent: 'center',
+  },
+  name: {
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: '700',
+    color: '#1a1a1a',
   },
-
-  // Estilos sugeridos para la tarjeta real — descomenta y adapta:
-  // card: {
-  //   backgroundColor: '#161b22',
-  //   borderRadius: 12,
-  //   marginBottom: 12,
-  //   overflow: 'hidden',
-  //   borderWidth: 1,
-  //   borderColor: '#30363d',
-  // },
-  // cardImage: {
-  //   width: '100%',
-  //   height: 160,
-  // },
-  // cardBody: {
-  //   padding: 16,
-  //   gap: 4,
-  // },
-  // cardName: {
-  //   fontSize: 18,
-  //   fontWeight: 'bold',
-  //   color: '#ffffff',
-  // },
-  // cardSubtitle: {
-  //   fontSize: 14,
-  //   color: '#8b949e',
-  // },
+  subtitle: {
+    fontSize: 13,
+    color: '#666666',
+    marginTop: 4,
+  },
+  badge: {
+    alignSelf: 'flex-start',
+    marginTop: 8,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 8,
+  },
+  badgeActive: {
+    backgroundColor: '#d4f4dd',
+  },
+  badgeInactive: {
+    backgroundColor: '#f4d4d4',
+  },
+  badgeText: {
+    fontSize: 11,
+    fontWeight: '600',
+  },
 });

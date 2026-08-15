@@ -1,92 +1,96 @@
 import React from 'react';
-import { View, Text, Pressable, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, Pressable } from 'react-native';
 import { Item } from '../types';
 import { COLORS, TYPOGRAPHY, SPACING, RADIUS } from '../theme';
 
 interface ItemCardProps {
   item: Item;
-  onPress: (item: Item) => void;
+  onPress?: (item: Item) => void;
 }
 
-/**
- * Tarjeta reutilizable para mostrar un elemento del dominio.
- * Personaliza el contenido según los campos de tu interfaz Item.
- */
-export function ItemCard({ item, onPress }: ItemCardProps): React.JSX.Element {
+export default function ItemCard({ item, onPress }: ItemCardProps) {
   return (
     <Pressable
-      style={({ pressed }) => [
-        styles.card,
-        pressed && styles.cardPressed,
-      ]}
-      onPress={() => onPress(item)}
-      accessibilityRole="button"
-      accessibilityLabel={item.name}
+      style={({ pressed }) => [styles.card, pressed && styles.cardPressed]}
+      onPress={() => onPress?.(item)}
     >
-      {/* Nombre principal del elemento */}
-      <Text style={styles.itemName}>{item.name}</Text>
-
-      {/* TODO: Mostrar los campos adicionales de tu dominio */}
-      {/* Ejemplos:
-        Biblioteca:
-          <Text style={styles.fieldText}>{item.author}</Text>
-          <Text style={styles.fieldText}>{item.available ? 'Disponible' : 'Prestado'}</Text>
-
-        Farmacia:
-          <Text style={styles.fieldText}>${item.price}</Text>
-          <Text style={styles.fieldText}>Stock: {item.stock}</Text>
-
-        Gimnasio:
-          <Text style={styles.fieldText}>Plan: {item.plan}</Text>
-          <Text style={styles.fieldText}>Vence: {item.expiresAt}</Text>
-      */}
-
-      {/* TODO: Si tu dominio tiene un badge de estado/categoría, agrégalo aquí */}
-      {/* Ejemplo:
-        <View style={styles.badge}>
-          <Text style={styles.badgeText}>{item.category}</Text>
+      <Image source={{ uri: item.imageUri }} style={styles.image} />
+      <View style={styles.info}>
+        <View style={styles.headerRow}>
+          <Text style={styles.name} numberOfLines={1}>{item.name}</Text>
+          <View
+            style={[
+              styles.statusDot,
+              { backgroundColor: item.isActive ? COLORS.success : COLORS.error },
+            ]}
+          />
         </View>
-      */}
+        <Text style={styles.location} numberOfLines={1}>{item.location}</Text>
+        <View style={styles.badge}>
+          <Text style={styles.badgeText}>{item.productCategory}</Text>
+        </View>
+      </View>
     </Pressable>
   );
 }
 
 const styles = StyleSheet.create({
   card: {
+    flexDirection: 'row',
     backgroundColor: COLORS.surface,
-    borderRadius: RADIUS.md,
-    padding: SPACING.base,
-    marginHorizontal: SPACING.base,
-    marginVertical: SPACING.xs,
+    borderRadius: RADIUS.lg,
     borderWidth: 1,
     borderColor: COLORS.border,
+    padding: SPACING.md,
+    marginBottom: SPACING.sm,
+    alignItems: 'center',
   },
   cardPressed: {
+    opacity: 0.7,
+  },
+  image: {
+    width: 64,
+    height: 64,
+    borderRadius: RADIUS.md,
     backgroundColor: COLORS.surfaceAlt,
   },
-  itemName: {
+  info: {
+    flex: 1,
+    marginLeft: SPACING.md,
+  },
+  headerRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  name: {
+    color: COLORS.textPrimary,
     fontSize: TYPOGRAPHY.size.md,
     fontWeight: TYPOGRAPHY.weight.semibold,
-    color: COLORS.textPrimary,
-    marginBottom: SPACING.xs,
+    flexShrink: 1,
   },
-  fieldText: {
-    fontSize: TYPOGRAPHY.size.sm,
+  statusDot: {
+    width: 8,
+    height: 8,
+    borderRadius: RADIUS.full,
+    marginLeft: SPACING.sm,
+  },
+  location: {
     color: COLORS.textSecondary,
-    marginBottom: 2,
+    fontSize: TYPOGRAPHY.size.sm,
+    marginTop: 2,
   },
   badge: {
     alignSelf: 'flex-start',
-    marginTop: SPACING.sm,
-    paddingHorizontal: SPACING.sm,
-    paddingVertical: 3,
-    borderRadius: RADIUS.full,
     backgroundColor: COLORS.accentDim,
+    borderRadius: RADIUS.sm,
+    paddingHorizontal: SPACING.sm,
+    paddingVertical: 2,
+    marginTop: SPACING.xs,
   },
   badgeText: {
-    fontSize: TYPOGRAPHY.size.xs,
-    fontWeight: TYPOGRAPHY.weight.semibold,
     color: COLORS.accent,
-    textTransform: 'capitalize',
+    fontSize: TYPOGRAPHY.size.xs,
+    fontWeight: TYPOGRAPHY.weight.medium,
   },
 });

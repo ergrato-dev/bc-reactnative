@@ -2,180 +2,110 @@ import React, { useState, useMemo, useCallback } from 'react';
 import {
   View,
   Text,
-  FlatList,
   TextInput,
+  FlatList,
   StyleSheet,
-  Platform,
-  Keyboard,
   KeyboardAvoidingView,
-  TouchableWithoutFeedback,
-  ListRenderItem,
+  Platform,
 } from 'react-native';
+import ItemCard from '../components/ItemCard';
+import { VENDORS } from '../data/mockData';
 import { Item } from '../types';
-import { ITEMS } from '../data/mockData';
-import { ItemCard } from '../components/ItemCard';
-import { COLORS, TYPOGRAPHY, SPACING } from '../theme';
+import { COLORS, TYPOGRAPHY, SPACING, RADIUS } from '../theme';
 
-export function HomeScreen(): React.JSX.Element {
-  // ============================================
-  // ESTADO DE BÚSQUEDA
-  // TODO: Inicializa el estado del input de búsqueda
-  // Nombre de la variable: query | setter: setQuery
-  // Tipo: string | Valor inicial: ''
-  // ============================================
-  // TODO: const [query, setQuery] = ...
+export default function HomeScreen() {
+  const [query, setQuery] = useState('');
 
-  // ============================================
-  // FILTRADO CON useMemo
-  // TODO: Implementar filtrado eficiente con useMemo
-  //
-  // Debe retornar todos los ITEMS si query está vacío,
-  // o solo los que incluyan el texto de query en el
-  // campo `name` (case-insensitive).
-  //
-  // Dependencia del useMemo: [query]
-  // ============================================
-  // TODO: const filteredItems = useMemo(() => { ... }, [query]);
+  const filteredVendors = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return VENDORS;
+    return VENDORS.filter(
+      (v) =>
+        v.name.toLowerCase().includes(q) ||
+        v.productCategory.toLowerCase().includes(q) ||
+        v.location.toLowerCase().includes(q)
+    );
+  }, [query]);
 
-  // ============================================
-  // EMPTY STATE
-  // TODO: Implementar renderEmpty con useCallback
-  //
-  // Debe mostrar:
-  //   - Un texto principal: 'Sin resultados para "{query}"'
-  //   - Un texto secundario orientando al usuario
-  //
-  // Dependencia del useCallback: [query]
-  // ============================================
-  // TODO: const renderEmpty = useCallback(() => ( ... ), [query]);
+  const handlePressItem = useCallback((item: Item) => {
+    console.log('Vendedor seleccionado:', item.name);
+  }, []);
 
-  // ============================================
-  // RENDER ITEM
-  // TODO: Implementar renderItem con useCallback
-  //
-  // Debe renderizar un <ItemCard> pasando el item
-  // y una función onPress (por ahora puede ser vacía)
-  //
-  // Sin dependencias externas → useCallback(() => ..., [])
-  // ============================================
-  // TODO: const renderItem: ListRenderItem<Item> = useCallback(({ item }) => ( ... ), []);
+  const renderItem = useCallback(
+    ({ item }: { item: Item }) => (
+      <ItemCard item={item} onPress={handlePressItem} />
+    ),
+    [handlePressItem]
+  );
 
-  // ============================================
-  // RENDER PRINCIPAL
-  // TODO: Reemplaza este View placeholder con la UI completa:
-  //
-  // Estructura esperada:
-  //   <KeyboardAvoidingView behavior={...}>
-  //     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-  //       <View style={styles.inner}>
-  //         {/* Input de búsqueda */}
-  //         <View style={styles.searchContainer}>
-  //           <TextInput
-  //             style={styles.searchInput}
-  //             placeholder="Buscar..."
-  //             value={query}
-  //             onChangeText={setQuery}
-  //             keyboardType="default"
-  //             returnKeyType="search"
-  //             clearButtonMode="while-editing"
-  //           />
-  //         </View>
-  //         {/* Lista filtrada */}
-  //         <FlatList
-  //           data={filteredItems}
-  //           keyExtractor={(item) => item.id}
-  //           renderItem={renderItem}
-  //           ListEmptyComponent={renderEmpty}
-  //           ItemSeparatorComponent={...}
-  //           keyboardShouldPersistTaps="handled"
-  //         />
-  //       </View>
-  //     </TouchableWithoutFeedback>
-  //   </KeyboardAvoidingView>
-  // ============================================
+  const keyExtractor = useCallback((item: Item) => item.id, []);
+
   return (
-    <View style={styles.placeholder}>
-      <Text style={styles.placeholderText}>
-        HomeScreen — Implementa los TODOs
-      </Text>
-      <Text style={styles.placeholderSub}>
-        {ITEMS.length} items en mockData.ts
-      </Text>
-    </View>
+    <KeyboardAvoidingView
+      style={styles.container}
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+    >
+      <Text style={styles.title}>Mercado Campesino</Text>
+
+      <TextInput
+        style={styles.searchInput}
+        placeholder="Buscar vendedor, producto o vereda..."
+        placeholderTextColor={COLORS.textMuted}
+        value={query}
+        onChangeText={setQuery}
+      />
+
+      <FlatList
+        data={filteredVendors}
+        keyExtractor={keyExtractor}
+        renderItem={renderItem}
+        contentContainerStyle={styles.listContent}
+        ListEmptyComponent={
+          <View style={styles.emptyState}>
+            <Text style={styles.emptyText}>
+              No se encontraron vendedores para "{query}"
+            </Text>
+          </View>
+        }
+      />
+    </KeyboardAvoidingView>
   );
 }
 
 const styles = StyleSheet.create({
-  kvContainer: {
+  container: {
     flex: 1,
     backgroundColor: COLORS.background,
-  },
-  inner: {
-    flex: 1,
-  },
-  searchContainer: {
     paddingHorizontal: SPACING.base,
-    paddingVertical: SPACING.md,
-    borderBottomWidth: 1,
-    borderBottomColor: COLORS.borderLight,
+  },
+  title: {
+    color: COLORS.textPrimary,
+    fontSize: TYPOGRAPHY.size.xl,
+    fontWeight: TYPOGRAPHY.weight.bold,
+    marginTop: SPACING.base,
+    marginBottom: SPACING.md,
   },
   searchInput: {
     backgroundColor: COLORS.surface,
     borderWidth: 1,
     borderColor: COLORS.border,
-    borderRadius: 8,
-    paddingHorizontal: SPACING.base,
-    paddingVertical: Platform.OS === 'ios' ? 12 : 10,
+    borderRadius: RADIUS.md,
+    paddingHorizontal: SPACING.md,
+    paddingVertical: SPACING.sm,
     color: COLORS.textPrimary,
     fontSize: TYPOGRAPHY.size.base,
+    marginBottom: SPACING.md,
   },
   listContent: {
-    paddingTop: SPACING.sm,
     paddingBottom: SPACING.xl,
-    flexGrow: 1,
   },
-  separator: {
-    height: 1,
-    marginHorizontal: SPACING.base,
-    backgroundColor: COLORS.borderLight,
-  },
-  emptyContainer: {
-    flex: 1,
+  emptyState: {
     alignItems: 'center',
-    justifyContent: 'center',
-    paddingTop: 80,
-    paddingHorizontal: SPACING.xxl,
+    marginTop: SPACING.xxl,
   },
   emptyText: {
-    fontSize: TYPOGRAPHY.size.md,
-    fontWeight: '600',
-    color: COLORS.textPrimary,
-    textAlign: 'center',
-    marginBottom: SPACING.sm,
-  },
-  emptySubText: {
-    fontSize: TYPOGRAPHY.size.sm,
     color: COLORS.textSecondary,
-    textAlign: 'center',
-  },
-  // Placeholder — eliminar cuando implementes la UI real
-  placeholder: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: COLORS.background,
-    padding: SPACING.xxl,
-  },
-  placeholderText: {
-    fontSize: TYPOGRAPHY.size.md,
-    fontWeight: '600',
-    color: COLORS.textPrimary,
-    textAlign: 'center',
-    marginBottom: SPACING.sm,
-  },
-  placeholderSub: {
-    fontSize: TYPOGRAPHY.size.sm,
-    color: COLORS.textSecondary,
+    fontSize: TYPOGRAPHY.size.base,
     textAlign: 'center',
   },
 });
