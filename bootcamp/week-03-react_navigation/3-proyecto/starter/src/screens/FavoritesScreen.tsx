@@ -2,52 +2,39 @@
 // Segunda pestaña del Tab Navigator.
 // Muestra una lista de elementos favoritos del dominio.
 
-import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
-
+import React from 'react';
+import { View, Text, FlatList, StyleSheet } from 'react-native';
 import { FAVORITES } from '../data/mockData';
-import { COLORS, RADIUS, SPACING, TYPOGRAPHY } from '../theme';
-import type { Item } from '../types';
+import { Item } from '../types';
+import { COLORS, TYPOGRAPHY, SPACING, RADIUS } from '../theme';
 
-export function FavoritesScreen(): React.JSX.Element {
-  /**
-   * Renderiza cada ítem favorito.
-   * TODO: adaptar el diseño a tu dominio (igual que HomeScreen.renderItem)
-   */
-  function renderFavorite({ item }: { item: Item }): React.JSX.Element {
-    return (
-      <View style={styles.card}>
-        {/* Ícono de favorito */}
-        <Text style={styles.heartIcon}>♥</Text>
-        <View style={styles.cardContent}>
-          <Text style={styles.itemName}>{item.name}</Text>
-          <Text style={styles.itemDescription} numberOfLines={2}>
-            {item.description}
-          </Text>
-          {/* TODO: agregar campos de tu dominio igual que en HomeScreen */}
-        </View>
+export function FavoritesScreen() {
+  const renderItem = ({ item }: { item: Item }) => (
+    <View style={styles.card}>
+      <View style={styles.headerRow}>
+        <Text style={styles.name}>{item.name}</Text>
+        <View
+          style={[
+            styles.statusDot,
+            { backgroundColor: item.isActive ? COLORS.success : COLORS.error },
+          ]}
+        />
       </View>
-    );
-  }
+      <Text style={styles.location}>{item.location}</Text>
+      <View style={styles.badge}>
+        <Text style={styles.badgeText}>{item.productCategory}</Text>
+      </View>
+    </View>
+  );
 
   return (
     <View style={styles.container}>
-      {/* TODO: cambiar el título según tu dominio */}
-      {/* Ejemplos: "Mis Libros Favoritos", "Medicamentos Guardados", etc. */}
-      <Text style={styles.title}>Favoritos</Text>
+      <Text style={styles.title}>Vendedores Favoritos</Text>
       <FlatList
         data={FAVORITES}
         keyExtractor={(item) => item.id}
-        renderItem={renderFavorite}
-        contentContainerStyle={styles.list}
-        ItemSeparatorComponent={() => <View style={styles.separator} />}
-        ListEmptyComponent={
-          <View style={styles.emptyContainer}>
-            <Text style={styles.emptyText}>
-              {/* TODO: personalizar el mensaje vacío según tu dominio */}
-              No tienes favoritos todavía
-            </Text>
-          </View>
-        }
+        renderItem={renderItem}
+        contentContainerStyle={styles.listContent}
       />
     </View>
   );
@@ -57,57 +44,59 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
+    paddingHorizontal: SPACING.base,
   },
   title: {
-    fontSize: TYPOGRAPHY.size.lg,
-    fontWeight: TYPOGRAPHY.weight.bold,
     color: COLORS.textPrimary,
-    paddingHorizontal: SPACING.base,
-    paddingTop: SPACING.base,
-    paddingBottom: SPACING.sm,
+    fontSize: TYPOGRAPHY.size.xl,
+    fontWeight: TYPOGRAPHY.weight.bold,
+    marginTop: SPACING.xl,
+    marginBottom: SPACING.md,
   },
-  list: {
-    paddingHorizontal: SPACING.base,
-    paddingBottom: SPACING.base,
+  listContent: {
+    paddingBottom: SPACING.xl,
   },
   card: {
     backgroundColor: COLORS.surface,
-    borderRadius: RADIUS.md,
-    padding: SPACING.base,
+    borderRadius: RADIUS.lg,
     borderWidth: 1,
     borderColor: COLORS.border,
-    flexDirection: 'row',
-    alignItems: 'flex-start',
-    gap: SPACING.md,
+    padding: SPACING.md,
+    marginBottom: SPACING.sm,
   },
-  heartIcon: {
-    fontSize: TYPOGRAPHY.size.lg,
-    color: COLORS.error,
+  headerRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  name: {
+    color: COLORS.textPrimary,
+    fontSize: TYPOGRAPHY.size.md,
+    fontWeight: TYPOGRAPHY.weight.semibold,
+    flexShrink: 1,
+  },
+  statusDot: {
+    width: 8,
+    height: 8,
+    borderRadius: RADIUS.full,
+    marginLeft: SPACING.sm,
+  },
+  location: {
+    color: COLORS.textSecondary,
+    fontSize: TYPOGRAPHY.size.sm,
     marginTop: 2,
   },
-  cardContent: {
-    flex: 1,
+  badge: {
+    alignSelf: 'flex-start',
+    backgroundColor: COLORS.accentDim,
+    borderRadius: RADIUS.sm,
+    paddingHorizontal: SPACING.sm,
+    paddingVertical: 2,
+    marginTop: SPACING.xs,
   },
-  itemName: {
-    fontSize: TYPOGRAPHY.size.base,
-    fontWeight: TYPOGRAPHY.weight.semibold,
-    color: COLORS.textPrimary,
-    marginBottom: SPACING.xs,
-  },
-  itemDescription: {
-    fontSize: TYPOGRAPHY.size.sm,
-    color: COLORS.textSecondary,
-    lineHeight: 18,
-  },
-  separator: {
-    height: SPACING.sm,
-  },
-  emptyContainer: {
-    paddingTop: SPACING.xxl,
-    alignItems: 'center',
-  },
-  emptyText: {
-    fontSize: TYPOGRAPHY.size.base,
-    color: COLORS.textMuted,
+  badgeText: {
+    color: COLORS.accent,
+    fontSize: TYPOGRAPHY.size.xs,
+    fontWeight: TYPOGRAPHY.weight.medium,
   },
 });

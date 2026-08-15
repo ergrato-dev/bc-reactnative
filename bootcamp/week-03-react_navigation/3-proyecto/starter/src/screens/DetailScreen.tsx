@@ -2,75 +2,42 @@
 // Pantalla de detalle — recibe los datos del ítem seleccionado via params.
 // Los params llegan del Stack Navigator cuando se llama navigate('HomeDetail', {...}).
 
-import type { NativeStackRouteProp } from '@react-navigation/native-stack';
-import { useRoute } from '@react-navigation/native';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
-
-import { COLORS, RADIUS, SPACING, TYPOGRAPHY } from '../theme';
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { COLORS, TYPOGRAPHY, SPACING, RADIUS } from '../theme';
 import type { HomeStackParamList } from '../navigation/types';
 
-// Tipo del route hook para leer los params tipados de esta pantalla
-type DetailScreenRouteProp = NativeStackRouteProp<HomeStackParamList, 'HomeDetail'>;
+type Props = NativeStackScreenProps<HomeStackParamList, 'HomeDetail'>;
 
-export function DetailScreen(): React.JSX.Element {
-  // useRoute devuelve los params pasados desde HomeScreen
-  const route = useRoute<DetailScreenRouteProp>();
-  const { id, name } = route.params;
-  // TODO: desestructurar campos adicionales de tu dominio
-  // Ejemplo (Biblioteca):   const { id, name, author, isbn, pages } = route.params;
-  // Ejemplo (Farmacia):     const { id, name, price, dosage } = route.params;
-  // Ejemplo (Cine):         const { id, name, director, year, genre } = route.params;
+export function DetailScreen({ route }: Props) {
+  const { name, description, productCategory, location, isActive } = route.params;
 
   return (
-    <ScrollView
-      style={styles.container}
-      contentContainerStyle={styles.content}
-    >
-      {/* Título del elemento */}
-      <Text style={styles.name}>{name}</Text>
+    <View style={styles.container}>
+      <View style={styles.headerRow}>
+        <Text style={styles.name}>{name}</Text>
+        <View
+          style={[
+            styles.statusDot,
+            { backgroundColor: isActive ? COLORS.success : COLORS.error },
+          ]}
+        />
+      </View>
 
-      {/* Badge con el ID */}
       <View style={styles.badge}>
-        <Text style={styles.badgeText}>ID: {id}</Text>
+        <Text style={styles.badgeText}>{productCategory}</Text>
       </View>
 
-      {/* TODO: mostrar los detalles específicos de tu dominio */}
-      {/* Cada sección de detalle sigue el mismo patrón: */}
+      <Text style={styles.label}>Ubicación</Text>
+      <Text style={styles.value}>{location}</Text>
 
-      {/* PATRÓN DE CAMPO DE DETALLE: */}
-      {/* <View style={styles.field}>
-        <Text style={styles.fieldLabel}>Autor</Text>
-        <Text style={styles.fieldValue}>{author}</Text>
-      </View> */}
+      <Text style={styles.label}>Estado</Text>
+      <Text style={styles.value}>{isActive ? 'Activo' : 'Inactivo'}</Text>
 
-      {/* Agrega tantos campos como necesite tu dominio */}
-      {/* Ejemplo Biblioteca:  */}
-      {/* <View style={styles.field}>
-        <Text style={styles.fieldLabel}>ISBN</Text>
-        <Text style={styles.fieldValue}>{isbn}</Text>
-      </View>
-      <View style={styles.field}>
-        <Text style={styles.fieldLabel}>Páginas</Text>
-        <Text style={styles.fieldValue}>{pages}</Text>
-      </View> */}
-
-      {/* Ejemplo Farmacia: */}
-      {/* <View style={styles.field}>
-        <Text style={styles.fieldLabel}>Precio</Text>
-        <Text style={styles.fieldValue}>${price}</Text>
-      </View>
-      <View style={styles.field}>
-        <Text style={styles.fieldLabel}>Dosificación</Text>
-        <Text style={styles.fieldValue}>{dosage}</Text>
-      </View> */}
-
-      {/* Placeholder — eliminar cuando implementes tu dominio */}
-      <View style={styles.placeholder}>
-        <Text style={styles.placeholderText}>
-          Agrega aquí los campos de detalle de tu dominio
-        </Text>
-      </View>
-    </ScrollView>
+      <Text style={styles.label}>Descripción</Text>
+      <Text style={styles.description}>{description}</Text>
+    </View>
   );
 }
 
@@ -78,61 +45,53 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
-  },
-  content: {
     padding: SPACING.base,
-    gap: SPACING.md,
+  },
+  headerRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
   },
   name: {
+    color: COLORS.textPrimary,
     fontSize: TYPOGRAPHY.size.xl,
     fontWeight: TYPOGRAPHY.weight.bold,
-    color: COLORS.textPrimary,
-    marginBottom: SPACING.xs,
+    flexShrink: 1,
+  },
+  statusDot: {
+    width: 10,
+    height: 10,
+    borderRadius: RADIUS.full,
+    marginLeft: SPACING.sm,
   },
   badge: {
     alignSelf: 'flex-start',
     backgroundColor: COLORS.accentDim,
-    borderRadius: RADIUS.full,
-    paddingHorizontal: SPACING.md,
-    paddingVertical: SPACING.xs,
-    marginBottom: SPACING.md,
+    borderRadius: RADIUS.sm,
+    paddingHorizontal: SPACING.sm,
+    paddingVertical: 2,
+    marginTop: SPACING.sm,
   },
   badgeText: {
+    color: COLORS.accent,
     fontSize: TYPOGRAPHY.size.xs,
     fontWeight: TYPOGRAPHY.weight.medium,
-    color: COLORS.accent,
   },
-  field: {
-    backgroundColor: COLORS.surface,
-    borderRadius: RADIUS.md,
-    padding: SPACING.base,
-    borderWidth: 1,
-    borderColor: COLORS.border,
-  },
-  fieldLabel: {
-    fontSize: TYPOGRAPHY.size.sm,
-    fontWeight: TYPOGRAPHY.weight.medium,
-    color: COLORS.textSecondary,
-    marginBottom: SPACING.xs,
-    textTransform: 'uppercase',
-    letterSpacing: 0.5,
-  },
-  fieldValue: {
-    fontSize: TYPOGRAPHY.size.base,
-    color: COLORS.textPrimary,
-  },
-  placeholder: {
-    backgroundColor: COLORS.surfaceAlt,
-    borderRadius: RADIUS.md,
-    padding: SPACING.xl,
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: COLORS.border,
-    borderStyle: 'dashed',
-  },
-  placeholderText: {
-    fontSize: TYPOGRAPHY.size.sm,
+  label: {
     color: COLORS.textMuted,
-    textAlign: 'center',
+    fontSize: TYPOGRAPHY.size.xs,
+    marginTop: SPACING.base,
+    textTransform: 'uppercase',
+  },
+  value: {
+    color: COLORS.textPrimary,
+    fontSize: TYPOGRAPHY.size.base,
+    marginTop: 2,
+  },
+  description: {
+    color: COLORS.textSecondary,
+    fontSize: TYPOGRAPHY.size.base,
+    marginTop: 4,
+    lineHeight: 22,
   },
 });

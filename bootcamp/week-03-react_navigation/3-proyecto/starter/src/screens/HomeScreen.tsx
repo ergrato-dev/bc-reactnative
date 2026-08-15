@@ -1,85 +1,59 @@
 // src/screens/HomeScreen.tsx
 // Pantalla de lista — muestra todos los elementos del dominio.
 // Al presionar un ítem navega al DetailScreen pasando los params.
-
-import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { useNavigation } from '@react-navigation/native';
-import {
-  FlatList,
-  Pressable,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
-
+import React, { useCallback } from 'react';
+import { View, Text, FlatList, StyleSheet, Pressable } from 'react-native';
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { ITEMS } from '../data/mockData';
-import { COLORS, RADIUS, SPACING, TYPOGRAPHY } from '../theme';
-import type { Item } from '../types';
+import { Item } from '../types';
+import { COLORS, TYPOGRAPHY, SPACING, RADIUS } from '../theme';
 import type { HomeStackParamList } from '../navigation/types';
 
-// Tipo del navigation hook para este Stack
-type HomeScreenNavigationProp = NativeStackNavigationProp<
-  HomeStackParamList,
-  'HomeList'
->;
+type Props = NativeStackScreenProps<HomeStackParamList, 'HomeList'>;
 
-export function HomeScreen(): React.JSX.Element {
-  const navigation = useNavigation<HomeScreenNavigationProp>();
+export function HomeScreen({ navigation }: Props) {
+  const handlePress = useCallback(
+    (item: Item) => {
+      navigation.navigate('HomeDetail', {
+        id: item.id,
+        name: item.name,
+        description: item.description,
+        productCategory: item.productCategory,
+        location: item.location,
+        isActive: item.isActive,
+      });
+    },
+    [navigation]
+  );
 
-  /**
-   * Navega al DetailScreen pasando los datos del ítem seleccionado.
-   * TODO: agrega los campos extra de tu dominio a los params
-   * Ejemplo: navigation.navigate('HomeDetail', { id, name, author, isbn })
-   */
-  function handleItemPress(item: Item): void {
-    navigation.navigate('HomeDetail', {
-      id: item.id,
-      name: item.name,
-      // TODO: pasar campos adicionales de tu dominio
-    });
-  }
-
-  /**
-   * Renderiza cada ítem de la lista.
-   * TODO: adaptar el diseño de la tarjeta a tu dominio.
-   * Puedes mostrar más información (precio, autor, género, etc.)
-   */
-  function renderItem({ item }: { item: Item }): React.JSX.Element {
-    return (
-      <Pressable
-        style={({ pressed }) => [
-          styles.card,
-          pressed && styles.cardPressed,
-        ]}
-        onPress={() => handleItemPress(item)}
-        // testID permite encontrar el elemento en tests
-        testID={`item-${item.id}`}
-      >
-        <Text style={styles.itemName}>{item.name}</Text>
-        <Text style={styles.itemDescription} numberOfLines={2}>
-          {item.description}
-        </Text>
-        {/* TODO: agregar más información del ítem según tu dominio */}
-        {/* Ejemplo (Farmacia): <Text style={styles.price}>${item.price}</Text> */}
-        {/* Ejemplo (Biblioteca): <Text style={styles.author}>{item.author}</Text> */}
-        <Text style={styles.chevron}>{'›'}</Text>
+  const renderItem = useCallback(
+    ({ item }: { item: Item }) => (
+      <Pressable style={styles.card} onPress={() => handlePress(item)}>
+        <View style={styles.headerRow}>
+          <Text style={styles.name}>{item.name}</Text>
+          <View
+            style={[
+              styles.statusDot,
+              { backgroundColor: item.isActive ? COLORS.success : COLORS.error },
+            ]}
+          />
+        </View>
+        <Text style={styles.location}>{item.location}</Text>
+        <View style={styles.badge}>
+          <Text style={styles.badgeText}>{item.productCategory}</Text>
+        </View>
       </Pressable>
-    );
-  }
+    ),
+    [handlePress]
+  );
 
   return (
     <View style={styles.container}>
-      {/* TODO: agregar un header o título descriptivo de tu dominio */}
-      {/* <Text style={styles.header}>Mi Biblioteca</Text> */}
       <FlatList
         data={ITEMS}
         keyExtractor={(item) => item.id}
         renderItem={renderItem}
-        contentContainerStyle={styles.list}
-        // Separador visual entre ítems
-        ItemSeparatorComponent={() => <View style={styles.separator} />}
-        // TODO: agregar ListEmptyComponent para cuando no haya datos
-        // ListEmptyComponent={<Text style={styles.empty}>Sin elementos</Text>}
+        contentContainerStyle={styles.listContent}
       />
     </View>
   );
@@ -89,40 +63,53 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
+    paddingHorizontal: SPACING.base,
   },
-  list: {
-    padding: SPACING.base,
+  listContent: {
+    paddingTop: SPACING.md,
+    paddingBottom: SPACING.xl,
   },
   card: {
     backgroundColor: COLORS.surface,
-    borderRadius: RADIUS.md,
-    padding: SPACING.base,
+    borderRadius: RADIUS.lg,
     borderWidth: 1,
     borderColor: COLORS.border,
+    padding: SPACING.md,
+    marginBottom: SPACING.sm,
   },
-  cardPressed: {
-    opacity: 0.7,
-    backgroundColor: COLORS.surfaceAlt,
+  headerRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
   },
-  itemName: {
+  name: {
+    color: COLORS.textPrimary,
     fontSize: TYPOGRAPHY.size.md,
     fontWeight: TYPOGRAPHY.weight.semibold,
-    color: COLORS.textPrimary,
-    marginBottom: SPACING.xs,
+    flexShrink: 1,
   },
-  itemDescription: {
-    fontSize: TYPOGRAPHY.size.sm,
+  statusDot: {
+    width: 8,
+    height: 8,
+    borderRadius: RADIUS.full,
+    marginLeft: SPACING.sm,
+  },
+  location: {
     color: COLORS.textSecondary,
-    lineHeight: 18,
+    fontSize: TYPOGRAPHY.size.sm,
+    marginTop: 2,
   },
-  chevron: {
-    position: 'absolute',
-    right: SPACING.base,
-    top: '50%',
-    fontSize: TYPOGRAPHY.size.xl,
-    color: COLORS.textMuted,
+  badge: {
+    alignSelf: 'flex-start',
+    backgroundColor: COLORS.accentDim,
+    borderRadius: RADIUS.sm,
+    paddingHorizontal: SPACING.sm,
+    paddingVertical: 2,
+    marginTop: SPACING.xs,
   },
-  separator: {
-    height: SPACING.sm,
+  badgeText: {
+    color: COLORS.accent,
+    fontSize: TYPOGRAPHY.size.xs,
+    fontWeight: TYPOGRAPHY.weight.medium,
   },
 });

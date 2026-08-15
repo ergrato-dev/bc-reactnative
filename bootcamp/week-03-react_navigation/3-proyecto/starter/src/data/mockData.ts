@@ -1,81 +1,74 @@
-// src/data/mockData.ts
-// Datos de prueba genéricos para la app.
-// TODO: reemplazar con datos de tu dominio asignado.
-
 import type { Item } from '../types';
-
-// ============================================
-// LISTA PRINCIPAL DE ELEMENTOS
-// ============================================
-// Estos son datos genéricos de placeholder.
-// Debes reemplazarlos con datos coherentes a tu dominio.
-//
-// Ejemplos:
-//   Biblioteca  → libros con autor, ISBN, páginas
-//   Farmacia    → medicamentos con precio, stock, dosis
-//   Gimnasio    → rutinas con duración, grupos musculares
-//   Restaurante → platillos con precio, ingredientes
-//   Cine        → películas con director, año, género
 
 export const ITEMS: Item[] = [
   {
     id: '1',
-    name: 'Elemento 01',
-    description: 'Descripción del primer elemento de tu dominio.',
-    // TODO: agregar campos específicos de tu dominio
+    name: 'Finca La Esperanza',
+    description: 'Vendedor de verduras frescas de la vereda El Rosal.',
+    productCategory: 'Verduras',
+    location: 'Vereda El Rosal',
+    isActive: true,
   },
   {
     id: '2',
-    name: 'Elemento 02',
-    description: 'Descripción del segundo elemento de tu dominio.',
-    // TODO: agregar campos específicos de tu dominio
+    name: 'Frutas Doña Marta',
+    description: 'Frutas de temporada cultivadas en la vereda San José.',
+    productCategory: 'Frutas',
+    location: 'Vereda San José',
+    isActive: true,
   },
   {
     id: '3',
-    name: 'Elemento 03',
-    description: 'Descripción del tercer elemento de tu dominio.',
-    // TODO: agregar campos específicos de tu dominio
+    name: 'Lácteos El Establo',
+    description: 'Leche, queso y productos lácteos frescos de la vereda La Cabaña.',
+    productCategory: 'Lácteos',
+    location: 'Vereda La Cabaña',
+    isActive: true,
   },
   {
     id: '4',
-    name: 'Elemento 04',
-    description: 'Descripción del cuarto elemento de tu dominio.',
-    // TODO: agregar campos específicos de tu dominio
+    name: 'Granos San Isidro',
+    description: 'Granos y cereales cultivados en la vereda San Isidro.',
+    productCategory: 'Granos',
+    location: 'Vereda San Isidro',
+    isActive: false,
   },
   {
     id: '5',
-    name: 'Elemento 05',
-    description: 'Descripción del quinto elemento de tu dominio.',
-    // TODO: agregar campos específicos de tu dominio
+    name: 'Hortalizas El Trébol',
+    description: 'Hortalizas frescas de la vereda El Trébol.',
+    productCategory: 'Verduras',
+    location: 'Vereda El Trébol',
+    isActive: true,
   },
   {
     id: '6',
-    name: 'Elemento 06',
-    description: 'Descripción del sexto elemento de tu dominio.',
-    // TODO: agregar campos específicos de tu dominio
+    name: 'Miel Dorada',
+    description: 'Miel de abejas producida en la vereda Alto Bonito.',
+    productCategory: 'Miel',
+    location: 'Vereda Alto Bonito',
+    isActive: true,
   },
   {
     id: '7',
-    name: 'Elemento 07',
-    description: 'Descripción del séptimo elemento de tu dominio.',
-    // TODO: agregar campos específicos de tu dominio
+    name: 'Panadería Campesina',
+    description: 'Pan artesanal horneado diariamente en el centro poblado.',
+    productCategory: 'Panadería',
+    location: 'Centro Poblado',
+    isActive: true,
   },
   {
     id: '8',
-    name: 'Elemento 08',
-    description: 'Descripción del octavo elemento de tu dominio.',
-    // TODO: agregar campos específicos de tu dominio
+    name: 'Café Los Andes',
+    description: 'Café de origen cultivado en la vereda Los Andes.',
+    productCategory: 'Café',
+    location: 'Vereda Los Andes',
+    isActive: true,
   },
 ];
-
-// ============================================
-// LISTA DE FAVORITOS
-// ============================================
-// Subconjunto de elementos para la pestaña Favorites.
-// TODO: seleccionar elementos coherentes con tu dominio.
 
 export const FAVORITES: Item[] = [
   ITEMS[0],
   ITEMS[2],
-  ITEMS[4],
+  ITEMS[5],
 ];
