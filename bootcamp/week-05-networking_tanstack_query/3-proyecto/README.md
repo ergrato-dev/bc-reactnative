@@ -46,6 +46,7 @@ Todos los aprendices implementan la misma arquitectura (Axios + TanStack Query) 
 ```
 starter/
 ├── App.tsx                       # QueryClientProvider + NavigationContainer
+├── index.js                      # Punto de entrada — registerRootComponent
 ├── app.json
 ├── package.json
 ├── tsconfig.json

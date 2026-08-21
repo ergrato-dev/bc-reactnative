@@ -5,12 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "bcauth08",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "resizeMode": "contain",
-      "backgroundColor": "#0f172a"
-    },
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "dev.bcreactnative.auth08"

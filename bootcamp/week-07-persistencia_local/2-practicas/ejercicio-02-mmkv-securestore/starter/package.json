@@ -1,7 +1,7 @@
 {
   "name": "week-07-ejercicio-02-mmkv-securestore",
   "version": "1.0.0",
-  "main": "App.tsx",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",

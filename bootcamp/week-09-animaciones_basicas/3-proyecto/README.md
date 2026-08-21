@@ -93,6 +93,7 @@ Usa `LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut)`.
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json
 ├── package.json
 ├── tsconfig.json

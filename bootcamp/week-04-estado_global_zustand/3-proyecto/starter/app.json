@@ -4,22 +4,12 @@
     "slug": "week04-zustand",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0d1117"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "dev.bootcamp.week04zustand"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0d1117"
-      },
       "package": "dev.bootcamp.week04zustand"
     },
     "newArchEnabled": true

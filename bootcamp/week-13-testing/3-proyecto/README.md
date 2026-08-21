@@ -47,7 +47,8 @@ starter/
 ├── jest.config.js
 ├── jest.setup.ts
 ├── tsconfig.json
-└── App.tsx
+├── App.tsx
+└── index.js
 ```
 
 ## ✅ Requisitos Funcionales

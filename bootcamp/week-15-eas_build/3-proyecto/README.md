@@ -91,6 +91,7 @@ pnpm start
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json                   ← completar campos de producción
 ├── eas.json                   ← completar los 3 perfiles
 ├── package.json

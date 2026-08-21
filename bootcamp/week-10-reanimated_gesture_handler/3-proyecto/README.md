@@ -72,6 +72,7 @@ Migrar la semana anterior de `Animated API` a **Reanimated 4** e integrar **Reac
 ```
 starter/
 ├── App.tsx                          ← GestureHandlerRootView + QueryClientProvider
+├── index.js                         ← punto de entrada (registerRootComponent)
 ├── app.json
 ├── babel.config.js                  ← incluye 'react-native-reanimated/plugin'
 ├── package.json

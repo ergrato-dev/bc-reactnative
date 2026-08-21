@@ -31,6 +31,7 @@ Construir una app con autenticación JWT completa:
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json
 ├── package.json
 ├── tsconfig.json

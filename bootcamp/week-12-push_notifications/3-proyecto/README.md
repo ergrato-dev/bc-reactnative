@@ -38,6 +38,7 @@ de los estados (foreground / background / killed).
 ```
 starter/
 ├── App.tsx                          # Root con setNotificationHandler
+├── index.js                         # Punto de entrada — registerRootComponent
 ├── app.json                         # Plugins de expo-notifications
 ├── package.json
 ├── babel.config.js

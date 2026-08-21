@@ -25,6 +25,7 @@ Tienda de ropa, Banco, Agencia de Taxis, Escuela, Hotel, Agencia de Viajes.
 ```
 starter/
 ├── App.tsx                    # Pantalla de bienvenida básica
+├── index.js                   # Punto de entrada — registerRootComponent
 ├── app.json                   # Configuración Expo con bundleIdentifier y package
 ├── eas.json                   # Con build + TODO submit section para completar
 ├── package.json

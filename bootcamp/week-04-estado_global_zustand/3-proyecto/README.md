@@ -29,6 +29,7 @@ Construir una app con **navegación Tab + Stack** y **estado global Zustand** ap
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json
 ├── package.json
 ├── tsconfig.json

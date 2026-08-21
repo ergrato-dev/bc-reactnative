@@ -25,6 +25,7 @@ Integrar **expo-camera**, **expo-image-picker** y **expo-location** en la app de
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json              ← permisos iOS y Android
 ├── package.json
 ├── tsconfig.json

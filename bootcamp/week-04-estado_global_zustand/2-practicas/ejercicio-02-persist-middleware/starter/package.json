@@ -1,7 +1,7 @@
 {
   "name": "week04-ejercicio-02",
   "version": "1.0.0",
-  "main": "App.tsx",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",

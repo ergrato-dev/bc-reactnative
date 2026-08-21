@@ -75,7 +75,8 @@ Expo mostrará un QR code. Escanéalo con Expo Go (dispositivo real) o presiona:
 ```
 mi-primera-app/
 ├── app.json           # Configuración del app (nombre, icono, splash, permisos)
-├── App.tsx            # Punto de entrada de la aplicación
+├── App.tsx            # Componente raíz de la aplicación
+├── index.js           # Punto de entrada — registerRootComponent
 ├── tsconfig.json      # Configuración TypeScript
 ├── package.json       # Dependencias
 └── assets/            # Imágenes, fuentes y recursos estáticos

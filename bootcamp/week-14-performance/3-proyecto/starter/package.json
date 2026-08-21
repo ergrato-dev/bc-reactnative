@@ -2,7 +2,7 @@
   "name": "proyecto-semana-14",
   "version": "1.0.0",
   "private": true,
-  "main": "App.tsx",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",

@@ -54,6 +54,7 @@ Ejemplos de dominios: Biblioteca, Farmacia, Gimnasio, Restaurante, Hotel, Tienda
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json
 ├── package.json
 ├── tsconfig.json

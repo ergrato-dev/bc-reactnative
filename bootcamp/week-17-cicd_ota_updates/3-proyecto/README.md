@@ -26,6 +26,7 @@ starter/
 │       ├── eas-build.yml       # TODO: completar el workflow de CI/CD
 │       └── eas-update.yml      # TODO: completar el workflow de OTA updates
 ├── App.tsx
+├── index.js
 ├── app.json                    # TODO: agregar sección updates (expo-updates)
 ├── eas.json                    # TODO: agregar "channel" a perfiles preview/production
 ├── package.json

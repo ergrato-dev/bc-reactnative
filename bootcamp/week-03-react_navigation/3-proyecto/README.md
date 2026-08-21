@@ -29,6 +29,7 @@ Construir una app móvil con **navegación completa** usando React Navigation 7,
 ```
 starter/
 ├── App.tsx                         ← NavigationContainer raíz
+├── index.js                        ← punto de entrada (registerRootComponent)
 ├── app.json                        ← configuración Expo
 ├── package.json                    ← dependencias exactas
 ├── tsconfig.json

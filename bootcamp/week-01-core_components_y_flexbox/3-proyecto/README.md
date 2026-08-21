@@ -42,6 +42,7 @@ Cada aprendiz trabaja sobre un dominio único para evitar copias y fomentar impl
 ```
 starter/
 ├── App.tsx               # Punto de entrada
+├── index.js              # Punto de entrada — registerRootComponent
 ├── package.json          # Dependencias exactas
 ├── tsconfig.json         # Configuración TypeScript
 ├── app.json              # Configuración Expo

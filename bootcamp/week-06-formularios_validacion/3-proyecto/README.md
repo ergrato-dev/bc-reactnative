@@ -25,6 +25,7 @@ Implementar formularios Create y Edit con validación Zod aplicados a tu **domin
 ```
 starter/
 ├── App.tsx                          — QueryClientProvider + NavigationContainer
+├── index.js                         — punto de entrada (registerRootComponent)
 ├── app.json
 ├── package.json
 ├── tsconfig.json

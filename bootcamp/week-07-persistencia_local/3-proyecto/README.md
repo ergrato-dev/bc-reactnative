@@ -19,7 +19,8 @@ Agregar una **capa de persistencia completa** a la app de tu dominio asignado:
 
 ```
 starter/
-├── App.tsx                      # Entry point — QueryClient + Navigation
+├── App.tsx                      # Componente raíz — QueryClient + Navigation
+├── index.js                     # Punto de entrada — registerRootComponent
 ├── app.json                     # Config Expo
 ├── package.json                 # Dependencias
 ├── tsconfig.json

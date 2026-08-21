@@ -1,7 +1,7 @@
 {
   "name": "ejercicio-01-core-components",
   "version": "1.0.0",
-  "main": "expo/AppEntry",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",

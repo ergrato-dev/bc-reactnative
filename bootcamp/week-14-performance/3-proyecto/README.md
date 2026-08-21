@@ -36,6 +36,7 @@ dominio asignado: `memo`, `useCallback`, `useMemo` y props de performance en `Fl
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json
 ├── package.json
 ├── babel.config.js
