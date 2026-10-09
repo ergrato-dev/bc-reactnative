@@ -82,7 +82,7 @@
 | Usar `Animated` de React Native en lugar de Reanimated 4 | -5 pts |
 | Usar `useNativeDriver` (innecesario con Reanimated) | -3 pts |
 | `GestureHandlerRootView` ausente (crash en Android) | -5 pts |
-| No añadir `'react-native-reanimated/plugin'` a `babel.config.js` | -5 pts |
+| No añadir `'react-native-worklets/plugin'` a `babel.config.js` | -5 pts |
 | Acceder a `.value` fuera de un worklet sin `runOnJS` | -4 pts |
 | Copia de implementación de otro aprendiz | -15 pts |
 | App no compila | -10 pts |

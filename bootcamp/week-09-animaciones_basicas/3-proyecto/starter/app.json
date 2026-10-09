@@ -12,9 +12,6 @@
     },
     "android": {
       "package": "dev.ergrato.week09"
-    },
-    "plugins": [
-      "expo-router"
-    ]
+    }
   }
 }

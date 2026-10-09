@@ -12,9 +12,6 @@
     "android": {
       "package": "dev.bootcamp.week03navigation"
     },
-    "plugins": [
-      "expo-router"
-    ],
     "newArchEnabled": true
   }
 }

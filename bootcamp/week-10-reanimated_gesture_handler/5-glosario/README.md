@@ -9,7 +9,7 @@ Términos técnicos clave ordenados alfabéticamente.
 **babel plugin (reanimated)**  
 Plugin de Babel requerido para que Reanimated 4 funcione. Se declara como último en `babel.config.js`:  
 ```js
-plugins: ['react-native-reanimated/plugin']
+plugins: ['react-native-worklets/plugin']
 ```
 Sin él, los worklets (`useAnimatedStyle`, `useAnimatedProps`) lanzarán errores en tiempo de ejecución.
 

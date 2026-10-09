@@ -62,7 +62,7 @@ Migrar la semana anterior de `Animated API` a **Reanimated 4** e integrar **Reac
 | Importar `Animated` de `react-native` en lugar de `react-native-reanimated` | −5 pts |
 | Usar `useNativeDriver: true` (innecesario con Reanimated) | −3 pts |
 | Falta `GestureHandlerRootView` en `App.tsx` | −5 pts |
-| Falta plugin `'react-native-reanimated/plugin'` en `babel.config.js` | −5 pts |
+| Falta plugin `'react-native-worklets/plugin'` en `babel.config.js` | −5 pts |
 | Acceder a `.value` fuera de worklet sin `runOnJS` | −4 pts |
 
 ---
@@ -74,7 +74,7 @@ starter/
 ├── App.tsx                          ← GestureHandlerRootView + QueryClientProvider
 ├── index.js                         ← punto de entrada (registerRootComponent)
 ├── app.json
-├── babel.config.js                  ← incluye 'react-native-reanimated/plugin'
+├── babel.config.js                  ← incluye 'react-native-worklets/plugin'
 ├── package.json
 ├── tsconfig.json
 └── src/
