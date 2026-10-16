@@ -169,3 +169,11 @@ async function pickFromCamera(): Promise<string | null> {
 - [ ] `cameraRef.current?.takePictureAsync()` usa `?.` (puede ser null)
 - [ ] `launchImageLibraryAsync` verifica `result.canceled` antes de usar `result.assets`
 - [ ] En simulador iOS: usar `ImagePicker` como fallback de la cámara
+
+<!-- nav:start -->
+
+---
+
+← [Semana 11 — APIs Nativas: Cámara, Ubicación y Permisos](../README.md) | [Ubicación con expo-location](02-location.md) →
+
+<!-- nav:end -->

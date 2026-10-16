@@ -96,3 +96,11 @@ Los 4 layouts visibles en pantalla (con scroll), cada uno con su etiqueta. Los l
 - En **Layout 2**, cambia `space-evenly` por `space-between` y por `space-around` — ¿cuál es la diferencia visual?
 - En **Layout 3**, elimina el `flex: 1` del `textContainer` — ¿qué le pasa al texto?
 - En **Layout 4**, cambia los valores de `flex` a `flex: 1` y `flex: 3` — ¿qué proporción ocupan ahora?
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Core Components: Tarjeta de Perfil](../ejercicio-01-core-components/README.md) | [Proyecto Semana 01 — App de Tarjetas](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

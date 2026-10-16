@@ -138,3 +138,11 @@ Al completar los 4 pasos deberías poder:
 2. En dispositivo físico → ver el token `ExponentPushToken[...]` en pantalla
 3. Al enviar push desde Expo Tool → recibir el banner en el dispositivo
 4. Al tapear el banner → ver el log en la UI con el título del push
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Notificaciones Locales](../ejercicio-01-local-notifications/README.md) | [Proyecto Semana 12 — Push Notifications](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

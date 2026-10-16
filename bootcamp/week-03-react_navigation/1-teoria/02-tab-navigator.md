@@ -183,3 +183,11 @@ Con `headerShown: false` en el Stack interior, el header del Tab se muestra y el
 - [ ] `tabBarActiveTintColor` y `tabBarInactiveTintColor` configurados
 - [ ] Header estilizado consistente con el tema de la app
 - [ ] Stack anidado con `headerShown: false` para evitar headers dobles
+
+<!-- nav:start -->
+
+---
+
+← [Stack Navigator — Navegación entre Pantallas](01-stack-navigator.md) | [Drawer Navigator y Navegación Anidada](03-drawer-navegacion-anidada.md) →
+
+<!-- nav:end -->

@@ -113,3 +113,11 @@ pnpm start
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — useMutation y Cache Invalidation](../2-practicas/ejercicio-02-usemutation/README.md) | [Ebooks y Cheat Sheets — Semana 05](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

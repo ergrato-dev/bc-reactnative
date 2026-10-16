@@ -79,3 +79,11 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 2. Al menos 2 tipos de notificaciones con contenido coherente al dominio
 3. Listeners con cleanup correcto (sin memory leaks)
 4. README actualizado con descripción de tu dominio y ejemplos de notificaciones
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Push Token y Expo Push Tool](../2-practicas/ejercicio-02-push-token/README.md) | [eBooks Gratuitos — Semana 12: Push Notifications](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

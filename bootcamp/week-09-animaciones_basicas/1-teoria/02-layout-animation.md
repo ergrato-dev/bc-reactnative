@@ -170,3 +170,11 @@ LayoutAnimation.configureNext({
 
 - [LayoutAnimation — React Native docs](https://reactnative.dev/docs/layoutanimation)
 - [Interpolation — React Native docs](https://reactnative.dev/docs/animations#interpolation)
+
+<!-- nav:start -->
+
+---
+
+← [Animated API — React Native](01-animated-api.md) | [Ejercicio 01 — Animated.timing y Animated.spring](../2-practicas/ejercicio-01-timing-spring/README.md) →
+
+<!-- nav:end -->

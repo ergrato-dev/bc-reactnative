@@ -103,3 +103,11 @@ Ver [rubrica-evaluacion.md](../rubrica-evaluacion.md) — sección **Producto �
 | Copia de implementación de otro aprendiz | −15 pts |
 | App no corre en simulador | −10 pts |
 | Stack sin params al navegar al detalle | −5 pts |
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Tab Navigator con Stack Anidado](../2-practicas/ejercicio-02-tabs-stack/README.md) | [E-Books Gratuitos — Semana 03: React Navigation 7](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

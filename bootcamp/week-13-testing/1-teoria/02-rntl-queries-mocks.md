@@ -276,3 +276,11 @@ maestro test flows/login.yaml
 - [Testing Library Queries Guide](https://testing-library.com/docs/queries/about)
 - [Maestro Documentation](https://maestro.mobile.dev/)
 - [jest-native Matchers](https://github.com/testing-library/jest-native)
+
+<!-- nav:start -->
+
+---
+
+← [Jest y Fundamentos de Testing en React Native](01-jest-fundamentos.md) | [Ejercicio 01 — Unit Tests con Jest](../2-practicas/ejercicio-01-jest-unit/README.md) →
+
+<!-- nav:end -->

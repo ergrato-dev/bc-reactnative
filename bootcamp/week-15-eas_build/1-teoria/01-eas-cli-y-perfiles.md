@@ -194,3 +194,11 @@ Nunca subir un APK a Google Play en 2026 — rechazado automáticamente.
 - [EAS Build docs](https://docs.expo.dev/build/introduction/)
 - [eas.json reference](https://docs.expo.dev/eas/json/)
 - [EAS Build profiles guide](https://docs.expo.dev/build/eas-json/)
+
+<!-- nav:start -->
+
+---
+
+← [Semana 15 — EAS Build y Certificados](../README.md) | [Certificados iOS y Firma Android](02-certificados-ios-android.md) →
+
+<!-- nav:end -->

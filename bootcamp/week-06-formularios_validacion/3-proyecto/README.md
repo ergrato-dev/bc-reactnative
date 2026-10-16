@@ -76,3 +76,11 @@ pnpm start
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Validación con Zod + zodResolver](../2-practicas/ejercicio-02-zod-resolver/README.md) | [Recursos: Ebooks & Cheat Sheets — Semana 06](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

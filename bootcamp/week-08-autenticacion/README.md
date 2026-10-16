@@ -87,4 +87,12 @@ Ver instrucciones completas: [3-proyecto/README.md](3-proyecto/README.md)
 
 ## 🔗 Navegación
 
-[← Semana 07 — Persistencia Local](../week-07-persistencia_local/README.md) | [Semana 09 — Animaciones Básicas →](../week-09-animaciones_basicas/README.md)
+← [Semana 07 — Persistencia Local](../week-07-persistencia_local/README.md) | [Semana 09 — Animaciones Básicas](../week-09-animaciones_basicas/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 07: Persistencia Local](../week-07-persistencia_local/rubrica-evaluacion.md) | [JWT y Tokens de Autenticación](1-teoria/01-jwt-y-tokens.md) →
+
+<!-- nav:end -->

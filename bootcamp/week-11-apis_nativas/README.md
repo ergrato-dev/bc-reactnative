@@ -92,5 +92,12 @@ week-11-apis_nativas/
 
 ## 🔗 Navegación
 
-← [Semana 10 — Reanimated 4 y Gesture Handler](../week-10-reanimated_gesture_handler/README.md)  
-→ [Semana 12 — Push Notifications](../week-12-push_notifications/README.md)
+← [Semana 10 — Reanimated 4 y Gesture Handler](../week-10-reanimated_gesture_handler/README.md) | [Semana 12 — Push Notifications](../week-12-push_notifications/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 10: Reanimated 4 y Gesture Handler](../week-10-reanimated_gesture_handler/rubrica-evaluacion.md) | [Permisos y Cámara en Expo SDK 57](1-teoria/01-permisos-y-camera.md) →
+
+<!-- nav:end -->

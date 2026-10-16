@@ -212,3 +212,11 @@ export const useCartStore = create<CartStore>()(
 - [ ] Cada componente lee solo la parte del store que necesita (selector)
 - [ ] La interface TypeScript define todos los campos y acciones
 - [ ] No se usa `as any` en ningún punto del store
+
+<!-- nav:start -->
+
+---
+
+← [Semana 04 — Estado Global con Zustand](../README.md) | [Zustand — Slices, Múltiples Stores y Persist](02-zustand-slices-persist.md) →
+
+<!-- nav:end -->

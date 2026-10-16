@@ -140,3 +140,11 @@ Escanea el QR con **Expo Go** en tu dispositivo o abre en simulador con `i` (iOS
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — interpolate y Animated.stagger](../2-practicas/ejercicio-02-interpolation/README.md) | [Cheatsheet — Animated API (Week 09)](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

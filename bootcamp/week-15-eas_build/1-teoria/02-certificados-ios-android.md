@@ -205,3 +205,11 @@ eas secret:create --scope project --name API_KEY --value "mi-clave-secreta"
 - [iOS Code Signing — Apple](https://developer.apple.com/support/code-signing/)
 - [Android App Signing — Google](https://developer.android.com/studio/publish/app-signing)
 - [app.json reference](https://docs.expo.dev/versions/latest/config/app/)
+
+<!-- nav:start -->
+
+---
+
+← [EAS CLI y Perfiles de Build](01-eas-cli-y-perfiles.md) | [Ejercicio 01 — Configurar eas.json con Perfiles de Build](../2-practicas/ejercicio-01-eas-json-perfiles/README.md) →
+
+<!-- nav:end -->

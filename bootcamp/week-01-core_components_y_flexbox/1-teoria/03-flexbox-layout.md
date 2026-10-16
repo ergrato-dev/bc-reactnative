@@ -203,3 +203,11 @@ Un truco muy útil al construir layouts: añadir `borderWidth` y `borderColor` a
 - [ ] Construí un layout de tarjeta con imagen y texto usando `flexDirection: 'row'`
 - [ ] Usé `justifyContent: 'space-between'` para separar elementos en un header
 - [ ] Usé `flex: 1` para que una vista ocupe el espacio disponible
+
+<!-- nav:start -->
+
+---
+
+← [Core Components de React Native](02-core-components.md) | [Ejercicio 01 — Core Components: Tarjeta de Perfil](../2-practicas/ejercicio-01-core-components/README.md) →
+
+<!-- nav:end -->

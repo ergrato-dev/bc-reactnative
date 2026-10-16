@@ -76,3 +76,11 @@
 | Copia de código de otro aprendiz | Nota 0 en la semana |
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 01: Core Components y Flexbox](5-glosario/README.md) | [Semana 02 — Listas, Inputs y Estilos](../week-02-listas_inputs_y_estilos/README.md) →
+
+<!-- nav:end -->

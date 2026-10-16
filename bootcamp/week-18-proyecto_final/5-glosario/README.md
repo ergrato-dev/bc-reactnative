@@ -39,3 +39,11 @@ claro, capturas reales y decisiones documentadas, no solo "funciona en mi máqui
 **Walkthrough**
 Recorrido guiado por el código durante la defensa oral, explicando decisiones de
 arquitectura en vivo en vez de solo mostrar la app funcionando.
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 18 — Proyecto Final Integrador](../3-proyecto/README.md) | [Rúbrica de Evaluación — Semana 18: Proyecto Final Integrador](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

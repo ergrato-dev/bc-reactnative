@@ -80,4 +80,12 @@ week-15-eas_build/
 
 ## 🔗 Navegación
 
-← [Semana 14 — Performance](../week-14-performance/README.md) | [Semana 16 — App Store y Google Play](../week-16-app_store_google_play/README.md) →
+← [Semana 14 — Performance y Optimización](../week-14-performance/README.md) | [Semana 16 — App Store y Google Play Console](../week-16-app_store_google_play/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 14: Performance y Optimización](../week-14-performance/rubrica-evaluacion.md) | [EAS CLI y Perfiles de Build](1-teoria/01-eas-cli-y-perfiles.md) →
+
+<!-- nav:end -->

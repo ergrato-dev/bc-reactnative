@@ -184,3 +184,11 @@ Con esta configuración:
 - [ ] La arquitectura de navegadores refleja la jerarquía visual de la app
 - [ ] `navigation.navigate` con `screen` y `params` anidados funciona
 - [ ] Deep linking configurado con los prefijos correctos
+
+<!-- nav:start -->
+
+---
+
+← [Tab Navigator — Navegación por Pestañas](02-tab-navigator.md) | [Ejercicio 01 — Stack Navigator](../2-practicas/ejercicio-01-stack-navigator/README.md) →
+
+<!-- nav:end -->

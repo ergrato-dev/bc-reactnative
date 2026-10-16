@@ -194,3 +194,11 @@ const animatedStyle = useAnimatedStyle(() => {
 - [ ] `Animated` importado de `react-native-reanimated`, no de `react-native`
 - [ ] `useAnimatedStyle` siempre retorna un objeto plano (solo estilo, sin lógica compleja)
 - [ ] `withRepeat(..., -1)` para loops, no `Animated.loop`
+
+<!-- nav:start -->
+
+---
+
+← [Semana 10 — Reanimated 4 y Gesture Handler](../README.md) | [Gesture Handler — Pan, Tap y runOnJS](02-gesture-handler.md) →
+
+<!-- nav:end -->

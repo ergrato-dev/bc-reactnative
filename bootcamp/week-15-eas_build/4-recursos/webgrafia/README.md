@@ -38,3 +38,11 @@
 | EAS Secrets | https://docs.expo.dev/build-reference/variables/ | Gestión segura de variables de entorno en EAS |
 | gitignore.io | https://www.toptal.com/developers/gitignore | Generador de .gitignore (usar "React Native") |
 | React Native Security | https://reactnative.dev/docs/security | Guía oficial de seguridad en React Native |
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — EAS Build y Certificados](../videografia/README.md) | [Glosario — Semana 15: EAS Build y Certificados](../../5-glosario/README.md) →
+
+<!-- nav:end -->

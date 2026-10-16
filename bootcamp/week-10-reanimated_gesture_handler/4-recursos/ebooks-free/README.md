@@ -20,3 +20,11 @@
 Para libros de animaciones avanzadas en React Native, los mejores recursos son
 los tutoriales interactivos de [William Candillon](https://start-react-native.dev/)
 y el canal oficial de [Software Mansion](https://www.youtube.com/@swmansion).
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 10 — Animaciones Avanzadas con Reanimated 4 y Gesture Handler](../../3-proyecto/README.md) | [Videografía — Semana 10: Reanimated 4 y Gesture Handler](../videografia/README.md) →
+
+<!-- nav:end -->

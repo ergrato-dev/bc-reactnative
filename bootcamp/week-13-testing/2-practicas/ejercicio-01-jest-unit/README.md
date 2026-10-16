@@ -109,3 +109,11 @@ pnpm test --verbose
 ```
 
 Debes ver todos los tests en verde. Si alguno falla, revisa el mensaje de error — Jest te dice exactamente qué esperaba vs qué recibió.
+
+<!-- nav:start -->
+
+---
+
+← [RNTL: Queries, Eventos y Mocks](../../1-teoria/02-rntl-queries-mocks.md) | [Ejercicio 02 — Component Tests con RNTL](../ejercicio-02-rntl-components/README.md) →
+
+<!-- nav:end -->

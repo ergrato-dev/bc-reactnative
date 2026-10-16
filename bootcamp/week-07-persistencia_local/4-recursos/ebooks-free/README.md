@@ -162,3 +162,11 @@ Estado reactivo en componente (no necesita persistir) →  useState
 
 > ⚠️ **Nunca** guardar tokens o contraseñas en AsyncStorage o MMKV sin cifrado adicional.
 > AsyncStorage en Android se almacena en texto plano accesible con `adb pull`.
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 07 — Persistencia Local](../../3-proyecto/README.md) | [Videografía — Semana 07: Persistencia Local](../videografia/README.md) →
+
+<!-- nav:end -->

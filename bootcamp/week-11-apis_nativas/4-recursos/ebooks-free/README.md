@@ -46,3 +46,11 @@
 
 > 📌 Para temas de producción (EAS Build), consulta directamente la documentación oficial de Expo:
 > [docs.expo.dev/deploy/build-project](https://docs.expo.dev/deploy/build-project/)
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 11 — APIs Nativas: Cámara, Galería y Ubicación](../../3-proyecto/README.md) | [Videografía — Semana 11: APIs Nativas](../videografia/README.md) →
+
+<!-- nav:end -->

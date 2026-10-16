@@ -42,3 +42,11 @@
 - **EAS Build + Update Configuration Reference**
   Toda la referencia de `eas.json` y `app.json` para builds y updates.
   [https://docs.expo.dev/build-reference/eas-json/](https://docs.expo.dev/build-reference/eas-json/)
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 17 — CI/CD y OTA Updates](../../3-proyecto/README.md) | [Recursos — Videografía](../videografia/README.md) →
+
+<!-- nav:end -->

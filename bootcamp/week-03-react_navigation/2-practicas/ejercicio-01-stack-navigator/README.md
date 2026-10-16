@@ -122,3 +122,11 @@ Cuando todos los pasos estén descomentados deberías ver:
 - `screenOptions` para estilos globales del header
 
 ![Stack Navigator Flow](../../0-assets/01-navigation-stack-flow.svg)
+
+<!-- nav:start -->
+
+---
+
+← [Drawer Navigator y Navegación Anidada](../../1-teoria/03-drawer-navegacion-anidada.md) | [Ejercicio 02 — Tab Navigator con Stack Anidado](../ejercicio-02-tabs-stack/README.md) →
+
+<!-- nav:end -->

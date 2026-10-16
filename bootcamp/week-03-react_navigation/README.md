@@ -82,4 +82,12 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-[← Semana 02 — Listas, Inputs y Estilos](../week-02-listas_inputs_y_estilos/README.md) | [Semana 04 — Estado Global con Zustand →](../week-04-estado_global_zustand/README.md)
+← [Semana 02 — Listas, Inputs y Estilos](../week-02-listas_inputs_y_estilos/README.md) | [Semana 04 — Estado Global con Zustand](../week-04-estado_global_zustand/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 02: Listas, Inputs y Estilos](../week-02-listas_inputs_y_estilos/rubrica-evaluacion.md) | [Stack Navigator — Navegación entre Pantallas](1-teoria/01-stack-navigator.md) →
+
+<!-- nav:end -->

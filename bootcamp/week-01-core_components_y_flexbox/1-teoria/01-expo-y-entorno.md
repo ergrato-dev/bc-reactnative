@@ -157,3 +157,11 @@ Editas código  →  Metro bundler detecta el cambio  →  Hot Reload en el disp
 - [ ] Puedo modificar `App.tsx` y ver los cambios en tiempo real
 - [ ] Entiendo la diferencia entre `<div>` web y `<View>` nativo
 - [ ] Conozco para qué sirve `app.json`
+
+<!-- nav:start -->
+
+---
+
+← [Semana 01 — Core Components y Flexbox](../README.md) | [Core Components de React Native](02-core-components.md) →
+
+<!-- nav:end -->

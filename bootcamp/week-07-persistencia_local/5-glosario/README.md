@@ -141,3 +141,10 @@ Hook personalizado que encapsula todas las preferencias de usuario persistidas e
 **valor por defecto (default value)**
 Valor que usa el hook cuando la clave no existe aún en el storage. Patrón: `const [sortOrder = 'asc', setSortOrder] = useMMKVString('SORT_ORDER', storage)`. El `= 'asc'` es el default vía destructuring.
 
+<!-- nav:start -->
+
+---
+
+← [Webgrafía — Semana 07: Persistencia Local](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 07: Persistencia Local](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

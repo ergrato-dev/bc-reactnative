@@ -185,3 +185,11 @@ Tu `eas.json` completo debe verse así:
 - [eas.json reference](https://docs.expo.dev/eas/json/)
 - [Build profiles guide](https://docs.expo.dev/build/eas-json/)
 - [Internal distribution](https://docs.expo.dev/build/internal-distribution/)
+
+<!-- nav:start -->
+
+---
+
+← [Certificados iOS y Firma Android](../../1-teoria/02-certificados-ios-android.md) | [Ejercicio 02 — Configurar app.json para Producción](../ejercicio-02-app-config/README.md) →
+
+<!-- nav:end -->

@@ -101,3 +101,11 @@ pnpm start
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Ubicación con expo-location](../2-practicas/ejercicio-02-location/README.md) | [Ebooks Gratuitos — Semana 11: APIs Nativas](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

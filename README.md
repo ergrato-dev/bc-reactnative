@@ -265,3 +265,11 @@ Ver el archivo [LICENSE](LICENSE) para el texto completo.
 <p align="center">
   Hecho con ❤️ para la comunidad de desarrolladores
 </p>
+
+<!-- nav:start -->
+
+---
+
+[Semana 01 — Core Components y Flexbox](bootcamp/week-01-core_components_y_flexbox/README.md) →
+
+<!-- nav:end -->

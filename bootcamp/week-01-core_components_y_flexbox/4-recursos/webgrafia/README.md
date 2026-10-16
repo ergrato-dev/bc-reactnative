@@ -31,3 +31,11 @@
 | -------- | --- | ----------- |
 | React Native para devs web | https://reactnative.dev/docs/intro-react | Diferencias clave para desarrolladores que vienen de la web |
 | Debugging en Expo | https://docs.expo.dev/debugging/runtime-issues/ | Cómo depurar apps Expo |
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Semana 01](../videografia/README.md) | [Glosario — Semana 01: Core Components y Flexbox](../../5-glosario/README.md) →
+
+<!-- nav:end -->

@@ -226,3 +226,11 @@ function App() {
 - [ ] `partialize` excluye estados volátiles (loaders, errores temporales)
 - [ ] `onRehydrateStorage` maneja el estado de carga inicial
 - [ ] El `name` de persist es único para cada store en la app
+
+<!-- nav:start -->
+
+---
+
+← [Zustand — Fundamentos y Selectores](01-zustand-fundamentos.md) | [Ejercicio 01 — Store Básico con Zustand](../2-practicas/ejercicio-01-store-basico/README.md) →
+
+<!-- nav:end -->

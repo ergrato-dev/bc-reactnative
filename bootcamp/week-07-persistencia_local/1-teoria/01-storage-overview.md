@@ -176,3 +176,11 @@ export function usePreference<T>(
 - [ ] Sé que MMKV necesita build nativo (no Expo Go) y por qué
 - [ ] Nunca guardo tokens en AsyncStorage sin cifrar
 - [ ] Tengo el modelo mental de "memoria volátil vs. disco persistente"
+
+<!-- nav:start -->
+
+---
+
+← [Semana 07 — Persistencia Local](../README.md) | [MMKV y SecureStore — Patrones Avanzados](02-mmkv-y-securestore.md) →
+
+<!-- nav:end -->

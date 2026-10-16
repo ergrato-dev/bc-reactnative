@@ -187,3 +187,11 @@ Después de hacer push con el archivo `.github/workflows/eas-build.yml`:
 - [GitHub Actions para Expo](https://docs.expo.dev/eas/github-actions/)
 - [expo/expo-github-action](https://github.com/expo/expo-github-action)
 - [GitHub Actions Docs](https://docs.github.com/en/actions)
+
+<!-- nav:start -->
+
+---
+
+← [EAS Update — OTA Updates y Gestión de Canales](../../1-teoria/02-eas-update-ota.md) | [Ejercicio 02 — Configurar EAS Update con Canales](../ejercicio-02-eas-update-canales/README.md) →
+
+<!-- nav:end -->

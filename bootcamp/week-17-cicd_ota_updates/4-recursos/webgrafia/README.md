@@ -26,3 +26,11 @@
 - [expo.dev Dashboard](https://expo.dev) — ver builds, updates y canales
 - [GitHub Actions Status Checks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks)
 - [YAML Validator](https://www.yamllint.com/) — validar sintaxis de workflows
+
+<!-- nav:start -->
+
+---
+
+← [Recursos — Videografía](../videografia/README.md) | [Glosario — Semana 17: CI/CD y OTA Updates](../../5-glosario/README.md) →
+
+<!-- nav:end -->

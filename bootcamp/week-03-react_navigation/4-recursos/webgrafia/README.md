@@ -61,3 +61,11 @@ Paquetes incluidos: **Ionicons**, **MaterialIcons**, **FontAwesome5**, **Feather
 - **Iconos para la Tab Bar** → https://icons.expo.fyi (busca `home`, `heart`, `bookmark`, `grid`, etc.)
 - **Diferencias Stack vs NativeStack** → https://reactnavigation.org/docs/stack-navigator vs https://reactnavigation.org/docs/native-stack-navigator
 - **React Native New Architecture + RN 0.79** → https://reactnative.dev/docs/the-new-architecture/landing-page
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Semana 03: React Navigation 7](../videografia/README.md) | [Glosario — Semana 03: React Navigation 7](../../5-glosario/README.md) →
+
+<!-- nav:end -->

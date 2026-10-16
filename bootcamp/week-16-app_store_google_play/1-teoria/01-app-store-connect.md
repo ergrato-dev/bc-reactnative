@@ -188,3 +188,11 @@ El mínimo aceptable debe explicar:
 - [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
 - [TestFlight overview](https://developer.apple.com/testflight/)
 - [EAS Submit — iOS](https://docs.expo.dev/submit/ios/)
+
+<!-- nav:start -->
+
+---
+
+← [Semana 16 — App Store y Google Play Console](../README.md) | [Google Play Console — Tracks, Ratings y Store Listing](02-google-play-console.md) →
+
+<!-- nav:end -->

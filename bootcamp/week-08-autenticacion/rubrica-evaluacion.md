@@ -100,3 +100,11 @@
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
 - ✅ Tokens **nunca** almacenados en AsyncStorage o texto plano
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 08: Autenticación Completa](5-glosario/README.md) | [Semana 09 — Animaciones Básicas](../week-09-animaciones_basicas/README.md) →
+
+<!-- nav:end -->

@@ -24,3 +24,11 @@
 |----------|-----|
 | Tao of React — Performance (free chapter) | https://alexkondov.com/tao-of-react/ |
 | React Performance Patterns | https://www.patterns.dev/react/performance-patterns/ |
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 14 — Performance y Optimización](../../3-proyecto/README.md) | [Videografía — Semana 14: Performance y Optimización](../videografia/README.md) →
+
+<!-- nav:end -->

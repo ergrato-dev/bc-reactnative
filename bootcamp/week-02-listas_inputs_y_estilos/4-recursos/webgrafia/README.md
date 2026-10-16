@@ -51,3 +51,11 @@
 | Expo SDK 57 Release Notes | https://expo.dev/changelog/sdk-57 |
 | Expo Go — Guía de inicio | https://docs.expo.dev/get-started/expo-go/ |
 | expo-status-bar | https://docs.expo.dev/versions/latest/sdk/status-bar/ |
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Semana 02](../videografia/README.md) | [Glosario — Semana 02: Listas, Inputs y Estilos](../../5-glosario/README.md) →
+
+<!-- nav:end -->

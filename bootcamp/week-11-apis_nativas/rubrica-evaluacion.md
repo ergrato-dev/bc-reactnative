@@ -72,3 +72,11 @@
 | App crashea al arrancar | −10 pts |
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 11: APIs Nativas — Cámara, Ubicación y Permisos](5-glosario/README.md) | [Semana 12 — Push Notifications](../week-12-push_notifications/README.md) →
+
+<!-- nav:end -->

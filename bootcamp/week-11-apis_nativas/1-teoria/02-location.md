@@ -170,3 +170,11 @@ async function getAddressFromCoords(
 - [ ] `watchPositionAsync` limpiado con `subscription.remove()` en cleanup de `useEffect`
 - [ ] `reverseGeocodeAsync` manejado con `try/catch` (puede fallar sin internet)
 - [ ] Verificar que `Location.Accuracy` se importa del paquete, no se usa número literal
+
+<!-- nav:start -->
+
+---
+
+← [Permisos y Cámara en Expo SDK 57](01-permisos-y-camera.md) | [Ejercicio 01 — Cámara y Image Picker](../2-practicas/ejercicio-01-camara-picker/README.md) →
+
+<!-- nav:end -->

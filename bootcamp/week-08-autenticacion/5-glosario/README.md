@@ -112,3 +112,11 @@ Proceso de intercambiar un refresh token por un nuevo access token cuando el ant
 
 **useAuthRequest**
 Hook de `expo-auth-session` que prepara la solicitud OAuth con PKCE automático. Retorna `[request, response, promptAsync]`.
+
+<!-- nav:start -->
+
+---
+
+← [🌐 Webgrafía — Semana 08: Autenticación Completa](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 08: Autenticación Completa](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

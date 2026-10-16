@@ -161,3 +161,11 @@ import { zodResolver } from '@hookform/resolvers/zod';
 
 useForm({ resolver: zodResolver(mySchema) })
 ```
+
+<!-- nav:start -->
+
+---
+
+← [Recursos: Webografía — Semana 06](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 06: Formularios con React Hook Form + Zod](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

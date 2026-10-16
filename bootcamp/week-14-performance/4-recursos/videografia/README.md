@@ -27,3 +27,11 @@
 | [Callstack](https://www.youtube.com/@callstackio) | Los autores de React Navigation y herramientas RN |
 | [notJust.dev](https://www.youtube.com/c/notjustdev) | Tutoriales prácticos de React Native modernos |
 | [Theo — t3.gg](https://www.youtube.com/@t3dotgg) | Análisis profundos de rendimiento en React |
+
+<!-- nav:start -->
+
+---
+
+← [Ebooks Gratuitos — Semana 14: Performance y Optimización](../ebooks-free/README.md) | [Webgrafía — Semana 14: Performance y Optimización](../webgrafia/README.md) →
+
+<!-- nav:end -->

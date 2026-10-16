@@ -28,3 +28,11 @@
 ---
 
 > 💡 **Recomendación para esta semana**: Si tienes dudas sobre algún concepto de JavaScript moderno (destructuring, spread, optional chaining), dedica 30 minutos a JavaScript Info antes de comenzar las prácticas.
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 01 — App de Tarjetas](../../3-proyecto/README.md) | [Videografía — Semana 01](../videografia/README.md) →
+
+<!-- nav:end -->

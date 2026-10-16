@@ -192,3 +192,11 @@ En Android se declaran los permisos del sistema que la app necesita.
 - [app.json / app.config.js reference](https://docs.expo.dev/versions/latest/config/app/)
 - [Permissions in Expo](https://docs.expo.dev/guides/permissions/)
 - [iOS Info.plist strings](https://developer.apple.com/documentation/bundleresources/information_property_list)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Configurar eas.json con Perfiles de Build](../ejercicio-01-eas-json-perfiles/README.md) | [Proyecto Semana 15 — EAS Build y Certificados](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

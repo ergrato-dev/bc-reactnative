@@ -106,3 +106,11 @@ pnpm start
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Persist Middleware con AsyncStorage](../2-practicas/ejercicio-02-persist-middleware/README.md) | [📖 Ebooks y Cheat Sheets — Semana 04: Estado Global con Zustand](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

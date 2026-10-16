@@ -202,3 +202,11 @@ api.interceptors.response.use(
 - [ ] Los tokens se guardan con SecureStore, nunca con AsyncStorage
 - [ ] El auth store tiene `login`, `logout`, y `setTokens`
 - [ ] El interceptor de Axios maneja el 401 y renueva el access token
+
+<!-- nav:start -->
+
+---
+
+← [Semana 08 — Autenticación Completa](../README.md) | [OAuth y Expo AuthSession](02-oauth-expo-authsession.md) →
+
+<!-- nav:end -->

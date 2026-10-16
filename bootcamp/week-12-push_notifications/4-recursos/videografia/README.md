@@ -19,3 +19,11 @@
 
 > 💡 Busca los títulos anteriores en YouTube para encontrar los videos más actualizados
 > correspondientes a Expo SDK 57.
+
+<!-- nav:start -->
+
+---
+
+← [eBooks Gratuitos — Semana 12: Push Notifications](../ebooks-free/README.md) | [Webgrafía — Semana 12: Push Notifications](../webgrafia/README.md) →
+
+<!-- nav:end -->

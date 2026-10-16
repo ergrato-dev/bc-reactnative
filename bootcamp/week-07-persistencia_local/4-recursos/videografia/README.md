@@ -93,3 +93,11 @@ react native storage comparison benchmark
 | SecureStore + tokens | 15 min |
 | Patrón offline-first | 15 min |
 | **Total** | **~70 min** |
+
+<!-- nav:start -->
+
+---
+
+← [Ebooks y Referencias — Semana 07: Persistencia Local](../ebooks-free/README.md) | [Webgrafía — Semana 07: Persistencia Local](../webgrafia/README.md) →
+
+<!-- nav:end -->

@@ -137,3 +137,11 @@ Componente obligatorio para renderizar texto en React Native. Cualquier string e
 
 **View**
 El contenedor más básico de React Native. Equivalente al `<div>` de HTML. Es flex container por defecto. Sirve para agrupar elementos, aplicar estilos y construir layouts con Flexbox.
+
+<!-- nav:start -->
+
+---
+
+← [Webgrafía — Semana 01](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 01](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

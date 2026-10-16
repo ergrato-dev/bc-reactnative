@@ -147,3 +147,11 @@ Animated.FlatList
 ```
 
 Para usar con otros componentes: `Animated.createAnimatedComponent(MyComponent)`.
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 09 — Animaciones Básicas](../../3-proyecto/README.md) | [Videografía — Week 09: Animaciones Básicas](../videografia/README.md) →
+
+<!-- nav:end -->

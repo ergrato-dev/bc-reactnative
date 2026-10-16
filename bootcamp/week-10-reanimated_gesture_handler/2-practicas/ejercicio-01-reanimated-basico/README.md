@@ -172,3 +172,11 @@ Al completar los 4 pasos, la app debe mostrar:
 - [useSharedValue](https://docs.swmansion.com/react-native-reanimated/docs/core/useSharedValue)
 - [useAnimatedStyle](https://docs.swmansion.com/react-native-reanimated/docs/core/useAnimatedStyle)
 - [withTiming / withSpring](https://docs.swmansion.com/react-native-reanimated/docs/animations/withTiming)
+
+<!-- nav:start -->
+
+---
+
+← [Gesture Handler — Pan, Tap y runOnJS](../../1-teoria/02-gesture-handler.md) | [Ejercicio 02 — Gesture Drag con Snap-Back](../ejercicio-02-gesture-drag/README.md) →
+
+<!-- nav:end -->

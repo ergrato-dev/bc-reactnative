@@ -128,3 +128,11 @@ const pickFromGallery = async () => {
 - [useCameraPermissions](https://docs.expo.dev/versions/latest/sdk/camera/#usecamerapermissions)
 - [CameraView](https://docs.expo.dev/versions/latest/sdk/camera/#cameraview)
 - [launchImageLibraryAsync](https://docs.expo.dev/versions/latest/sdk/imagepicker/#imagepickerlaunchimagelibraryasyncoptions)
+
+<!-- nav:start -->
+
+---
+
+← [Ubicación con expo-location](../../1-teoria/02-location.md) | [Ejercicio 02 — Ubicación con expo-location](../ejercicio-02-location/README.md) →
+
+<!-- nav:end -->

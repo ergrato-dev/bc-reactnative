@@ -36,3 +36,11 @@
 
 - **Expo + EAS Full Series** — Canal oficial de Expo en YouTube
   Cubre desde EAS Build hasta EAS Update con demos en vivo.
+
+<!-- nav:start -->
+
+---
+
+← [Recursos — Ebooks Gratuitos](../ebooks-free/README.md) | [Recursos — Webgrafía](../webgrafia/README.md) →
+
+<!-- nav:end -->

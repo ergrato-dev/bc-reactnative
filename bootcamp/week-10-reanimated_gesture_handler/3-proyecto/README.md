@@ -113,3 +113,11 @@ pnpm start
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Gesture Drag con Snap-Back](../2-practicas/ejercicio-02-gesture-drag/README.md) | [Ebooks Gratuitos — Semana 10: Reanimated 4 y Gesture Handler](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

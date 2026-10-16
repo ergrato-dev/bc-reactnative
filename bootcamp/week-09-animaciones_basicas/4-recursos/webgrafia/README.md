@@ -32,3 +32,11 @@ más complejas declaradas enteramente en el hilo nativo:
 
 - https://docs.swmansion.com/react-native-reanimated/
 - https://docs.swmansion.com/react-native-gesture-handler/
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Week 09: Animaciones Básicas](../videografia/README.md) | [Glosario — Semana 09: Animaciones Básicas](../../5-glosario/README.md) →
+
+<!-- nav:end -->

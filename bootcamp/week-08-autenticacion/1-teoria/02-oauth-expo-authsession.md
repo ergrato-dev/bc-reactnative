@@ -146,3 +146,11 @@ const discovery = AuthSession.useAutoDiscovery('https://accounts.google.com');
 - [ ] `useAuthRequest` retorna `[request, response, promptAsync]`
 - [ ] El intercambio de `code → token` ocurre en el backend (no en el cliente)
 - [ ] `WebBrowser.maybeCompleteAuthSession()` está al top level para web
+
+<!-- nav:start -->
+
+---
+
+← [JWT y Tokens de Autenticación](01-jwt-y-tokens.md) | [Ejercicio 01 — Autenticación JWT con dummyjson.com](../2-practicas/ejercicio-01-jwt-auth/README.md) →
+
+<!-- nav:end -->

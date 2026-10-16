@@ -46,3 +46,11 @@
 4. Architecting a React Native App with Zustand (20-30 min)
 
 **Total estimado**: ~60-85 minutos complementarios para reforzar la teoría.
+
+<!-- nav:start -->
+
+---
+
+← [📖 Ebooks y Cheat Sheets — Semana 04: Estado Global con Zustand](../ebooks-free/README.md) | [📚 Webgrafía — Semana 04: Estado Global con Zustand](../webgrafia/README.md) →
+
+<!-- nav:end -->

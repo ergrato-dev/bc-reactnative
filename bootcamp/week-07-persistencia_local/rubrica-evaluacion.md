@@ -104,3 +104,11 @@ El proyecto debe demostrar los tres patrones de storage aplicados al dominio asi
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación (`tsc --noEmit`)
 - ✅ Ningún token ni contraseña en AsyncStorage o MMKV sin cifrar
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 07: Persistencia Local](5-glosario/README.md) | [Semana 08 — Autenticación Completa](../week-08-autenticacion/README.md) →
+
+<!-- nav:end -->

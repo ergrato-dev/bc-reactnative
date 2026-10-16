@@ -115,3 +115,11 @@ const useCounterStore = create<CounterStore>((set) => ({
 - ✅ Sin copia de implementaciones de otros aprendices
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación (sin `any`)
+
+<!-- nav:start -->
+
+---
+
+← [📖 Glosario — Semana 04: Estado Global con Zustand](5-glosario/README.md) | [Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) →
+
+<!-- nav:end -->

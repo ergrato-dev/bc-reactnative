@@ -117,3 +117,11 @@ También puedes verificar con el campo "Datos guardados en AsyncStorage" que mue
 - [ ] Al reabrir la app, se muestra "Cargando..." brevemente (PASO 3)
 - [ ] `partialize` excluye `isLoading` correctamente (verificar en DevTools)
 - [ ] El campo `name` es único (no colisiona con otros stores)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Store Básico con Zustand](../ejercicio-01-store-basico/README.md) | [Proyecto Semana 04 — Estado Global con Zustand](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

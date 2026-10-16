@@ -68,3 +68,11 @@
 | Copia de implementación de otro aprendiz | −15 |
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 09: Animaciones Básicas](5-glosario/README.md) | [Semana 10 — Reanimated 4 y Gesture Handler](../week-10-reanimated_gesture_handler/README.md) →
+
+<!-- nav:end -->

@@ -155,3 +155,11 @@ Al completar todos los pasos deberías poder:
 2. Al presionar "Enviar ahora" → notificación aparece inmediatamente
 3. Al presionar "En 5 segundos" → notificación llega 5 segundos después
 4. En la consola → ver log de la notificación recibida y del tap
+
+<!-- nav:start -->
+
+---
+
+← [Push Tokens y Expo Push API](../../1-teoria/02-push-tokens-expo-push-api.md) | [Ejercicio 02 — Push Token y Expo Push Tool](../ejercicio-02-push-token/README.md) →
+
+<!-- nav:end -->

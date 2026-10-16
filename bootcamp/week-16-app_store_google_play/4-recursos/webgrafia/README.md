@@ -58,3 +58,11 @@ En la semana 16 del bootcamp usamos:
 - App Store Connect API Key (`.p8`) para autenticación iOS sin 2FA
 - Service Account Google Cloud (`.json`) para autenticación Android
 - Tracks de Google Play: `internal` → `alpha` → `beta` → `production`
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Semana 16: App Store y Google Play Console](../videografia/README.md) | [Glosario — Semana 16: App Store y Google Play Console](../../5-glosario/README.md) →
+
+<!-- nav:end -->

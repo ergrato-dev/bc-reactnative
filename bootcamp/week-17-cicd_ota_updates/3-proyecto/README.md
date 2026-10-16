@@ -121,3 +121,11 @@ Para iOS: `pnpm run ios` | Para Android: `pnpm run android`
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Configurar EAS Update con Canales](../2-practicas/ejercicio-02-eas-update-canales/README.md) | [Recursos — Ebooks Gratuitos](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

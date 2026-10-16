@@ -176,3 +176,11 @@ Completa en `starter/metadatos.md`:
 - [App Store Metadata guidelines](https://developer.apple.com/app-store/product-page/)
 - [Google Play Store listing guidelines](https://support.google.com/googleplay/android-developer/answer/9898842)
 - [ASO World (herramienta gratuita)](https://www.asoworld.com/)
+
+<!-- nav:start -->
+
+---
+
+← [Google Play Console — Tracks, Ratings y Store Listing](../../1-teoria/02-google-play-console.md) | [Ejercicio 02 — Configurar eas submit para iOS y Android](../ejercicio-02-eas-submit/README.md) →
+
+<!-- nav:end -->

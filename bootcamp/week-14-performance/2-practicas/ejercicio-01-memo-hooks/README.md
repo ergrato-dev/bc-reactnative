@@ -75,3 +75,11 @@ la categoría, no al incrementar el contador.
 - [ ] El log `"Recalculando lista filtrada"` solo aparece al cambiar categoría
 - [ ] La app muestra el carrito actualizado correctamente
 - [ ] No hay errores en consola
+
+<!-- nav:start -->
+
+---
+
+← [FlatList — Optimización y Virtualización](../../1-teoria/02-flatlist-optimization.md) | [Ejercicio 02 — FlatList Performance](../ejercicio-02-flatlist-performance/README.md) →
+
+<!-- nav:end -->

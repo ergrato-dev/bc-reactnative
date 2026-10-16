@@ -67,5 +67,12 @@ Ver [3-proyecto/README.md](3-proyecto/README.md) — añadir animaciones de entr
 
 ## 🔗 Navegación
 
+← [Semana 08 — Autenticación Completa](../week-08-autenticacion/README.md) | [Semana 10 — Reanimated 4 y Gesture Handler](../week-10-reanimated_gesture_handler/README.md) →
 
-[← Semana 08 — Autenticación Completa](../week-08-autenticacion/README.md) | [Semana 10 — Reanimated 4 y Gesture Handler →](../week-10-reanimated_gesture_handler/README.md)
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 08: Autenticación Completa](../week-08-autenticacion/rubrica-evaluacion.md) | [Animated API — React Native](1-teoria/01-animated-api.md) →
+
+<!-- nav:end -->

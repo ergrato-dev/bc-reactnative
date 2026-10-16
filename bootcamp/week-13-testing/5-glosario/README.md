@@ -214,3 +214,9 @@ await waitFor(() => {
 ```
 
 ---
+
+<!-- nav:start -->
+
+← [Webgrafía — Semana 13: Testing](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 13: Testing](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

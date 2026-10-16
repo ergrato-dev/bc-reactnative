@@ -79,3 +79,11 @@
 - ✅ Sin copia de implementaciones de otros aprendices
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 13: Testing](5-glosario/README.md) | [Semana 14 — Performance y Optimización](../week-14-performance/README.md) →
+
+<!-- nav:end -->

@@ -74,3 +74,11 @@ pnpm start
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Semana 18 — Proyecto Final Integrador](../README.md) | [Glosario — Semana 18: Proyecto Final Integrador](../5-glosario/README.md) →
+
+<!-- nav:end -->

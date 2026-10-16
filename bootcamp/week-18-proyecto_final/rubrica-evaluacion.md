@@ -88,3 +88,11 @@
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
 - ✅ Sin secretos ni credenciales expuestas en el repositorio
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 18: Proyecto Final Integrador](5-glosario/README.md)
+
+<!-- nav:end -->

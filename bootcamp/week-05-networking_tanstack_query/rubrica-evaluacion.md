@@ -115,3 +115,11 @@ const { data, isLoading, isError } = useQuery({
 - ✅ Sin copia de implementaciones de otros aprendices
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 05: Networking y TanStack Query v5](5-glosario/README.md) | [Semana 06 — Formularios con React Hook Form + Zod](../week-06-formularios_validacion/README.md) →
+
+<!-- nav:end -->

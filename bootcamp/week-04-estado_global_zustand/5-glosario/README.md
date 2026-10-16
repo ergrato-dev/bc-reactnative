@@ -137,3 +137,11 @@ Nombre genérico del hook que retorna `create()`. En la práctica, se nombra seg
 
 ### Zustand
 Librería de gestión de estado para React (y React Native) desarrollada por Poimandres. Minimalista (~1KB), sin boilerplate, basada en hooks y con soporte nativo para TypeScript. Alternativa moderna a Redux para proyectos medianos.
+
+<!-- nav:start -->
+
+---
+
+← [📚 Webgrafía — Semana 04: Estado Global con Zustand](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 04: Estado Global con Zustand](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

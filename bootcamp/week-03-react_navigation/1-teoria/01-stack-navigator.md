@@ -177,3 +177,11 @@ export function DetailScreen(): React.JSX.Element {
 - [ ] `navigate` recibe el nombre exacto de la Screen y sus params
 - [ ] `useRoute` usa el tipo genérico correcto para acceder a params
 - [ ] El header es personalizable por pantalla con `options`
+
+<!-- nav:start -->
+
+---
+
+← [Semana 03 — React Navigation 7](../README.md) | [Tab Navigator — Navegación por Pestañas](02-tab-navigator.md) →
+
+<!-- nav:end -->

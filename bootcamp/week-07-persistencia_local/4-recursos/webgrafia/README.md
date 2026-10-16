@@ -53,3 +53,11 @@ Recursos en línea recomendados para profundizar en AsyncStorage, MMKV y Expo Se
 - [ ] Guía offline de TanStack Query v5 (10 min)
 - [ ] API reference de Expo SecureStore (10 min)
 - [ ] OWASP Mobile M9 — entender por qué no guardar tokens en texto plano (10 min)
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Semana 07: Persistencia Local](../videografia/README.md) | [Glosario — Semana 07: Persistencia Local](../../5-glosario/README.md) →
+
+<!-- nav:end -->

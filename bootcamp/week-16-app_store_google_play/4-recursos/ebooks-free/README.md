@@ -67,3 +67,11 @@ Los recursos más valiosos para esta semana son:
 1. La documentación oficial de EAS (Expo)
 2. Las App Store Review Guidelines de Apple
 3. Las políticas de Google Play Developer
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 16 — Publicación en App Store y Google Play](../../3-proyecto/README.md) | [Videografía — Semana 16: App Store y Google Play Console](../videografia/README.md) →
+
+<!-- nav:end -->

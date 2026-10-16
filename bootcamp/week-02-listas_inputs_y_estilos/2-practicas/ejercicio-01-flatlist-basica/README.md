@@ -133,3 +133,11 @@ Cuando hayas completado todos los pasos, tu app debe mostrar:
 - Header "Catálogo de Productos" fijo
 - Pull-to-refresh funcional con spinner
 - Feedback visual al presionar cada item
+
+<!-- nav:start -->
+
+---
+
+← [Estilos Dinámicos y Theming Básico](../../1-teoria/03-estilos-dinamicos.md) | [Ejercicio 02 — TextInput y Búsqueda en Lista](../ejercicio-02-busqueda-input/README.md) →
+
+<!-- nav:end -->

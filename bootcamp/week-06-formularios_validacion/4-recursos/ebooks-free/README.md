@@ -254,3 +254,11 @@ function EditScreen(): React.JSX.Element {
 ---
 
 _Semana 06 — Bootcamp React Native Zero to Hero_
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 06 — Formularios con React Hook Form + Zod](../../3-proyecto/README.md) | [Recursos: Videografía — Semana 06](../videografia/README.md) →
+
+<!-- nav:end -->

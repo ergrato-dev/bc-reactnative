@@ -125,3 +125,11 @@ pnpm start
 | Email mal formado (`hola@`) | Error "Email inválido" solo bajo ese campo |
 | `quantity` = `0` | Error "Mín. 1" bajo el campo numérico |
 | Todo válido → Enviar | Los errores desaparecen y aparece "¡Enviado!" en consola |
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — useForm + Controller en React Native](../ejercicio-01-useform-controller/README.md) | [Proyecto Semana 06 — Formularios con React Hook Form + Zod](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

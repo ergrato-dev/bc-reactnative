@@ -87,3 +87,11 @@ pnpm start
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — FlatList Performance](../2-practicas/ejercicio-02-flatlist-performance/README.md) | [Ebooks Gratuitos — Semana 14: Performance y Optimización](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

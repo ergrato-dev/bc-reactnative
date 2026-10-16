@@ -68,4 +68,12 @@ Ver [3-proyecto/README.md](3-proyecto/README.md) — Preparar la ficha completa 
 
 ## 🔗 Navegación
 
-[← Semana 15 — EAS Build y Certificados](../week-15-eas_build/README.md) | [Semana 17 — CI/CD y OTA Updates →](../week-17-cicd_ota_updates/README.md)
+← [Semana 15 — EAS Build y Certificados](../week-15-eas_build/README.md) | [Semana 17 — CI/CD con GitHub Actions y OTA Updates con EAS Update](../week-17-cicd_ota_updates/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 15: EAS Build y Certificados](../week-15-eas_build/rubrica-evaluacion.md) | [App Store Connect — Fichas, Revisión y TestFlight](1-teoria/01-app-store-connect.md) →
+
+<!-- nav:end -->

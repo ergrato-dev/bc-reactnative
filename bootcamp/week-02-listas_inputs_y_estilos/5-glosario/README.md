@@ -107,3 +107,9 @@ Hook de React que memoiza el resultado de una función computacional costosa. So
 Técnica de optimización donde solo se renderizan los elementos visibles en pantalla (+ buffer). `FlatList` usa virtualización; `ScrollView` no. Con listas largas (>50 items), la diferencia de rendimiento es significativa: `ScrollView` renderiza todo en memoria al montar.
 
 ---
+
+<!-- nav:start -->
+
+← [Webgrafía — Semana 02](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 02: Listas, Inputs y Estilos](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

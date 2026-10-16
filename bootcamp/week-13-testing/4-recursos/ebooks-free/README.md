@@ -14,3 +14,11 @@
 | ------- | --- | ----------- |
 | RNTL Cheat Sheet | https://callstack.github.io/react-native-testing-library/docs/api/queries | Referencia rápida de queries |
 | Jest Expect Cheat Sheet | https://jestjs.io/docs/expect | Todos los matchers de Jest |
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 13 — Test Suite para tu Dominio](../../3-proyecto/README.md) | [Videografía — Semana 13: Testing](../videografia/README.md) →
+
+<!-- nav:end -->

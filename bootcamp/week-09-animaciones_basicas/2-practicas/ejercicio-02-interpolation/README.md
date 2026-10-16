@@ -156,3 +156,11 @@ Al completar los 4 pasos, la app debe mostrar:
 
 - [interpolate — React Native Docs](https://reactnative.dev/docs/animatedvalue#interpolate)
 - [Animated.stagger — React Native Docs](https://reactnative.dev/docs/animated#stagger)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Animated.timing y Animated.spring](../ejercicio-01-timing-spring/README.md) | [Proyecto Semana 09 — Animaciones Básicas](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

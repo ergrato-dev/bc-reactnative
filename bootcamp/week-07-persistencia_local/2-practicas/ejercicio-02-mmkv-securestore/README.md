@@ -117,3 +117,11 @@ El ejercicio incluye un benchmark simple que muestra la diferencia de velocidad:
 - [ ] SecureStore guarda y recupera el token correctamente (valor cifrado)
 - [ ] El token NO aparece en texto plano en ningún log ni en AsyncStorage
 - [ ] El benchmark muestra que MMKV es ~30-100x más rápido que AsyncStorage
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — AsyncStorage: Guardar Preferencias y Listas](../ejercicio-01-asyncstorage/README.md) | [Proyecto Semana 07 — Persistencia Local](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

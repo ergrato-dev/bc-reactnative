@@ -120,3 +120,11 @@ React.useEffect(() => {
 |---------|-----|
 | JWT Handbook (gratis) | https://auth0.com/resources/ebooks/jwt-handbook |
 | OAuth 2.0 Simplified | https://www.oauth.com/ |
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 08 — Autenticación Completa](../../3-proyecto/README.md) | [🎥 Videografía — Semana 08: Autenticación Completa](../videografia/README.md) →
+
+<!-- nav:end -->

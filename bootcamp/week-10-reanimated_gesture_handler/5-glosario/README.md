@@ -201,3 +201,9 @@ Función marcada para correr en el hilo UI. Los callbacks de Gesture y `useAnima
 Para llamar código JS normal desde worklet → `runOnJS`.
 
 ---
+
+<!-- nav:start -->
+
+← [Webgrafía — Semana 10: Reanimated 4 y Gesture Handler](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 10: Reanimated 4 y Gesture Handler](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

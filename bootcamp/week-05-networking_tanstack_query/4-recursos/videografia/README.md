@@ -29,3 +29,11 @@ Estos términos producen excelentes resultados en YouTube y en plataformas como 
 | TkDodo — Practical React Query | https://tkdodo.eu/blog/practical-react-query | Blog canónico del mantenedor |
 | TkDodo — React Query meets React Router | https://tkdodo.eu/blog/react-query-meets-react-router | Integración con navegación |
 | TanStack Query v5 — What Changed | https://tanstack.com/blog/tanstack-query-v5 | Novedades de v5 |
+
+<!-- nav:start -->
+
+---
+
+← [Ebooks y Cheat Sheets — Semana 05](../ebooks-free/README.md) | [Webgrafía — Semana 05: Networking con Axios y TanStack Query](../webgrafia/README.md) →
+
+<!-- nav:end -->

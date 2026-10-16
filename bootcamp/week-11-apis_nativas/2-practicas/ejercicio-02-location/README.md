@@ -112,3 +112,11 @@ try {
 - [Location.getCurrentPositionAsync](https://docs.expo.dev/versions/latest/sdk/location/#locationgetcurrentpositionasyncoptions)
 - [Location.watchPositionAsync](https://docs.expo.dev/versions/latest/sdk/location/#locationwatchpositionasyncoptions-callback)
 - [Location.reverseGeocodeAsync](https://docs.expo.dev/versions/latest/sdk/location/#locationreversegeocodeasynclocation-options)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Cámara y Image Picker](../ejercicio-01-camara-picker/README.md) | [Proyecto Semana 11 — APIs Nativas: Cámara, Galería y Ubicación](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

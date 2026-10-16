@@ -197,3 +197,11 @@ export function SectionedList(): React.JSX.Element {
 - [FlatList — React Native docs](https://reactnative.dev/docs/flatlist)
 - [SectionList — React Native docs](https://reactnative.dev/docs/sectionlist)
 - [Optimizing FlatList Configuration](https://reactnative.dev/docs/optimizing-flatlist-configuration)
+
+<!-- nav:start -->
+
+---
+
+← [Semana 02 — Listas, Inputs y Estilos](../README.md) | [TextInput y Manejo del Teclado](02-textinput-teclado.md) →
+
+<!-- nav:end -->

@@ -33,3 +33,11 @@
 - [Expo Go — Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent)
 - [iOS Simulator location simulation](https://developer.apple.com/documentation/xcode/simulating-location-in-simulator) — Cómo cambiar la ubicación simulada en Xcode
 - [Android Emulator location](https://developer.android.com/studio/run/emulator-extended-controls) — Extended Controls → Location
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Semana 11: APIs Nativas](../videografia/README.md) | [Glosario — Semana 11: APIs Nativas — Cámara, Ubicación y Permisos](../../5-glosario/README.md) →
+
+<!-- nav:end -->

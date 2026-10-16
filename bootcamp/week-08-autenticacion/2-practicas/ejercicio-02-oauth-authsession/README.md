@@ -123,3 +123,11 @@ if (response?.type === 'error') {
 ```
 
 Verifica que al cancelar la ventana del browser aparezca el estado "cancelled" en la UI.
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Autenticación JWT con dummyjson.com](../ejercicio-01-jwt-auth/README.md) | [Proyecto Semana 08 — Autenticación Completa](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

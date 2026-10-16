@@ -107,3 +107,11 @@ pnpm expo run:android
 ## 📊 Criterios de Evaluación
 
 Ver [rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — MMKV y Expo SecureStore](../2-practicas/ejercicio-02-mmkv-securestore/README.md) | [Ebooks y Referencias — Semana 07: Persistencia Local](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

@@ -82,3 +82,11 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 - ❌ No usar ninguna librería de UI externa (solo componentes nativos de RN)
 - ❌ No usar estilos inline (`style={{ ... }}` directo en JSX)
 - ✅ Todo el código en TypeScript con tipos explícitos
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Flexbox Layouts](../2-practicas/ejercicio-02-flexbox-layouts/README.md) | [Ebooks Gratuitos — Semana 01](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

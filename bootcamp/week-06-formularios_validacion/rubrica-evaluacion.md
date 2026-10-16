@@ -67,3 +67,11 @@ Revisión del proyecto semanal integrador.
 | Copia de implementación de otro aprendiz | −15 pts |
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 06: Formularios con React Hook Form + Zod](5-glosario/README.md) | [Semana 07 — Persistencia Local](../week-07-persistencia_local/README.md) →
+
+<!-- nav:end -->

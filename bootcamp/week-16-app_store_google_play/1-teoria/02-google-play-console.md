@@ -197,3 +197,11 @@ Google revisa:
 - [Play Store listing guidelines](https://support.google.com/googleplay/android-developer/answer/9898842)
 - [Data Safety section guide](https://support.google.com/googleplay/android-developer/answer/10787469)
 - [EAS Submit — Android](https://docs.expo.dev/submit/android/)
+
+<!-- nav:start -->
+
+---
+
+← [App Store Connect — Fichas, Revisión y TestFlight](01-app-store-connect.md) | [Ejercicio 01 — Redactar Metadatos ASO para las Tiendas](../2-practicas/ejercicio-01-metadatos-aso/README.md) →
+
+<!-- nav:end -->
