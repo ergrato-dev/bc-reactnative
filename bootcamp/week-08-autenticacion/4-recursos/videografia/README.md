@@ -39,3 +39,11 @@ Busca estos términos en YouTube para encontrar videos actualizados:
 | Qué es JWT | `"JWT token explained in 5 minutes"` |
 | PKCE en 3 minutos | `"PKCE OAuth 2.0 explained"` |
 | SecureStore vs AsyncStorage | `"Expo SecureStore vs AsyncStorage security"` |
+
+<!-- nav:start -->
+
+---
+
+← [📚 eBooks y Recursos de Referencia — Semana 08](../ebooks-free/README.md) | [🌐 Webgrafía — Semana 08: Autenticación Completa](../webgrafia/README.md) →
+
+<!-- nav:end -->

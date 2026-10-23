@@ -4,24 +4,13 @@
     "slug": "semana-01-proyecto",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0d1117"
-    },
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.bootcamp.semana01"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0d1117"
-      },
       "package": "com.bootcamp.semana01"
-    },
-    "sdkVersion": "53.0.0"
+    }
   }
 }

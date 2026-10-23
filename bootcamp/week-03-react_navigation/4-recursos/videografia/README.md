@@ -61,3 +61,11 @@ Los siguientes términos en YouTube/Google te llevarán a los tutoriales más ac
 | freeCodeCamp React Native (YouTube) | https://www.youtube.com/c/Freecodecamp |
 | React Native School | https://www.reactnativeschool.com/ |
 | Snack Expo (playground online) | https://snack.expo.dev |
+
+<!-- nav:start -->
+
+---
+
+← [E-Books Gratuitos — Semana 03: React Navigation 7](../ebooks-free/README.md) | [Webgrafía — Semana 03: React Navigation 7](../webgrafia/README.md) →
+
+<!-- nav:end -->

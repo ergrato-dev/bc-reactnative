@@ -109,3 +109,11 @@ Verifica: El botón se desactiva mientras el POST está en vuelo.
 | `setQueryData` (actualización optimista) | UX crítico (listas grandes) | Más rápido pero requiere rollback en error |
 
 En el 90% de los casos, `invalidateQueries` es suficiente.
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — useQuery Básico](../ejercicio-01-usequery-basico/README.md) | [Proyecto Semana 05 — Networking y TanStack Query v5](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

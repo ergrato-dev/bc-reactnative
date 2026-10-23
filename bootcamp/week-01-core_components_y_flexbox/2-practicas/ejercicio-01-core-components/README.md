@@ -138,3 +138,11 @@ Al completar todos los pasos, debes tener una tarjeta de perfil con:
 - Cambia el `resizeMode` del avatar de `'cover'` a `'contain'` — ¿qué cambia?
 - Modifica el `numberOfLines={2}` de la biografía a `numberOfLines={1}` — ¿qué pasa con el texto?
 - Reemplaza `Pressable` con `TouchableOpacity` — ¿el comportamiento es idéntico?
+
+<!-- nav:start -->
+
+---
+
+← [Flexbox en React Native](../../1-teoria/03-flexbox-layout.md) | [Ejercicio 02 — Flexbox Layouts](../ejercicio-02-flexbox-layouts/README.md) →
+
+<!-- nav:end -->

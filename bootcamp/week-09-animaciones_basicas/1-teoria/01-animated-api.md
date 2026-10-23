@@ -154,3 +154,11 @@ React.useEffect(() => {
 
 - [Animated API — React Native docs](https://reactnative.dev/docs/animated)
 - [Animaciones en Expo](https://docs.expo.dev/ui-programming/animation/)
+
+<!-- nav:start -->
+
+---
+
+← [Semana 09 — Animaciones Básicas](../README.md) | [Interpolación y LayoutAnimation](02-layout-animation.md) →
+
+<!-- nav:end -->

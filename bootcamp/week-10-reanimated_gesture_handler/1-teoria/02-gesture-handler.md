@@ -201,3 +201,11 @@ return (
 - [ ] `runOnJS` usado solo para actualizar estado React desde gestos
 - [ ] `savedScale` / `savedTranslation` para acumular gestos entre interacciones
 - [ ] `Gesture.Simultaneous` cuando se combinan pan + pinch
+
+<!-- nav:start -->
+
+---
+
+← [Reanimated 4 — Fundamentos](01-reanimated-fundamentos.md) | [Ejercicio 01 — Reanimated 4 básico](../2-practicas/ejercicio-01-reanimated-basico/README.md) →
+
+<!-- nav:end -->

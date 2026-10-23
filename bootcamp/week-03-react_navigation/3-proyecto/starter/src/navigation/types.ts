@@ -21,7 +21,7 @@ export type HomeStackParamList = {
   // Pantalla de lista (sin params)
   HomeList: undefined;
   // Pantalla de detalle — recibe id y name como mínimo
-  // TODO: agregar campos específicos de tu dominio
+  // TODO [EXTRA]: agregar campos específicos de tu dominio
   // Ejemplo (Biblioteca):   author: string; isbn: string;
   // Ejemplo (Farmacia):     price: number; stock: number;
   // Ejemplo (Cine):         director: string; year: number;

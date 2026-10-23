@@ -46,3 +46,11 @@
 |---------|-----|-------------|
 | **OWASP Mobile Top 10** | https://owasp.org/www-project-mobile-top-10/ | Vulnerabilidades más comunes en apps móviles |
 | **Secure Token Storage in RN** | https://docs.expo.dev/guides/using-secure-store/ | Guía de almacenamiento seguro en Expo |
+
+<!-- nav:start -->
+
+---
+
+← [🎥 Videografía — Semana 08: Autenticación Completa](../videografia/README.md) | [Glosario — Semana 08: Autenticación Completa](../../5-glosario/README.md) →
+
+<!-- nav:end -->

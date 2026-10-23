@@ -64,3 +64,11 @@ const { id, name } = route.params;
 - **Expo Snack** (playground sin instalar nada) → https://snack.expo.dev
 - **React Native Upgrade Helper** → https://react-native-upgrade-helper.vercel.app
 - **Changelog React Navigation** → https://github.com/react-navigation/react-navigation/releases
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 03 — React Navigation 7](../../3-proyecto/README.md) | [Videografía — Semana 03: React Navigation 7](../videografia/README.md) →
+
+<!-- nav:end -->

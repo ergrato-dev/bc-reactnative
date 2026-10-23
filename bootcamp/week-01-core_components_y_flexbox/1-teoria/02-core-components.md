@@ -226,3 +226,11 @@ const styles = StyleSheet.create({
 - [ ] Usé `ScrollView` para una lista de elementos
 - [ ] Implementé un botón con `Pressable` y cambio de estilo al presionar
 - [ ] Definí todos los estilos con `StyleSheet.create`
+
+<!-- nav:start -->
+
+---
+
+← [Expo y el Entorno de Desarrollo](01-expo-y-entorno.md) | [Flexbox en React Native](03-flexbox-layout.md) →
+
+<!-- nav:end -->

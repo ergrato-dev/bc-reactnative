@@ -67,6 +67,8 @@ Al finalizar esta semana, el estudiante será capaz de:
 | Ejercicio 02 | 1.5h | Persist con AsyncStorage |
 | Proyecto | 3h | App carrito con Zustand completo |
 
+> Proyecto = 180 min; se entrega en vivo al cierre de la clase.
+
 ## 📌 Entregables
 
 - [ ] Ejercicio 01: store con contador y lista de ítems funcionando
@@ -76,4 +78,12 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-[← Semana 03 — React Navigation 7](../week-03-react_navigation/README.md) | [Semana 05 — Networking y TanStack Query v5 →](../week-05-networking_tanstack_query/README.md)
+← [Semana 03 — React Navigation 7](../week-03-react_navigation/README.md) | [Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 03: React Navigation 7](../week-03-react_navigation/rubrica-evaluacion.md) | [Zustand — Fundamentos y Selectores](1-teoria/01-zustand-fundamentos.md) →
+
+<!-- nav:end -->

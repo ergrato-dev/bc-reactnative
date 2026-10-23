@@ -84,6 +84,8 @@ week-02-listas_inputs_y_estilos/
 | Ejercicio 02 | 1h 30 min | Búsqueda en tiempo real con TextInput |
 | Proyecto | 3h | App filtrable adaptada al dominio asignado |
 
+> ⏱️ Proyecto = 180 min; la entrega es en vivo al cierre de la clase (sin trabajo en casa).
+
 ---
 
 ## 📌 Entregables
@@ -97,4 +99,12 @@ week-02-listas_inputs_y_estilos/
 
 ## 🔗 Navegación
 
-[← Semana 01 — Core Components y Flexbox](../week-01-core_components_y_flexbox/README.md) | [Semana 03 — React Navigation 7 →](../week-03-react_navigation/README.md)
+← [Semana 01 — Core Components y Flexbox](../week-01-core_components_y_flexbox/README.md) | [Semana 03 — React Navigation 7](../week-03-react_navigation/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 01](../week-01-core_components_y_flexbox/rubrica-evaluacion.md) | [FlatList y SectionList](1-teoria/01-flatlist-sectionlist.md) →
+
+<!-- nav:end -->

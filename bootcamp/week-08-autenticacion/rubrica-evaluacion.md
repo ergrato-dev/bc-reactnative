@@ -10,6 +10,8 @@
 
 **Mínimo aprobatorio**: 70% en cada tipo de evidencia.
 
+**Entrega**: demo en vivo en simulador + checklist del instructor al cierre de la sesión. Lo no demostrado en clase no se evalúa.
+
 ---
 
 ## 🧠 Conocimiento (30 puntos)
@@ -71,11 +73,14 @@
 
 | Criterio | Puntos | Descripción |
 |----------|--------|-------------|
-| `useAuthStore` implementado | 8 | Zustand store con `user`, `accessToken`, `isAuthenticated`, `login()`, `logout()`, `refreshTokens()` — todos funcionan correctamente |
+| `useAuthStore` implementado | 8 | Zustand store con `user`, `accessToken`, `isAuthenticated`, `login()`, `logout()` — funcionan correctamente |
 | Pantalla de Login | 7 | Formulario RHF + Zod con validaciones, llama `useAuthStore.login()`, maneja errores de credenciales |
-| Navegación condicional | 7 | `RootNavigator` muestra `AuthNavigator` cuando `!isAuthenticated` y `AppNavigator` cuando sí — la transición ocurre sin re-render visible |
-| Persistencia al reiniciar app | 5 | Tokens en SecureStore persisten entre reinicios; `ProfileScreen` carga datos del usuario sin re-login |
-| App compila sin errores | 3 | TypeScript sin errores de compilación, app funciona en simulador iOS y/o Android |
+| Navegación condicional | 6 | `RootNavigator` muestra `AuthNavigator` cuando `!isAuthenticated` y `AppNavigator` cuando sí — la transición ocurre sin re-render visible |
+| Persistencia al reiniciar app | 4 | Tokens en SecureStore persisten entre reinicios; `ProfileScreen` carga datos del usuario sin re-login |
+| App compila sin errores | 2 | TypeScript sin errores de compilación, app funciona en simulador iOS y/o Android |
+| ⭐ Extra: `refreshTokens()`, interceptor 401 o Register | 3 | Al menos uno implementado y funcionando |
+
+> El Mínimo para entregar suma **27/30** (90%); la fila ⭐ es opcional y no condiciona aprobar.
 
 ---
 
@@ -100,3 +105,21 @@
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
 - ✅ Tokens **nunca** almacenados en AsyncStorage o texto plano
+
+## Checklist de demo (instructor)
+
+- [ ] App arranca en simulador sin crash y `tsc --noEmit` sin errores
+- [ ] Login RHF + Zod valida campos y muestra error con credenciales inválidas
+- [ ] Login con `emilys` / `emilyspass` funciona vía `authStore.login()`
+- [ ] Tokens guardados en SecureStore (nunca AsyncStorage/MMKV) y access token no visible en la UI
+- [ ] Navegación condicional: Auth ↔ App cambia según `isAuthenticated` sin crash
+- [ ] `ProfileScreen` muestra nombre y email; `logout()` limpia tokens y vuelve a Login
+- [ ] `HomeScreen` muestra contenido del dominio asignado
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 08: Autenticación Completa](5-glosario/README.md) | [Semana 09 — Animaciones Básicas](../week-09-animaciones_basicas/README.md) →
+
+<!-- nav:end -->

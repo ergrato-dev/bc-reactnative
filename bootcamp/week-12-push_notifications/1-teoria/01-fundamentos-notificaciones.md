@@ -208,3 +208,11 @@ console.log('Pending:', pending.length);
 
 - [expo-notifications API Reference](https://docs.expo.dev/versions/latest/sdk/notifications/)
 - [Expo notifications guide](https://docs.expo.dev/push-notifications/overview/)
+
+<!-- nav:start -->
+
+---
+
+← [Semana 12 — Push Notifications](../README.md) | [Push Tokens y Expo Push API](02-push-tokens-expo-push-api.md) →
+
+<!-- nav:end -->

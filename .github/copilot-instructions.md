@@ -602,7 +602,8 @@ Cada semana incluye **tres tipos de evidencias**:
 ### Criterios de Aprobación
 
 - Mínimo **70%** en cada tipo de evidencia
-- Entrega puntual de proyectos
+- Proyecto entregado **en vivo al final de la clase** (demo en simulador + checklist del instructor); no hay trabajo en casa
+- El README de cada proyecto separa `## ✅ Mínimo para entregar (cabe en 180 min)` de `## ⭐ Extras`
 - App funcional en simulador iOS y/o Android
 - Tests pasando (cuando aplique)
 - **Implementación coherente con el dominio asignado**

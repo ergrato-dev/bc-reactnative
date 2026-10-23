@@ -19,3 +19,11 @@
 
 > 💡 Busca los títulos anteriores en YouTube para los videos más actualizados
 > compatibles con Expo SDK 57 y RNTL v12.
+
+<!-- nav:start -->
+
+---
+
+← [eBooks Gratuitos — Semana 13: Testing](../ebooks-free/README.md) | [Webgrafía — Semana 13: Testing](../webgrafia/README.md) →
+
+<!-- nav:end -->

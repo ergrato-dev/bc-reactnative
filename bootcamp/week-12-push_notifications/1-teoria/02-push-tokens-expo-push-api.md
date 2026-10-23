@@ -220,3 +220,11 @@ curl -H "Content-Type: application/json" \
 - [expo-device API](https://docs.expo.dev/versions/latest/sdk/device/)
 - [Expo Push Tool](https://expo.dev/notifications)
 - [Expo Push API spec](https://docs.expo.dev/push-notifications/sending-notifications/)
+
+<!-- nav:start -->
+
+---
+
+← [Fundamentos de Push Notifications con Expo](01-fundamentos-notificaciones.md) | [Ejercicio 01 — Notificaciones Locales](../2-practicas/ejercicio-01-local-notifications/README.md) →
+
+<!-- nav:end -->

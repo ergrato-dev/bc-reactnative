@@ -253,3 +253,11 @@ Para esperar el resultado del build en el workflow: usar `--wait` (pero aumenta 
 - [ ] `--non-interactive` en comandos de EAS
 
 ![CI/CD Pipeline con GitHub Actions](../0-assets/01-cicd-pipeline-flow.svg)
+
+<!-- nav:start -->
+
+---
+
+← [Semana 17 — CI/CD con GitHub Actions y OTA Updates con EAS Update](../README.md) | [EAS Update — OTA Updates y Gestión de Canales](02-eas-update-ota.md) →
+
+<!-- nav:end -->

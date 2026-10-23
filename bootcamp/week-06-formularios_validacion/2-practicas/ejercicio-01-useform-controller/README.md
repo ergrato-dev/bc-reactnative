@@ -126,3 +126,11 @@ Escanea el QR con Expo Go o presiona `i` / `a` para abrir en simulador.
 - [ ] Al presionar "Enviar", el botón se deshabilita y aparece el spinner 1.5 s
 - [ ] En la consola aparece el objeto `ContactFormData` con los valores del formulario
 - [ ] Al volver a habilitar el botón, los valores siguen en los campos
+
+<!-- nav:start -->
+
+---
+
+← [Validación con Zod y zodResolver](../../1-teoria/02-validacion-zod.md) | [Ejercicio 02 — Validación con Zod + zodResolver](../ejercicio-02-zod-resolver/README.md) →
+
+<!-- nav:end -->

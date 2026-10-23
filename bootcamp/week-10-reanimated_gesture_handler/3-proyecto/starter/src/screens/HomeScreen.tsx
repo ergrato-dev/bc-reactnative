@@ -65,13 +65,13 @@ function AnimatedListItem({
   const translateY = useSharedValue(20);
 
   useEffect(() => {
-    // TODO: Implementa la animación de entrada escalonada.
+    // TODO: [EXTRA] Implementa la animación de entrada escalonada.
     // Descomenta las siguientes líneas:
     // opacity.value = withDelay(index * 80, withTiming(1, { duration: 400 }));
     // translateY.value = withDelay(index * 80, withTiming(0, { duration: 400 }));
   }, [index, opacity, translateY]);
 
-  // TODO: Implementa el animated style:
+  // TODO: [EXTRA] Implementa el animated style:
   // Descomenta el siguiente bloque:
   // const animStyle = useAnimatedStyle(() => ({
   //   opacity: opacity.value,
@@ -79,7 +79,7 @@ function AnimatedListItem({
   // }));
 
   return (
-    // TODO: Reemplaza View por Animated.View + animStyle:
+    // TODO: [EXTRA] Reemplaza View por Animated.View + animStyle:
     // <Animated.View style={animStyle}>
     <View>
       <SwipeableCard

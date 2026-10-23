@@ -11,7 +11,7 @@ import type { Item } from '../types';
 export function FavoritesScreen(): React.JSX.Element {
   /**
    * Renderiza cada ítem favorito.
-   * TODO: adaptar el diseño a tu dominio (igual que HomeScreen.renderItem)
+   * TODO [EXTRA]: adaptar el diseño a tu dominio (igual que HomeScreen.renderItem)
    */
   function renderFavorite({ item }: { item: Item }): React.JSX.Element {
     return (
@@ -23,7 +23,7 @@ export function FavoritesScreen(): React.JSX.Element {
           <Text style={styles.itemDescription} numberOfLines={2}>
             {item.description}
           </Text>
-          {/* TODO: agregar campos de tu dominio igual que en HomeScreen */}
+          {/* TODO [EXTRA]: agregar campos de tu dominio igual que en HomeScreen */}
         </View>
       </View>
     );
@@ -31,7 +31,7 @@ export function FavoritesScreen(): React.JSX.Element {
 
   return (
     <View style={styles.container}>
-      {/* TODO: cambiar el título según tu dominio */}
+      {/* TODO [EXTRA]: cambiar el título según tu dominio */}
       {/* Ejemplos: "Mis Libros Favoritos", "Medicamentos Guardados", etc. */}
       <Text style={styles.title}>Favoritos</Text>
       <FlatList
@@ -43,7 +43,7 @@ export function FavoritesScreen(): React.JSX.Element {
         ListEmptyComponent={
           <View style={styles.emptyContainer}>
             <Text style={styles.emptyText}>
-              {/* TODO: personalizar el mensaje vacío según tu dominio */}
+              {/* TODO [EXTRA]: personalizar el mensaje vacío según tu dominio */}
               No tienes favoritos todavía
             </Text>
           </View>

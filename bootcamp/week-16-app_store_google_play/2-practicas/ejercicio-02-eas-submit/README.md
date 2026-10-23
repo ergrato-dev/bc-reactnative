@@ -204,3 +204,11 @@ eas submit --platform android --profile production --non-interactive --dry-run
 - [EAS Submit — iOS](https://docs.expo.dev/submit/ios/)
 - [EAS Submit — Android](https://docs.expo.dev/submit/android/)
 - [eas.json submit reference](https://docs.expo.dev/eas/json/#submit)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Redactar Metadatos ASO para las Tiendas](../ejercicio-01-metadatos-aso/README.md) | [Proyecto Semana 16 — Publicación en App Store y Google Play](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

@@ -74,6 +74,8 @@ Al finalizar esta semana, el estudiante será capaz de:
 | Ejercicio 02 | 1.5h | Card arrastrable con pan gesture |
 | Proyecto | 3h | Implementar SwipeableCard + AnimatedHeader en tu dominio |
 
+> Proyecto = 180 min; la entrega es en vivo al cierre de la clase.
+
 ---
 
 ## 📌 Entregables
@@ -87,4 +89,12 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-[← Semana 09 — Animaciones Básicas](../week-09-animaciones_basicas/README.md) | [Semana 11 — APIs Nativas →](../week-11-apis_nativas/README.md)
+← [Semana 09 — Animaciones Básicas](../week-09-animaciones_basicas/README.md) | [Semana 11 — APIs Nativas: Cámara, Ubicación y Permisos](../week-11-apis_nativas/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 09: Animaciones Básicas](../week-09-animaciones_basicas/rubrica-evaluacion.md) | [Reanimated 4 — Fundamentos](1-teoria/01-reanimated-fundamentos.md) →
+
+<!-- nav:end -->

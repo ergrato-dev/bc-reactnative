@@ -1,7 +1,20 @@
 # Auditoría — bc-reactnative
 
-Fecha: 2026-07-12
+Fecha: 2026-07-12 (ver pase adicional 2026-10-09 más abajo)
 Alcance: completitud, pertinencia/relevancia, seguridad (CVEs), estándares (repos `bc-*` de ergrato-dev, CLAUDE.md), actualidad, gestión de paquetes (pnpm/uv).
+
+## Pase adicional — 2026-10-09 (semanas 01-10)
+
+Alcance acotado: pertinencia/relevancia y seguridad/CVEs de semanas 01-10, tras los commits `da17137` (upgrade SDK57/RN0.86) y `cf17795` (fix entry points/config). Verificación de CVEs en dependencias nombradas: `axios@1.18.1`, `zod@4.4.3`, `react-native-reanimated@4.5.0`, `expo-auth-session` (vía expo 57), `jwt-decode@4.0.0` — **sin CVEs aplicables**, todas las versiones pineadas están por encima de los fixes conocidos (CVE-2026-67316, CVE-2023-4316, CVE-2022-24373, CVE-2023-28131 respectivamente). `jwt-decode` no tiene CVE público; nota arquitectónica no-CVE: solo decodifica, no verifica firma, y el código de semana 8 ya lo trata como no confiable client-side (correcto).
+
+Hallazgos corregidos en esta sesión:
+- **Alta**: `week-03-react_navigation/3-proyecto/starter/app.json` y `week-09-animaciones_basicas/3-proyecto/starter/app.json` declaraban `"plugins": ["expo-router"]` sin tener `expo-router` instalado — rompía `expo prebuild`/EAS build. Removido.
+- **Media**: `week-10-reanimated_gesture_handler/rubrica-evaluacion.md`, `3-proyecto/README.md` (x2) y `5-glosario/README.md` referenciaban el plugin babel viejo `'react-native-reanimated/plugin'`; el starter real usa `'react-native-worklets/plugin'` (correcto tras upgrade a Reanimated 4). Corregido en los 4 sitios.
+- **Baja**: `tsconfig.json` de `week-01`, `week-02`, `week-06`, `week-07` y `week-10` (carpeta `3-proyecto/starter`) tenían alias muerto `"paths": {"@/*": [...]}` sin `baseUrl`, nunca importado en el código. Removido.
+
+No corregido (criterio, bajo impacto): `week-06/4-recursos/ebooks-free/README.md:34` cita un excerpt de recurso externo con sintaxis zod pre-v4 (`required_error`); se deja porque es cita textual de fuente externa, no autoría del bootcamp.
+
+Semana 8 (autenticación) revisada a fondo: tokens exclusivamente en `expo-secure-store`, Zustand `persist` correctamente `partialize`d (excluye tokens), interceptor Axios inyecta `Authorization` desde SecureStore, teoría enseña JWT no firmado/legible y exchange OAuth server-side con PKCE. Sin anti-patrones. Sin secretos reales en ninguna de las 10 semanas (solo placeholders didácticos ya documentados: `MOCK_SENSITIVE` en week-07 y credencial pública de test `emilys`/`emilyspass` de dummyjson.com en week-08).
 
 ## Resumen
 

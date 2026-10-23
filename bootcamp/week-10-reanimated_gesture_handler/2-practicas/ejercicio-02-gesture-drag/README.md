@@ -136,3 +136,11 @@ Al completar todos los pasos deberías:
 - [Gesture.Pan docs](https://docs.swmansion.com/react-native-gesture-handler/docs/gestures/pan-gesture)
 - [withSpring](https://docs.swmansion.com/react-native-reanimated/docs/animations/withSpring)
 - [runOnJS](https://docs.swmansion.com/react-native-reanimated/docs/threading/runOnJS)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Reanimated 4 básico](../ejercicio-01-reanimated-basico/README.md) | [Proyecto Semana 10 — Animaciones Avanzadas con Reanimated 4 y Gesture Handler](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

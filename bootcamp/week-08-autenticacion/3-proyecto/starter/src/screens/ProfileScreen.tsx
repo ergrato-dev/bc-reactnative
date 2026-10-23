@@ -68,7 +68,7 @@ export function ProfileScreen(): React.JSX.Element {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Información de la cuenta</Text>
 
-        {/* TODO: Agrega filas de información relevante a tu dominio */}
+        {/* TODO: [EXTRA] Agrega filas de información relevante a tu dominio */}
         <View style={styles.infoRow}>
           <Text style={styles.infoLabel}>Usuario</Text>
           <Text style={styles.infoValue}>{user?.username ?? '—'}</Text>
@@ -78,7 +78,7 @@ export function ProfileScreen(): React.JSX.Element {
           <Text style={styles.infoValue}>{user?.id ?? '—'}</Text>
         </View>
 
-        {/* TODO: Agrega más filas específicas de tu dominio */}
+        {/* TODO: [EXTRA] Agrega más filas específicas de tu dominio */}
         {/* Ejemplo:
         <View style={styles.infoRow}>
           <Text style={styles.infoLabel}>Membresía</Text>

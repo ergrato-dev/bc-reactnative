@@ -1,5 +1,7 @@
 # Proyecto Semana 07 — Persistencia Local
 
+⏱️ Se entrega en vivo al final de la clase. No hay trabajo en casa.
+
 ## 🎯 Objetivo
 
 Agregar una **capa de persistencia completa** a la app de tu dominio asignado:
@@ -19,7 +21,8 @@ Agregar una **capa de persistencia completa** a la app de tu dominio asignado:
 
 ```
 starter/
-├── App.tsx                      # Entry point — QueryClient + Navigation
+├── App.tsx                      # Componente raíz — QueryClient + Navigation
+├── index.js                     # Punto de entrada — registerRootComponent
 ├── app.json                     # Config Expo
 ├── package.json                 # Dependencias
 ├── tsconfig.json
@@ -59,31 +62,38 @@ pnpm expo run:ios       # o
 pnpm expo run:android
 ```
 
-## ✅ Requisitos Funcionales
+> ⚠️ **Prepara el dev build ANTES de la clase** (instructor o aprendiz): MMKV necesita código nativo y
+> `pnpm expo run:ios|android` tarda en compilar. Ese tiempo **no cuenta** dentro de los 180 min del proyecto.
 
-### 1. Hook `usePreferences` (MMKV)
+## ✅ Mínimo para entregar (cabe en 180 min)
 
-- [ ] Exporta al menos 3 preferencias: `sortOrder`, `compactMode` (o equivalentes de tu dominio), `itemsPerPage`
-- [ ] Usa `useMMKVString` / `useMMKVBoolean` / `useMMKVNumber` (reactivos)- [ ] Las preferencias persisten sin `async/await` y sin reiniciar la app
+Cubre el tema nuevo de la semana (MMKV + preferencias reactivas). ~6 TODOs.
 
-### 2. Caché offline en `useItems` (AsyncStorage)
+### 1. Hook `usePreferences` (MMKV) — `src/hooks/usePreferences.ts`
 
-- [ ] Guarda los ítems en caché cuando hay red exitosa
-- [ ] Carga desde caché cuando la llamada de red falla
-- [ ] `HomeScreen` muestra un banner "⚠️ Mostrando datos sin red" cuando se usa caché
+- [ ] Exporta al menos 2 preferencias: `sortOrder` y `compactMode` (o equivalentes de tu dominio)
+- [ ] Usa `useMMKVString` / `useMMKVBoolean` (reactivos)
+- [ ] Las preferencias persisten sin `async/await` y sin reiniciar la app
 
-### 3. `SettingsScreen` (MMKV + SecureStore)
+### 2. `SettingsScreen` (MMKV) — `src/screens/SettingsScreen.tsx`
 
 - [ ] Muestra switches/pickers para cada preferencia de `usePreferences`
 - [ ] Persiste los cambios en tiempo real (sin botón de "Guardar")
-- [ ] Incluye sección "Seguridad": botón para guardar/leer un dato sensible con SecureStore
-- [ ] El dato sensible NO puede aparecer en texto plano en pantalla (solo confirmación)
 
-### 4. `HomeScreen` actualizado
+### 3. `HomeScreen`
 
 - [ ] Aplica `sortOrder` de `usePreferences` para ordenar la lista
 - [ ] Aplica `compactMode` para cambiar la UI (menos info en modo compacto)
-- [ ] Muestra items cacheados con banner visible cuando offline
+
+## ⭐ Extras (solo si terminas el mínimo)
+
+No condicionan la aprobación. Sus TODO están marcados con `[EXTRA]` en el starter.
+
+- [ ] Tercera preferencia `itemsPerPage` con `useMMKVNumber`
+- [ ] **Caché offline** en `useItems` (AsyncStorage): guarda ítems con red, carga desde caché si la red falla
+- [ ] `HomeScreen` muestra el banner "⚠️ Mostrando datos sin red" cuando se usa caché
+- [ ] Sección "Seguridad" en `SettingsScreen`: guardar/leer/borrar un dato sensible con SecureStore
+- [ ] El dato sensible NO aparece en texto plano en pantalla (solo confirmación)
 
 ## 💡 Ejemplos de Adaptación por Dominio
 
@@ -97,12 +107,19 @@ pnpm expo run:android
 
 ## 🛠️ Entregables
 
-1. App funcional en simulador iOS y/o Android (requiere build nativo)
-2. `usePreferences.ts` completado con mínimo 3 preferencias MMKV
-3. `useItems.ts` con caché AsyncStorage y fallback offline
-4. `SettingsScreen.tsx` completado con MMKV + SecureStore
-5. README actualizado con descripción de tu dominio e implementación
+1. App funcional en simulador iOS y/o Android (requiere build nativo), demostrada en vivo al cierre de la clase
+2. `usePreferences.ts` completado con mínimo 2 preferencias MMKV
+3. `SettingsScreen.tsx` completado con MMKV (extras: caché AsyncStorage en `useItems.ts` y SecureStore)
+4. README actualizado con descripción de tu dominio e implementación
 
 ## 📊 Criterios de Evaluación
 
 Ver [rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — MMKV y Expo SecureStore](../2-practicas/ejercicio-02-mmkv-securestore/README.md) | [Ebooks y Referencias — Semana 07: Persistencia Local](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

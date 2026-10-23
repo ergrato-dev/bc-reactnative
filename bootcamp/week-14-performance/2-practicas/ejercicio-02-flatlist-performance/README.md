@@ -75,3 +75,11 @@ Verifica: el Performance Monitor muestra UI FPS ≥ 58 durante scroll continuo.
 - [ ] `getItemLayout` implementado — botón "Ir al 400" funciona sin warnings
 - [ ] `windowSize={5}` y `removeClippedSubviews={true}` aplicados
 - [ ] Performance Monitor ≥ 58 UI FPS en scroll en simulador
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — React.memo, useMemo y useCallback](../ejercicio-01-memo-hooks/README.md) | [Proyecto Semana 14 — Performance y Optimización](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

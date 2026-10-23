@@ -1,12 +1,14 @@
 # Proyecto Semana 09 — Animaciones Básicas
 
+⏱️ Se entrega en vivo al final de la clase. No hay trabajo en casa.
+
 Añade animaciones fluidas a la app de tu dominio usando `Animated API` y `LayoutAnimation`.
 
 ---
 
 ## 🎯 Objetivo
 
-Integrar al menos **3 animaciones distintas** y **1 LayoutAnimation** en la app de tu dominio.
+Integrar animaciones con `Animated API` en la app de tu dominio: el mínimo son **2 animaciones** (entrada en Detail + spring en card); el resto son extras.
 Las animaciones deben mejorar la experiencia del usuario, no solo existir como demostración.
 
 ---
@@ -19,7 +21,7 @@ Las animaciones deben mejorar la experiencia del usuario, no solo existir como d
 
 ---
 
-## ✅ Requisitos Funcionales
+## ✅ Mínimo para entregar (cabe en 180 min)
 
 ### 1. Animación de entrada en `DetailScreen`
 
@@ -45,6 +47,10 @@ scale: 0.95 → 1  (onPressOut, con rebote)
 ```
 
 **Archivo**: `src/components/AnimatedCard.tsx`
+
+## ⭐ Extras (solo si terminas el mínimo)
+
+> No condicionan aprobar.
 
 ### 3. Barra de progreso en `ProgressBar`
 
@@ -93,6 +99,7 @@ Usa `LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut)`.
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json
 ├── package.json
 ├── tsconfig.json
@@ -130,7 +137,7 @@ Escanea el QR con **Expo Go** en tu dispositivo o abre en simulador con `i` (iOS
 ## 🛠️ Entregables
 
 1. App funcional en simulador iOS y/o Android
-2. Las 5 animaciones/comportamientos implementados
+2. Las 2 animaciones del mínimo implementadas (más los extras que alcances)
 3. Sin warnings de `useNativeDriver: false` donde debería ser `true`
 4. README actualizado describiendo las animaciones implementadas en tu dominio
 
@@ -139,3 +146,11 @@ Escanea el QR con **Expo Go** en tu dispositivo o abre en simulador con `i` (iOS
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — interpolate y Animated.stagger](../2-practicas/ejercicio-02-interpolation/README.md) | [Cheatsheet — Animated API (Week 09)](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

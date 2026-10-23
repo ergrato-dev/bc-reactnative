@@ -238,3 +238,11 @@ describe('ProductService', () => {
 - [Jest Documentation](https://jestjs.io/docs/getting-started)
 - [jest-expo Guide](https://docs.expo.dev/develop/unit-testing/)
 - [Testing Philosophy — Kent C. Dodds](https://kentcdodds.com/blog/write-tests)
+
+<!-- nav:start -->
+
+---
+
+← [Semana 13 — Testing: Jest, RNTL y Maestro](../README.md) | [RNTL: Queries, Eventos y Mocks](02-rntl-queries-mocks.md) →
+
+<!-- nav:end -->

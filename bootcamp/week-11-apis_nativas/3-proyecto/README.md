@@ -25,6 +25,7 @@ Integrar **expo-camera**, **expo-image-picker** y **expo-location** en la app de
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json              ← permisos iOS y Android
 ├── package.json
 ├── tsconfig.json
@@ -100,3 +101,11 @@ pnpm start
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Ubicación con expo-location](../2-practicas/ejercicio-02-location/README.md) | [Ebooks Gratuitos — Semana 11: APIs Nativas](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

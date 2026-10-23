@@ -107,7 +107,7 @@ export function CreateScreen(): React.JSX.Element {
           errorMessage={errors.body?.message}
         />
 
-        {/* TODO: agrega campos adicionales de tu dominio aquí */}
+        {/* TODO: [EXTRA] agrega campos adicionales de tu dominio aquí */}
         {/* Ejemplo para Farmacia:
         <FormField
           control={control}

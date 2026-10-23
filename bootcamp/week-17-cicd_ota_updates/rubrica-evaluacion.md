@@ -87,3 +87,11 @@
 - Código en inglés, documentación en español
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 17: CI/CD y OTA Updates](5-glosario/README.md) | [Semana 18 — Proyecto Final Integrador](../week-18-proyecto_final/README.md) →
+
+<!-- nav:end -->

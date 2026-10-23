@@ -80,3 +80,11 @@
 - ✅ Sin copia de implementaciones de otros aprendices
 - ✅ App funcional en dispositivo físico (push) o simulador (local)
 - ✅ TypeScript sin errores de compilación
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 12: Push Notifications](5-glosario/README.md) | [Semana 13 — Testing: Jest, RNTL y Maestro](../week-13-testing/README.md) →
+
+<!-- nav:end -->

@@ -200,3 +200,11 @@ export function useCreatePost() {
 - [ ] `isLoading` y `isError` manejados antes de renderizar `data`
 - [ ] `useMutation` invalida el caché en `onSuccess`
 - [ ] Pull-to-refresh usa `refetch` + `refreshing={isFetching}`
+
+<!-- nav:start -->
+
+---
+
+← [Axios y API Client en React Native](01-axios-y-api-client.md) | [Ejercicio 01 — useQuery Básico](../2-practicas/ejercicio-01-usequery-basico/README.md) →
+
+<!-- nav:end -->

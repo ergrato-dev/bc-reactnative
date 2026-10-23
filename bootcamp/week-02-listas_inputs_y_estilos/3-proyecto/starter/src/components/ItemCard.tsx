@@ -41,7 +41,7 @@ export function ItemCard({ item, onPress }: ItemCardProps): React.JSX.Element {
           <Text style={styles.fieldText}>Vence: {item.expiresAt}</Text>
       */}
 
-      {/* TODO: Si tu dominio tiene un badge de estado/categoría, agrégalo aquí */}
+      {/* TODO [EXTRA]: Si tu dominio tiene un badge de estado/categoría, agrégalo aquí */}
       {/* Ejemplo:
         <View style={styles.badge}>
           <Text style={styles.badgeText}>{item.category}</Text>

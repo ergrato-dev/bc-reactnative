@@ -1,5 +1,7 @@
 # Proyecto Semana 03 — React Navigation 7
 
+⏱️ Se entrega en vivo al final de la clase. No hay trabajo en casa.
+
 ## 🎯 Objetivo
 
 Construir una app móvil con **navegación completa** usando React Navigation 7, aplicada a tu dominio asignado. La app debe tener Tab Navigator con al menos dos pestañas, Stack Navigator anidado dentro de la pestaña principal para ir de lista a detalle, y tipado correcto de parámetros.
@@ -29,6 +31,7 @@ Construir una app móvil con **navegación completa** usando React Navigation 7,
 ```
 starter/
 ├── App.tsx                         ← NavigationContainer raíz
+├── index.js                        ← punto de entrada (registerRootComponent)
 ├── app.json                        ← configuración Expo
 ├── package.json                    ← dependencias exactas
 ├── tsconfig.json
@@ -50,21 +53,29 @@ starter/
 
 ---
 
-## ✅ Requisitos Funcionales
+## ✅ Mínimo para entregar (cabe en 180 min)
 
 1. **Tab Navigator** con dos pestañas: `Home` y `Favorites`
 2. **Stack anidado en Home**: navegar de lista (`HomeList`) a detalle (`HomeDetail`)
 3. **Params tipados**: pasar al menos `id` y `name` al navegar al detalle
-4. **Iconos en el Tab Bar** usando `@expo/vector-icons` (Ionicons)
-5. **Tipado completo** con `RootTabParamList` y `HomeStackParamList` (sin `any`)
+4. **Tipado completo** con `RootTabParamList` y `HomeStackParamList` (sin `any`)
 
-### Requisitos de Detalle
+### Requisitos de Detalle (mínimo)
 
 - `HomeScreen` muestra una `FlatList` con elementos del dominio
 - `DetailScreen` lee los params de `useRoute` y los muestra en pantalla
 - `FavoritesScreen` muestra al menos 3 ítems "favoritos" (pueden ser estáticos)
+- Títulos de pantalla descriptivos en el header (el de `HomeDetail` leído desde los params)
+
+## ⭐ Extras (solo si terminas el mínimo)
+
+No condicionan la aprobación. Los `TODO` marcados con `[EXTRA]` en el starter corresponden a esta sección.
+
+- **Iconos en el Tab Bar** usando `@expo/vector-icons` (Ionicons)
 - `tabBarActiveTintColor` con el color `#61DAFB`
-- Títulos de pantalla descriptivos en el header
+- Colores del tema en header y tab bar
+- Params adicionales del dominio hacia el detalle
+- `ListEmptyComponent`, header/título y diseño de tarjeta adaptados al dominio
 
 ---
 
@@ -82,9 +93,14 @@ Seleccionar simulador iOS (`i`) o Android (`a`) en el menú de Expo CLI.
 
 ## 🛠️ Entregables
 
+**Mínimo (demo en vivo al cierre de la clase):**
+
 1. App funcional en simulador iOS y/o Android con navegación Tab + Stack
 2. Código TypeScript sin errores, sin `any`, tipos de params correctos
 3. Datos y pantallas adaptados a tu dominio asignado
+
+**Extras (si te sobra tiempo):**
+
 4. Capturas de pantalla de las 3 pantallas (Home, Detail, Favorites)
 5. Este README actualizado con descripción breve de tu dominio e implementación
 
@@ -102,3 +118,11 @@ Ver [rubrica-evaluacion.md](../rubrica-evaluacion.md) — sección **Producto �
 | Copia de implementación de otro aprendiz | −15 pts |
 | App no corre en simulador | −10 pts |
 | Stack sin params al navegar al detalle | −5 pts |
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Tab Navigator con Stack Anidado](../2-practicas/ejercicio-02-tabs-stack/README.md) | [E-Books Gratuitos — Semana 03: React Navigation 7](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

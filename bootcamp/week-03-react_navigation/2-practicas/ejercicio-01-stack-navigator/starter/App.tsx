@@ -9,11 +9,10 @@ import {
   StatusBar,
   ListRenderItem,
 } from 'react-native';
-import { NavigationContainer, useNavigation, useRoute } from '@react-navigation/native';
+import { NavigationContainer, useNavigation, useRoute, type RouteProp } from '@react-navigation/native';
 import {
   createNativeStackNavigator,
   NativeStackNavigationProp,
-  NativeStackRouteProp,
 } from '@react-navigation/native-stack';
 
 // ============================================
@@ -96,7 +95,7 @@ function DetailScreen(): React.JSX.Element {
   // const navigation = useNavigation();
 
   // PASO 3: Descomenta para recibir los params
-  // type DetailRouteProp = NativeStackRouteProp<RootStackParamList, 'Detail'>;
+  // type DetailRouteProp = RouteProp<RootStackParamList, 'Detail'>;
   // const route = useRoute<DetailRouteProp>();
   // const { id, name, category } = route.params;
 

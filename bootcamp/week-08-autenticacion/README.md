@@ -76,6 +76,8 @@ Ver instrucciones completas: [3-proyecto/README.md](3-proyecto/README.md)
 | Ejercicio-02 OAuth | 1.5h | Expo AuthSession con GitHub (build nativo) |
 | Proyecto integrador | 3h | Auth completa en tu dominio asignado |
 
+> ⏱️ Proyecto = 180 min; se entrega en vivo al cierre de la clase (sin trabajo en casa).
+
 ## 📌 Entregables
 
 - [ ] Ejercicio-01: login funcional con JWT + llamada autenticada a `/auth/me`
@@ -87,4 +89,12 @@ Ver instrucciones completas: [3-proyecto/README.md](3-proyecto/README.md)
 
 ## 🔗 Navegación
 
-[← Semana 07 — Persistencia Local](../week-07-persistencia_local/README.md) | [Semana 09 — Animaciones Básicas →](../week-09-animaciones_basicas/README.md)
+← [Semana 07 — Persistencia Local](../week-07-persistencia_local/README.md) | [Semana 09 — Animaciones Básicas](../week-09-animaciones_basicas/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 07: Persistencia Local](../week-07-persistencia_local/rubrica-evaluacion.md) | [JWT y Tokens de Autenticación](1-teoria/01-jwt-y-tokens.md) →
+
+<!-- nav:end -->

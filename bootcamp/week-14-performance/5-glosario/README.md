@@ -138,3 +138,9 @@ Librería de desarrollo (`@welldone-software/why-did-you-render`) que detecta au
 re-renders innecesarios y los reporta en consola con la causa.
 
 ---
+
+<!-- nav:start -->
+
+← [Webgrafía — Semana 14: Performance y Optimización](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 14: Performance y Optimización](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

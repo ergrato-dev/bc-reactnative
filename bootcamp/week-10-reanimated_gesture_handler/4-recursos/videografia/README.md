@@ -32,3 +32,11 @@
 | [Catalin Miron](https://www.youtube.com/@CatalinMiron) | Animaciones cotidianas, UX mobile |
 | [Notjust Dev](https://www.youtube.com/@notjustdev) | Tutoriales full-stack React Native |
 | [Simon Grimm](https://www.youtube.com/@galaxies_dev) | React Native + Expo, proyectos completos |
+
+<!-- nav:start -->
+
+---
+
+← [Ebooks Gratuitos — Semana 10: Reanimated 4 y Gesture Handler](../ebooks-free/README.md) | [Webgrafía — Semana 10: Reanimated 4 y Gesture Handler](../webgrafia/README.md) →
+
+<!-- nav:end -->

@@ -109,6 +109,24 @@
 - Implementación coherente con el dominio único asignado
 - Sin copia de implementaciones de otros aprendices
 - App ejecutándose sin errores en simulador iOS y/o Android
+- Entrega = demo en vivo en simulador + checklist del instructor al cierre de la sesión; lo no demostrado en clase no se evalúa
 - Mínimo 70 pts en cada categoría para aprobar la semana
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+## Checklist de demo (instructor)
+
+- [ ] La app arranca en simulador sin errores
+- [ ] `FlatList` con 10+ items del dominio y `keyExtractor` por `id`
+- [ ] Búsqueda en tiempo real filtra la lista con `useMemo`
+- [ ] Estado vacío personalizado al no haber resultados
+- [ ] `ItemCard` con 3+ campos y constantes de tema
+- [ ] TypeScript sin `any`
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 02: Listas, Inputs y Estilos](5-glosario/README.md) | [Semana 03 — React Navigation 7](../week-03-react_navigation/README.md) →
+
+<!-- nav:end -->

@@ -41,3 +41,11 @@ Si en el futuro deseas profundizar con un libro:
   - Capítulos sobre deployment y CI/CD
 - **"The Complete React Native + Hooks Course"** — Stephen Grider (Udemy)
   - Precio accesible, incluye sección de publicación
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 15 — EAS Build y Certificados](../../3-proyecto/README.md) | [Videografía — EAS Build y Certificados](../videografia/README.md) →
+
+<!-- nav:end -->

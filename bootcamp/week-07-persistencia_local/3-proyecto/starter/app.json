@@ -4,12 +4,7 @@
     "slug": "week-07-persistencia-local",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "resizeMode": "contain",
-      "backgroundColor": "#0f172a"
-    },
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "dev.ergrato.bootcamp.week07"

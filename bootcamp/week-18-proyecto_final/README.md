@@ -54,4 +54,12 @@ de calidad y guion de presentación final.
 
 ## 🔗 Navegación
 
-← [Semana 17 — CI/CD y OTA Updates](../week-17-cicd_ota_updates/README.md) | (última semana del bootcamp)
+← [Semana 17 — CI/CD con GitHub Actions y OTA Updates con EAS Update](../week-17-cicd_ota_updates/README.md)
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 17: CI/CD y OTA Updates](../week-17-cicd_ota_updates/rubrica-evaluacion.md) | [Proyecto Semana 18 — Proyecto Final Integrador](3-proyecto/README.md) →
+
+<!-- nav:end -->

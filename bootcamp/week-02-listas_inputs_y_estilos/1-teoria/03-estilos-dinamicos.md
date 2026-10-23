@@ -258,3 +258,11 @@ const styles = StyleSheet.create({
 - [StyleSheet — React Native docs](https://reactnative.dev/docs/stylesheet)
 - [Platform — React Native docs](https://reactnative.dev/docs/platform)
 - [Dimensions — React Native docs](https://reactnative.dev/docs/dimensions)
+
+<!-- nav:start -->
+
+---
+
+← [TextInput y Manejo del Teclado](02-textinput-teclado.md) | [Ejercicio 01 — FlatList Básica](../2-practicas/ejercicio-01-flatlist-basica/README.md) →
+
+<!-- nav:end -->

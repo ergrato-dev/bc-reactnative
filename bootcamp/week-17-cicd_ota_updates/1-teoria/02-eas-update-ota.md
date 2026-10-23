@@ -273,3 +273,11 @@ El canal `production` se actualiza manualmente o a través de un release tag.
 - [ ] Workflow de GitHub Actions publica updates en push a main
 
 ![Flujo de EAS Update y canales](../0-assets/02-eas-update-channels.svg)
+
+<!-- nav:start -->
+
+---
+
+← [CI/CD con GitHub Actions para React Native + EAS](01-github-actions-cicd.md) | [Ejercicio 01 — Crear un Workflow de GitHub Actions para EAS Build](../2-practicas/ejercicio-01-github-actions-workflow/README.md) →
+
+<!-- nav:end -->

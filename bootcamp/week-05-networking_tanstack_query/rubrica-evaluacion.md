@@ -6,7 +6,7 @@
 |-------------------|------|-------------|
 | 🧠 Conocimiento | 30% | Preguntas teóricas |
 | 💪 Desempeño | 40% | Ejercicios prácticos |
-| 📦 Producto | 30% | Proyecto semanal |
+| 📦 Producto | 30% | Proyecto semanal, demostrado en vivo |
 
 ---
 
@@ -95,7 +95,13 @@ const { data, isLoading, isError } = useQuery({
 | `useQuery` obtiene lista de ítems del dominio con `queryKey` semántico | 6 |
 | `useMutation` crea o actualiza un ítem y el callback `onSuccess` invalida la query | 7 |
 | Estados loading, error y vacío (`ListEmptyComponent`) implementados | 5 |
-| Pull-to-refresh funcional con `refetch` pasado a `onRefresh` | 5 |
+| ⭐ Extra: pull-to-refresh funcional con `refetch` pasado a `onRefresh` | 5 |
+
+> El Mínimo para entregar suma **25/30** (83%).
+
+### Entrega
+
+La entrega es una **demo en vivo en simulador + checklist del instructor al cierre de la sesión**. Lo no demostrado en clase no se evalúa. Los extras (p. ej. pull-to-refresh) suman pero no condicionan aprobar.
 
 ### Penalizaciones
 
@@ -115,3 +121,22 @@ const { data, isLoading, isError } = useQuery({
 - ✅ Sin copia de implementaciones de otros aprendices
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+---
+
+## Checklist de demo (instructor)
+
+- [ ] App arranca en simulador sin errores
+- [ ] `QueryClientProvider` en `App.tsx` e instancia Axios con `baseURL` en `api.ts`
+- [ ] `HomeScreen` lista ítems con `useQuery` y `queryKey` semántico
+- [ ] Estados loading, error y vacío visibles
+- [ ] `CreateScreen` crea con `useMutation` y la lista se actualiza (`invalidateQueries`)
+- [ ] Sin `any`, TypeScript sin errores
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 05: Networking y TanStack Query v5](5-glosario/README.md) | [Semana 06 — Formularios con React Hook Form + Zod](../week-06-formularios_validacion/README.md) →
+
+<!-- nav:end -->

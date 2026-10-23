@@ -6,7 +6,7 @@ import { z } from 'zod';
 
 export const itemSchema = z.object({
   title: z
-    .string({ required_error: 'El nombre es requerido' })
+    .string({ error: 'El nombre es requerido' })
     .min(1, 'El nombre no puede estar vacío')
     .max(80, 'Máximo 80 caracteres'),
   body: z

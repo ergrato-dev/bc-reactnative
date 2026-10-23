@@ -164,3 +164,11 @@ HomeScreen (padre)
 - [React Docs — useMemo](https://react.dev/reference/react/useMemo)
 - [React Docs — useCallback](https://react.dev/reference/react/useCallback)
 - [When to useMemo and useCallback — Kent C. Dodds](https://kentcdodds.com/blog/usememo-and-usecallback)
+
+<!-- nav:start -->
+
+---
+
+← [Semana 14 — Performance y Optimización](../README.md) | [FlatList — Optimización y Virtualización](02-flatlist-optimization.md) →
+
+<!-- nav:end -->

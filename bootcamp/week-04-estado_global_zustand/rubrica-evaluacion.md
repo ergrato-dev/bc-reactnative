@@ -6,7 +6,7 @@
 |---|---|---|
 | Conocimiento 🧠 | 30% | Cuestionario teórico (3 preguntas) |
 | Desempeño 💪 | 40% | Ejercicios prácticos en clase |
-| Producto 📦 | 30% | Proyecto entregable funcional |
+| Producto 📦 | 30% | Proyecto demostrado en vivo al cierre de la sesión |
 
 **Mínimo aprobatorio**: 70% en cada tipo de evidencia.
 
@@ -109,9 +109,32 @@ const useCounterStore = create<CounterStore>((set) => ({
 
 ---
 
+## Entrega
+
+La entrega es una **demo en vivo en simulador + checklist del instructor al cierre de la sesión**. Lo no demostrado en clase no se evalúa.
+
 ## Criterios Transversales
 
 - ✅ Implementación coherente con el dominio asignado
 - ✅ Sin copia de implementaciones de otros aprendices
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación (sin `any`)
+
+---
+
+## Checklist de demo (instructor)
+
+- [ ] App arranca en simulador sin errores
+- [ ] Tab Navigator con `Home` y `Guardados`; Home → Detail con params tipados
+- [ ] Store Zustand con `create<Interface>()`, `addItem`, `removeItem`, `isItemSaved`
+- [ ] Badge del tab se actualiza en tiempo real
+- [ ] Botón Guardar/Quitar en Detail funciona; SavedScreen muestra los guardados
+- [ ] Selectores específicos, sin `any`, TypeScript sin errores
+
+<!-- nav:start -->
+
+---
+
+← [📖 Glosario — Semana 04: Estado Global con Zustand](5-glosario/README.md) | [Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) →
+
+<!-- nav:end -->

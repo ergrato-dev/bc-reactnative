@@ -165,3 +165,11 @@ Al completar los 4 pasos, la app debe mostrar:
 
 - [Animated API — React Native Docs](https://reactnative.dev/docs/animated)
 - [Easing — React Native Docs](https://reactnative.dev/docs/easing)
+
+<!-- nav:start -->
+
+---
+
+← [Interpolación y LayoutAnimation](../../1-teoria/02-layout-animation.md) | [Ejercicio 02 — interpolate y Animated.stagger](../ejercicio-02-interpolation/README.md) →
+
+<!-- nav:end -->

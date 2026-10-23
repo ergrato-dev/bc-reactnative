@@ -15,8 +15,8 @@ import {
 
 // ─── PASO 1-2: MMKV imports ────────────────────────────────────────────
 // Descomenta al implementar PASO 1:
-// import { MMKV } from 'react-native-mmkv';
-// export const storage = new MMKV({ id: 'ejercicio-02' });
+// import { createMMKV } from 'react-native-mmkv';
+// export const storage = createMMKV({ id: 'ejercicio-02' });
 
 // Descomenta al implementar PASO 2:
 // import { useMMKVString, useMMKVBoolean } from 'react-native-mmkv';

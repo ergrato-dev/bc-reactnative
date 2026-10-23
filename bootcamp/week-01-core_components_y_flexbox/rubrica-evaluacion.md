@@ -63,16 +63,31 @@
 
 - Mínimo **70%** en cada tipo de evidencia (21/30, 28/40, 21/30)
 - App funcional en simulador iOS y/o Android
-- Entrega puntual antes de la siguiente sesión
+- Entrega = demo en vivo en simulador + checklist del instructor al cierre de la sesión; lo no demostrado en clase no se evalúa
 - Implementación coherente con el dominio asignado
 
 ## ⚠️ Penalizaciones
 
 | Situación | Descuento |
 | --------- | --------- |
-| Entrega fuera de plazo (por día) | -5 pts del total |
 | Código sin TypeScript (uso de `any` generalizado) | -10 pts |
 | Dominio igual al de otro aprendiz | Nota 0 en Producto |
 | Copia de código de otro aprendiz | Nota 0 en la semana |
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+## Checklist de demo (instructor)
+
+- [ ] La app arranca en simulador sin errores
+- [ ] Pantalla principal con Header del dominio
+- [ ] Mínimo 3 tarjetas con imagen, 2 textos con estilos distintos y `Pressable` con feedback
+- [ ] Estilos con `StyleSheet.create` (sin inline)
+- [ ] Interfaces TypeScript del dominio, sin `any`
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 01: Core Components y Flexbox](5-glosario/README.md) | [Semana 02 — Listas, Inputs y Estilos](../week-02-listas_inputs_y_estilos/README.md) →
+
+<!-- nav:end -->

@@ -1,5 +1,7 @@
 # Proyecto Semana 08 — Autenticación Completa
 
+⏱️ Se entrega en vivo al final de la clase. No hay trabajo en casa.
+
 ## 🎯 Objetivo
 
 Construir una app con autenticación JWT completa:
@@ -31,6 +33,7 @@ Construir una app con autenticación JWT completa:
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json
 ├── package.json
 ├── tsconfig.json
@@ -63,23 +66,27 @@ starter/
 
 ---
 
-## ✅ Requisitos funcionales
+## ✅ Mínimo para entregar (cabe en 180 min)
 
-### Autenticación base (obligatorio)
-1. **LoginScreen**: formulario con `username` y `password`, validación con Zod, llamada al store
-2. **RegisterScreen**: formulario con al menos `username`, `email` y `password`, confirmar contraseña
-3. **Zustand authStore**: acciones `login()`, `logout()`, `refreshTokens()` correctamente implementadas
+Cubre el tema nuevo de la semana (login JWT + tokens seguros + navegación condicional). ~10 TODOs.
+
+1. **`authService.login()`** (`src/services/authService.ts`): `POST /auth/login` de dummyjson
+2. **LoginScreen**: formulario con `username` y `password`, validación con Zod (RHF), llamada al store, muestra error de credenciales
+3. **Zustand `authStore`**: acciones `login()` y `logout()` implementadas (login guarda tokens con `saveTokens`; logout llama `clearTokens()`)
 4. **Tokens en SecureStore**: access token y refresh token nunca en AsyncStorage ni MMKV sin cifrado
 5. **Navegación condicional**: `AuthNavigator` cuando `isAuthenticated === false`, `AppNavigator` cuando `true`
-6. **ProfileScreen**: muestra nombre, email y algún dato del dominio del usuario autenticado
+6. **ProfileScreen** básico: muestra nombre y email del usuario autenticado + botón de logout
+7. **HomeScreen** adaptado a tu dominio (lista con TanStack Query o datos hardcoded)
 
-### Adaptación al dominio (obligatorio)
-7. **HomeScreen**: contenido relevante de tu dominio (lista con TanStack Query o datos hardcoded)
-8. **ProfileScreen**: datos coherentes con el dominio (membresía, préstamos, cuenta, etc.)
+## ⭐ Extras (solo si terminas el mínimo)
 
-### Opcional (mejora la nota)
-9. **Interceptor 401**: Axios interceptor que detecta 401 y refresca el token automáticamente
-10. **Logout desde cualquier pantalla**: botón de logout accesible en la navegación
+No condicionan la aprobación. Sus TODO están marcados con `[EXTRA]` en el starter.
+
+8. **RegisterScreen** + `authService.register()` + acción `register()` del store (confirmar contraseña)
+9. **ProfileScreen completo**: filas con datos de tu dominio (membresía, préstamos, cuenta, etc.)
+10. **`authService.refreshTokens()`** + acción `refreshTokens()` del store
+11. **Interceptor 401**: Axios detecta 401 y refresca el token automáticamente
+12. **Logout desde cualquier pantalla**: botón accesible en la navegación
 
 ---
 
@@ -107,10 +114,18 @@ pnpm start
 
 ## 🛠️ Entregables
 
-1. App funcional en simulador iOS y/o Android
+1. App funcional en simulador iOS y/o Android, demostrada en vivo al cierre de la clase
 2. Código adaptado a tu dominio
 3. README actualizado con descripción de tu implementación
 
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — OAuth PKCE con Expo AuthSession](../2-practicas/ejercicio-02-oauth-authsession/README.md) | [📚 eBooks y Recursos de Referencia — Semana 08](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

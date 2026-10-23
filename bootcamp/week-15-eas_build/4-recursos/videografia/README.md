@@ -45,3 +45,11 @@ Antes de ver los videos sobre publicación, asegúrate de tener claro:
 3. Qué hace `credentialsSource: "remote"` en EAS
 
 Eso hará que los tutoriales sean mucho más fáciles de seguir.
+
+<!-- nav:start -->
+
+---
+
+← [Ebooks Gratuitos — EAS Build, Certificados y Publicación](../ebooks-free/README.md) | [Recursos Web — EAS Build y Certificados](../webgrafia/README.md) →
+
+<!-- nav:end -->

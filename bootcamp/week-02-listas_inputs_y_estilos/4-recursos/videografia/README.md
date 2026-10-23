@@ -28,3 +28,11 @@
 ## 💡 Tip de Estudio
 
 Mira los videos **después** de leer la teoría, y **antes** de hacer las prácticas. Así tendrás el contexto y los videos reforzarán los conceptos clave.
+
+<!-- nav:start -->
+
+---
+
+← [Ebooks Free — Semana 02](../ebooks-free/README.md) | [Webgrafía — Semana 02](../webgrafia/README.md) →
+
+<!-- nav:end -->

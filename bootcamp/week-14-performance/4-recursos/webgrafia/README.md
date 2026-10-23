@@ -35,3 +35,11 @@
 | Librería | URL | Cuándo usarla |
 |----------|-----|---------------|
 | @shopify/flash-list | https://shopify.github.io/flash-list/ | Listas de 1000+ items con rendimiento nativo |
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Semana 14: Performance y Optimización](../videografia/README.md) | [Glosario — Semana 14: Performance y Optimización](../../5-glosario/README.md) →
+
+<!-- nav:end -->

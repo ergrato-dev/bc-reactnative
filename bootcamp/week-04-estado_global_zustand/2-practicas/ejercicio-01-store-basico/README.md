@@ -117,3 +117,11 @@ La app debe mostrar:
 - Un input para agregar tareas y una lista de tareas con botón eliminar
 - Un panel de estadísticas que se actualiza en tiempo real al agregar/eliminar tareas
 - Sin errores TypeScript en la consola
+
+<!-- nav:start -->
+
+---
+
+← [Zustand — Slices, Múltiples Stores y Persist](../../1-teoria/02-zustand-slices-persist.md) | [Ejercicio 02 — Persist Middleware con AsyncStorage](../ejercicio-02-persist-middleware/README.md) →
+
+<!-- nav:end -->

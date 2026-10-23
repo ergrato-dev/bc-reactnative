@@ -91,3 +91,11 @@
 - Implementación coherente con el dominio asignado
 - Sin copia de implementaciones de otros aprendices
 - TypeScript sin errores de compilación
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 16: App Store y Google Play Console](5-glosario/README.md) | [Semana 17 — CI/CD con GitHub Actions y OTA Updates con EAS Update](../week-17-cicd_ota_updates/README.md) →
+
+<!-- nav:end -->

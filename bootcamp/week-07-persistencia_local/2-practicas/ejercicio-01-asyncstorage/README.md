@@ -104,3 +104,11 @@ await AsyncStorage.multiRemove(['@theme', '@profile', '@items_cache']);
 - [ ] El perfil de usuario se recupera sin volver a escribirlo
 - [ ] Los ítems se muestran desde caché si la petición de red falla
 - [ ] Los botones de limpieza funcionan y resetean a valores por defecto
+
+<!-- nav:start -->
+
+---
+
+← [MMKV y SecureStore — Patrones Avanzados](../../1-teoria/02-mmkv-y-securestore.md) | [Ejercicio 02 — MMKV y Expo SecureStore](../ejercicio-02-mmkv-securestore/README.md) →
+
+<!-- nav:end -->

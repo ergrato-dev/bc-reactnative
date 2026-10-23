@@ -15,7 +15,7 @@ export function ProgressBar({
   const progressAnim = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
-    // TODO: Animar progressAnim hasta el valor de `progress` (0-1).
+    // TODO: [EXTRA] Animar progressAnim hasta el valor de `progress` (0-1).
     // Usar Animated.timing con duración 800ms.
     // ⚠️ useNativeDriver: false → 'width' y 'backgroundColor' no son nativas.
     //
@@ -26,7 +26,7 @@ export function ProgressBar({
     // }).start();
   }, [progress, progressAnim]);
 
-  // TODO: Crear widthInterp con interpolate.
+  // TODO: [EXTRA] Crear widthInterp con interpolate.
   // inputRange:  [0, 1]
   // outputRange: ['0%', '100%']
   // extrapolate: 'clamp'
@@ -37,7 +37,7 @@ export function ProgressBar({
   //   extrapolate: 'clamp',
   // });
 
-  // TODO: Crear colorInterp con interpolate.
+  // TODO: [EXTRA] Crear colorInterp con interpolate.
   // inputRange:  [0, 0.5, 1]
   // outputRange: [COLORS.error, COLORS.warning, COLORS.success]
   // extrapolate: 'clamp'
@@ -59,7 +59,7 @@ export function ProgressBar({
         </View>
       )}
       <View style={styles.track}>
-        {/* TODO: Reemplazar el View por Animated.View y usar widthInterp + colorInterp */}
+        {/* TODO: [EXTRA] Reemplazar el View por Animated.View y usar widthInterp + colorInterp */}
         {/* <Animated.View
           style={[styles.fill, { width: widthInterp, backgroundColor: colorInterp }]}
         /> */}

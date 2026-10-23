@@ -1,6 +1,6 @@
 // src/hooks/useItems.ts
 // TanStack Query hooks con caché AsyncStorage para soporte offline.
-// TODO: implementar el fallback de AsyncStorage en useItems().
+// TODO: [EXTRA] implementar el fallback de AsyncStorage en useItems().
 
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -18,7 +18,7 @@ export function useItems() {
   return useQuery<ItemsWithSource>({
     queryKey: ITEMS_QUERY_KEY,
     queryFn: async (): Promise<ItemsWithSource> => {
-      // TODO: implementar caché AsyncStorage
+      // TODO: [EXTRA] implementar caché AsyncStorage
       // ─────────────────────────────────────
       // try {
       //   const data = await fetchItems();

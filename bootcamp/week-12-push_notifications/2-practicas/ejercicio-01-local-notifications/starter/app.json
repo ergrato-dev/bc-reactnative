@@ -4,16 +4,14 @@
     "slug": "ejercicio-01-local-notifications",
     "version": "1.0.0",
     "orientation": "portrait",
-    "sdkVersion": "53.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "ios": {
       "supportsTablet": false
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#111827"
-      },
       "permissions": [
         "NOTIFICATIONS",
         "RECEIVE_BOOT_COMPLETED",

@@ -35,12 +35,12 @@ export async function login(credentials: LoginCredentials): Promise<AuthResponse
  * dummyjson.com no tiene endpoint real de registro,
  * por lo que esta función es un placeholder para tu dominio.
  *
- * TODO: Implementar para tu dominio. Opciones:
+ * TODO: [EXTRA] Implementar para tu dominio. Opciones:
  *   a) Usar un backend propio con POST /auth/register
  *   b) Simular registro con un delay + datos mockeados (para prácticas)
  */
 export async function register(_data: RegisterData): Promise<AuthResponse> {
-  // TODO: Implementar registro para tu dominio
+  // TODO: [EXTRA] Implementar registro para tu dominio
   // Opción simulada para prácticas:
   // await new Promise(resolve => setTimeout(resolve, 800));
   // return {
@@ -60,7 +60,7 @@ export async function register(_data: RegisterData): Promise<AuthResponse> {
  * Renueva el access token usando el refresh token.
  * Llamado automáticamente por el interceptor de Axios en respuestas 401.
  *
- * TODO: Implementar esta función.
+ * TODO: [EXTRA] Implementar esta función.
  * Pista:
  *   - POST ${BASE_URL}/auth/refresh
  *   - Body: { refreshToken, expiresInMins: 30 }
@@ -68,7 +68,7 @@ export async function register(_data: RegisterData): Promise<AuthResponse> {
  *   - Usa axios directo (NO la instancia `api`) para evitar loop infinito
  */
 export async function refreshTokens(refreshToken: string): Promise<AuthResponse> {
-  // TODO: Implementar
+  // TODO: [EXTRA] Implementar
   // Ejemplo:
   // import axios from 'axios';
   // const { data } = await axios.post<AuthResponse>(`${BASE_URL}/auth/refresh`, {

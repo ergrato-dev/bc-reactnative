@@ -18,7 +18,7 @@ import {
   View,
 } from 'react-native';
 
-// TODO semana 07: importar SecureStore
+// TODO [EXTRA] semana 07: importar SecureStore
 // import * as SecureStore from 'expo-secure-store';
 
 import { COLORS, RADIUS, SPACING, TYPOGRAPHY } from '../theme';
@@ -49,7 +49,7 @@ export function SettingsScreen(): React.JSX.Element {
   // Función para guardar el dato sensible con SecureStore
   // ============================================================
   async function handleSaveSensitive(): Promise<void> {
-    // TODO: reemplaza el alert con SecureStore.setItemAsync
+    // TODO: [EXTRA] reemplaza el alert con SecureStore.setItemAsync
     //
     // await SecureStore.setItemAsync(SENSITIVE_KEY, MOCK_SENSITIVE);
 
@@ -66,7 +66,7 @@ export function SettingsScreen(): React.JSX.Element {
   // Función para leer el dato sensible desde SecureStore
   // ============================================================
   async function handleReadSensitive(): Promise<void> {
-    // TODO: reemplaza con SecureStore.getItemAsync
+    // TODO: [EXTRA] reemplaza con SecureStore.getItemAsync
     //
     // const value = await SecureStore.getItemAsync(SENSITIVE_KEY);
     // if (value) {
@@ -87,7 +87,7 @@ export function SettingsScreen(): React.JSX.Element {
   // Función para eliminar el dato sensible de SecureStore
   // ============================================================
   async function handleDeleteSensitive(): Promise<void> {
-    // TODO: reemplaza con SecureStore.deleteItemAsync
+    // TODO: [EXTRA] reemplaza con SecureStore.deleteItemAsync
     //
     // await SecureStore.deleteItemAsync(SENSITIVE_KEY);
     // setIsSaved(false);

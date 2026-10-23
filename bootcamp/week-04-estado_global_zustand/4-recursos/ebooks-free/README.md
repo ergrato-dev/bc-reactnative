@@ -101,3 +101,11 @@ const savedCount = useSavedStore((state) => state.items.length);
 
 > Zustand es intencionalmente minimalista. Su documentación oficial (zustand.docs.pmnd.rs)
 > es concisa y completa — es el recurso principal recomendado sobre cualquier libro de terceros.
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 04 — Estado Global con Zustand](../../3-proyecto/README.md) | [🎥 Videografía — Semana 04: Estado Global con Zustand](../videografia/README.md) →
+
+<!-- nav:end -->

@@ -91,6 +91,7 @@ pnpm start
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json                   ← completar campos de producción
 ├── eas.json                   ← completar los 3 perfiles
 ├── package.json
@@ -125,3 +126,11 @@ starter/
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Configurar app.json para Producción](../2-practicas/ejercicio-02-app-config/README.md) | [Ebooks Gratuitos — EAS Build, Certificados y Publicación](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

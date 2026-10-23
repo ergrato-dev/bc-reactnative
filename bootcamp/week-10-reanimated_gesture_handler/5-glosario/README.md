@@ -9,7 +9,7 @@ Términos técnicos clave ordenados alfabéticamente.
 **babel plugin (reanimated)**  
 Plugin de Babel requerido para que Reanimated 4 funcione. Se declara como último en `babel.config.js`:  
 ```js
-plugins: ['react-native-reanimated/plugin']
+plugins: ['react-native-worklets/plugin']
 ```
 Sin él, los worklets (`useAnimatedStyle`, `useAnimatedProps`) lanzarán errores en tiempo de ejecución.
 
@@ -201,3 +201,9 @@ Función marcada para correr en el hilo UI. Los callbacks de Gesture y `useAnima
 Para llamar código JS normal desde worklet → `runOnJS`.
 
 ---
+
+<!-- nav:start -->
+
+← [Webgrafía — Semana 10: Reanimated 4 y Gesture Handler](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 10: Reanimated 4 y Gesture Handler](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

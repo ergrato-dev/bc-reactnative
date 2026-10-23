@@ -176,3 +176,9 @@ Booleano en la configuración de animaciones.
 - `false` → corre en el hilo JS (permite `width`, `height`, `backgroundColor`, etc.)
 
 ---
+
+<!-- nav:start -->
+
+← [Webgrafía — Week 09: Animaciones Básicas](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 09: Animaciones Básicas](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

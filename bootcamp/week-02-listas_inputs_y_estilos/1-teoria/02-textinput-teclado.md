@@ -208,3 +208,11 @@ export function SearchableList(): React.JSX.Element {
 - [TextInput — React Native docs](https://reactnative.dev/docs/textinput)
 - [KeyboardAvoidingView — React Native docs](https://reactnative.dev/docs/keyboardavoidingview)
 - [Keyboard — React Native docs](https://reactnative.dev/docs/keyboard)
+
+<!-- nav:start -->
+
+---
+
+← [FlatList y SectionList](01-flatlist-sectionlist.md) | [Estilos Dinámicos y Theming Básico](03-estilos-dinamicos.md) →
+
+<!-- nav:end -->

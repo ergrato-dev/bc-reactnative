@@ -129,3 +129,11 @@ Cuando todos los pasos estén descomentados deberías ver:
 - `ListEmptyComponent` para estado vacío contextual
 - `KeyboardAvoidingView` con comportamiento por plataforma
 - `Keyboard.dismiss()` para cerrar el teclado manualmente
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — FlatList Básica](../ejercicio-01-flatlist-basica/README.md) | [Proyecto Semana 02 — App de Listas con Búsqueda](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

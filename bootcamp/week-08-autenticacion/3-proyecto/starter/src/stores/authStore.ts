@@ -72,7 +72,7 @@ export const useAuthStore = create<AuthState>()(
       // ─── register ──────────────────────────────────────
       register: async (data: RegisterData) => {
         /**
-         * TODO: Implementar la acción register.
+         * TODO: [EXTRA] Implementar la acción register.
          * Es similar a login pero llama a authService.register(data).
          * Si el registro retorna tokens, guardarlos con saveTokens.
          */
@@ -94,7 +94,7 @@ export const useAuthStore = create<AuthState>()(
       // ─── refreshTokens ─────────────────────────────────
       refreshTokens: async () => {
         /**
-         * TODO: Implementar refreshTokens.
+         * TODO: [EXTRA] Implementar refreshTokens.
          *
          * Pasos:
          * 1. Obtener el refreshToken con getRefreshToken() de tokenService

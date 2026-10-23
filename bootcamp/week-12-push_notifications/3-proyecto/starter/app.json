@@ -4,8 +4,10 @@
     "slug": "proyecto-semana-12",
     "version": "1.0.0",
     "orientation": "portrait",
-    "sdkVersion": "53.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "extra": {
       "eas": {
         "projectId": "REPLACE_WITH_YOUR_EAS_PROJECT_ID"
@@ -16,10 +18,6 @@
       "bundleIdentifier": "com.bootcamp.proyecto12"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#111827"
-      },
       "package": "com.bootcamp.proyecto12",
       "permissions": [
         "NOTIFICATIONS",

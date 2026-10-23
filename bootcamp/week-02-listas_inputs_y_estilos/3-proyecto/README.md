@@ -1,5 +1,7 @@
 # Proyecto Semana 02 — App de Listas con Búsqueda
 
+⏱️ Se entrega en vivo al final de la clase. No hay trabajo en casa.
+
 ## 🎯 Objetivo
 
 Construir una app móvil que combine `FlatList` con `TextInput` para listar y filtrar elementos de tu dominio asignado. Además, aplicarás temas visuales consistentes usando constantes de estilo (`COLORS`, `TYPOGRAPHY`, `SPACING`).
@@ -14,7 +16,7 @@ Ejemplos de dominios: Biblioteca, Farmacia, Gimnasio, Restaurante, Hotel, Tienda
 
 ---
 
-## ✅ Requisitos Funcionales
+## ✅ Mínimo para entregar (cabe en 180 min)
 
 ### Pantalla Principal (`HomeScreen`)
 
@@ -22,16 +24,23 @@ Ejemplos de dominios: Biblioteca, Farmacia, Gimnasio, Restaurante, Hotel, Tienda
 2. **Búsqueda en tiempo real** — `TextInput` que filtra la lista mientras el usuario escribe
 3. **Estado vacío** — Mensaje personalizado cuando la búsqueda no encuentra resultados
 4. **Tarjeta de elemento** — Componente `ItemCard` que muestra al menos 3 campos del dominio
-5. **Teclado** — `KeyboardAvoidingView` para que el teclado no tape el contenido
-6. **Theming** — Todos los estilos usando las constantes de `src/theme/index.ts`
+5. **Theming** — Estilos usando las constantes de `src/theme/index.ts`
 
 ### Requerimientos Técnicos
 
 - `keyExtractor` usando el `id` del item (nunca el índice del array)
 - `useMemo` para la lógica de filtrado
-- `useCallback` para `renderItem` y el componente de empty state
-- Al menos un `ItemSeparatorComponent` o espaciado visual entre tarjetas
 - TypeScript estricto — sin `any`
+
+## ⭐ Extras (solo si terminas el mínimo)
+
+No condicionan la aprobación. Los `TODO` marcados con `[EXTRA]` en el starter corresponden a esta sección.
+
+- **Teclado** — `KeyboardAvoidingView` pulido para que el teclado no tape el contenido
+- `useCallback` para `renderItem`
+- Al menos un `ItemSeparatorComponent` o espaciado visual entre tarjetas
+- Badge de estado/categoría en `ItemCard`
+- Tipos auxiliares (enums, categorías) y más items en `mockData.ts`
 
 ---
 
@@ -54,6 +63,7 @@ Ejemplos de dominios: Biblioteca, Farmacia, Gimnasio, Restaurante, Hotel, Tienda
 ```
 starter/
 ├── App.tsx
+├── index.js
 ├── app.json
 ├── package.json
 ├── tsconfig.json
@@ -108,10 +118,12 @@ pnpm start
 
 ## 📱 Entregables
 
+Se demuestran en vivo al cierre de la clase.
+
 1. App funcional en simulador iOS y/o Android
 2. Al menos 10 items del dominio asignado en `mockData.ts`
 3. Búsqueda funcionando en tiempo real
-4. `README.md` en la raíz de tu entrega con:
+4. *(Extra, solo si te sobra tiempo)* `README.md` en la raíz de tu entrega con:
    - Descripción de tu dominio
    - Captura de pantalla (o descripción de las pantallas)
    - Decisiones de diseño tomadas
@@ -147,3 +159,11 @@ pnpm start
 ## 📊 Rúbrica de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — TextInput y Búsqueda en Lista](../2-practicas/ejercicio-02-busqueda-input/README.md) | [Ebooks Free — Semana 02](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

@@ -126,3 +126,11 @@ export function useDeleteItem() {
 | You Don't Know JS Yet (YDKJSY) | https://github.com/getify/You-Dont-Know-JS | Fundamentos JS modernos — gratis en GitHub |
 | React Native Express | https://www.reactnative.express | Guía interactiva gratuita de React Native |
 | Expo docs (web) | https://docs.expo.dev | Referencia oficial — siempre actualizada |
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 05 — Networking y TanStack Query v5](../../3-proyecto/README.md) | [Videografía — Semana 05: Networking con Axios y TanStack Query](../videografia/README.md) →
+
+<!-- nav:end -->

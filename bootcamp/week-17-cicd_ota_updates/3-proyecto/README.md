@@ -26,6 +26,7 @@ starter/
 │       ├── eas-build.yml       # TODO: completar el workflow de CI/CD
 │       └── eas-update.yml      # TODO: completar el workflow de OTA updates
 ├── App.tsx
+├── index.js
 ├── app.json                    # TODO: agregar sección updates (expo-updates)
 ├── eas.json                    # TODO: agregar "channel" a perfiles preview/production
 ├── package.json
@@ -120,3 +121,11 @@ Para iOS: `pnpm run ios` | Para Android: `pnpm run android`
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Configurar EAS Update con Canales](../2-practicas/ejercicio-02-eas-update-canales/README.md) | [Recursos — Ebooks Gratuitos](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

@@ -30,3 +30,11 @@
 
 > 💡 **Tip**: Busca los títulos en YouTube directamente. Los enlaces exactos pueden cambiar con el tiempo.
 > Prioriza videos de 2024-2025 para asegurarte de ver APIs actuales.
+
+<!-- nav:start -->
+
+---
+
+← [Ebooks Gratuitos — Semana 01](../ebooks-free/README.md) | [Webgrafía — Semana 01](../webgrafia/README.md) →
+
+<!-- nav:end -->

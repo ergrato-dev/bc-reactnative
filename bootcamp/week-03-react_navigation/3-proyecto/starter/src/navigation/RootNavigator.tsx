@@ -31,7 +31,7 @@ function HomeStackNavigator(): React.JSX.Element {
   return (
     <HomeStack.Navigator
       screenOptions={{
-        // TODO: personalizar el header con colores del tema
+        // TODO [EXTRA]: personalizar el header con colores del tema
         // headerStyle: { backgroundColor: COLORS.surface },
         // headerTintColor: COLORS.accent,
         // headerTitleStyle: { fontWeight: 'bold' },
@@ -69,7 +69,7 @@ export function RootNavigator(): React.JSX.Element {
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
-        // TODO: implementar la función tabBarIcon para cada pestaña
+        // TODO [EXTRA]: implementar la función tabBarIcon para cada pestaña
         // Deben ser iconos de Ionicons que cambien de color según `focused`
         // tabBarIcon: ({ focused, color, size }) => {
         //   let iconName: keyof typeof Ionicons.glyphMap;
@@ -81,12 +81,12 @@ export function RootNavigator(): React.JSX.Element {
         //   return <Ionicons name={iconName} size={size} color={color} />;
         // },
         // Color del ícono/texto activo
-        // TODO: descomentar para aplicar el color del tema
+        // TODO [EXTRA]: descomentar para aplicar el color del tema
         // tabBarActiveTintColor: COLORS.accent,
         // tabBarInactiveTintColor: COLORS.textSecondary,
         // Ocultar el header del Tab porque cada Stack ya tiene el suyo
         headerShown: false,
-        // TODO: personalizar el fondo del tab bar
+        // TODO [EXTRA]: personalizar el fondo del tab bar
         // tabBarStyle: { backgroundColor: COLORS.surface },
       })}
     >
@@ -94,7 +94,7 @@ export function RootNavigator(): React.JSX.Element {
       <Tab.Screen
         name="Home"
         component={HomeStackNavigator}
-        // TODO: personalizar la etiqueta según tu dominio
+        // TODO [EXTRA]: personalizar la etiqueta según tu dominio
         // options={{ tabBarLabel: 'Catálogo' }}
         options={{ tabBarLabel: 'Inicio' }}
       />
@@ -102,7 +102,7 @@ export function RootNavigator(): React.JSX.Element {
       <Tab.Screen
         name="Favorites"
         component={FavoritesScreen}
-        // TODO: personalizar la etiqueta según tu dominio
+        // TODO [EXTRA]: personalizar la etiqueta según tu dominio
         // options={{ tabBarLabel: 'Mis Guardados' }}
         options={{ tabBarLabel: 'Favoritos' }}
       />

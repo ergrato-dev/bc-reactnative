@@ -5,7 +5,6 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
-    "splash": { "backgroundColor": "#0f172a" },
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.bootcamp.week11.ejercicio01",
@@ -16,7 +15,10 @@
     },
     "android": {
       "package": "com.bootcamp.week11.ejercicio01",
-      "permissions": ["CAMERA", "READ_MEDIA_IMAGES"]
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES"
+      ]
     }
   }
 }

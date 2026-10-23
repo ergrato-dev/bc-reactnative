@@ -51,14 +51,14 @@ export function HomeScreen(): React.JSX.Element {
 
   // ============================================
   // RENDER ITEM
-  // TODO: Implementar renderItem con useCallback
+  // TODO [EXTRA]: Implementar renderItem con useCallback
   //
   // Debe renderizar un <ItemCard> pasando el item
   // y una función onPress (por ahora puede ser vacía)
   //
   // Sin dependencias externas → useCallback(() => ..., [])
   // ============================================
-  // TODO: const renderItem: ListRenderItem<Item> = useCallback(({ item }) => ( ... ), []);
+  // TODO [EXTRA]: const renderItem: ListRenderItem<Item> = useCallback(({ item }) => ( ... ), []);
 
   // ============================================
   // RENDER PRINCIPAL

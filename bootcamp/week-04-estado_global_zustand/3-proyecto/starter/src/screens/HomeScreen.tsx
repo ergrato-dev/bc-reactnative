@@ -67,7 +67,7 @@ function ItemCard({ item, onPress }: ItemCardProps): React.JSX.Element {
 export function HomeScreen(): React.JSX.Element {
   const navigation = useNavigation<HomeScreenNavProp>();
 
-  // TODO: leer los ítems desde un Zustand store (opcional bonus)
+  // TODO: [EXTRA] leer los ítems desde un Zustand store (opcional bonus)
   // o desde la API real de tu dominio (semana 5 — TanStack Query)
   const items = ITEMS;
 
@@ -88,7 +88,7 @@ export function HomeScreen(): React.JSX.Element {
         renderItem={renderItem}
         contentContainerStyle={styles.list}
         ItemSeparatorComponent={() => <View style={styles.separator} />}
-        // TODO: agregar un header con estadísticas (total de ítems, etc.)
+        // TODO: [EXTRA] agregar un header con estadísticas (total de ítems, etc.)
         ListHeaderComponent={
           <Text style={styles.sectionLabel}>
             {items.length} ítem{items.length !== 1 ? 's' : ''}

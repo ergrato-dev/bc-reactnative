@@ -99,3 +99,11 @@ const { data, isLoading, isFetching, refetch } = useQuery(/* ... */);
 **Abre `starter/App.tsx`** y descomenta la sección `PASO 4`.
 
 Verifica: tira hacia abajo en la lista — aparece el spinner y los datos se refrescan.
+
+<!-- nav:start -->
+
+---
+
+← [TanStack Query v5 en React Native](../../1-teoria/02-tanstack-query-v5.md) | [Ejercicio 02 — useMutation y Cache Invalidation](../ejercicio-02-usemutation/README.md) →
+
+<!-- nav:end -->

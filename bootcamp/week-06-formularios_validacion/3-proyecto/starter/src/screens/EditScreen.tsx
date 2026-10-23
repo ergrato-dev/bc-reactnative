@@ -1,7 +1,7 @@
 // src/screens/EditScreen.tsx
 // Formulario para editar un ítem existente.
 // Carga los datos actuales del servidor y rellena el formulario con defaultValues.
-// TODO: conectar useItemById + reset en useEffect + useUpdateItem mutation.
+// TODO: [EXTRA] conectar useItemById + reset en useEffect + useUpdateItem mutation.
 
 import React, { useEffect } from 'react';
 import {
@@ -22,12 +22,12 @@ import { COLORS, RADIUS, SPACING, TYPOGRAPHY } from '../theme';
 import type { RootStackParamList } from '../navigation/types';
 import { FormField } from '../components/FormField';
 
-// TODO: importar useForm y zodResolver
+// TODO: [EXTRA] importar useForm y zodResolver
 // import { useForm } from 'react-hook-form';
 // import { zodResolver } from '@hookform/resolvers/zod';
 // import { itemSchema, type ItemFormData } from '../schemas/itemSchema';
 
-// TODO: importar los hooks de datos
+// TODO: [EXTRA] importar los hooks de datos
 // import { useItemById, useUpdateItem } from '../hooks/useItems';
 
 type EditNavProp = NativeStackNavigationProp<RootStackParamList, 'Edit'>;
@@ -42,7 +42,7 @@ export function EditScreen(): React.JSX.Element {
   const route = useRoute<EditRouteProp>();
   const { id } = route.params;
 
-  // TODO: obtener el ítem actual del servidor
+  // TODO: [EXTRA] obtener el ítem actual del servidor
   // ─────────────────────────────────────────────
   // const { data: item, isLoading } = useItemById(id);
 
@@ -51,7 +51,7 @@ export function EditScreen(): React.JSX.Element {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const item: any = undefined;
 
-  // TODO: inicializar useForm con zodResolver
+  // TODO: [EXTRA] inicializar useForm con zodResolver
   // ─────────────────────────────────────────────
   // const {
   //   control,
@@ -71,7 +71,7 @@ export function EditScreen(): React.JSX.Element {
   const control: any = undefined;
   const isDirty = true;
 
-  // TODO: cuando el ítem se carga del servidor, rellenar el formulario.
+  // TODO: [EXTRA] cuando el ítem se carga del servidor, rellenar el formulario.
   // ─────────────────────────────────────────────
   // Patrón clave de esta semana: reset() + useEffect
   //
@@ -80,7 +80,7 @@ export function EditScreen(): React.JSX.Element {
   //     reset({
   //       title: item.title,
   //       body: item.body ?? '',
-  //       // TODO: agrega los campos de tu dominio aquí
+  //       // TODO: [EXTRA] agrega los campos de tu dominio aquí
   //     });
   //   }
   // }, [item, reset]);
@@ -90,11 +90,11 @@ export function EditScreen(): React.JSX.Element {
     // Remove this useEffect once you implement the real one above.
   }, [item]);
 
-  // TODO: inicializar la mutation de actualización
+  // TODO: [EXTRA] inicializar la mutation de actualización
   // const { mutate: updateItem, isPending } = useUpdateItem();
   const isPending = false;
 
-  // TODO: implementar la función onSubmit
+  // TODO: [EXTRA] implementar la función onSubmit
   // ─────────────────────────────────────────────
   // function onSubmit(data: ItemFormData): void {
   //   updateItem(
@@ -131,7 +131,7 @@ export function EditScreen(): React.JSX.Element {
           Modifica lo que necesites y guarda.
         </Text>
 
-        {/* TODO: usa los mismos FormField que en CreateScreen */}
+        {/* TODO: [EXTRA] usa los mismos FormField que en CreateScreen */}
 
         <FormField
           control={control}
@@ -153,7 +153,7 @@ export function EditScreen(): React.JSX.Element {
           errorMessage={errors.body?.message}
         />
 
-        {/* TODO: agrega los campos adicionales de tu dominio */}
+        {/* TODO: [EXTRA] agrega los campos adicionales de tu dominio */}
 
         <View style={styles.actions}>
           <Pressable

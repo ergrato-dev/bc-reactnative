@@ -82,3 +82,11 @@
 - ✅ Sin copia de implementaciones de otros aprendices
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+<!-- nav:start -->
+
+---
+
+← [Glosario — Semana 15: EAS Build y Certificados](5-glosario/README.md) | [Semana 16 — App Store y Google Play Console](../week-16-app_store_google_play/README.md) →
+
+<!-- nav:end -->

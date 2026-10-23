@@ -37,7 +37,7 @@ export function AnimatedButton({
 }: AnimatedButtonProps): React.JSX.Element {
   const scale = useSharedValue(1);
 
-  // TODO: Reemplaza este TouchableOpacity por GestureDetector + Gesture.Tap.
+  // TODO: [EXTRA] Reemplaza este TouchableOpacity por GestureDetector + Gesture.Tap.
   //
   // 1. Crea el gesto tap:
   //    const tap = Gesture.Tap()

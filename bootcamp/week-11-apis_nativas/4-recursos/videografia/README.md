@@ -51,3 +51,11 @@
   - Sección 16: Accessing Device Hardware
 
 > 📌 Usa los simuladores iOS/Android junto con los videos para seguir los ejemplos en tiempo real.
+
+<!-- nav:start -->
+
+---
+
+← [Ebooks Gratuitos — Semana 11: APIs Nativas](../ebooks-free/README.md) | [Webgrafía — Semana 11: APIs Nativas](../webgrafia/README.md) →
+
+<!-- nav:end -->

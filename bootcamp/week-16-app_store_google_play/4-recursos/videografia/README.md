@@ -68,3 +68,11 @@
 - **Expo** — Canal oficial de Expo con tutoriales de EAS
 - **notJust.dev** — Tutorials React Native con Expo en inglés
 - **Fireship** — Videos cortos y precisos sobre tecnología mobile
+
+<!-- nav:start -->
+
+---
+
+← [Ebooks y Recursos Descargables — Semana 16](../ebooks-free/README.md) | [Webgrafía — Semana 16: App Store y Google Play Console](../webgrafia/README.md) →
+
+<!-- nav:end -->

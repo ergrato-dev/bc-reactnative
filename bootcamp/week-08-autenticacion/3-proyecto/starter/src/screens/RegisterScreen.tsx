@@ -35,7 +35,7 @@ export function RegisterScreen({ navigation }: RegisterScreenProps): React.JSX.E
   });
 
   /**
-   * TODO: Implementar onSubmit para el registro.
+   * TODO: [EXTRA] Implementar onSubmit para el registro.
    *
    * Pasos:
    * 1. Llamar a register({ username, email, password }) del authStore
@@ -57,7 +57,7 @@ export function RegisterScreen({ navigation }: RegisterScreenProps): React.JSX.E
    * };
    */
   const onSubmit = async (_values: RegisterFormValues) => {
-    // TODO: Implementar
+    // TODO: [EXTRA] Implementar
     Alert.alert('TODO', 'Implementa onSubmit en RegisterScreen.tsx');
   };
 

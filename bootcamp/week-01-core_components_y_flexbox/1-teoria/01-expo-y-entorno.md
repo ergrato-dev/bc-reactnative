@@ -75,7 +75,8 @@ Expo mostrará un QR code. Escanéalo con Expo Go (dispositivo real) o presiona:
 ```
 mi-primera-app/
 ├── app.json           # Configuración del app (nombre, icono, splash, permisos)
-├── App.tsx            # Punto de entrada de la aplicación
+├── App.tsx            # Componente raíz de la aplicación
+├── index.js           # Punto de entrada — registerRootComponent
 ├── tsconfig.json      # Configuración TypeScript
 ├── package.json       # Dependencias
 └── assets/            # Imágenes, fuentes y recursos estáticos
@@ -156,3 +157,11 @@ Editas código  →  Metro bundler detecta el cambio  →  Hot Reload en el disp
 - [ ] Puedo modificar `App.tsx` y ver los cambios en tiempo real
 - [ ] Entiendo la diferencia entre `<div>` web y `<View>` nativo
 - [ ] Conozco para qué sirve `app.json`
+
+<!-- nav:start -->
+
+---
+
+← [Semana 01 — Core Components y Flexbox](../README.md) | [Core Components de React Native](02-core-components.md) →
+
+<!-- nav:end -->

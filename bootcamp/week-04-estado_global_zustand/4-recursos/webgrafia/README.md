@@ -64,3 +64,11 @@ const count = useStore((state) => state.count);
 // ❌ Re-renderiza en cualquier cambio del store
 const store = useStore();
 ```
+
+<!-- nav:start -->
+
+---
+
+← [🎥 Videografía — Semana 04: Estado Global con Zustand](../videografia/README.md) | [📖 Glosario — Semana 04: Estado Global con Zustand](../../5-glosario/README.md) →
+
+<!-- nav:end -->

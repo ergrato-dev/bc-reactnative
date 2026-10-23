@@ -112,3 +112,11 @@ Cuando todos los pasos estén descomentados deberías ver:
 - Stack anidado dentro de Tab con `headerShown: false`
 - Historial de navegación independiente por tab
 - Navegación tipada entre pantallas del Stack interno
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Stack Navigator](../ejercicio-01-stack-navigator/README.md) | [Proyecto Semana 03 — React Navigation 7](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

@@ -57,6 +57,8 @@ Al finalizar esta semana, el estudiante será capaz de:
 | Ejercicio 02 | 1.5h | Validación con Zod + errores inline |
 | Proyecto | 3h | Formularios Create + Edit con API |
 
+> Proyecto = 180 min; se entrega en vivo al cierre de la clase.
+
 ## 📌 Entregables
 
 - [ ] Ejercicio 01: formulario básico con states de carga y validación nativa
@@ -66,4 +68,12 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-[← Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) | [Semana 07 — Persistencia Local →](../week-07-persistencia_local/README.md)
+← [Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) | [Semana 07 — Persistencia Local](../week-07-persistencia_local/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Rúbrica de Evaluación — Semana 05: Networking y TanStack Query v5](../week-05-networking_tanstack_query/rubrica-evaluacion.md) | [React Hook Form en React Native](1-teoria/01-react-hook-form.md) →
+
+<!-- nav:end -->

@@ -64,3 +64,11 @@ const { mutate, isPending } = useMutation<Post, Error, CreatePostPayload>({
 export const POSTS_QUERY_KEY = ['posts'] as const;
 // Úsalo en useQuery y en invalidateQueries para evitar typos
 ```
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Semana 05: Networking con Axios y TanStack Query](../videografia/README.md) | [Glosario — Semana 05: Networking y TanStack Query v5](../../5-glosario/README.md) →
+
+<!-- nav:end -->

@@ -16,6 +16,6 @@ export interface Item {
   //   Hotel       → roomType: string; pricePerNight: number; status: 'libre' | 'ocupado';
 }
 
-// TODO: Si necesitas tipos auxiliares (enums, categorías, etc.), defínelos aquí
+// TODO [EXTRA]: Si necesitas tipos auxiliares (enums, categorías, etc.), defínelos aquí
 // Ejemplo:
 // export type ItemCategory = 'categoria_a' | 'categoria_b' | 'categoria_c';

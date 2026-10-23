@@ -25,3 +25,11 @@
 | ------- | --- | ----------- |
 | React Native Push Notifications Guide | https://reactnative.dev/docs/pushnotificationios | Contexto histórico iOS |
 | Expo Notifications Best Practices | https://docs.expo.dev/push-notifications/faq/ | FAQ y solución a problemas comunes |
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Semana 12: Push Notifications](../videografia/README.md) | [Glosario — Semana 12: Push Notifications](../../5-glosario/README.md) →
+
+<!-- nav:end -->

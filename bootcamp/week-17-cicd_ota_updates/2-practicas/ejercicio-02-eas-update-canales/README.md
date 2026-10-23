@@ -187,3 +187,11 @@ eas update:list --channel production
 - [EAS Update — Getting Started](https://docs.expo.dev/eas-update/getting-started/)
 - [expo-updates API](https://docs.expo.dev/versions/latest/sdk/updates/)
 - [Canales y ramas](https://docs.expo.dev/eas-update/how-eas-update-works/)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 01 — Crear un Workflow de GitHub Actions para EAS Build](../ejercicio-01-github-actions-workflow/README.md) | [Proyecto Semana 17 — CI/CD y OTA Updates](../../3-proyecto/README.md) →
+
+<!-- nav:end -->

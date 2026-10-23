@@ -28,3 +28,11 @@
 ## 💡 Nota
 
 Todos estos recursos son gratuitos y de alta calidad. No es necesario leerlos completos — úsalos como referencia cuando necesites profundizar en un concepto específico.
+
+<!-- nav:start -->
+
+---
+
+← [Proyecto Semana 02 — App de Listas con Búsqueda](../../3-proyecto/README.md) | [Videografía — Semana 02](../videografia/README.md) →
+
+<!-- nav:end -->

@@ -25,6 +25,7 @@ Tienda de ropa, Banco, Agencia de Taxis, Escuela, Hotel, Agencia de Viajes.
 ```
 starter/
 ├── App.tsx                    # Pantalla de bienvenida básica
+├── index.js                   # Punto de entrada — registerRootComponent
 ├── app.json                   # Configuración Expo con bundleIdentifier y package
 ├── eas.json                   # Con build + TODO submit section para completar
 ├── package.json
@@ -131,3 +132,11 @@ Para iOS simulator: `pnpm run ios` | Para Android emulator: `pnpm run android`
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Configurar eas submit para iOS y Android](../2-practicas/ejercicio-02-eas-submit/README.md) | [Ebooks y Recursos Descargables — Semana 16](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

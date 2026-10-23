@@ -105,3 +105,11 @@ Antes de seguir un tutorial, verifica:
 ---
 
 _Semana 06 — Bootcamp React Native Zero to Hero_
+
+<!-- nav:start -->
+
+---
+
+← [Recursos: Ebooks & Cheat Sheets — Semana 06](../ebooks-free/README.md) | [Recursos: Webografía — Semana 06](../webgrafia/README.md) →
+
+<!-- nav:end -->

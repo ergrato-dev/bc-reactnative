@@ -161,3 +161,11 @@ const BASE_URL = process.env.EXPO_PUBLIC_API_URL;
 - [ ] Respuestas tipadas con genéricos `axios.get<T>()`
 - [ ] Funciones de servicio en `src/services/` separadas del componente
 - [ ] `timeout` configurado para evitar requests colgados
+
+<!-- nav:start -->
+
+---
+
+← [Semana 05 — Networking y TanStack Query v5](../README.md) | [TanStack Query v5 en React Native](02-tanstack-query-v5.md) →
+
+<!-- nav:end -->

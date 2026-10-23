@@ -181,3 +181,11 @@ Solución: aplicar `React.memo` al componente de fila y revisar cálculos en ren
 - [React Native — Performance overview](https://reactnative.dev/docs/performance)
 - [Optimizing FlatList Configuration — RN docs](https://reactnative.dev/docs/optimizing-flatlist-configuration)
 - [Hermes engine](https://hermesengine.dev/)
+
+<!-- nav:start -->
+
+---
+
+← [React.memo, useMemo y useCallback](01-memo-usememo-usecallback.md) | [Ejercicio 01 — React.memo, useMemo y useCallback](../2-practicas/ejercicio-01-memo-hooks/README.md) →
+
+<!-- nav:end -->

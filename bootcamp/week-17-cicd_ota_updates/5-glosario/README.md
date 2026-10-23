@@ -155,3 +155,11 @@ builds bajo demanda.
 Archivo único que contiene todo el código JavaScript de la app React Native,
 generado por Metro (el bundler de React Native). Es el archivo que `eas update`
 distribuye en un OTA update.
+
+<!-- nav:start -->
+
+---
+
+← [Recursos — Webgrafía](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 17: CI/CD y OTA Updates](../rubrica-evaluacion.md) →
+
+<!-- nav:end -->

@@ -196,3 +196,11 @@ export const useSettingsStore = create<SettingsState>()(
 - [ ] Almaceno tokens SOLO en SecureStore
 - [ ] Mi caché offline con AsyncStorage tiene fallback correcto (try/catch)
 - [ ] Conozco el patrón Zustand + persist + MMKV para stores persistentes
+
+<!-- nav:start -->
+
+---
+
+← [Persistencia Local en React Native — Panorama General](01-storage-overview.md) | [Ejercicio 01 — AsyncStorage: Guardar Preferencias y Listas](../2-practicas/ejercicio-01-asyncstorage/README.md) →
+
+<!-- nav:end -->

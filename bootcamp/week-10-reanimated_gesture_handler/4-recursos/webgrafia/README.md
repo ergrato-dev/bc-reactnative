@@ -44,3 +44,11 @@
 | React Native Debugger | https://github.com/jhen0409/react-native-debugger | Debugging de animaciones |
 | Flipper | https://fbflipper.com/ | Performance profiling |
 | Expo DevTools | https://docs.expo.dev/debugging/tools/ | Debugging en Expo Go |
+
+<!-- nav:start -->
+
+---
+
+← [Videografía — Semana 10: Reanimated 4 y Gesture Handler](../videografia/README.md) | [Glosario — Semana 10: Reanimated 4 y Gesture Handler](../../5-glosario/README.md) →
+
+<!-- nav:end -->

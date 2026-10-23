@@ -54,6 +54,14 @@ Incluir siempre ejemplos de adaptación:
 
 > ⚠️ NO crear la carpeta `solution/` — está en `.gitignore`.
 
+## Regla de tiempo: se entrega al final de la clase
+
+El proyecto dura 180 min y se entrega **en vivo al cierre de la clase** (sin trabajo en casa).
+El README debe incluir, arriba, `⏱️ Se entrega en vivo al final de la clase. No hay trabajo en casa.`
+y separar los requisitos en `## ✅ Mínimo para entregar (cabe en 180 min)` (≤ ~10 TODOs, cubre el tema
+de la semana) y `## ⭐ Extras (solo si terminas el mínimo)`. Marca los TODO de extras con `[EXTRA]`.
+La rúbrica debe terminar con `## Checklist de demo (instructor)` copiado del mínimo.
+
 ## Convenciones obligatorias
 
 - **Código en inglés**: variables, funciones, tipos, nombres de componentes

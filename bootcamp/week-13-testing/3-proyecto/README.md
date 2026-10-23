@@ -47,7 +47,8 @@ starter/
 ├── jest.config.js
 ├── jest.setup.ts
 ├── tsconfig.json
-└── App.tsx
+├── App.tsx
+└── index.js
 ```
 
 ## ✅ Requisitos Funcionales
@@ -90,3 +91,11 @@ pnpm start
 ## 📊 Criterios de Evaluación
 
 Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+
+<!-- nav:start -->
+
+---
+
+← [Ejercicio 02 — Component Tests con RNTL](../2-practicas/ejercicio-02-rntl-components/README.md) | [eBooks Gratuitos — Semana 13: Testing](../4-recursos/ebooks-free/README.md) →
+
+<!-- nav:end -->

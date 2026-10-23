@@ -31,7 +31,7 @@ export function ItemCard({ item, onPress }: ItemCardProps): React.JSX.Element {
     //   <View style={...}>
     //     <Text style={...}>{item.name}</Text>
     //     <Text style={...}>{item.subtitle}</Text>
-    //     {/* TODO: Agrega las propiedades específicas de tu dominio */}
+    //     {/* TODO [EXTRA]: Agrega las propiedades específicas de tu dominio */}
     //   </View>
     // </Pressable>
     <View style={styles.placeholder}>

@@ -55,7 +55,7 @@ export function RootNavigator(): React.JSX.Element {
         tabBarActiveTintColor: COLORS.accent,
         tabBarInactiveTintColor: COLORS.textSecondary,
         tabBarStyle: { backgroundColor: COLORS.surface },
-        // TODO: implementar tabBarIcon para cada pestaña
+        // TODO: [EXTRA] implementar tabBarIcon para cada pestaña
         // tabBarIcon: ({ focused, color, size }) => {
         //   let iconName: keyof typeof Ionicons.glyphMap;
         //   if (route.name === 'Home') {

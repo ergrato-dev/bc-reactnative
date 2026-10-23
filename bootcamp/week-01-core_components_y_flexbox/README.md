@@ -59,6 +59,8 @@ Al finalizar esta semana, el estudiante será capaz de:
 | Práctica 02 | 1.5h | Ejercicio Flexbox Layouts — descomentar y verificar paso a paso |
 | Proyecto | 3h | Implementar la app de tarjetas en tu dominio asignado |
 
+> ⏱️ Proyecto = 180 min; la entrega es en vivo al cierre de la clase (sin trabajo en casa).
+
 ## 📌 Entregables
 
 - [ ] Proyecto: app corriendo en simulador con al menos 3 tarjetas de tu dominio
@@ -66,4 +68,12 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-← (primera semana) | [Semana 02 — Listas, Inputs y Estilos →](../week-02-listas_inputs_y_estilos/README.md)
+[Semana 02 — Listas, Inputs y Estilos](../week-02-listas_inputs_y_estilos/README.md) →
+
+<!-- nav:start -->
+
+---
+
+← [Inicio](../../README.md) | [Expo y el Entorno de Desarrollo](1-teoria/01-expo-y-entorno.md) →
+
+<!-- nav:end -->

@@ -26,3 +26,11 @@ Usa estos términos en YouTube, Udemy o el canal de tu preferencia:
 - Fecha: últimos 2 años (2023-2025) para código moderno con hooks
 - Busca ejemplos con `useRef` en lugar de `new Animated.Value()` directo en el render
 - Prioriza videos que usen `useNativeDriver: true` correctamente
+
+<!-- nav:start -->
+
+---
+
+← [Cheatsheet — Animated API (Week 09)](../ebooks-free/README.md) | [Webgrafía — Week 09: Animaciones Básicas](../webgrafia/README.md) →
+
+<!-- nav:end -->

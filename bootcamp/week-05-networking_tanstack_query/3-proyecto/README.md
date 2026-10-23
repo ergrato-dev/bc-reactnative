@@ -1,5 +1,7 @@
 # Proyecto Semana 05 — Networking y TanStack Query v5
 
+⏱️ Se entrega en vivo al final de la clase. No hay trabajo en casa.
+
 ## 🎯 Objetivo
 
 Construir una app que consume una **API REST real** usando Axios y TanStack Query v5. La app mostrará una lista de ítems de tu dominio, navegará al detalle, permitirá crear nuevos ítems con un formulario básico y manejará todos los estados de la red (loading, error, vacío, pull-to-refresh).
@@ -29,15 +31,29 @@ Todos los aprendices implementan la misma arquitectura (Axios + TanStack Query) 
 
 ---
 
-## ✅ Requisitos Funcionales
+## ✅ Mínimo para entregar (cabe en 180 min)
 
-1. **Lista**: Pantalla `HomeScreen` con `FlatList` cargada desde la API con `useQuery`
-2. **Detalle**: Navegar a `DetailScreen` mostrando todos los campos del ítem
-3. **Crear**: Formulario en `CreateScreen` que envía un POST con `useMutation`
-4. **Pull-to-refresh**: `FlatList` con `onRefresh={refetch}` y `refreshing={isFetching}`
-5. **Loading state**: `ActivityIndicator` mientras `isLoading === true`
-6. **Error state**: Mensaje + botón "Reintentar" cuando `isError === true`
-7. **Empty state**: `ListEmptyComponent` cuando `data.length === 0`
+1. **Instancia Axios** en `src/services/api.ts` con `baseURL` de tu API
+2. **Lista**: `HomeScreen` con `FlatList` cargada desde la API con `useQuery` (`queryKey` semántico, hook `useItems`)
+3. **Loading state**: `ActivityIndicator` mientras `isLoading === true`
+4. **Error state**: mensaje cuando `isError === true`
+5. **Empty state**: `ListEmptyComponent` cuando `data.length === 0`
+6. **Crear**: `CreateScreen` envía un POST con `useMutation` (`useCreateItem`) e invalida la query en `onSuccess`
+
+`QueryClientProvider` en `App.tsx`; TypeScript sin errores ni `any`; app corre en simulador.
+
+---
+
+## ⭐ Extras (solo si terminas el mínimo)
+
+> No condicionan la aprobación.
+
+- **Pull-to-refresh**: `onRefresh={refetch}` y `refreshing={isFetching}`
+- Botón "Reintentar" en el estado de error
+- **Detalle propio** con `useItemById` (datos frescos del servidor) y botón reintentar
+- Toast o alerta con el error de la mutación
+- Campos adicionales de tu dominio en tarjetas, detalle y formulario
+- README con descripción de tu dominio, API usada y capturas
 
 ---
 
@@ -46,6 +62,7 @@ Todos los aprendices implementan la misma arquitectura (Axios + TanStack Query) 
 ```
 starter/
 ├── App.tsx                       # QueryClientProvider + NavigationContainer
+├── index.js                      # Punto de entrada — registerRootComponent
 ├── app.json
 ├── package.json
 ├── tsconfig.json
@@ -72,12 +89,10 @@ starter/
 
 ## 🛠️ Entregables
 
-1. App funcional en simulador iOS y/o Android
+1. Demo en vivo en el simulador (iOS y/o Android)
 2. `useQuery` consumiendo al menos un endpoint real de tu dominio
 3. `useMutation` con `invalidateQueries` en `onSuccess`
 4. Manejo de loading, error y empty states en `HomeScreen`
-5. Pull-to-refresh funcional
-6. README con descripción de tu dominio, API usada y capturas de pantalla
 
 ---
 
@@ -86,29 +101,10 @@ starter/
 Ver [rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 
-Implementar los conceptos de **Networking y TanStack Query v5** aplicados a tu dominio asignado.
+<!-- nav:start -->
 
-## 📋 Tu Dominio Asignado
+---
 
-**Dominio**: [El instructor te asignará tu dominio único al inicio del bootcamp]
+← [Ejercicio 02 — useMutation y Cache Invalidation](../2-practicas/ejercicio-02-usemutation/README.md) | [Ebooks y Cheat Sheets — Semana 05](../4-recursos/ebooks-free/README.md) →
 
-> 📌 Recuerda: tu implementación debe ser coherente con tu dominio.
-> No copies implementaciones de otros aprendices.
-
-## 🚀 Cómo ejecutar
-
-```bash
-cd starter
-pnpm install
-pnpm start
-```
-
-## 🛠️ Entregables
-
-1. App funcional en simulador iOS y/o Android
-2. Código adaptado a tu dominio
-3. README actualizado con descripción de tu implementación
-
-## 📊 Criterios de Evaluación
-
-Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
+<!-- nav:end -->
