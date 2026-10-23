@@ -74,11 +74,13 @@
 | Tab Navigator con 2+ tabs adaptadas al dominio | 6 |
 | Stack Navigator anidado con pantalla de detalle | 6 |
 | Params tipados con `RootParamList` en TypeScript | 5 |
-| Header de cada pantalla con título descriptivo del dominio | 4 |
+| ⭐ Extra: header y tabs con títulos adaptados al dominio | 4 |
 | `NavigationContainer` correctamente configurado | 4 |
 | App funcional en simulador iOS y/o Android | 3 |
 | TypeScript sin `any` | 2 |
 | **Total** | **30** |
+
+> El Mínimo para entregar suma **26/30** (87%); la fila ⭐ es opcional y no condiciona aprobar.
 
 ### Penalizaciones
 
@@ -96,7 +98,17 @@
 - Implementación coherente con el dominio asignado
 - Sin copia de implementaciones de otros aprendices
 - App funcional en simulador iOS y/o Android
+- Entrega = demo en vivo en simulador + checklist del instructor al cierre de la sesión; lo no demostrado en clase no se evalúa
 - TypeScript sin errores de compilación
+
+## Checklist de demo (instructor)
+
+- [ ] La app arranca en simulador sin errores
+- [ ] Tab Navigator con `Home` y `Favorites`
+- [ ] Stack Home: lista -> detalle pasando `id` y `name` tipados
+- [ ] `DetailScreen` muestra los params con `useRoute`
+- [ ] `FavoritesScreen` con 3+ ítems y títulos descriptivos
+- [ ] Tipos `RootTabParamList` / `HomeStackParamList`, sin `any`
 
 <!-- nav:start -->
 

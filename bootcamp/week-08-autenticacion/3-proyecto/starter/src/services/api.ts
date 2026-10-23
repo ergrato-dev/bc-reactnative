@@ -25,7 +25,7 @@ api.interceptors.request.use(async (config) => {
 // ─────────────────────────────────────────────
 // RESPONSE interceptor: manejar 401 → refresh → retry
 // ─────────────────────────────────────────────
-// TODO: Implementar el interceptor de respuesta para manejar tokens expirados.
+// TODO: [EXTRA] Implementar el interceptor de respuesta para manejar tokens expirados.
 //
 // Pseudocódigo del flujo:
 // 1. Si la respuesta es un error 401:

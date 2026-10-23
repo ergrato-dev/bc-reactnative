@@ -88,7 +88,7 @@ export function CreateScreen(): React.JSX.Element {
           />
         </View>
 
-        {/* TODO: agregar campos adicionales para tu dominio */}
+        {/* TODO: [EXTRA] agregar campos adicionales para tu dominio */}
         {/* Por ejemplo:                                     */}
         {/* <View style={styles.field}>                       */}
         {/*   <Text style={styles.fieldLabel}>Precio</Text>  */}
@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
     borderRadius: RADIUS.sm,
     padding: SPACING.sm,
     ...TYPOGRAPHY.body,
-    color: COLORS.text,
+    color: COLORS.textPrimary,
   },
   multiline: { minHeight: 96, paddingTop: SPACING.sm },
   button: {

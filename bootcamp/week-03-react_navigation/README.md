@@ -69,6 +69,8 @@ Al finalizar esta semana, el estudiante será capaz de:
 | Práctica 02 | 1.5h | Tabs + Stack anidado — 4 pasos |
 | Proyecto | 3h | Implementar navegación en tu dominio |
 
+> ⏱️ Proyecto = 180 min; la entrega es en vivo al cierre de la clase (sin trabajo en casa).
+
 ---
 
 ## 📌 Entregables

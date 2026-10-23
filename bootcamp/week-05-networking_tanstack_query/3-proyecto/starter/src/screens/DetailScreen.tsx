@@ -1,6 +1,6 @@
 // src/screens/DetailScreen.tsx
 // Pantalla de detalle: muestra los campos completos de un ítem.
-// TODO: conectar con useItemById() para obtener datos frescos del servidor.
+// TODO: [EXTRA] conectar con useItemById() para obtener datos frescos del servidor.
 
 import React from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -9,7 +9,7 @@ import { useRoute, type RouteProp } from '@react-navigation/native';
 import { COLORS, RADIUS, SPACING, TYPOGRAPHY } from '../theme';
 import type { RootStackParamList } from '../navigation/types';
 
-// TODO: importar el hook de detalle
+// TODO: [EXTRA] importar el hook de detalle
 // import { useItemById } from '../hooks/useItems';
 
 type DetailRouteProp = RouteProp<RootStackParamList, 'Detail'>;
@@ -22,7 +22,7 @@ export function DetailScreen(): React.JSX.Element {
   const route = useRoute<DetailRouteProp>();
   const { id, name } = route.params;
 
-  // TODO: obtener los datos completos del ítem desde la API
+  // TODO: [EXTRA] obtener los datos completos del ítem desde la API
   // ──────────────────────────────────────────────────────
   // const { data: item, isLoading, isError, refetch } = useItemById(id);
   //
@@ -43,7 +43,7 @@ export function DetailScreen(): React.JSX.Element {
     return (
       <View style={styles.centered}>
         <Text style={styles.errorText}>No se pudo cargar el detalle</Text>
-        {/* TODO: agregar botón reintentar con refetch */}
+        {/* TODO: [EXTRA] agregar botón reintentar con refetch */}
       </View>
     );
   }
@@ -59,7 +59,7 @@ export function DetailScreen(): React.JSX.Element {
         <Text style={styles.idBadge}>ID: {id}</Text>
       </View>
 
-      {/* TODO: mostrar los campos del ítem cuando item !== null */}
+      {/* TODO: [EXTRA] mostrar los campos del ítem cuando item !== null */}
       {!item ? (
         <View style={styles.infoBox}>
           <Text style={styles.infoText}>
@@ -69,7 +69,7 @@ export function DetailScreen(): React.JSX.Element {
         </View>
       ) : (
         <View style={styles.fieldsCard}>
-          {/* TODO: renderizar los campos de tu dominio */}
+          {/* TODO: [EXTRA] renderizar los campos de tu dominio */}
           {/* Ejemplo: */}
           {/* <FieldRow label="Descripción" value={item.description} /> */}
           {/* <FieldRow label="Precio" value={`${item.price} €`} /> */}

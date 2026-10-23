@@ -32,13 +32,13 @@ export function DetailScreen({ route }: Props): React.JSX.Element {
   const translateY = useSharedValue(30);
 
   useEffect(() => {
-    // TODO: Implementa la animación de entrada.
+    // TODO: [EXTRA] Implementa la animación de entrada.
     // Descomenta las siguientes líneas:
     // opacity.value = withTiming(1, { duration: 500 });
     // translateY.value = withDelay(80, withTiming(0, { duration: 400 }));
   }, [opacity, translateY]);
 
-  // TODO: Implementa el animated style.
+  // TODO: [EXTRA] Implementa el animated style.
   // Descomenta el siguiente bloque:
   // const containerStyle = useAnimatedStyle(() => ({
   //   opacity: opacity.value,
@@ -47,7 +47,7 @@ export function DetailScreen({ route }: Props): React.JSX.Element {
 
   return (
     <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
-      {/* TODO: Reemplaza View por Animated.View + containerStyle: */}
+      {/* TODO: [EXTRA] Reemplaza View por Animated.View + containerStyle: */}
       {/* <Animated.View style={[styles.container, containerStyle]}> */}
       <View style={styles.container}>
 

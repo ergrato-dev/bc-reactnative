@@ -13,16 +13,16 @@ export function AnimatedButton({
   onPress,
   variant = 'primary',
 }: AnimatedButtonProps): React.JSX.Element {
-  // TODO: Crear el Animated.Value para la escala.
+  // TODO: [EXTRA] Crear el Animated.Value para la escala.
   // const scaleAnim = useRef(new Animated.Value(1)).current;
 
   const handlePressIn = () => {
-    // TODO: Comprimir el botón a 0.96 con Animated.timing (duración 80ms).
+    // TODO: [EXTRA] Comprimir el botón a 0.96 con Animated.timing (duración 80ms).
     // useNativeDriver: true
   };
 
   const handlePressOut = () => {
-    // TODO: Volver a escala 1 con Animated.spring.
+    // TODO: [EXTRA] Volver a escala 1 con Animated.spring.
     // tension: 400, friction: 12, useNativeDriver: true
   };
 
@@ -30,7 +30,7 @@ export function AnimatedButton({
     variant === 'success' ? COLORS.success : COLORS.primary;
 
   return (
-    // TODO: Reemplazar View por Animated.View con transform: [{ scale: scaleAnim }]
+    // TODO: [EXTRA] Reemplazar View por Animated.View con transform: [{ scale: scaleAnim }]
     <Animated.View>
       <Pressable
         style={[styles.button, { backgroundColor: bgColor }]}

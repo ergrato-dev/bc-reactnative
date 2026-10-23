@@ -58,6 +58,8 @@ Ver [3-proyecto/README.md](3-proyecto/README.md) — añadir animaciones de entr
 | Práctica 02 | 1.5h | interpolate — barra de progreso + rotación |
 | Proyecto | 3h | Integrar animaciones en app del dominio |
 
+> Proyecto = 180 min; la entrega es en vivo al cierre de la clase.
+
 ## 📌 Entregables
 
 - [ ] Ejercicios completados (prácticas descomentadas y funcionando)

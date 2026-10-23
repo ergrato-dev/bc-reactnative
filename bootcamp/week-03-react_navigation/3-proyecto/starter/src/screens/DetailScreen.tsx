@@ -2,15 +2,14 @@
 // Pantalla de detalle — recibe los datos del ítem seleccionado via params.
 // Los params llegan del Stack Navigator cuando se llama navigate('HomeDetail', {...}).
 
-import type { NativeStackRouteProp } from '@react-navigation/native-stack';
-import { useRoute } from '@react-navigation/native';
+import { useRoute, type RouteProp } from '@react-navigation/native';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { COLORS, RADIUS, SPACING, TYPOGRAPHY } from '../theme';
 import type { HomeStackParamList } from '../navigation/types';
 
 // Tipo del route hook para leer los params tipados de esta pantalla
-type DetailScreenRouteProp = NativeStackRouteProp<HomeStackParamList, 'HomeDetail'>;
+type DetailScreenRouteProp = RouteProp<HomeStackParamList, 'HomeDetail'>;
 
 export function DetailScreen(): React.JSX.Element {
   // useRoute devuelve los params pasados desde HomeScreen
@@ -34,7 +33,7 @@ export function DetailScreen(): React.JSX.Element {
         <Text style={styles.badgeText}>ID: {id}</Text>
       </View>
 
-      {/* TODO: mostrar los detalles específicos de tu dominio */}
+      {/* TODO [EXTRA]: mostrar los detalles específicos de tu dominio */}
       {/* Cada sección de detalle sigue el mismo patrón: */}
 
       {/* PATRÓN DE CAMPO DE DETALLE: */}

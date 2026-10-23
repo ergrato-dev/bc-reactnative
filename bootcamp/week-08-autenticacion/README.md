@@ -76,6 +76,8 @@ Ver instrucciones completas: [3-proyecto/README.md](3-proyecto/README.md)
 | Ejercicio-02 OAuth | 1.5h | Expo AuthSession con GitHub (build nativo) |
 | Proyecto integrador | 3h | Auth completa en tu dominio asignado |
 
+> ⏱️ Proyecto = 180 min; se entrega en vivo al cierre de la clase (sin trabajo en casa).
+
 ## 📌 Entregables
 
 - [ ] Ejercicio-01: login funcional con JWT + llamada autenticada a `/auth/me`

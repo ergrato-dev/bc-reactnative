@@ -1,5 +1,7 @@
 # Proyecto Semana 06 — Formularios con React Hook Form + Zod
 
+⏱️ Se entrega en vivo al final de la clase. No hay trabajo en casa.
+
 ## 🎯 Objetivo
 
 Implementar formularios Create y Edit con validación Zod aplicados a tu **dominio asignado**. Cada aprendiz trabaja sobre un contexto diferente para garantizar implementaciones originales.
@@ -51,13 +53,24 @@ starter/
         └── index.ts
 ```
 
-## ✅ Requisitos Funcionales
+## ✅ Mínimo para entregar (cabe en 180 min)
 
-1. **`FormField` genérico**: componente que encapsule `Controller` + `TextInput` + mensaje de error. Reutilizado en Create y Edit.  
-2. **`CreateScreen`**: formulario con al menos 2 campos, validación Zod, mutations con TanStack Query (`useCreateItem`). Navega atrás en `onSuccess`.  
-3. **`EditScreen`**: mismo formulario pero con `defaultValues` cargados desde `useItemById`. Usa `reset()` en `useEffect` cuando lleguen los datos.  
-4. **Validación activa**: errores visibles bajo cada campo incorrecto al intentar enviar.  
-5. **Estado de carga**: botón deshabilitado y spinner durante `isSubmitting`.
+1. **Schema Zod** en `itemSchema.ts` adaptado a tu dominio (≥ 2 campos, un campo numérico con `z.coerce.number()`); tipo `ItemFormData` con `z.infer`
+2. **`FormField` genérico**: encapsula `Controller` + `TextInput` + mensaje de error
+3. **`CreateScreen`**: `useForm` + `zodResolver` + `useCreateItem`; navega atrás en `onSuccess`
+4. **Validación activa**: errores visibles bajo cada campo incorrecto al intentar enviar
+
+TypeScript sin errores ni `any`; app corre en simulador.
+
+---
+
+## ⭐ Extras (solo si terminas el mínimo)
+
+> No condicionan la aprobación.
+
+- **`EditScreen`** con `defaultValues` cargados desde `useItemById` y `reset()` en `useEffect`, reutilizando `FormField`
+- Botón deshabilitado y spinner durante `isSubmitting`
+- Campos adicionales de tu dominio en los formularios
 
 ## 🚀 Cómo ejecutar
 
@@ -69,9 +82,9 @@ pnpm start
 
 ## 🛠️ Entregables
 
-1. App funcional en simulador iOS y/o Android
+1. Demo en vivo en el simulador (iOS y/o Android)
 2. Código adaptado a tu dominio (nombre de campos, validaciones coherentes)
-3. `FormField` reutilizado en ambas pantallas
+3. `FormField` reutilizado en el formulario Create (y en Edit si haces el extra)
 
 ## 📊 Criterios de Evaluación
 

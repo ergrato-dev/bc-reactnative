@@ -84,6 +84,8 @@ week-02-listas_inputs_y_estilos/
 | Ejercicio 02 | 1h 30 min | Búsqueda en tiempo real con TextInput |
 | Proyecto | 3h | App filtrable adaptada al dominio asignado |
 
+> ⏱️ Proyecto = 180 min; la entrega es en vivo al cierre de la clase (sin trabajo en casa).
+
 ---
 
 ## 📌 Entregables

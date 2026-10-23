@@ -58,6 +58,8 @@ Al finalizar esta semana, el estudiante será capaz de:
 | Ejercicio 02 — MMKV + SecureStore | 1.5h | MMKV sincrónico, SecureStore cifrado |
 | Proyecto integrador | 3h | Implementar los 3 storages en tu dominio |
 
+> ⏱️ Proyecto = 180 min; se entrega en vivo al cierre de la clase (sin trabajo en casa).
+
 ## 📌 Entregables
 
 - [ ] Ejercicio 01: preferencias guardadas con AsyncStorage (funciona en Expo Go)

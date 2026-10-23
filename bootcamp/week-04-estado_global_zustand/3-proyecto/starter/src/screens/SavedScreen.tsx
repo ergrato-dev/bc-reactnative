@@ -88,7 +88,7 @@ export function SavedScreen(): React.JSX.Element {
               <Text style={styles.sectionLabel}>
                 {items.length} guardado{items.length !== 1 ? 's' : ''}
               </Text>
-              {/* TODO: botón "Limpiar todo" usando clearAll del store */}
+              {/* TODO: [EXTRA] botón "Limpiar todo" usando clearAll del store */}
               <Pressable onPress={clearAll} style={styles.clearButton}>
                 <Text style={styles.clearButtonText}>Limpiar todo</Text>
               </Pressable>

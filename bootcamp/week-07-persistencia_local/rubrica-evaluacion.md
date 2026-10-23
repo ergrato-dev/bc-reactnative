@@ -10,6 +10,8 @@
 
 **Mínimo aprobatorio**: 70% en cada tipo de evidencia.
 
+**Entrega**: demo en vivo en simulador + checklist del instructor al cierre de la sesión. Lo no demostrado en clase no se evalúa.
+
 ---
 
 ## 🧠 Conocimiento (30 puntos)
@@ -74,15 +76,15 @@ Explica qué es JSI/Nitro y por qué `react-native-mmkv` requiere un build nativ
 
 ## 📦 Producto (30 puntos)
 
-El proyecto debe demostrar los tres patrones de storage aplicados al dominio asignado.
+El Mínimo para entregar demuestra MMKV aplicado al dominio asignado (**22/30 = 73%**); AsyncStorage y SecureStore son extras que completan los 30 pts.
 
 | Puntos | Criterio |
 |--------|----------|
-| 8 | **MMKV**: SettingsScreen guarda mínimo 2 preferencias (ej. orden de lista, modo compacto) que persisten entre reinicios sin `async/await` |
-| 8 | **AsyncStorage**: los ítems del dominio se cachean y se muestran cuando no hay red (banner/estado offline visible) |
-| 6 | **SecureStore**: al menos un dato sensible del dominio (token, PIN, código) se almacena con `setItemAsync` y se lee con `getItemAsync` |
-| 5 | **custom hook** `usePreferences()` o equivalente encapsula la lógica MMKV y exporta helpers tipados |
+| 11 | **MMKV**: SettingsScreen guarda mínimo 2 preferencias (ej. orden de lista, modo compacto) que persisten entre reinicios sin `async/await`, y `HomeScreen` las aplica |
+| 8 | **custom hook** `usePreferences()` o equivalente encapsula la lógica MMKV y exporta helpers tipados |
 | 3 | App funcional en simulador, TypeScript sin errores |
+| 4 | ⭐ **AsyncStorage** (extra): los ítems del dominio se cachean y se muestran cuando no hay red (banner/estado offline visible) |
+| 4 | ⭐ **SecureStore** (extra): al menos un dato sensible del dominio (token, PIN, código) se almacena con `setItemAsync` y se lee con `getItemAsync` |
 
 ### Penalizaciones
 
@@ -104,6 +106,15 @@ El proyecto debe demostrar los tres patrones de storage aplicados al dominio asi
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación (`tsc --noEmit`)
 - ✅ Ningún token ni contraseña en AsyncStorage o MMKV sin cifrar
+
+## Checklist de demo (instructor)
+
+- [ ] App arranca en simulador (dev build) sin crash y `tsc --noEmit` sin errores
+- [ ] `usePreferences` encapsula MMKV con al menos 2 preferencias (`useMMKVString` / `useMMKVBoolean`)
+- [ ] `SettingsScreen` cambia las preferencias en tiempo real, sin botón "Guardar"
+- [ ] `HomeScreen` aplica `sortOrder` y `compactMode`
+- [ ] Las preferencias persisten al cerrar y reabrir la app
+- [ ] Ningún token ni contraseña en AsyncStorage o MMKV
 
 <!-- nav:start -->
 

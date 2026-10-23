@@ -41,7 +41,7 @@ function ItemCard({ item, onPress }: ItemCardProps): React.JSX.Element {
       testID={`item-card-${item.id}`}
     >
       <View style={styles.cardAvatar}>
-        {/* TODO: mostrar imagen del ítem si tu API la provee */}
+        {/* TODO: [EXTRA] mostrar imagen del ítem si tu API la provee */}
         <Text style={styles.cardAvatarText}>
           {String(item.name).charAt(0).toUpperCase()}
         </Text>
@@ -56,7 +56,7 @@ function ItemCard({ item, onPress }: ItemCardProps): React.JSX.Element {
             {item.description}
           </Text>
         )}
-        {/* TODO: mostrar campos adicionales de tu dominio */}
+        {/* TODO: [EXTRA] mostrar campos adicionales de tu dominio */}
         {/* Ejemplo: <Text style={styles.badge}>{item.price} €</Text> */}
       </View>
       <Text style={styles.chevron}>›</Text>
@@ -79,9 +79,9 @@ export function HomeScreen(): React.JSX.Element {
   const isLoading = false;
   const isError = false;
   const isFetching = false;
-  const data: Item[] | undefined = undefined;
+  const data = undefined as Item[] | undefined;
   const refetch = (): void => {};
-  const error: Error | null = null;
+  const error = null as Error | null;
 
   // ── Estados de carga ─────────────────────────────────────
 
@@ -135,7 +135,7 @@ export function HomeScreen(): React.JSX.Element {
           renderItem={renderItem}
           contentContainerStyle={styles.list}
           ItemSeparatorComponent={() => <View style={styles.separator} />}
-          // TODO: pull-to-refresh con refetch
+          // TODO: [EXTRA] pull-to-refresh con refetch
           onRefresh={refetch}
           refreshing={isFetching && !isLoading}
           ListEmptyComponent={

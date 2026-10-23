@@ -6,7 +6,7 @@
 |-------------------|------|-------------|
 | Conocimiento 🧠 | 30% | Cuestionario teórico |
 | Desempeño 💪 | 40% | Ejercicios en clase |
-| Producto 📦 | 30% | Proyecto entregable |
+| Producto 📦 | 30% | Proyecto entregable (demo en vivo) |
 
 **Mínimo aprobatorio**: 70% en cada tipo de evidencia.
 
@@ -46,11 +46,13 @@
 
 ## 📦 Producto (30 pts)
 
+> **Entrega** = demo en vivo en simulador + checklist del instructor al cierre de la sesión. Lo no demostrado en clase no se evalúa.
+
 | Criterio | Pts | Indicador |
 |----------|-----|-----------|
-| Animación de entrada en la pantalla principal (`useEffect` + `Animated.timing`) | 8 |  Header/lista se deslizan o aparecen al montar |
+| Animación de entrada en la pantalla de detalle (`Animated.parallel`: fade + slide) | 8 |  El contenido aparece y se desliza al montar |
 | Feedback de tap animado en botones/cards del dominio (`Animated.spring`) | 7 | El elemento escala visualmente al presionarse |
-| `LayoutAnimation` al agregar/eliminar elementos | 7 | Los cambios de layout se animan suavemente |
+| ⭐ Extra: `LayoutAnimation` al agregar/eliminar elementos | 7 | Los cambios de layout se animan suavemente |
 | App compila y corre sin errores en simulador | 5 | `pnpm start` + Expo Go sin crashes |
 | Animaciones coherentes con el dominio asignado | 3 | Las animaciones tienen sentido en el contexto del dominio |
 
@@ -68,6 +70,14 @@
 | Copia de implementación de otro aprendiz | −15 |
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+## Checklist de demo (instructor)
+
+- [ ] La app arranca en simulador sin errores
+- [ ] `DetailScreen`: fade in + slide up con `Animated.parallel` al navegar
+- [ ] `AnimatedCard`: scale 1 → 0.95 → 1 con `Animated.spring` al presionar
+- [ ] `useNativeDriver: true` en opacity/transform
+- [ ] Animaciones coherentes con el dominio asignado
 
 <!-- nav:start -->
 

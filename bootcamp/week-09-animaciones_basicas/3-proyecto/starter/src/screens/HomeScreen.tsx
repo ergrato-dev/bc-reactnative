@@ -37,14 +37,14 @@ type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
 export function HomeScreen({ navigation }: Props): React.JSX.Element {
   const [items, setItems] = useState<Item[]>(SAMPLE_ITEMS);
 
-  // TODO: Create one Animated.Value per item for stagger entrance.
+  // TODO: [EXTRA] Create one Animated.Value per item for stagger entrance.
   // Use useRef to avoid re-creating on each render.
   // const itemAnims = useRef(SAMPLE_ITEMS.map(() => new Animated.Value(0))).current;
   //
   // Note: if items come from a remote query, initialize anims when data arrives.
 
   useEffect(() => {
-    // TODO: Trigger Animated.stagger to animate each item in with 80ms delay.
+    // TODO: [EXTRA] Trigger Animated.stagger to animate each item in with 80ms delay.
     // Stagger:
     //   delay: 80
     //   each anim: Animated.timing → { toValue: 1, duration: 400, useNativeDriver: true }
@@ -62,7 +62,7 @@ export function HomeScreen({ navigation }: Props): React.JSX.Element {
   }, []);
 
   const handleRemoveItem = (id: string) => {
-    // TODO: Call LayoutAnimation.configureNext BEFORE setState.
+    // TODO: [EXTRA] Call LayoutAnimation.configureNext BEFORE setState.
     // This will animate the layout change when the item is removed.
     //
     // LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
@@ -76,14 +76,14 @@ export function HomeScreen({ navigation }: Props): React.JSX.Element {
       description: 'Nuevo item añadido dinámicamente',
       progress: Math.random(),
     };
-    // TODO: Call LayoutAnimation.configureNext BEFORE setState.
+    // TODO: [EXTRA] Call LayoutAnimation.configureNext BEFORE setState.
     //
     // LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
     setItems(prev => [...prev, newItem]);
   };
 
   const renderItem = ({ item, index }: { item: Item; index: number }) => {
-    // TODO: Wrap the inner content in an Animated.View using itemAnims[index].
+    // TODO: [EXTRA] Wrap the inner content in an Animated.View using itemAnims[index].
     // Animated style:
     //   opacity: itemAnims[index]
     //   transform: [{ translateY: itemAnims[index].interpolate({ inputRange:[0,1], outputRange:[20,0] }) }]

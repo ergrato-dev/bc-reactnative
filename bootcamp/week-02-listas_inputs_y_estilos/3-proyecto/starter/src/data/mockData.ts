@@ -64,5 +64,5 @@ export const ITEMS: Item[] = [
     name: 'Elemento 10',
     // TODO: agregar campos de tu dominio
   },
-  // TODO: puedes agregar más items para hacer la demo más rica
+  // TODO [EXTRA]: puedes agregar más items para hacer la demo más rica
 ];

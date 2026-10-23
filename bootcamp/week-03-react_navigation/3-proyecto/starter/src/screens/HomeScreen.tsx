@@ -28,20 +28,20 @@ export function HomeScreen(): React.JSX.Element {
 
   /**
    * Navega al DetailScreen pasando los datos del ítem seleccionado.
-   * TODO: agrega los campos extra de tu dominio a los params
+   * TODO [EXTRA]: agrega los campos extra de tu dominio a los params
    * Ejemplo: navigation.navigate('HomeDetail', { id, name, author, isbn })
    */
   function handleItemPress(item: Item): void {
     navigation.navigate('HomeDetail', {
       id: item.id,
       name: item.name,
-      // TODO: pasar campos adicionales de tu dominio
+      // TODO [EXTRA]: pasar campos adicionales de tu dominio
     });
   }
 
   /**
    * Renderiza cada ítem de la lista.
-   * TODO: adaptar el diseño de la tarjeta a tu dominio.
+   * TODO [EXTRA]: adaptar el diseño de la tarjeta a tu dominio.
    * Puedes mostrar más información (precio, autor, género, etc.)
    */
   function renderItem({ item }: { item: Item }): React.JSX.Element {
@@ -59,7 +59,7 @@ export function HomeScreen(): React.JSX.Element {
         <Text style={styles.itemDescription} numberOfLines={2}>
           {item.description}
         </Text>
-        {/* TODO: agregar más información del ítem según tu dominio */}
+        {/* TODO [EXTRA]: agregar más información del ítem según tu dominio */}
         {/* Ejemplo (Farmacia): <Text style={styles.price}>${item.price}</Text> */}
         {/* Ejemplo (Biblioteca): <Text style={styles.author}>{item.author}</Text> */}
         <Text style={styles.chevron}>{'›'}</Text>
@@ -69,7 +69,7 @@ export function HomeScreen(): React.JSX.Element {
 
   return (
     <View style={styles.container}>
-      {/* TODO: agregar un header o título descriptivo de tu dominio */}
+      {/* TODO [EXTRA]: agregar un header o título descriptivo de tu dominio */}
       {/* <Text style={styles.header}>Mi Biblioteca</Text> */}
       <FlatList
         data={ITEMS}
@@ -78,7 +78,7 @@ export function HomeScreen(): React.JSX.Element {
         contentContainerStyle={styles.list}
         // Separador visual entre ítems
         ItemSeparatorComponent={() => <View style={styles.separator} />}
-        // TODO: agregar ListEmptyComponent para cuando no haya datos
+        // TODO [EXTRA]: agregar ListEmptyComponent para cuando no haya datos
         // ListEmptyComponent={<Text style={styles.empty}>Sin elementos</Text>}
       />
     </View>

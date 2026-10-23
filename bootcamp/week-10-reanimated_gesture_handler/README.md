@@ -74,6 +74,8 @@ Al finalizar esta semana, el estudiante será capaz de:
 | Ejercicio 02 | 1.5h | Card arrastrable con pan gesture |
 | Proyecto | 3h | Implementar SwipeableCard + AnimatedHeader en tu dominio |
 
+> Proyecto = 180 min; la entrega es en vivo al cierre de la clase.
+
 ---
 
 ## 📌 Entregables

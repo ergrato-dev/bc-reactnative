@@ -44,6 +44,8 @@ Revisión de ejercicios prácticos completados.
 
 Revisión del proyecto semanal integrador.
 
+**Entrega**: demo en vivo en simulador + checklist del instructor al cierre de la sesión. Lo no demostrado en clase no se evalúa. `EditScreen` es extra: sin él se alcanzan 22/30 (≥ 70%).
+
 | Criterio | Pts | Indicador observable |
 |----------|-----|----------------------|
 | `FormField` reutilizable implementado | 5 | Componente que encapsula `Controller` + `TextInput` + mensaje de error; usado en ambas pantallas |
@@ -67,6 +69,17 @@ Revisión del proyecto semanal integrador.
 | Copia de implementación de otro aprendiz | −15 pts |
 - ✅ App funcional en simulador iOS y/o Android
 - ✅ TypeScript sin errores de compilación
+
+---
+
+## Checklist de demo (instructor)
+
+- [ ] App arranca en simulador sin errores
+- [ ] Schema Zod adaptado al dominio, con campo numérico `z.coerce.number()` y `ItemFormData` inferido
+- [ ] `FormField` reutilizable (`Controller` + `TextInput` + error)
+- [ ] `CreateScreen` con `zodResolver`; crea y navega atrás en `onSuccess`
+- [ ] Errores inline visibles al enviar con campos inválidos
+- [ ] Sin `any`, TypeScript sin errores
 
 <!-- nav:start -->
 

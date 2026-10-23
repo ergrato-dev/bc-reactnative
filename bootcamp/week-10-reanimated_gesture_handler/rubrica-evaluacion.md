@@ -64,12 +64,14 @@
 
 ## 📦 Producto (30 pts)
 
+> **Entrega** = demo en vivo en simulador + checklist del instructor al cierre de la sesión. Lo no demostrado en clase no se evalúa.
+
 | Criterio | Pts |
 |----------|-----|
 | `SwipeableCard` implementada con `Gesture.Pan` funcional | 8 |
 | Snap-back correcto al soltar sin llegar al umbral | 6 |
 | Umbral de swipe detectado y acción del dominio ejecutada | 6 |
-| `AnimatedHeader` o entrada animada con `useAnimatedStyle` | 5 |
+| ⭐ Extra: entrada animada (stagger en Home o fade + slide en Detail) con `useAnimatedStyle` | 5 |
 | App compila correctamente en simulador (requiere prebuild) | 3 |
 | Dominio coherente: nombres y acciones propios del contexto | 2 |
 
@@ -94,6 +96,15 @@
 - Implementación coherente con el dominio asignado
 - TypeScript sin errores (`strict: true`)
 - Sin copia entre aprendices
+
+## Checklist de demo (instructor)
+
+- [ ] La app arranca en simulador/dev client sin errores (prebuild listo antes de clase)
+- [ ] `GestureHandlerRootView` en `App.tsx` y plugin `react-native-worklets/plugin` en `babel.config.js`
+- [ ] `SwipeableCard` sigue el dedo con `Gesture.Pan`
+- [ ] Snap-back con `withSpring(0)` al no llegar al umbral
+- [ ] Swipe sobre ±120 px ejecuta la acción del dominio (`runOnJS`)
+- [ ] Sin `Animated` de `react-native` ni `useNativeDriver`
 
 <!-- nav:start -->
 

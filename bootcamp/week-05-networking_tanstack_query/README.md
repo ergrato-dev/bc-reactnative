@@ -77,6 +77,8 @@ week-05-networking_tanstack_query/
 | Ejercicio 02 — useMutation | 1.5 h |
 | Proyecto semanal | 3 h |
 
+> Proyecto = 180 min; se entrega en vivo al cierre de la clase.
+
 ---
 
 ## 📌 Entregables

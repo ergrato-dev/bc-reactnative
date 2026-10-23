@@ -30,7 +30,7 @@ export function PinchableImage({ uri, alt }: PinchableImageProps): React.JSX.Ele
   const scale = useSharedValue(1);
   const savedScale = useSharedValue(1);
 
-  // TODO: Implementa el gesto Pinch:
+  // TODO: [EXTRA] Implementa el gesto Pinch:
   //
   // const pinch = Gesture.Pinch()
   //   .onUpdate((event) => {
@@ -50,13 +50,13 @@ export function PinchableImage({ uri, alt }: PinchableImageProps): React.JSX.Ele
   //     }
   //   });
 
-  // TODO: Implementa el animated style:
+  // TODO: [EXTRA] Implementa el animated style:
   //
   // const imageStyle = useAnimatedStyle(() => ({
   //   transform: [{ scale: scale.value }],
   // }));
 
-  // TODO: Reemplaza Image por GestureDetector + Animated.Image + imageStyle:
+  // TODO: [EXTRA] Reemplaza Image por GestureDetector + Animated.Image + imageStyle:
   //
   // <GestureDetector gesture={pinch}>
   //   <Animated.Image

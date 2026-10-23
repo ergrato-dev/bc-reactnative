@@ -1,5 +1,7 @@
 # Proyecto Semana 04 — Estado Global con Zustand
 
+⏱️ Se entrega en vivo al final de la clase. No hay trabajo en casa.
+
 ## 🎯 Objetivo
 
 Construir una app con **navegación Tab + Stack** y **estado global Zustand** aplicado a tu dominio. La segunda pestaña debe mostrar ítems "guardados" o un "carrito" cuyo estado viene de un store Zustand compartido con la pantalla principal.
@@ -42,7 +44,6 @@ starter/
     │   ├── DetailScreen.tsx     ← detalle + botón "Guardar/Quitar"
     │   └── SavedScreen.tsx      ← segunda pestaña (desde el store)
     ├── stores/
-    │   ├── itemsStore.ts        ← store del detalle seleccionado
     │   └── savedStore.ts        ← store de ítems guardados (TODO)
     ├── data/
     │   └── mockData.ts
@@ -54,20 +55,27 @@ starter/
 
 ---
 
-## ✅ Requisitos Funcionales
+## ✅ Mínimo para entregar (cabe en 180 min)
 
-1. **Tab Navigator** con al menos dos pestañas: `Home` y `Guardados`
+1. **Tab Navigator** con dos pestañas: `Home` y `Guardados`
 2. **Stack anidado en Home**: lista → detalle con params tipados
-3. **Store Zustand del carrito/guardados**: métodos para agregar, eliminar y limpiar
-4. **Badge en tab** con conteo en tiempo real desde el store (sin prop drilling)
-5. **Detalle** muestra botón "Guardar" / "Quitar" que lee y escribe el store
+3. **Store Zustand** (`savedStore.ts`) con `addItem`, `removeItem` e `isItemSaved`, creado con `create<Interface>()` sin `any`
+4. **Badge en tab** con conteo en tiempo real desde el store (selector específico, sin prop drilling)
+5. **Detalle** con botón "Guardar" / "Quitar" que lee y escribe el store
+6. **SavedScreen** lista los ítems desde el store
 
-### Requisitos de Código
+TypeScript sin errores ni `any`; app corre en simulador.
 
-- Creado con `create<Interface>()` sin `any`
-- Selectores específicos (no `useStore()` sin selector)
-- Mínimo 2 acciones en el store de guardados
-- TypeScript sin errores de compilación
+---
+
+## ⭐ Extras (solo si terminas el mínimo)
+
+> No condicionan la aprobación.
+
+- Acción `clearAll` y botón "Limpiar todo" en `SavedScreen`
+- Íconos personalizados en el tab bar
+- Header con estadísticas en `HomeScreen`
+- Adaptar campos específicos de tu dominio en tarjetas y detalle
 
 ---
 
@@ -83,29 +91,16 @@ pnpm start
 
 ## 🛠️ Entregables
 
-1. App con Tab + Stack funcional y estado Zustand compartido entre pestañas
+1. Demo en vivo en el simulador: Tab + Stack con estado Zustand compartido entre pestañas
 2. Badge en el tab bar actualizado en tiempo real
 3. TypeScript sin errores, sin `any`
 4. Código y datos adaptados a tu dominio asignado
-5. Capturas de pantalla de Home, Detail y Saved screens
 
 ---
 
 ## 📊 Criterios de Evaluación
 
 Ver [rubrica-evaluacion.md](../rubrica-evaluacion.md) — sección **Producto 📦 (30%)**
-pnpm start
-```
-
-## 🛠️ Entregables
-
-1. App funcional en simulador iOS y/o Android
-2. Código adaptado a tu dominio
-3. README actualizado con descripción de tu implementación
-
-## 📊 Criterios de Evaluación
-
-Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 <!-- nav:start -->
 

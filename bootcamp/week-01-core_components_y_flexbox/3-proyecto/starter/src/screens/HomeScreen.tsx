@@ -29,7 +29,7 @@ export function HomeScreen(): React.JSX.Element {
    * For now, just logs the item name. In week-03 we'll add navigation.
    */
   function handleItemPress(item: Item): void {
-    // TODO: Mostrar un alert o log con el nombre del item
+    // TODO [EXTRA]: Mostrar un alert o log con el nombre del item
     console.log('Item seleccionado:', item.name);
   }
 
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#0d1117',
   },
 
-  // Header — TODO: ajusta según el diseño de tu dominio
+  // Header — TODO [EXTRA]: ajusta según el diseño de tu dominio
   header: {
     paddingHorizontal: 16,
     paddingVertical: 20,

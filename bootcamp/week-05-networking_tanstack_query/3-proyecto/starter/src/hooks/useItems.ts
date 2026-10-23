@@ -45,7 +45,7 @@ export function useItemById(id: string | number) {
   return useQuery<Item>({
     queryKey: [...ITEMS_QUERY_KEY, id],
     queryFn: async () => {
-      // TODO: reemplaza '/posts' por el endpoint de tu dominio
+      // TODO: [EXTRA] reemplaza '/posts' por el endpoint de tu dominio
       const { data } = await apiClient.get<Item>(`/posts/${id}`);
       return data;
     },
@@ -73,7 +73,7 @@ export function useCreateItem() {
       queryClient.invalidateQueries({ queryKey: ITEMS_QUERY_KEY });
     },
     onError: (error) => {
-      // TODO: mostrar un toast o alerta al usuario con el mensaje de error
+      // TODO: [EXTRA] mostrar un toast o alerta al usuario con el mensaje de error
       console.error('Failed to create item:', error.message);
     },
   });
@@ -82,14 +82,14 @@ export function useCreateItem() {
 // ============================================================
 // useDeleteItem — eliminar un ítem por ID
 // ============================================================
-// TODO: implementar si tu dominio lo requiere.
+// TODO: [EXTRA] implementar si tu dominio lo requiere.
 
 export function useDeleteItem() {
   const queryClient = useQueryClient();
 
   return useMutation<void, Error, string | number>({
     mutationFn: async (id) => {
-      // TODO: reemplaza '/posts' por el endpoint de tu dominio
+      // TODO: [EXTRA] reemplaza '/posts' por el endpoint de tu dominio
       await apiClient.delete(`/posts/${id}`);
     },
     onSuccess: () => {

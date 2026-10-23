@@ -59,6 +59,8 @@ Al finalizar esta semana, el estudiante será capaz de:
 | Práctica 02 | 1.5h | Ejercicio Flexbox Layouts — descomentar y verificar paso a paso |
 | Proyecto | 3h | Implementar la app de tarjetas en tu dominio asignado |
 
+> ⏱️ Proyecto = 180 min; la entrega es en vivo al cierre de la clase (sin trabajo en casa).
+
 ## 📌 Entregables
 
 - [ ] Proyecto: app corriendo en simulador con al menos 3 tarjetas de tu dominio

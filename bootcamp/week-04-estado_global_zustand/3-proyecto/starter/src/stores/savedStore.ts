@@ -25,7 +25,7 @@ interface SavedStore {
   // TODO: implementar la acción para eliminar un ítem por id
   removeItem: (id: string) => void;
 
-  // TODO: implementar la acción para vaciar todos los guardados
+  // TODO: [EXTRA] implementar la acción para vaciar todos los guardados
   clearAll: () => void;
 
   // Helper: devuelve true si el ítem con ese id está guardado
@@ -57,7 +57,7 @@ export const useSavedStore = create<SavedStore>((set, get) => ({
   },
 
   clearAll: () => {
-    // TODO: implementar
+    // TODO: [EXTRA] implementar
     // set({ items: [] });
   },
 

@@ -1,5 +1,9 @@
 # Proyecto Semana 10 — Animaciones Avanzadas con Reanimated 4 y Gesture Handler
 
+⏱️ Se entrega en vivo al final de la clase. No hay trabajo en casa.
+
+> 🔧 Requiere prebuild / dev client (Reanimated 4 + Gesture Handler): debe estar **listo antes de la clase** y no cuenta dentro de los 180 min.
+
 ## 🎯 Objetivo
 
 Migrar la semana anterior de `Animated API` a **Reanimated 4** e integrar **React Native Gesture Handler** con gestos Pan, Tap y (opcionalmente) Pinch aplicados a tu dominio asignado.
@@ -15,29 +19,28 @@ Migrar la semana anterior de `Animated API` a **Reanimated 4** e integrar **Reac
 
 ---
 
-## ✅ Requisitos Funcionales
+## ✅ Mínimo para entregar (cabe en 180 min)
 
-### Obligatorios
-
-1. **SwipeableCard** — tarjeta arrastrable con `Gesture.Pan`
-   - Si el swipe supera el umbral (±120 px), ejecuta una acción de dominio
+1. **`GestureHandlerRootView`** envolviendo la app en `App.tsx` (ya en el starter; verifícalo)
+2. **SwipeableCard** — tarjeta arrastrable con `Gesture.Pan`
+   - Sigue el dedo (`translateX`) con `useSharedValue` + `useAnimatedStyle`
+   - Si el swipe supera el umbral (±120 px), ejecuta una acción de dominio (`runOnJS`)
    - Si no supera el umbral, hace snap-back con `withSpring(0)`
    - Rotación dinámica con `interpolate`
+3. **HomeScreen** — conecta `onSwipeRight` / `onSwipeLeft` con una acción de tu dominio
 
-2. **AnimatedButton** — botón con feedback táctil
+Usa Reanimated 4 (NO `Animated` de `react-native`).
+
+## ⭐ Extras (solo si terminas el mínimo)
+
+> No condicionan aprobar.
+
+4. **AnimatedButton** — botón con feedback táctil
    - Reemplaza `Pressable` / `TouchableOpacity` de w09 con `GestureDetector` + `Gesture.Tap`
    - Scale feedback con `withSpring` (damping/stiffness)
-
-3. **HomeScreen** — lista con animación de entrada escalonada
-   - Cada item aparece con delay incremental (`withDelay`)
-   - Usa `useSharedValue` y `useAnimatedStyle` (NO Animated API de `react-native`)
-
-4. **DetailScreen** — transición de entrada
-   - Fade in + slide-up usando Reanimated 4
-
-### Opcionales (bonus)
-
-5. **PinchableImage** — imagen con zoom por gesto pellizco
+5. **HomeScreen** — entrada escalonada: cada item con delay incremental (`withDelay`)
+6. **DetailScreen** — fade in + slide-up usando Reanimated 4
+7. **PinchableImage** — imagen con zoom por gesto pellizco
    - `Gesture.Pinch` con patrón `savedScale`
    - `Gesture.Simultaneous` si combinas pan + pinch
 

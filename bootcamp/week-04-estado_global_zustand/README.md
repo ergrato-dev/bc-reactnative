@@ -67,6 +67,8 @@ Al finalizar esta semana, el estudiante será capaz de:
 | Ejercicio 02 | 1.5h | Persist con AsyncStorage |
 | Proyecto | 3h | App carrito con Zustand completo |
 
+> Proyecto = 180 min; se entrega en vivo al cierre de la clase.
+
 ## 📌 Entregables
 
 - [ ] Ejercicio 01: store con contador y lista de ítems funcionando

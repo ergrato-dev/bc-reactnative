@@ -8,12 +8,11 @@ import {
   SafeAreaView,
   ListRenderItem,
 } from 'react-native';
-import { NavigationContainer, useNavigation, useRoute } from '@react-navigation/native';
+import { NavigationContainer, useNavigation, useRoute, type RouteProp } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {
   createNativeStackNavigator,
   NativeStackNavigationProp,
-  NativeStackRouteProp,
 } from '@react-navigation/native-stack';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -112,7 +111,7 @@ function DetailScreen(): React.JSX.Element {
   const navigation = useNavigation();
 
   // PASO 3+4: Descomenta para recibir los params del Stack anidado
-  // type DetailRP = NativeStackRouteProp<HomeStackParamList, 'HomeDetail'>;
+  // type DetailRP = RouteProp<HomeStackParamList, 'HomeDetail'>;
   // const route = useRoute<DetailRP>();
   // const { id, name, emoji } = route.params;
   // const movie = MOVIES.find((m) => m.id === id);

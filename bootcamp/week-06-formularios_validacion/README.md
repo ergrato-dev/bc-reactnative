@@ -57,6 +57,8 @@ Al finalizar esta semana, el estudiante será capaz de:
 | Ejercicio 02 | 1.5h | Validación con Zod + errores inline |
 | Proyecto | 3h | Formularios Create + Edit con API |
 
+> Proyecto = 180 min; se entrega en vivo al cierre de la clase.
+
 ## 📌 Entregables
 
 - [ ] Ejercicio 01: formulario básico con states de carga y validación nativa
