@@ -160,6 +160,8 @@ Al completar todos los pasos deberías poder:
 
 ---
 
-← [Push Tokens y Expo Push API](../../1-teoria/02-push-tokens-expo-push-api.md) | [Ejercicio 02 — Push Token y Expo Push Tool](../ejercicio-02-push-token/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Push Tokens y Expo Push API](../../1-teoria/02-push-tokens-expo-push-api.md) | [Ejercicio 02 — Push Token y Expo Push Tool](../ejercicio-02-push-token/README.md) |
 
 <!-- nav:end -->

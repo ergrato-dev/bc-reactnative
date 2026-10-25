@@ -159,6 +159,8 @@ React.useEffect(() => {
 
 ---
 
-← [Semana 09 — Animaciones Básicas](../README.md) | [Interpolación y LayoutAnimation](02-layout-animation.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 09 — Animaciones Básicas](../README.md) | [Interpolación y LayoutAnimation](02-layout-animation.md) |
 
 <!-- nav:end -->

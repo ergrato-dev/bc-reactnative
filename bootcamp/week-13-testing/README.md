@@ -68,12 +68,16 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-← [Semana 12 — Push Notifications](../week-12-push_notifications/README.md) | [Semana 14 — Performance y Optimización](../week-14-performance/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 12 — Push Notifications](../week-12-push_notifications/README.md) | [Semana 14 — Performance y Optimización](../week-14-performance/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Rúbrica de Evaluación — Semana 12: Push Notifications](../week-12-push_notifications/rubrica-evaluacion.md) | [Jest y Fundamentos de Testing en React Native](1-teoria/01-jest-fundamentos.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Rúbrica de Evaluación — Semana 12: Push Notifications](../week-12-push_notifications/rubrica-evaluacion.md) | [Jest y Fundamentos de Testing en React Native](1-teoria/01-jest-fundamentos.md) |
 
 <!-- nav:end -->

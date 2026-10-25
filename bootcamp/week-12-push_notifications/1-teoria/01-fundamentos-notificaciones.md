@@ -213,6 +213,8 @@ console.log('Pending:', pending.length);
 
 ---
 
-← [Semana 12 — Push Notifications](../README.md) | [Push Tokens y Expo Push API](02-push-tokens-expo-push-api.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 12 — Push Notifications](../README.md) | [Push Tokens y Expo Push API](02-push-tokens-expo-push-api.md) |
 
 <!-- nav:end -->

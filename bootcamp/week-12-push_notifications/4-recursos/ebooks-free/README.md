@@ -15,6 +15,8 @@
 
 ---
 
-← [Proyecto Semana 12 — Push Notifications](../../3-proyecto/README.md) | [Videografía — Semana 12: Push Notifications](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 12 — Push Notifications](../../3-proyecto/README.md) | [Videografía — Semana 12: Push Notifications](../videografia/README.md) |
 
 <!-- nav:end -->

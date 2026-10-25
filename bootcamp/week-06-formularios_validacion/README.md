@@ -68,12 +68,16 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-← [Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) | [Semana 07 — Persistencia Local](../week-07-persistencia_local/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) | [Semana 07 — Persistencia Local](../week-07-persistencia_local/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Rúbrica de Evaluación — Semana 05: Networking y TanStack Query v5](../week-05-networking_tanstack_query/rubrica-evaluacion.md) | [React Hook Form en React Native](1-teoria/01-react-hook-form.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Rúbrica de Evaluación — Semana 05: Networking y TanStack Query v5](../week-05-networking_tanstack_query/rubrica-evaluacion.md) | [React Hook Form en React Native](1-teoria/01-react-hook-form.md) |
 
 <!-- nav:end -->

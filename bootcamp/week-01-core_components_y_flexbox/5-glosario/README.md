@@ -142,6 +142,8 @@ El contenedor más básico de React Native. Equivalente al `<div>` de HTML. Es f
 
 ---
 
-← [Webgrafía — Semana 01](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 01](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Webgrafía — Semana 01](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 01](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

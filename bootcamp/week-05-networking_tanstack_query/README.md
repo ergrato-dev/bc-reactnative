@@ -92,12 +92,16 @@ week-05-networking_tanstack_query/
 
 ## 🔗 Navegación
 
-← [Semana 04 — Estado Global con Zustand](../week-04-estado_global_zustand/README.md) | [Semana 06 — Formularios con React Hook Form + Zod](../week-06-formularios_validacion/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 04 — Estado Global con Zustand](../week-04-estado_global_zustand/README.md) | [Semana 06 — Formularios con React Hook Form + Zod](../week-06-formularios_validacion/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Rúbrica de Evaluación — Semana 04: Estado Global con Zustand](../week-04-estado_global_zustand/rubrica-evaluacion.md) | [Axios y API Client en React Native](1-teoria/01-axios-y-api-client.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Rúbrica de Evaluación — Semana 04: Estado Global con Zustand](../week-04-estado_global_zustand/rubrica-evaluacion.md) | [Axios y API Client en React Native](1-teoria/01-axios-y-api-client.md) |
 
 <!-- nav:end -->

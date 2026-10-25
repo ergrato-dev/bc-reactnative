@@ -145,6 +145,8 @@ Valor que usa el hook cuando la clave no existe aún en el storage. Patrón: `co
 
 ---
 
-← [Webgrafía — Semana 07: Persistencia Local](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 07: Persistencia Local](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Webgrafía — Semana 07: Persistencia Local](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 07: Persistencia Local](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

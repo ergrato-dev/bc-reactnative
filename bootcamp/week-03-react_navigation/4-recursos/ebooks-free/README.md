@@ -69,6 +69,8 @@ const { id, name } = route.params;
 
 ---
 
-← [Proyecto Semana 03 — React Navigation 7](../../3-proyecto/README.md) | [Videografía — Semana 03: React Navigation 7](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 03 — React Navigation 7](../../3-proyecto/README.md) | [Videografía — Semana 03: React Navigation 7](../videografia/README.md) |
 
 <!-- nav:end -->

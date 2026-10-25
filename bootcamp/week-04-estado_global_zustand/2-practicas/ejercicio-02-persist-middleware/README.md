@@ -122,6 +122,8 @@ También puedes verificar con el campo "Datos guardados en AsyncStorage" que mue
 
 ---
 
-← [Ejercicio 01 — Store Básico con Zustand](../ejercicio-01-store-basico/README.md) | [Proyecto Semana 04 — Estado Global con Zustand](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Store Básico con Zustand](../ejercicio-01-store-basico/README.md) | [Proyecto Semana 04 — Estado Global con Zustand](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

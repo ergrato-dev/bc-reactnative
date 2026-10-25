@@ -103,6 +103,8 @@ Resultado esperado al final: **10 tests, todos en verde** ✅
 
 ---
 
-← [Ejercicio 01 — Unit Tests con Jest](../ejercicio-01-jest-unit/README.md) | [Proyecto Semana 13 — Test Suite para tu Dominio](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Unit Tests con Jest](../ejercicio-01-jest-unit/README.md) | [Proyecto Semana 13 — Test Suite para tu Dominio](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

@@ -101,6 +101,8 @@ Los 4 layouts visibles en pantalla (con scroll), cada uno con su etiqueta. Los l
 
 ---
 
-← [Ejercicio 01 — Core Components: Tarjeta de Perfil](../ejercicio-01-core-components/README.md) | [Proyecto Semana 01 — App de Tarjetas](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Core Components: Tarjeta de Perfil](../ejercicio-01-core-components/README.md) | [Proyecto Semana 01 — App de Tarjetas](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

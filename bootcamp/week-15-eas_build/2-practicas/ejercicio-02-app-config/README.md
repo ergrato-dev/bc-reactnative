@@ -197,6 +197,8 @@ En Android se declaran los permisos del sistema que la app necesita.
 
 ---
 
-← [Ejercicio 01 — Configurar eas.json con Perfiles de Build](../ejercicio-01-eas-json-perfiles/README.md) | [Proyecto Semana 15 — EAS Build y Certificados](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Configurar eas.json con Perfiles de Build](../ejercicio-01-eas-json-perfiles/README.md) | [Proyecto Semana 15 — EAS Build y Certificados](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

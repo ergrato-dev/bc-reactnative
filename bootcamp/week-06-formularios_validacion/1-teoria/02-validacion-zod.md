@@ -146,6 +146,8 @@ Importar en las pantallas: `import { itemSchema, type ItemFormData } from '../sc
 
 ---
 
-← [React Hook Form en React Native](01-react-hook-form.md) | [Ejercicio 01 — useForm + Controller en React Native](../2-practicas/ejercicio-01-useform-controller/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [React Hook Form en React Native](01-react-hook-form.md) | [Ejercicio 01 — useForm + Controller en React Native](../2-practicas/ejercicio-01-useform-controller/README.md) |
 
 <!-- nav:end -->

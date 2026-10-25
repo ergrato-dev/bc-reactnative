@@ -161,6 +161,8 @@ Al completar los 4 pasos, la app debe mostrar:
 
 ---
 
-← [Ejercicio 01 — Animated.timing y Animated.spring](../ejercicio-01-timing-spring/README.md) | [Proyecto Semana 09 — Animaciones Básicas](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Animated.timing y Animated.spring](../ejercicio-01-timing-spring/README.md) | [Proyecto Semana 09 — Animaciones Básicas](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

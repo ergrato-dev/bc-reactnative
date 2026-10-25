@@ -116,6 +116,8 @@ Hook de TanStack Query que devuelve la instancia de `QueryClient` del contexto. 
 
 ---
 
-← [Webgrafía — Semana 05: Networking con Axios y TanStack Query](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 05: Networking y TanStack Query v5](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Webgrafía — Semana 05: Networking con Axios y TanStack Query](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 05: Networking y TanStack Query v5](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

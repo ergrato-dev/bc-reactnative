@@ -213,6 +213,8 @@ export function SearchableList(): React.JSX.Element {
 
 ---
 
-← [FlatList y SectionList](01-flatlist-sectionlist.md) | [Estilos Dinámicos y Theming Básico](03-estilos-dinamicos.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [FlatList y SectionList](01-flatlist-sectionlist.md) | [Estilos Dinámicos y Theming Básico](03-estilos-dinamicos.md) |
 
 <!-- nav:end -->

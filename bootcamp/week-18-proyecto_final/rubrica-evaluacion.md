@@ -93,6 +93,8 @@
 
 ---
 
-← [Glosario — Semana 18: Proyecto Final Integrador](5-glosario/README.md)
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 18: Proyecto Final Integrador](5-glosario/README.md) |  |
 
 <!-- nav:end -->

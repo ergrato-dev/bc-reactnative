@@ -210,6 +210,8 @@ eas secret:create --scope project --name API_KEY --value "mi-clave-secreta"
 
 ---
 
-← [EAS CLI y Perfiles de Build](01-eas-cli-y-perfiles.md) | [Ejercicio 01 — Configurar eas.json con Perfiles de Build](../2-practicas/ejercicio-01-eas-json-perfiles/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [EAS CLI y Perfiles de Build](01-eas-cli-y-perfiles.md) | [Ejercicio 01 — Configurar eas.json con Perfiles de Build](../2-practicas/ejercicio-01-eas-json-perfiles/README.md) |
 
 <!-- nav:end -->

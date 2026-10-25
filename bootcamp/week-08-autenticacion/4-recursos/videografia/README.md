@@ -44,6 +44,8 @@ Busca estos términos en YouTube para encontrar videos actualizados:
 
 ---
 
-← [📚 eBooks y Recursos de Referencia — Semana 08](../ebooks-free/README.md) | [🌐 Webgrafía — Semana 08: Autenticación Completa](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [📚 eBooks y Recursos de Referencia — Semana 08](../ebooks-free/README.md) | [🌐 Webgrafía — Semana 08: Autenticación Completa](../webgrafia/README.md) |
 
 <!-- nav:end -->

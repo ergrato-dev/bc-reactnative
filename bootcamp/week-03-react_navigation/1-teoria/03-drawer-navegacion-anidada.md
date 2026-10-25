@@ -189,6 +189,8 @@ Con esta configuración:
 
 ---
 
-← [Tab Navigator — Navegación por Pestañas](02-tab-navigator.md) | [Ejercicio 01 — Stack Navigator](../2-practicas/ejercicio-01-stack-navigator/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Tab Navigator — Navegación por Pestañas](02-tab-navigator.md) | [Ejercicio 01 — Stack Navigator](../2-practicas/ejercicio-01-stack-navigator/README.md) |
 
 <!-- nav:end -->

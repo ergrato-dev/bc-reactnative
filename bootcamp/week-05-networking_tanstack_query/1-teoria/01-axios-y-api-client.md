@@ -166,6 +166,8 @@ const BASE_URL = process.env.EXPO_PUBLIC_API_URL;
 
 ---
 
-← [Semana 05 — Networking y TanStack Query v5](../README.md) | [TanStack Query v5 en React Native](02-tanstack-query-v5.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 05 — Networking y TanStack Query v5](../README.md) | [TanStack Query v5 en React Native](02-tanstack-query-v5.md) |
 
 <!-- nav:end -->

@@ -201,6 +201,8 @@ export const useSettingsStore = create<SettingsState>()(
 
 ---
 
-← [Persistencia Local en React Native — Panorama General](01-storage-overview.md) | [Ejercicio 01 — AsyncStorage: Guardar Preferencias y Listas](../2-practicas/ejercicio-01-asyncstorage/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Persistencia Local en React Native — Panorama General](01-storage-overview.md) | [Ejercicio 01 — AsyncStorage: Guardar Preferencias y Listas](../2-practicas/ejercicio-01-asyncstorage/README.md) |
 
 <!-- nav:end -->

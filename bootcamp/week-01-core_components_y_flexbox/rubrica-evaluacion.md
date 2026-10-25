@@ -88,6 +88,8 @@
 
 ---
 
-← [Glosario — Semana 01: Core Components y Flexbox](5-glosario/README.md) | [Semana 02 — Listas, Inputs y Estilos](../week-02-listas_inputs_y_estilos/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 01: Core Components y Flexbox](5-glosario/README.md) | [Semana 02 — Listas, Inputs y Estilos](../week-02-listas_inputs_y_estilos/README.md) |
 
 <!-- nav:end -->

@@ -56,6 +56,8 @@
 
 ---
 
-← [Videografía — Semana 02](../videografia/README.md) | [Glosario — Semana 02: Listas, Inputs y Estilos](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 02](../videografia/README.md) | [Glosario — Semana 02: Listas, Inputs y Estilos](../../5-glosario/README.md) |
 
 <!-- nav:end -->

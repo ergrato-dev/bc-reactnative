@@ -143,6 +143,8 @@ Al completar los 4 pasos deberías poder:
 
 ---
 
-← [Ejercicio 01 — Notificaciones Locales](../ejercicio-01-local-notifications/README.md) | [Proyecto Semana 12 — Push Notifications](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Notificaciones Locales](../ejercicio-01-local-notifications/README.md) | [Proyecto Semana 12 — Push Notifications](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

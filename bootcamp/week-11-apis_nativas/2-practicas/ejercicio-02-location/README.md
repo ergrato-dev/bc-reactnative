@@ -117,6 +117,8 @@ try {
 
 ---
 
-← [Ejercicio 01 — Cámara y Image Picker](../ejercicio-01-camara-picker/README.md) | [Proyecto Semana 11 — APIs Nativas: Cámara, Galería y Ubicación](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Cámara y Image Picker](../ejercicio-01-camara-picker/README.md) | [Proyecto Semana 11 — APIs Nativas: Cámara, Galería y Ubicación](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

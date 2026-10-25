@@ -127,6 +127,8 @@
 
 ---
 
-← [Glosario — Semana 02: Listas, Inputs y Estilos](5-glosario/README.md) | [Semana 03 — React Navigation 7](../week-03-react_navigation/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 02: Listas, Inputs y Estilos](5-glosario/README.md) | [Semana 03 — React Navigation 7](../week-03-react_navigation/README.md) |
 
 <!-- nav:end -->

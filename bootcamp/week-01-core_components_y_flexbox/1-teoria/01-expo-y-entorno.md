@@ -162,6 +162,8 @@ Editas código  →  Metro bundler detecta el cambio  →  Hot Reload en el disp
 
 ---
 
-← [Semana 01 — Core Components y Flexbox](../README.md) | [Core Components de React Native](02-core-components.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 01 — Core Components y Flexbox](../README.md) | [Core Components de React Native](02-core-components.md) |
 
 <!-- nav:end -->

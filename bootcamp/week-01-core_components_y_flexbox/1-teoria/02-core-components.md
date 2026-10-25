@@ -231,6 +231,8 @@ const styles = StyleSheet.create({
 
 ---
 
-← [Expo y el Entorno de Desarrollo](01-expo-y-entorno.md) | [Flexbox en React Native](03-flexbox-layout.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Expo y el Entorno de Desarrollo](01-expo-y-entorno.md) | [Flexbox en React Native](03-flexbox-layout.md) |
 
 <!-- nav:end -->

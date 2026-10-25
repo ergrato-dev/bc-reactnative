@@ -120,6 +120,8 @@
 
 ---
 
-← [Glosario — Semana 08: Autenticación Completa](5-glosario/README.md) | [Semana 09 — Animaciones Básicas](../week-09-animaciones_basicas/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 08: Autenticación Completa](5-glosario/README.md) | [Semana 09 — Animaciones Básicas](../week-09-animaciones_basicas/README.md) |
 
 <!-- nav:end -->

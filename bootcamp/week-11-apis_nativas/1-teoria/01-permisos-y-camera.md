@@ -174,6 +174,8 @@ async function pickFromCamera(): Promise<string | null> {
 
 ---
 
-← [Semana 11 — APIs Nativas: Cámara, Ubicación y Permisos](../README.md) | [Ubicación con expo-location](02-location.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 11 — APIs Nativas: Cámara, Ubicación y Permisos](../README.md) | [Ubicación con expo-location](02-location.md) |
 
 <!-- nav:end -->

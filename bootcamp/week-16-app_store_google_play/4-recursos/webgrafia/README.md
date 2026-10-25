@@ -63,6 +63,8 @@ En la semana 16 del bootcamp usamos:
 
 ---
 
-← [Videografía — Semana 16: App Store y Google Play Console](../videografia/README.md) | [Glosario — Semana 16: App Store y Google Play Console](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 16: App Store y Google Play Console](../videografia/README.md) | [Glosario — Semana 16: App Store y Google Play Console](../../5-glosario/README.md) |
 
 <!-- nav:end -->

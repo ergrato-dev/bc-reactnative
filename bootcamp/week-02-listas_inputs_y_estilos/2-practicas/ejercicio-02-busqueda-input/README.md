@@ -134,6 +134,8 @@ Cuando todos los pasos estén descomentados deberías ver:
 
 ---
 
-← [Ejercicio 01 — FlatList Básica](../ejercicio-01-flatlist-basica/README.md) | [Proyecto Semana 02 — App de Listas con Búsqueda](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — FlatList Básica](../ejercicio-01-flatlist-basica/README.md) | [Proyecto Semana 02 — App de Listas con Búsqueda](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

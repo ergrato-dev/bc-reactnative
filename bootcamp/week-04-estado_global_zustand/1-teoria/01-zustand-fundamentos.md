@@ -217,6 +217,8 @@ export const useCartStore = create<CartStore>()(
 
 ---
 
-← [Semana 04 — Estado Global con Zustand](../README.md) | [Zustand — Slices, Múltiples Stores y Persist](02-zustand-slices-persist.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 04 — Estado Global con Zustand](../README.md) | [Zustand — Slices, Múltiples Stores y Persist](02-zustand-slices-persist.md) |
 
 <!-- nav:end -->

@@ -33,6 +33,8 @@ Todos estos recursos son gratuitos y de alta calidad. No es necesario leerlos co
 
 ---
 
-← [Proyecto Semana 02 — App de Listas con Búsqueda](../../3-proyecto/README.md) | [Videografía — Semana 02](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 02 — App de Listas con Búsqueda](../../3-proyecto/README.md) | [Videografía — Semana 02](../videografia/README.md) |
 
 <!-- nav:end -->

@@ -137,6 +137,8 @@ La entrega es una **demo en vivo en simulador + checklist del instructor al cier
 
 ---
 
-← [Glosario — Semana 05: Networking y TanStack Query v5](5-glosario/README.md) | [Semana 06 — Formularios con React Hook Form + Zod](../week-06-formularios_validacion/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 05: Networking y TanStack Query v5](5-glosario/README.md) | [Semana 06 — Formularios con React Hook Form + Zod](../week-06-formularios_validacion/README.md) |
 
 <!-- nav:end -->

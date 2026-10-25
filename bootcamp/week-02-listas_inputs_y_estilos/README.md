@@ -99,12 +99,16 @@ week-02-listas_inputs_y_estilos/
 
 ## 🔗 Navegación
 
-← [Semana 01 — Core Components y Flexbox](../week-01-core_components_y_flexbox/README.md) | [Semana 03 — React Navigation 7](../week-03-react_navigation/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 01 — Core Components y Flexbox](../week-01-core_components_y_flexbox/README.md) | [Semana 03 — React Navigation 7](../week-03-react_navigation/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Rúbrica de Evaluación — Semana 01](../week-01-core_components_y_flexbox/rubrica-evaluacion.md) | [FlatList y SectionList](1-teoria/01-flatlist-sectionlist.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Rúbrica de Evaluación — Semana 01](../week-01-core_components_y_flexbox/rubrica-evaluacion.md) | [FlatList y SectionList](1-teoria/01-flatlist-sectionlist.md) |
 
 <!-- nav:end -->

@@ -85,6 +85,8 @@
 
 ---
 
-← [Glosario — Semana 12: Push Notifications](5-glosario/README.md) | [Semana 13 — Testing: Jest, RNTL y Maestro](../week-13-testing/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 12: Push Notifications](5-glosario/README.md) | [Semana 13 — Testing: Jest, RNTL y Maestro](../week-13-testing/README.md) |
 
 <!-- nav:end -->

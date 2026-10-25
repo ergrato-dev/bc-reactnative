@@ -175,6 +175,8 @@ LayoutAnimation.configureNext({
 
 ---
 
-← [Animated API — React Native](01-animated-api.md) | [Ejercicio 01 — Animated.timing y Animated.spring](../2-practicas/ejercicio-01-timing-spring/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Animated API — React Native](01-animated-api.md) | [Ejercicio 01 — Animated.timing y Animated.spring](../2-practicas/ejercicio-01-timing-spring/README.md) |
 
 <!-- nav:end -->

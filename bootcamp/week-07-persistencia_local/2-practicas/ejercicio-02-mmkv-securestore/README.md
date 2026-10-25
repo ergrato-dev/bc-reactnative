@@ -122,6 +122,8 @@ El ejercicio incluye un benchmark simple que muestra la diferencia de velocidad:
 
 ---
 
-← [Ejercicio 01 — AsyncStorage: Guardar Preferencias y Listas](../ejercicio-01-asyncstorage/README.md) | [Proyecto Semana 07 — Persistencia Local](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — AsyncStorage: Guardar Preferencias y Listas](../ejercicio-01-asyncstorage/README.md) | [Proyecto Semana 07 — Persistencia Local](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

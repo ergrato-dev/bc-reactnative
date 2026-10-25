@@ -32,6 +32,8 @@
 
 ---
 
-← [Ebooks Gratuitos — Semana 14: Performance y Optimización](../ebooks-free/README.md) | [Webgrafía — Semana 14: Performance y Optimización](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ebooks Gratuitos — Semana 14: Performance y Optimización](../ebooks-free/README.md) | [Webgrafía — Semana 14: Performance y Optimización](../webgrafia/README.md) |
 
 <!-- nav:end -->

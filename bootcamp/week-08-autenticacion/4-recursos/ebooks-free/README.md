@@ -125,6 +125,8 @@ React.useEffect(() => {
 
 ---
 
-← [Proyecto Semana 08 — Autenticación Completa](../../3-proyecto/README.md) | [🎥 Videografía — Semana 08: Autenticación Completa](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 08 — Autenticación Completa](../../3-proyecto/README.md) | [🎥 Videografía — Semana 08: Autenticación Completa](../videografia/README.md) |
 
 <!-- nav:end -->

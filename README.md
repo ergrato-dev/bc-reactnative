@@ -270,6 +270,8 @@ Ver el archivo [LICENSE](LICENSE) para el texto completo.
 
 ---
 
-[Semana 01 — Core Components y Flexbox](bootcamp/week-01-core_components_y_flexbox/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+|  | [Semana 01 — Core Components y Flexbox](bootcamp/week-01-core_components_y_flexbox/README.md) |
 
 <!-- nav:end -->

@@ -51,6 +51,8 @@
 
 ---
 
-← [📖 Ebooks y Cheat Sheets — Semana 04: Estado Global con Zustand](../ebooks-free/README.md) | [📚 Webgrafía — Semana 04: Estado Global con Zustand](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [📖 Ebooks y Cheat Sheets — Semana 04: Estado Global con Zustand](../ebooks-free/README.md) | [📚 Webgrafía — Semana 04: Estado Global con Zustand](../webgrafia/README.md) |
 
 <!-- nav:end -->

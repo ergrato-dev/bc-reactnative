@@ -70,12 +70,16 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-← [Semana 06 — Formularios con React Hook Form + Zod](../week-06-formularios_validacion/README.md) | [Semana 08 — Autenticación Completa](../week-08-autenticacion/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 06 — Formularios con React Hook Form + Zod](../week-06-formularios_validacion/README.md) | [Semana 08 — Autenticación Completa](../week-08-autenticacion/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Rúbrica de Evaluación — Semana 06: Formularios con React Hook Form + Zod](../week-06-formularios_validacion/rubrica-evaluacion.md) | [Persistencia Local en React Native — Panorama General](1-teoria/01-storage-overview.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Rúbrica de Evaluación — Semana 06: Formularios con React Hook Form + Zod](../week-06-formularios_validacion/rubrica-evaluacion.md) | [Persistencia Local en React Native — Panorama General](1-teoria/01-storage-overview.md) |
 
 <!-- nav:end -->

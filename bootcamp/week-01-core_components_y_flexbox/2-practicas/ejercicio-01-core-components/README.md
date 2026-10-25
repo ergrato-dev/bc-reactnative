@@ -143,6 +143,8 @@ Al completar todos los pasos, debes tener una tarjeta de perfil con:
 
 ---
 
-← [Flexbox en React Native](../../1-teoria/03-flexbox-layout.md) | [Ejercicio 02 — Flexbox Layouts](../ejercicio-02-flexbox-layouts/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Flexbox en React Native](../../1-teoria/03-flexbox-layout.md) | [Ejercicio 02 — Flexbox Layouts](../ejercicio-02-flexbox-layouts/README.md) |
 
 <!-- nav:end -->

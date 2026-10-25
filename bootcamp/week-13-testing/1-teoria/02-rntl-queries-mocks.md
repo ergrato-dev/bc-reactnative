@@ -281,6 +281,8 @@ maestro test flows/login.yaml
 
 ---
 
-← [Jest y Fundamentos de Testing en React Native](01-jest-fundamentos.md) | [Ejercicio 01 — Unit Tests con Jest](../2-practicas/ejercicio-01-jest-unit/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Jest y Fundamentos de Testing en React Native](01-jest-fundamentos.md) | [Ejercicio 01 — Unit Tests con Jest](../2-practicas/ejercicio-01-jest-unit/README.md) |
 
 <!-- nav:end -->

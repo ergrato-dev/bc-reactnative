@@ -50,6 +50,8 @@ Eso hará que los tutoriales sean mucho más fáciles de seguir.
 
 ---
 
-← [Ebooks Gratuitos — EAS Build, Certificados y Publicación](../ebooks-free/README.md) | [Recursos Web — EAS Build y Certificados](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ebooks Gratuitos — EAS Build, Certificados y Publicación](../ebooks-free/README.md) | [Recursos Web — EAS Build y Certificados](../webgrafia/README.md) |
 
 <!-- nav:end -->

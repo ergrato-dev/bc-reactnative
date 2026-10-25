@@ -120,6 +120,8 @@ El Mínimo para entregar demuestra MMKV aplicado al dominio asignado (**22/30 = 
 
 ---
 
-← [Glosario — Semana 07: Persistencia Local](5-glosario/README.md) | [Semana 08 — Autenticación Completa](../week-08-autenticacion/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 07: Persistencia Local](5-glosario/README.md) | [Semana 08 — Autenticación Completa](../week-08-autenticacion/README.md) |
 
 <!-- nav:end -->

@@ -263,6 +263,8 @@ const styles = StyleSheet.create({
 
 ---
 
-← [TextInput y Manejo del Teclado](02-textinput-teclado.md) | [Ejercicio 01 — FlatList Básica](../2-practicas/ejercicio-01-flatlist-basica/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [TextInput y Manejo del Teclado](02-textinput-teclado.md) | [Ejercicio 01 — FlatList Básica](../2-practicas/ejercicio-01-flatlist-basica/README.md) |
 
 <!-- nav:end -->

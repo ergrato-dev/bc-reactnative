@@ -96,6 +96,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — Component Tests con RNTL](../2-practicas/ejercicio-02-rntl-components/README.md) | [eBooks Gratuitos — Semana 13: Testing](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — Component Tests con RNTL](../2-practicas/ejercicio-02-rntl-components/README.md) | [eBooks Gratuitos — Semana 13: Testing](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

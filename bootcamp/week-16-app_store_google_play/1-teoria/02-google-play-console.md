@@ -202,6 +202,8 @@ Google revisa:
 
 ---
 
-← [App Store Connect — Fichas, Revisión y TestFlight](01-app-store-connect.md) | [Ejercicio 01 — Redactar Metadatos ASO para las Tiendas](../2-practicas/ejercicio-01-metadatos-aso/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [App Store Connect — Fichas, Revisión y TestFlight](01-app-store-connect.md) | [Ejercicio 01 — Redactar Metadatos ASO para las Tiendas](../2-practicas/ejercicio-01-metadatos-aso/README.md) |
 
 <!-- nav:end -->

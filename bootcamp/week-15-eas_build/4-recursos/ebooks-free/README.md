@@ -46,6 +46,8 @@ Si en el futuro deseas profundizar con un libro:
 
 ---
 
-← [Proyecto Semana 15 — EAS Build y Certificados](../../3-proyecto/README.md) | [Videografía — EAS Build y Certificados](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 15 — EAS Build y Certificados](../../3-proyecto/README.md) | [Videografía — EAS Build y Certificados](../videografia/README.md) |
 
 <!-- nav:end -->

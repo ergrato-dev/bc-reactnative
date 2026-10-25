@@ -206,6 +206,8 @@ return (
 
 ---
 
-← [Reanimated 4 — Fundamentos](01-reanimated-fundamentos.md) | [Ejercicio 01 — Reanimated 4 básico](../2-practicas/ejercicio-01-reanimated-basico/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Reanimated 4 — Fundamentos](01-reanimated-fundamentos.md) | [Ejercicio 01 — Reanimated 4 básico](../2-practicas/ejercicio-01-reanimated-basico/README.md) |
 
 <!-- nav:end -->

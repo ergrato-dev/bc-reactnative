@@ -30,6 +30,8 @@
 
 ---
 
-← [Videografía — Semana 13: Testing](../videografia/README.md) | [Glosario — Semana 13: Testing](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 13: Testing](../videografia/README.md) | [Glosario — Semana 13: Testing](../../5-glosario/README.md) |
 
 <!-- nav:end -->

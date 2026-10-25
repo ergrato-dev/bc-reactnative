@@ -141,6 +141,8 @@ useEffect(() => {
 
 ---
 
-← [Semana 06 — Formularios con React Hook Form + Zod](../README.md) | [Validación con Zod y zodResolver](02-validacion-zod.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 06 — Formularios con React Hook Form + Zod](../README.md) | [Validación con Zod y zodResolver](02-validacion-zod.md) |
 
 <!-- nav:end -->

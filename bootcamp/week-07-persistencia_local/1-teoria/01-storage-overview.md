@@ -181,6 +181,8 @@ export function usePreference<T>(
 
 ---
 
-← [Semana 07 — Persistencia Local](../README.md) | [MMKV y SecureStore — Patrones Avanzados](02-mmkv-y-securestore.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 07 — Persistencia Local](../README.md) | [MMKV y SecureStore — Patrones Avanzados](02-mmkv-y-securestore.md) |
 
 <!-- nav:end -->

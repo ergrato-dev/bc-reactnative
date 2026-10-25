@@ -193,6 +193,8 @@ El mínimo aceptable debe explicar:
 
 ---
 
-← [Semana 16 — App Store y Google Play Console](../README.md) | [Google Play Console — Tracks, Ratings y Store Listing](02-google-play-console.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 16 — App Store y Google Play Console](../README.md) | [Google Play Console — Tracks, Ratings y Store Listing](02-google-play-console.md) |
 
 <!-- nav:end -->

@@ -114,6 +114,8 @@ En el 90% de los casos, `invalidateQueries` es suficiente.
 
 ---
 
-← [Ejercicio 01 — useQuery Básico](../ejercicio-01-usequery-basico/README.md) | [Proyecto Semana 05 — Networking y TanStack Query v5](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — useQuery Básico](../ejercicio-01-usequery-basico/README.md) | [Proyecto Semana 05 — Networking y TanStack Query v5](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

@@ -19,6 +19,8 @@
 
 ---
 
-← [Proyecto Semana 13 — Test Suite para tu Dominio](../../3-proyecto/README.md) | [Videografía — Semana 13: Testing](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 13 — Test Suite para tu Dominio](../../3-proyecto/README.md) | [Videografía — Semana 13: Testing](../videografia/README.md) |
 
 <!-- nav:end -->

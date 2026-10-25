@@ -117,6 +117,8 @@ Hook de `expo-auth-session` que prepara la solicitud OAuth con PKCE automático.
 
 ---
 
-← [🌐 Webgrafía — Semana 08: Autenticación Completa](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 08: Autenticación Completa](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [🌐 Webgrafía — Semana 08: Autenticación Completa](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 08: Autenticación Completa](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

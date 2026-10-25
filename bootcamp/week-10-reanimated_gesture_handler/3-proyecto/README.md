@@ -121,6 +121,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — Gesture Drag con Snap-Back](../2-practicas/ejercicio-02-gesture-drag/README.md) | [Ebooks Gratuitos — Semana 10: Reanimated 4 y Gesture Handler](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — Gesture Drag con Snap-Back](../2-practicas/ejercicio-02-gesture-drag/README.md) | [Ebooks Gratuitos — Semana 10: Reanimated 4 y Gesture Handler](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

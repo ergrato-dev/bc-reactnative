@@ -109,6 +109,8 @@ await AsyncStorage.multiRemove(['@theme', '@profile', '@items_cache']);
 
 ---
 
-← [MMKV y SecureStore — Patrones Avanzados](../../1-teoria/02-mmkv-y-securestore.md) | [Ejercicio 02 — MMKV y Expo SecureStore](../ejercicio-02-mmkv-securestore/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [MMKV y SecureStore — Patrones Avanzados](../../1-teoria/02-mmkv-y-securestore.md) | [Ejercicio 02 — MMKV y Expo SecureStore](../ejercicio-02-mmkv-securestore/README.md) |
 
 <!-- nav:end -->

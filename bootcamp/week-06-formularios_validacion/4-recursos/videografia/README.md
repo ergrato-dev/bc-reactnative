@@ -110,6 +110,8 @@ _Semana 06 — Bootcamp React Native Zero to Hero_
 
 ---
 
-← [Recursos: Ebooks & Cheat Sheets — Semana 06](../ebooks-free/README.md) | [Recursos: Webografía — Semana 06](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Recursos: Ebooks & Cheat Sheets — Semana 06](../ebooks-free/README.md) | [Recursos: Webografía — Semana 06](../webgrafia/README.md) |
 
 <!-- nav:end -->

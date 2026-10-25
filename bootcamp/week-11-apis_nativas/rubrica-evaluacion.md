@@ -77,6 +77,8 @@
 
 ---
 
-← [Glosario — Semana 11: APIs Nativas — Cámara, Ubicación y Permisos](5-glosario/README.md) | [Semana 12 — Push Notifications](../week-12-push_notifications/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 11: APIs Nativas — Cámara, Ubicación y Permisos](5-glosario/README.md) | [Semana 12 — Push Notifications](../week-12-push_notifications/README.md) |
 
 <!-- nav:end -->

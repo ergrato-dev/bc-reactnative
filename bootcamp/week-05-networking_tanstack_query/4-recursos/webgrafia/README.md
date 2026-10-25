@@ -69,6 +69,8 @@ export const POSTS_QUERY_KEY = ['posts'] as const;
 
 ---
 
-← [Videografía — Semana 05: Networking con Axios y TanStack Query](../videografia/README.md) | [Glosario — Semana 05: Networking y TanStack Query v5](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 05: Networking con Axios y TanStack Query](../videografia/README.md) | [Glosario — Semana 05: Networking y TanStack Query v5](../../5-glosario/README.md) |
 
 <!-- nav:end -->

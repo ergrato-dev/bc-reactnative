@@ -182,6 +182,8 @@ export function DetailScreen(): React.JSX.Element {
 
 ---
 
-← [Semana 03 — React Navigation 7](../README.md) | [Tab Navigator — Navegación por Pestañas](02-tab-navigator.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 03 — React Navigation 7](../README.md) | [Tab Navigator — Navegación por Pestañas](02-tab-navigator.md) |
 
 <!-- nav:end -->

@@ -188,6 +188,8 @@ Con `headerShown: false` en el Stack interior, el header del Tab se muestra y el
 
 ---
 
-← [Stack Navigator — Navegación entre Pantallas](01-stack-navigator.md) | [Drawer Navigator y Navegación Anidada](03-drawer-navegacion-anidada.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Stack Navigator — Navegación entre Pantallas](01-stack-navigator.md) | [Drawer Navigator y Navegación Anidada](03-drawer-navegacion-anidada.md) |
 
 <!-- nav:end -->

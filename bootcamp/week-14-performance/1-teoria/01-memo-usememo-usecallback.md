@@ -169,6 +169,8 @@ HomeScreen (padre)
 
 ---
 
-← [Semana 14 — Performance y Optimización](../README.md) | [FlatList — Optimización y Virtualización](02-flatlist-optimization.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 14 — Performance y Optimización](../README.md) | [FlatList — Optimización y Virtualización](02-flatlist-optimization.md) |
 
 <!-- nav:end -->

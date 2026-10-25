@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Inserta/actualiza la navegación "← anterior | siguiente →" al final de cada documento.
+// Inserta/actualiza la navegación "← anterior | siguiente →" (tabla) al final de cada documento.
 // Orden: README.md raíz y luego, por semana: README, 1-teoria, 2-practicas, 3-proyecto,
 // 4-recursos, 5-glosario, rubrica-evaluacion. Idempotente: reescribe el bloque entre marcadores.
 // Uso: node scripts/docs-nav.mjs
@@ -44,9 +44,7 @@ const link = (from, i) =>
   `[${titles[i]}](${relative(dirname(from), docs[i]).split("\\").join(posix.sep)})`;
 
 const navLine = (file, prevIdx, nextIdx) =>
-  [prevIdx >= 0 && `← ${link(file, prevIdx)}`, nextIdx >= 0 && `${link(file, nextIdx)} →`]
-    .filter(Boolean)
-    .join(" | ");
+  `| ← Anterior | Siguiente → |\n|:--|--:|\n| ${prevIdx >= 0 ? link(file, prevIdx) : ""} | ${nextIdx >= 0 ? link(file, nextIdx) : ""} |`;
 
 // Sección "🔗 Navegación" de cada README de semana: salta semana a semana.
 const weekReadmes = docs.filter((f) => /week-[^/\\]+[/\\]README\.md$/.test(relative(ROOT, f)));

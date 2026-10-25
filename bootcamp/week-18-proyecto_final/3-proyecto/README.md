@@ -79,6 +79,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Semana 18 — Proyecto Final Integrador](../README.md) | [Glosario — Semana 18: Proyecto Final Integrador](../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 18 — Proyecto Final Integrador](../README.md) | [Glosario — Semana 18: Proyecto Final Integrador](../5-glosario/README.md) |
 
 <!-- nav:end -->

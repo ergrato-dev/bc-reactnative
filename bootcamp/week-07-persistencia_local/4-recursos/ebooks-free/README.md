@@ -167,6 +167,8 @@ Estado reactivo en componente (no necesita persistir) →  useState
 
 ---
 
-← [Proyecto Semana 07 — Persistencia Local](../../3-proyecto/README.md) | [Videografía — Semana 07: Persistencia Local](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 07 — Persistencia Local](../../3-proyecto/README.md) | [Videografía — Semana 07: Persistencia Local](../videografia/README.md) |
 
 <!-- nav:end -->

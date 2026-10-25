@@ -51,6 +51,8 @@
 
 ---
 
-← [Proyecto Semana 11 — APIs Nativas: Cámara, Galería y Ubicación](../../3-proyecto/README.md) | [Videografía — Semana 11: APIs Nativas](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 11 — APIs Nativas: Cámara, Galería y Ubicación](../../3-proyecto/README.md) | [Videografía — Semana 11: APIs Nativas](../videografia/README.md) |
 
 <!-- nav:end -->

@@ -179,6 +179,8 @@ Booleano en la configuración de animaciones.
 
 <!-- nav:start -->
 
-← [Webgrafía — Week 09: Animaciones Básicas](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 09: Animaciones Básicas](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Webgrafía — Week 09: Animaciones Básicas](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 09: Animaciones Básicas](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

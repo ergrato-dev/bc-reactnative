@@ -164,6 +164,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — TextInput y Búsqueda en Lista](../2-practicas/ejercicio-02-busqueda-input/README.md) | [Ebooks Free — Semana 02](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — TextInput y Búsqueda en Lista](../2-practicas/ejercicio-02-busqueda-input/README.md) | [Ebooks Free — Semana 02](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

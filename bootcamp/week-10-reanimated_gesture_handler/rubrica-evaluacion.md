@@ -110,6 +110,8 @@
 
 ---
 
-← [Glosario — Semana 10: Reanimated 4 y Gesture Handler](5-glosario/README.md) | [Semana 11 — APIs Nativas: Cámara, Ubicación y Permisos](../week-11-apis_nativas/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 10: Reanimated 4 y Gesture Handler](5-glosario/README.md) | [Semana 11 — APIs Nativas: Cámara, Ubicación y Permisos](../week-11-apis_nativas/README.md) |
 
 <!-- nav:end -->

@@ -112,6 +112,8 @@ Verifica que luego del logout la pantalla vuelva al estado inicial sin datos.
 
 ---
 
-← [OAuth y Expo AuthSession](../../1-teoria/02-oauth-expo-authsession.md) | [Ejercicio 02 — OAuth PKCE con Expo AuthSession](../ejercicio-02-oauth-authsession/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [OAuth y Expo AuthSession](../../1-teoria/02-oauth-expo-authsession.md) | [Ejercicio 02 — OAuth PKCE con Expo AuthSession](../ejercicio-02-oauth-authsession/README.md) |
 
 <!-- nav:end -->

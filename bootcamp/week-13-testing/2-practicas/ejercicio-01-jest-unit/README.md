@@ -114,6 +114,8 @@ Debes ver todos los tests en verde. Si alguno falla, revisa el mensaje de error 
 
 ---
 
-← [RNTL: Queries, Eventos y Mocks](../../1-teoria/02-rntl-queries-mocks.md) | [Ejercicio 02 — Component Tests con RNTL](../ejercicio-02-rntl-components/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [RNTL: Queries, Eventos y Mocks](../../1-teoria/02-rntl-queries-mocks.md) | [Ejercicio 02 — Component Tests con RNTL](../ejercicio-02-rntl-components/README.md) |
 
 <!-- nav:end -->

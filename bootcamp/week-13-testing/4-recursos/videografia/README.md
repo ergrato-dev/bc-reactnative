@@ -24,6 +24,8 @@
 
 ---
 
-← [eBooks Gratuitos — Semana 13: Testing](../ebooks-free/README.md) | [Webgrafía — Semana 13: Testing](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [eBooks Gratuitos — Semana 13: Testing](../ebooks-free/README.md) | [Webgrafía — Semana 13: Testing](../webgrafia/README.md) |
 
 <!-- nav:end -->

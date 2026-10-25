@@ -205,6 +205,8 @@ export function useCreatePost() {
 
 ---
 
-← [Axios y API Client en React Native](01-axios-y-api-client.md) | [Ejercicio 01 — useQuery Básico](../2-practicas/ejercicio-01-usequery-basico/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Axios y API Client en React Native](01-axios-y-api-client.md) | [Ejercicio 01 — useQuery Básico](../2-practicas/ejercicio-01-usequery-basico/README.md) |
 
 <!-- nav:end -->

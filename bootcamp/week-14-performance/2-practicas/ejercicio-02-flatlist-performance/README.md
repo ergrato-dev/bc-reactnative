@@ -80,6 +80,8 @@ Verifica: el Performance Monitor muestra UI FPS ≥ 58 durante scroll continuo.
 
 ---
 
-← [Ejercicio 01 — React.memo, useMemo y useCallback](../ejercicio-01-memo-hooks/README.md) | [Proyecto Semana 14 — Performance y Optimización](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — React.memo, useMemo y useCallback](../ejercicio-01-memo-hooks/README.md) | [Proyecto Semana 14 — Performance y Optimización](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

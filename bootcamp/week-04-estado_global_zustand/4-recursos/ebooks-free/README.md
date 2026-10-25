@@ -106,6 +106,8 @@ const savedCount = useSavedStore((state) => state.items.length);
 
 ---
 
-← [Proyecto Semana 04 — Estado Global con Zustand](../../3-proyecto/README.md) | [🎥 Videografía — Semana 04: Estado Global con Zustand](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 04 — Estado Global con Zustand](../../3-proyecto/README.md) | [🎥 Videografía — Semana 04: Estado Global con Zustand](../videografia/README.md) |
 
 <!-- nav:end -->

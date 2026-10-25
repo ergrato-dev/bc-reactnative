@@ -231,6 +231,8 @@ function App() {
 
 ---
 
-← [Zustand — Fundamentos y Selectores](01-zustand-fundamentos.md) | [Ejercicio 01 — Store Básico con Zustand](../2-practicas/ejercicio-01-store-basico/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Zustand — Fundamentos y Selectores](01-zustand-fundamentos.md) | [Ejercicio 01 — Store Básico con Zustand](../2-practicas/ejercicio-01-store-basico/README.md) |
 
 <!-- nav:end -->

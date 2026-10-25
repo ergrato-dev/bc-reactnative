@@ -243,6 +243,8 @@ describe('ProductService', () => {
 
 ---
 
-← [Semana 13 — Testing: Jest, RNTL y Maestro](../README.md) | [RNTL: Queries, Eventos y Mocks](02-rntl-queries-mocks.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 13 — Testing: Jest, RNTL y Maestro](../README.md) | [RNTL: Queries, Eventos y Mocks](02-rntl-queries-mocks.md) |
 
 <!-- nav:end -->
