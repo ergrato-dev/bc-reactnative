@@ -5,7 +5,7 @@
 #
 # Uso:
 #   ./export-pdf.sh                  → convierte week-01 (por defecto)
-#   ./export-pdf.sh week-02          → convierte week-02
+#   ./export-pdf.sh week-02          → convierte week-02 (basta el prefijo)
 #   ./export-pdf.sh week-01 --merge  → convierte y genera un PDF combinado
 #
 # Dependencias:
@@ -29,16 +29,26 @@ WEEK="${1:-week-01}"
 MERGE="${2:-}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# ── Resolver semana: nombre exacto o prefijo (week-03 → week-03-react_navigation)
+if [[ ! -d "$SCRIPT_DIR/bootcamp/$WEEK" ]]; then
+  MATCHES=("$SCRIPT_DIR/bootcamp/$WEEK"*/)
+  if [[ ${#MATCHES[@]} -eq 1 && -d "${MATCHES[0]}" ]]; then
+    WEEK="$(basename "${MATCHES[0]}")"
+  else
+    if [[ -d "${MATCHES[0]}" ]]; then
+      echo -e "${RED}❌ Error: El prefijo '$WEEK' coincide con varias semanas${NC}"
+    else
+      echo -e "${RED}❌ Error: No se encontró ninguna semana que empiece por '$WEEK'${NC}"
+    fi
+    echo -e "   Semanas disponibles:"
+    ls "$SCRIPT_DIR/bootcamp/" | grep "week-" | sed 's/^/     - /'
+    exit 1
+  fi
+fi
+
 WEEK_DIR="$SCRIPT_DIR/bootcamp/$WEEK"
 OUTPUT_DIR="$WEEK_DIR/_pdf"
-
-# ── Validaciones ─────────────────────────────────────────────────────────────
-if [[ ! -d "$WEEK_DIR" ]]; then
-  echo -e "${RED}❌ Error: No se encontró la carpeta '$WEEK_DIR'${NC}"
-  echo -e "   Semanas disponibles:"
-  ls "$SCRIPT_DIR/bootcamp/" | grep "week-" | sed 's/^/     - /'
-  exit 1
-fi
 
 if ! command -v node &>/dev/null; then
   echo -e "${RED}❌ Error: Node.js no está instalado${NC}"
