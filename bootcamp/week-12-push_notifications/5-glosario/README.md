@@ -189,6 +189,8 @@ Objeto que define cuándo disparar una notificación local:
 
 <!-- nav:start -->
 
-← [Webgrafía — Semana 12: Push Notifications](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 12: Push Notifications](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Webgrafía — Semana 12: Push Notifications](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 12: Push Notifications](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

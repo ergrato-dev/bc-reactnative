@@ -190,6 +190,8 @@ Tu `eas.json` completo debe verse así:
 
 ---
 
-← [Certificados iOS y Firma Android](../../1-teoria/02-certificados-ios-android.md) | [Ejercicio 02 — Configurar app.json para Producción](../ejercicio-02-app-config/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Certificados iOS y Firma Android](../../1-teoria/02-certificados-ios-android.md) | [Ejercicio 02 — Configurar app.json para Producción](../ejercicio-02-app-config/README.md) |
 
 <!-- nav:end -->

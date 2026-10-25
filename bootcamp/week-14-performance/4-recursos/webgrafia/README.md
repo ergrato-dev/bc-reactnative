@@ -40,6 +40,8 @@
 
 ---
 
-← [Videografía — Semana 14: Performance y Optimización](../videografia/README.md) | [Glosario — Semana 14: Performance y Optimización](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 14: Performance y Optimización](../videografia/README.md) | [Glosario — Semana 14: Performance y Optimización](../../5-glosario/README.md) |
 
 <!-- nav:end -->

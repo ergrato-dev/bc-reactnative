@@ -133,6 +133,8 @@ const pickFromGallery = async () => {
 
 ---
 
-← [Ubicación con expo-location](../../1-teoria/02-location.md) | [Ejercicio 02 — Ubicación con expo-location](../ejercicio-02-location/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ubicación con expo-location](../../1-teoria/02-location.md) | [Ejercicio 02 — Ubicación con expo-location](../ejercicio-02-location/README.md) |
 
 <!-- nav:end -->

@@ -177,6 +177,8 @@ Al completar los 4 pasos, la app debe mostrar:
 
 ---
 
-← [Gesture Handler — Pan, Tap y runOnJS](../../1-teoria/02-gesture-handler.md) | [Ejercicio 02 — Gesture Drag con Snap-Back](../ejercicio-02-gesture-drag/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Gesture Handler — Pan, Tap y runOnJS](../../1-teoria/02-gesture-handler.md) | [Ejercicio 02 — Gesture Drag con Snap-Back](../ejercicio-02-gesture-drag/README.md) |
 
 <!-- nav:end -->

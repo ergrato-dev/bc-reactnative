@@ -43,6 +43,8 @@
 
 ---
 
-← [Videografía — EAS Build y Certificados](../videografia/README.md) | [Glosario — Semana 15: EAS Build y Certificados](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — EAS Build y Certificados](../videografia/README.md) | [Glosario — Semana 15: EAS Build y Certificados](../../5-glosario/README.md) |
 
 <!-- nav:end -->

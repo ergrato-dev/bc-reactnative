@@ -58,6 +58,8 @@ Recursos en línea recomendados para profundizar en AsyncStorage, MMKV y Expo Se
 
 ---
 
-← [Videografía — Semana 07: Persistencia Local](../videografia/README.md) | [Glosario — Semana 07: Persistencia Local](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 07: Persistencia Local](../videografia/README.md) | [Glosario — Semana 07: Persistencia Local](../../5-glosario/README.md) |
 
 <!-- nav:end -->

@@ -135,6 +135,8 @@ La entrega es una **demo en vivo en simulador + checklist del instructor al cier
 
 ---
 
-← [📖 Glosario — Semana 04: Estado Global con Zustand](5-glosario/README.md) | [Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [📖 Glosario — Semana 04: Estado Global con Zustand](5-glosario/README.md) | [Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) |
 
 <!-- nav:end -->

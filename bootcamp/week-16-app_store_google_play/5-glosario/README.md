@@ -218,6 +218,8 @@ esperando ser asignada a un revisor de Apple.
 
 <!-- nav:start -->
 
-← [Webgrafía — Semana 16: App Store y Google Play Console](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 16: App Store y Google Play Console](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Webgrafía — Semana 16: App Store y Google Play Console](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 16: App Store y Google Play Console](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

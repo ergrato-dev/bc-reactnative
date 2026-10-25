@@ -33,6 +33,8 @@
 
 ---
 
-← [Proyecto Semana 01 — App de Tarjetas](../../3-proyecto/README.md) | [Videografía — Semana 01](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 01 — App de Tarjetas](../../3-proyecto/README.md) | [Videografía — Semana 01](../videografia/README.md) |
 
 <!-- nav:end -->

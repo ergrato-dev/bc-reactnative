@@ -78,12 +78,16 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-← [Semana 03 — React Navigation 7](../week-03-react_navigation/README.md) | [Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 03 — React Navigation 7](../week-03-react_navigation/README.md) | [Semana 05 — Networking y TanStack Query v5](../week-05-networking_tanstack_query/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Rúbrica de Evaluación — Semana 03: React Navigation 7](../week-03-react_navigation/rubrica-evaluacion.md) | [Zustand — Fundamentos y Selectores](1-teoria/01-zustand-fundamentos.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Rúbrica de Evaluación — Semana 03: React Navigation 7](../week-03-react_navigation/rubrica-evaluacion.md) | [Zustand — Fundamentos y Selectores](1-teoria/01-zustand-fundamentos.md) |
 
 <!-- nav:end -->

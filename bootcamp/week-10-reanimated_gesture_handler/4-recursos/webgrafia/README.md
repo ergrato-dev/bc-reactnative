@@ -49,6 +49,8 @@
 
 ---
 
-← [Videografía — Semana 10: Reanimated 4 y Gesture Handler](../videografia/README.md) | [Glosario — Semana 10: Reanimated 4 y Gesture Handler](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 10: Reanimated 4 y Gesture Handler](../videografia/README.md) | [Glosario — Semana 10: Reanimated 4 y Gesture Handler](../../5-glosario/README.md) |
 
 <!-- nav:end -->

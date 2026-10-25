@@ -142,6 +142,8 @@ Librería de gestión de estado para React (y React Native) desarrollada por Poi
 
 ---
 
-← [📚 Webgrafía — Semana 04: Estado Global con Zustand](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 04: Estado Global con Zustand](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [📚 Webgrafía — Semana 04: Estado Global con Zustand](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 04: Estado Global con Zustand](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

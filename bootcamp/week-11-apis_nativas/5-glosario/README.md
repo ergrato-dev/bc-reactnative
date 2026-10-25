@@ -137,6 +137,8 @@ Función de `expo-location` que activa el seguimiento GPS continuo. Llama al cal
 
 <!-- nav:start -->
 
-← [Webgrafía — Semana 11: APIs Nativas](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 11: APIs Nativas](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Webgrafía — Semana 11: APIs Nativas](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 11: APIs Nativas](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

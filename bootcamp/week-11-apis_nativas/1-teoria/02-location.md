@@ -175,6 +175,8 @@ async function getAddressFromCoords(
 
 ---
 
-← [Permisos y Cámara en Expo SDK 57](01-permisos-y-camera.md) | [Ejercicio 01 — Cámara y Image Picker](../2-practicas/ejercicio-01-camara-picker/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Permisos y Cámara en Expo SDK 57](01-permisos-y-camera.md) | [Ejercicio 01 — Cámara y Image Picker](../2-practicas/ejercicio-01-camara-picker/README.md) |
 
 <!-- nav:end -->

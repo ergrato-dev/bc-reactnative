@@ -31,6 +31,8 @@
 
 ---
 
-← [Recursos — Videografía](../videografia/README.md) | [Glosario — Semana 17: CI/CD y OTA Updates](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Recursos — Videografía](../videografia/README.md) | [Glosario — Semana 17: CI/CD y OTA Updates](../../5-glosario/README.md) |
 
 <!-- nav:end -->

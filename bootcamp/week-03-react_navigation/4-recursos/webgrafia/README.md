@@ -66,6 +66,8 @@ Paquetes incluidos: **Ionicons**, **MaterialIcons**, **FontAwesome5**, **Feather
 
 ---
 
-← [Videografía — Semana 03: React Navigation 7](../videografia/README.md) | [Glosario — Semana 03: React Navigation 7](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 03: React Navigation 7](../videografia/README.md) | [Glosario — Semana 03: React Navigation 7](../../5-glosario/README.md) |
 
 <!-- nav:end -->

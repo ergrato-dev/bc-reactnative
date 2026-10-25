@@ -73,6 +73,8 @@
 
 ---
 
-← [Ebooks y Recursos Descargables — Semana 16](../ebooks-free/README.md) | [Webgrafía — Semana 16: App Store y Google Play Console](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ebooks y Recursos Descargables — Semana 16](../ebooks-free/README.md) | [Webgrafía — Semana 16: App Store y Google Play Console](../webgrafia/README.md) |
 
 <!-- nav:end -->

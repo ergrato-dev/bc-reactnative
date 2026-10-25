@@ -65,12 +65,16 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-← [Semana 16 — App Store y Google Play Console](../week-16-app_store_google_play/README.md) | [Semana 18 — Proyecto Final Integrador](../week-18-proyecto_final/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 16 — App Store y Google Play Console](../week-16-app_store_google_play/README.md) | [Semana 18 — Proyecto Final Integrador](../week-18-proyecto_final/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Rúbrica de Evaluación — Semana 16: App Store y Google Play Console](../week-16-app_store_google_play/rubrica-evaluacion.md) | [CI/CD con GitHub Actions para React Native + EAS](1-teoria/01-github-actions-cicd.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Rúbrica de Evaluación — Semana 16: App Store y Google Play Console](../week-16-app_store_google_play/rubrica-evaluacion.md) | [CI/CD con GitHub Actions para React Native + EAS](1-teoria/01-github-actions-cicd.md) |
 
 <!-- nav:end -->

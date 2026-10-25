@@ -31,6 +31,8 @@ Usa estos términos en YouTube, Udemy o el canal de tu preferencia:
 
 ---
 
-← [Cheatsheet — Animated API (Week 09)](../ebooks-free/README.md) | [Webgrafía — Week 09: Animaciones Básicas](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Cheatsheet — Animated API (Week 09)](../ebooks-free/README.md) | [Webgrafía — Week 09: Animaciones Básicas](../webgrafia/README.md) |
 
 <!-- nav:end -->

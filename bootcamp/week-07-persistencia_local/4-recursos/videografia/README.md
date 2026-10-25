@@ -98,6 +98,8 @@ react native storage comparison benchmark
 
 ---
 
-← [Ebooks y Referencias — Semana 07: Persistencia Local](../ebooks-free/README.md) | [Webgrafía — Semana 07: Persistencia Local](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ebooks y Referencias — Semana 07: Persistencia Local](../ebooks-free/README.md) | [Webgrafía — Semana 07: Persistencia Local](../webgrafia/README.md) |
 
 <!-- nav:end -->

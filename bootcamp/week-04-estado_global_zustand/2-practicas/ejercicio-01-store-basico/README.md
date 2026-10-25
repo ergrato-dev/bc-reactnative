@@ -122,6 +122,8 @@ La app debe mostrar:
 
 ---
 
-← [Zustand — Slices, Múltiples Stores y Persist](../../1-teoria/02-zustand-slices-persist.md) | [Ejercicio 02 — Persist Middleware con AsyncStorage](../ejercicio-02-persist-middleware/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Zustand — Slices, Múltiples Stores y Persist](../../1-teoria/02-zustand-slices-persist.md) | [Ejercicio 02 — Persist Middleware con AsyncStorage](../ejercicio-02-persist-middleware/README.md) |
 
 <!-- nav:end -->

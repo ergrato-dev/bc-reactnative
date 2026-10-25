@@ -138,6 +138,8 @@ Cuando hayas completado todos los pasos, tu app debe mostrar:
 
 ---
 
-← [Estilos Dinámicos y Theming Básico](../../1-teoria/03-estilos-dinamicos.md) | [Ejercicio 02 — TextInput y Búsqueda en Lista](../ejercicio-02-busqueda-input/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Estilos Dinámicos y Theming Básico](../../1-teoria/03-estilos-dinamicos.md) | [Ejercicio 02 — TextInput y Búsqueda en Lista](../ejercicio-02-busqueda-input/README.md) |
 
 <!-- nav:end -->

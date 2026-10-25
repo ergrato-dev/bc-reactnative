@@ -68,12 +68,16 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-[Semana 02 — Listas, Inputs y Estilos](../week-02-listas_inputs_y_estilos/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+|  | [Semana 02 — Listas, Inputs y Estilos](../week-02-listas_inputs_y_estilos/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Inicio](../../README.md) | [Expo y el Entorno de Desarrollo](1-teoria/01-expo-y-entorno.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Inicio](../../README.md) | [Expo y el Entorno de Desarrollo](1-teoria/01-expo-y-entorno.md) |
 
 <!-- nav:end -->

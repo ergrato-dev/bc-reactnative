@@ -170,6 +170,8 @@ Al completar los 4 pasos, la app debe mostrar:
 
 ---
 
-← [Interpolación y LayoutAnimation](../../1-teoria/02-layout-animation.md) | [Ejercicio 02 — interpolate y Animated.stagger](../ejercicio-02-interpolation/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Interpolación y LayoutAnimation](../../1-teoria/02-layout-animation.md) | [Ejercicio 02 — interpolate y Animated.stagger](../ejercicio-02-interpolation/README.md) |
 
 <!-- nav:end -->

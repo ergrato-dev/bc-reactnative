@@ -47,6 +47,8 @@
 
 ---
 
-← [Proyecto Semana 17 — CI/CD y OTA Updates](../../3-proyecto/README.md) | [Recursos — Videografía](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 17 — CI/CD y OTA Updates](../../3-proyecto/README.md) | [Recursos — Videografía](../videografia/README.md) |
 
 <!-- nav:end -->

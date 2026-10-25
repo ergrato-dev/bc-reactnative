@@ -199,6 +199,8 @@ const animatedStyle = useAnimatedStyle(() => {
 
 ---
 
-← [Semana 10 — Reanimated 4 y Gesture Handler](../README.md) | [Gesture Handler — Pan, Tap y runOnJS](02-gesture-handler.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 10 — Reanimated 4 y Gesture Handler](../README.md) | [Gesture Handler — Pan, Tap y runOnJS](02-gesture-handler.md) |
 
 <!-- nav:end -->

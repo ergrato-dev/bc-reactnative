@@ -126,6 +126,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — OAuth PKCE con Expo AuthSession](../2-practicas/ejercicio-02-oauth-authsession/README.md) | [📚 eBooks y Recursos de Referencia — Semana 08](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — OAuth PKCE con Expo AuthSession](../2-practicas/ejercicio-02-oauth-authsession/README.md) | [📚 eBooks y Recursos de Referencia — Semana 08](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

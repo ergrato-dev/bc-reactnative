@@ -104,6 +104,8 @@ Verifica: tira hacia abajo en la lista — aparece el spinner y los datos se ref
 
 ---
 
-← [TanStack Query v5 en React Native](../../1-teoria/02-tanstack-query-v5.md) | [Ejercicio 02 — useMutation y Cache Invalidation](../ejercicio-02-usemutation/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [TanStack Query v5 en React Native](../../1-teoria/02-tanstack-query-v5.md) | [Ejercicio 02 — useMutation y Cache Invalidation](../ejercicio-02-usemutation/README.md) |
 
 <!-- nav:end -->

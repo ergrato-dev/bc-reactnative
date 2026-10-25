@@ -137,6 +137,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — Configurar eas submit para iOS y Android](../2-practicas/ejercicio-02-eas-submit/README.md) | [Ebooks y Recursos Descargables — Semana 16](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — Configurar eas submit para iOS y Android](../2-practicas/ejercicio-02-eas-submit/README.md) | [Ebooks y Recursos Descargables — Semana 16](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

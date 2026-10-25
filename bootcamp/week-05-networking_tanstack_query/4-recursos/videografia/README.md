@@ -34,6 +34,8 @@ Estos términos producen excelentes resultados en YouTube y en plataformas como 
 
 ---
 
-← [Ebooks y Cheat Sheets — Semana 05](../ebooks-free/README.md) | [Webgrafía — Semana 05: Networking con Axios y TanStack Query](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ebooks y Cheat Sheets — Semana 05](../ebooks-free/README.md) | [Webgrafía — Semana 05: Networking con Axios y TanStack Query](../webgrafia/README.md) |
 
 <!-- nav:end -->

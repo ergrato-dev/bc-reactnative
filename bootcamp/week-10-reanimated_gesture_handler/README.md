@@ -89,12 +89,16 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-← [Semana 09 — Animaciones Básicas](../week-09-animaciones_basicas/README.md) | [Semana 11 — APIs Nativas: Cámara, Ubicación y Permisos](../week-11-apis_nativas/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 09 — Animaciones Básicas](../week-09-animaciones_basicas/README.md) | [Semana 11 — APIs Nativas: Cámara, Ubicación y Permisos](../week-11-apis_nativas/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Rúbrica de Evaluación — Semana 09: Animaciones Básicas](../week-09-animaciones_basicas/rubrica-evaluacion.md) | [Reanimated 4 — Fundamentos](1-teoria/01-reanimated-fundamentos.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Rúbrica de Evaluación — Semana 09: Animaciones Básicas](../week-09-animaciones_basicas/rubrica-evaluacion.md) | [Reanimated 4 — Fundamentos](1-teoria/01-reanimated-fundamentos.md) |
 
 <!-- nav:end -->

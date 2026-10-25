@@ -44,6 +44,8 @@ arquitectura en vivo en vez de solo mostrar la app funcionando.
 
 ---
 
-← [Proyecto Semana 18 — Proyecto Final Integrador](../3-proyecto/README.md) | [Rúbrica de Evaluación — Semana 18: Proyecto Final Integrador](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 18 — Proyecto Final Integrador](../3-proyecto/README.md) | [Rúbrica de Evaluación — Semana 18: Proyecto Final Integrador](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

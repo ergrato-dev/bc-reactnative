@@ -92,6 +92,8 @@
 
 ---
 
-← [Glosario — Semana 17: CI/CD y OTA Updates](5-glosario/README.md) | [Semana 18 — Proyecto Final Integrador](../week-18-proyecto_final/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 17: CI/CD y OTA Updates](5-glosario/README.md) | [Semana 18 — Proyecto Final Integrador](../week-18-proyecto_final/README.md) |
 
 <!-- nav:end -->

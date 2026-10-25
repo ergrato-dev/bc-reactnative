@@ -131,6 +131,8 @@ export function useDeleteItem() {
 
 ---
 
-← [Proyecto Semana 05 — Networking y TanStack Query v5](../../3-proyecto/README.md) | [Videografía — Semana 05: Networking con Axios y TanStack Query](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 05 — Networking y TanStack Query v5](../../3-proyecto/README.md) | [Videografía — Semana 05: Networking con Axios y TanStack Query](../videografia/README.md) |
 
 <!-- nav:end -->

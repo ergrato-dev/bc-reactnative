@@ -207,6 +207,8 @@ api.interceptors.response.use(
 
 ---
 
-← [Semana 08 — Autenticación Completa](../README.md) | [OAuth y Expo AuthSession](02-oauth-expo-authsession.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 08 — Autenticación Completa](../README.md) | [OAuth y Expo AuthSession](02-oauth-expo-authsession.md) |
 
 <!-- nav:end -->

@@ -66,6 +66,8 @@ Los siguientes términos en YouTube/Google te llevarán a los tutoriales más ac
 
 ---
 
-← [E-Books Gratuitos — Semana 03: React Navigation 7](../ebooks-free/README.md) | [Webgrafía — Semana 03: React Navigation 7](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [E-Books Gratuitos — Semana 03: React Navigation 7](../ebooks-free/README.md) | [Webgrafía — Semana 03: React Navigation 7](../webgrafia/README.md) |
 
 <!-- nav:end -->

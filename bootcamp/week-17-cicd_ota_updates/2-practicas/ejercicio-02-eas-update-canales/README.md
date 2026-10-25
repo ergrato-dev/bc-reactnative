@@ -192,6 +192,8 @@ eas update:list --channel production
 
 ---
 
-← [Ejercicio 01 — Crear un Workflow de GitHub Actions para EAS Build](../ejercicio-01-github-actions-workflow/README.md) | [Proyecto Semana 17 — CI/CD y OTA Updates](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Crear un Workflow de GitHub Actions para EAS Build](../ejercicio-01-github-actions-workflow/README.md) | [Proyecto Semana 17 — CI/CD y OTA Updates](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

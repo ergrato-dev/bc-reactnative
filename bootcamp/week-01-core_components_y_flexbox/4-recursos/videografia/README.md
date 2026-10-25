@@ -35,6 +35,8 @@
 
 ---
 
-← [Ebooks Gratuitos — Semana 01](../ebooks-free/README.md) | [Webgrafía — Semana 01](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ebooks Gratuitos — Semana 01](../ebooks-free/README.md) | [Webgrafía — Semana 01](../webgrafia/README.md) |
 
 <!-- nav:end -->

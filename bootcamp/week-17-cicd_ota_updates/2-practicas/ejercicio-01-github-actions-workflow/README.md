@@ -192,6 +192,8 @@ Después de hacer push con el archivo `.github/workflows/eas-build.yml`:
 
 ---
 
-← [EAS Update — OTA Updates y Gestión de Canales](../../1-teoria/02-eas-update-ota.md) | [Ejercicio 02 — Configurar EAS Update con Canales](../ejercicio-02-eas-update-canales/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [EAS Update — OTA Updates y Gestión de Canales](../../1-teoria/02-eas-update-ota.md) | [Ejercicio 02 — Configurar EAS Update con Canales](../ejercicio-02-eas-update-canales/README.md) |
 
 <!-- nav:end -->

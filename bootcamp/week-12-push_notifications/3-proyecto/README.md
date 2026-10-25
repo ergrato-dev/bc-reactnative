@@ -84,6 +84,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — Push Token y Expo Push Tool](../2-practicas/ejercicio-02-push-token/README.md) | [eBooks Gratuitos — Semana 12: Push Notifications](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — Push Token y Expo Push Tool](../2-practicas/ejercicio-02-push-token/README.md) | [eBooks Gratuitos — Semana 12: Push Notifications](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

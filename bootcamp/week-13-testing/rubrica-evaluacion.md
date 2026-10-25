@@ -84,6 +84,8 @@
 
 ---
 
-← [Glosario — Semana 13: Testing](5-glosario/README.md) | [Semana 14 — Performance y Optimización](../week-14-performance/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 13: Testing](5-glosario/README.md) | [Semana 14 — Performance y Optimización](../week-14-performance/README.md) |
 
 <!-- nav:end -->

@@ -24,6 +24,8 @@
 
 ---
 
-← [eBooks Gratuitos — Semana 12: Push Notifications](../ebooks-free/README.md) | [Webgrafía — Semana 12: Push Notifications](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [eBooks Gratuitos — Semana 12: Push Notifications](../ebooks-free/README.md) | [Webgrafía — Semana 12: Push Notifications](../webgrafia/README.md) |
 
 <!-- nav:end -->

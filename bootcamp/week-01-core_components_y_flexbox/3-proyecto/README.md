@@ -103,6 +103,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — Flexbox Layouts](../2-practicas/ejercicio-02-flexbox-layouts/README.md) | [Ebooks Gratuitos — Semana 01](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — Flexbox Layouts](../2-practicas/ejercicio-02-flexbox-layouts/README.md) | [Ebooks Gratuitos — Semana 01](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

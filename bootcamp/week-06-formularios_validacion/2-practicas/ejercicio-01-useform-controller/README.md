@@ -131,6 +131,8 @@ Escanea el QR con Expo Go o presiona `i` / `a` para abrir en simulador.
 
 ---
 
-← [Validación con Zod y zodResolver](../../1-teoria/02-validacion-zod.md) | [Ejercicio 02 — Validación con Zod + zodResolver](../ejercicio-02-zod-resolver/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Validación con Zod y zodResolver](../../1-teoria/02-validacion-zod.md) | [Ejercicio 02 — Validación con Zod + zodResolver](../ejercicio-02-zod-resolver/README.md) |
 
 <!-- nav:end -->

@@ -38,6 +38,8 @@
 
 ---
 
-← [Videografía — Semana 11: APIs Nativas](../videografia/README.md) | [Glosario — Semana 11: APIs Nativas — Cámara, Ubicación y Permisos](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 11: APIs Nativas](../videografia/README.md) | [Glosario — Semana 11: APIs Nativas — Cámara, Ubicación y Permisos](../../5-glosario/README.md) |
 
 <!-- nav:end -->

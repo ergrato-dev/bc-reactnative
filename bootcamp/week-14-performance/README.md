@@ -82,12 +82,16 @@ week-14-performance/
 
 ## 🔗 Navegación
 
-← [Semana 13 — Testing: Jest, RNTL y Maestro](../week-13-testing/README.md) | [Semana 15 — EAS Build y Certificados](../week-15-eas_build/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 13 — Testing: Jest, RNTL y Maestro](../week-13-testing/README.md) | [Semana 15 — EAS Build y Certificados](../week-15-eas_build/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Rúbrica de Evaluación — Semana 13: Testing](../week-13-testing/rubrica-evaluacion.md) | [React.memo, useMemo y useCallback](1-teoria/01-memo-usememo-usecallback.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Rúbrica de Evaluación — Semana 13: Testing](../week-13-testing/rubrica-evaluacion.md) | [React.memo, useMemo y useCallback](1-teoria/01-memo-usememo-usecallback.md) |
 
 <!-- nav:end -->

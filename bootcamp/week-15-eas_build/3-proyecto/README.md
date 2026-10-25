@@ -131,6 +131,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — Configurar app.json para Producción](../2-practicas/ejercicio-02-app-config/README.md) | [Ebooks Gratuitos — EAS Build, Certificados y Publicación](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — Configurar app.json para Producción](../2-practicas/ejercicio-02-app-config/README.md) | [Ebooks Gratuitos — EAS Build, Certificados y Publicación](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

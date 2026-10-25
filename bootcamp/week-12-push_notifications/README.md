@@ -79,12 +79,16 @@ Al finalizar esta semana, el estudiante será capaz de:
 
 ## 🔗 Navegación
 
-← [Semana 11 — APIs Nativas: Cámara, Ubicación y Permisos](../week-11-apis_nativas/README.md) | [Semana 13 — Testing: Jest, RNTL y Maestro](../week-13-testing/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 11 — APIs Nativas: Cámara, Ubicación y Permisos](../week-11-apis_nativas/README.md) | [Semana 13 — Testing: Jest, RNTL y Maestro](../week-13-testing/README.md) |
 
 <!-- nav:start -->
 
 ---
 
-← [Rúbrica de Evaluación — Semana 11: APIs Nativas](../week-11-apis_nativas/rubrica-evaluacion.md) | [Fundamentos de Push Notifications con Expo](1-teoria/01-fundamentos-notificaciones.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Rúbrica de Evaluación — Semana 11: APIs Nativas](../week-11-apis_nativas/rubrica-evaluacion.md) | [Fundamentos de Push Notifications con Expo](1-teoria/01-fundamentos-notificaciones.md) |
 
 <!-- nav:end -->

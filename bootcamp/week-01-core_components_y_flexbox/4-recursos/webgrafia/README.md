@@ -36,6 +36,8 @@
 
 ---
 
-← [Videografía — Semana 01](../videografia/README.md) | [Glosario — Semana 01: Core Components y Flexbox](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 01](../videografia/README.md) | [Glosario — Semana 01: Core Components y Flexbox](../../5-glosario/README.md) |
 
 <!-- nav:end -->

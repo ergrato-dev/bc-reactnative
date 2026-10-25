@@ -30,6 +30,8 @@
 
 ---
 
-← [Videografía — Semana 12: Push Notifications](../videografia/README.md) | [Glosario — Semana 12: Push Notifications](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Semana 12: Push Notifications](../videografia/README.md) | [Glosario — Semana 12: Push Notifications](../../5-glosario/README.md) |
 
 <!-- nav:end -->

@@ -202,6 +202,8 @@ export function SectionedList(): React.JSX.Element {
 
 ---
 
-← [Semana 02 — Listas, Inputs y Estilos](../README.md) | [TextInput y Manejo del Teclado](02-textinput-teclado.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 02 — Listas, Inputs y Estilos](../README.md) | [TextInput y Manejo del Teclado](02-textinput-teclado.md) |
 
 <!-- nav:end -->

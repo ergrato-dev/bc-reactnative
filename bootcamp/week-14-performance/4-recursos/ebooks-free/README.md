@@ -29,6 +29,8 @@
 
 ---
 
-← [Proyecto Semana 14 — Performance y Optimización](../../3-proyecto/README.md) | [Videografía — Semana 14: Performance y Optimización](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 14 — Performance y Optimización](../../3-proyecto/README.md) | [Videografía — Semana 14: Performance y Optimización](../videografia/README.md) |
 
 <!-- nav:end -->

@@ -151,6 +151,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — interpolate y Animated.stagger](../2-practicas/ejercicio-02-interpolation/README.md) | [Cheatsheet — Animated API (Week 09)](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — interpolate y Animated.stagger](../2-practicas/ejercicio-02-interpolation/README.md) | [Cheatsheet — Animated API (Week 09)](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

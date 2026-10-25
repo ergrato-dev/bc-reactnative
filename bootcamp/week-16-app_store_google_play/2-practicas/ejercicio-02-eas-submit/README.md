@@ -209,6 +209,8 @@ eas submit --platform android --profile production --non-interactive --dry-run
 
 ---
 
-← [Ejercicio 01 — Redactar Metadatos ASO para las Tiendas](../ejercicio-01-metadatos-aso/README.md) | [Proyecto Semana 16 — Publicación en App Store y Google Play](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Redactar Metadatos ASO para las Tiendas](../ejercicio-01-metadatos-aso/README.md) | [Proyecto Semana 16 — Publicación en App Store y Google Play](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

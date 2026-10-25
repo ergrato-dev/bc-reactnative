@@ -151,6 +151,8 @@ const discovery = AuthSession.useAutoDiscovery('https://accounts.google.com');
 
 ---
 
-← [JWT y Tokens de Autenticación](01-jwt-y-tokens.md) | [Ejercicio 01 — Autenticación JWT con dummyjson.com](../2-practicas/ejercicio-01-jwt-auth/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [JWT y Tokens de Autenticación](01-jwt-y-tokens.md) | [Ejercicio 01 — Autenticación JWT con dummyjson.com](../2-practicas/ejercicio-01-jwt-auth/README.md) |
 
 <!-- nav:end -->

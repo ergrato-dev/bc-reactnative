@@ -117,6 +117,8 @@ Hook de React Navigation que devuelve el objeto `route` con `name` y `params`. P
 
 <!-- nav:start -->
 
-← [Webgrafía — Semana 03: React Navigation 7](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 03: React Navigation 7](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Webgrafía — Semana 03: React Navigation 7](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 03: React Navigation 7](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

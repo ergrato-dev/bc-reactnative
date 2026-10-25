@@ -69,6 +69,8 @@ const store = useStore();
 
 ---
 
-← [🎥 Videografía — Semana 04: Estado Global con Zustand](../videografia/README.md) | [📖 Glosario — Semana 04: Estado Global con Zustand](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [🎥 Videografía — Semana 04: Estado Global con Zustand](../videografia/README.md) | [📖 Glosario — Semana 04: Estado Global con Zustand](../../5-glosario/README.md) |
 
 <!-- nav:end -->

@@ -25,6 +25,8 @@ y el canal oficial de [Software Mansion](https://www.youtube.com/@swmansion).
 
 ---
 
-← [Proyecto Semana 10 — Animaciones Avanzadas con Reanimated 4 y Gesture Handler](../../3-proyecto/README.md) | [Videografía — Semana 10: Reanimated 4 y Gesture Handler](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 10 — Animaciones Avanzadas con Reanimated 4 y Gesture Handler](../../3-proyecto/README.md) | [Videografía — Semana 10: Reanimated 4 y Gesture Handler](../videografia/README.md) |
 
 <!-- nav:end -->

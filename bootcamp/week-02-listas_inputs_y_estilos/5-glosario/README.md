@@ -110,6 +110,8 @@ Técnica de optimización donde solo se renderizan los elementos visibles en pan
 
 <!-- nav:start -->
 
-← [Webgrafía — Semana 02](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 02: Listas, Inputs y Estilos](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Webgrafía — Semana 02](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 02: Listas, Inputs y Estilos](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

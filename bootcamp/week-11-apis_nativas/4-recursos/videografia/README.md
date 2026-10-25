@@ -56,6 +56,8 @@
 
 ---
 
-← [Ebooks Gratuitos — Semana 11: APIs Nativas](../ebooks-free/README.md) | [Webgrafía — Semana 11: APIs Nativas](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ebooks Gratuitos — Semana 11: APIs Nativas](../ebooks-free/README.md) | [Webgrafía — Semana 11: APIs Nativas](../webgrafia/README.md) |
 
 <!-- nav:end -->

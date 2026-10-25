@@ -186,6 +186,8 @@ Solución: aplicar `React.memo` al componente de fila y revisar cálculos en ren
 
 ---
 
-← [React.memo, useMemo y useCallback](01-memo-usememo-usecallback.md) | [Ejercicio 01 — React.memo, useMemo y useCallback](../2-practicas/ejercicio-01-memo-hooks/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [React.memo, useMemo y useCallback](01-memo-usememo-usecallback.md) | [Ejercicio 01 — React.memo, useMemo y useCallback](../2-practicas/ejercicio-01-memo-hooks/README.md) |
 
 <!-- nav:end -->

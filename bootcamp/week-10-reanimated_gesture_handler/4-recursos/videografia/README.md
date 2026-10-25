@@ -37,6 +37,8 @@
 
 ---
 
-← [Ebooks Gratuitos — Semana 10: Reanimated 4 y Gesture Handler](../ebooks-free/README.md) | [Webgrafía — Semana 10: Reanimated 4 y Gesture Handler](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ebooks Gratuitos — Semana 10: Reanimated 4 y Gesture Handler](../ebooks-free/README.md) | [Webgrafía — Semana 10: Reanimated 4 y Gesture Handler](../webgrafia/README.md) |
 
 <!-- nav:end -->

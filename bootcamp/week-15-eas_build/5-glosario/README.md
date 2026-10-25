@@ -141,6 +141,8 @@ Estrategia de versionado en React Native: `version` (string semver, visible al u
 
 <!-- nav:start -->
 
-← [Recursos Web — EAS Build y Certificados](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 15: EAS Build y Certificados](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Recursos Web — EAS Build y Certificados](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 15: EAS Build y Certificados](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

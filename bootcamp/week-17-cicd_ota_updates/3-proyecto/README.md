@@ -126,6 +126,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — Configurar EAS Update con Canales](../2-practicas/ejercicio-02-eas-update-canales/README.md) | [Recursos — Ebooks Gratuitos](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — Configurar EAS Update con Canales](../2-practicas/ejercicio-02-eas-update-canales/README.md) | [Recursos — Ebooks Gratuitos](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

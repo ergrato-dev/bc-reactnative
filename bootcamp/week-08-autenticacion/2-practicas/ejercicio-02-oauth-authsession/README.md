@@ -128,6 +128,8 @@ Verifica que al cancelar la ventana del browser aparezca el estado "cancelled" e
 
 ---
 
-← [Ejercicio 01 — Autenticación JWT con dummyjson.com](../ejercicio-01-jwt-auth/README.md) | [Proyecto Semana 08 — Autenticación Completa](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Autenticación JWT con dummyjson.com](../ejercicio-01-jwt-auth/README.md) | [Proyecto Semana 08 — Autenticación Completa](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

@@ -199,6 +199,8 @@ Nunca subir un APK a Google Play en 2026 — rechazado automáticamente.
 
 ---
 
-← [Semana 15 — EAS Build y Certificados](../README.md) | [Certificados iOS y Firma Android](02-certificados-ios-android.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 15 — EAS Build y Certificados](../README.md) | [Certificados iOS y Firma Android](02-certificados-ios-android.md) |
 
 <!-- nav:end -->

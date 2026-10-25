@@ -89,6 +89,8 @@
 
 ---
 
-← [Glosario — Semana 14: Performance y Optimización](5-glosario/README.md) | [Semana 15 — EAS Build y Certificados](../week-15-eas_build/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 14: Performance y Optimización](5-glosario/README.md) | [Semana 15 — EAS Build y Certificados](../week-15-eas_build/README.md) |
 
 <!-- nav:end -->

@@ -123,6 +123,8 @@ Ver [rubrica-evaluacion.md](../rubrica-evaluacion.md) — sección **Producto �
 
 ---
 
-← [Ejercicio 02 — Tab Navigator con Stack Anidado](../2-practicas/ejercicio-02-tabs-stack/README.md) | [E-Books Gratuitos — Semana 03: React Navigation 7](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — Tab Navigator con Stack Anidado](../2-practicas/ejercicio-02-tabs-stack/README.md) | [E-Books Gratuitos — Semana 03: React Navigation 7](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

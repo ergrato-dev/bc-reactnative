@@ -141,6 +141,8 @@ Al completar todos los pasos deberías:
 
 ---
 
-← [Ejercicio 01 — Reanimated 4 básico](../ejercicio-01-reanimated-basico/README.md) | [Proyecto Semana 10 — Animaciones Avanzadas con Reanimated 4 y Gesture Handler](../../3-proyecto/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 01 — Reanimated 4 básico](../ejercicio-01-reanimated-basico/README.md) | [Proyecto Semana 10 — Animaciones Avanzadas con Reanimated 4 y Gesture Handler](../../3-proyecto/README.md) |
 
 <!-- nav:end -->

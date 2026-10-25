@@ -37,6 +37,8 @@ más complejas declaradas enteramente en el hilo nativo:
 
 ---
 
-← [Videografía — Week 09: Animaciones Básicas](../videografia/README.md) | [Glosario — Semana 09: Animaciones Básicas](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Videografía — Week 09: Animaciones Básicas](../videografia/README.md) | [Glosario — Semana 09: Animaciones Básicas](../../5-glosario/README.md) |
 
 <!-- nav:end -->

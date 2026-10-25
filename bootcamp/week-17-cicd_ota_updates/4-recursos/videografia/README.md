@@ -41,6 +41,8 @@
 
 ---
 
-← [Recursos — Ebooks Gratuitos](../ebooks-free/README.md) | [Recursos — Webgrafía](../webgrafia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Recursos — Ebooks Gratuitos](../ebooks-free/README.md) | [Recursos — Webgrafía](../webgrafia/README.md) |
 
 <!-- nav:end -->

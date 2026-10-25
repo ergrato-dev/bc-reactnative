@@ -160,6 +160,8 @@ distribuye en un OTA update.
 
 ---
 
-← [Recursos — Webgrafía](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 17: CI/CD y OTA Updates](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Recursos — Webgrafía](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 17: CI/CD y OTA Updates](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

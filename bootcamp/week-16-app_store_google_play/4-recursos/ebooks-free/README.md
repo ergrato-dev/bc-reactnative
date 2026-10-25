@@ -72,6 +72,8 @@ Los recursos más valiosos para esta semana son:
 
 ---
 
-← [Proyecto Semana 16 — Publicación en App Store y Google Play](../../3-proyecto/README.md) | [Videografía — Semana 16: App Store y Google Play Console](../videografia/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Proyecto Semana 16 — Publicación en App Store y Google Play](../../3-proyecto/README.md) | [Videografía — Semana 16: App Store y Google Play Console](../videografia/README.md) |
 
 <!-- nav:end -->

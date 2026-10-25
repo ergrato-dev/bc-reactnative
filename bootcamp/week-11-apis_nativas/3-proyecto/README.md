@@ -106,6 +106,8 @@ Ver [../rubrica-evaluacion.md](../rubrica-evaluacion.md)
 
 ---
 
-← [Ejercicio 02 — Ubicación con expo-location](../2-practicas/ejercicio-02-location/README.md) | [Ebooks Gratuitos — Semana 11: APIs Nativas](../4-recursos/ebooks-free/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Ejercicio 02 — Ubicación con expo-location](../2-practicas/ejercicio-02-location/README.md) | [Ebooks Gratuitos — Semana 11: APIs Nativas](../4-recursos/ebooks-free/README.md) |
 
 <!-- nav:end -->

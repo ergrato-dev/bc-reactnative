@@ -82,6 +82,8 @@ _Semana 06 — Bootcamp React Native Zero to Hero_
 
 ---
 
-← [Recursos: Videografía — Semana 06](../videografia/README.md) | [Glosario — Semana 06: Formularios con React Hook Form + Zod](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Recursos: Videografía — Semana 06](../videografia/README.md) | [Glosario — Semana 06: Formularios con React Hook Form + Zod](../../5-glosario/README.md) |
 
 <!-- nav:end -->

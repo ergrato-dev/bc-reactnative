@@ -114,6 +114,8 @@
 
 ---
 
-← [Glosario — Semana 03: React Navigation 7](5-glosario/README.md) | [Semana 04 — Estado Global con Zustand](../week-04-estado_global_zustand/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Glosario — Semana 03: React Navigation 7](5-glosario/README.md) | [Semana 04 — Estado Global con Zustand](../week-04-estado_global_zustand/README.md) |
 
 <!-- nav:end -->

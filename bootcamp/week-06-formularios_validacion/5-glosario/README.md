@@ -166,6 +166,8 @@ useForm({ resolver: zodResolver(mySchema) })
 
 ---
 
-← [Recursos: Webografía — Semana 06](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 06: Formularios con React Hook Form + Zod](../rubrica-evaluacion.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Recursos: Webografía — Semana 06](../4-recursos/webgrafia/README.md) | [Rúbrica de Evaluación — Semana 06: Formularios con React Hook Form + Zod](../rubrica-evaluacion.md) |
 
 <!-- nav:end -->

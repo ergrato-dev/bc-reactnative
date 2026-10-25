@@ -181,6 +181,8 @@ Completa en `starter/metadatos.md`:
 
 ---
 
-← [Google Play Console — Tracks, Ratings y Store Listing](../../1-teoria/02-google-play-console.md) | [Ejercicio 02 — Configurar eas submit para iOS y Android](../ejercicio-02-eas-submit/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Google Play Console — Tracks, Ratings y Store Listing](../../1-teoria/02-google-play-console.md) | [Ejercicio 02 — Configurar eas submit para iOS y Android](../ejercicio-02-eas-submit/README.md) |
 
 <!-- nav:end -->

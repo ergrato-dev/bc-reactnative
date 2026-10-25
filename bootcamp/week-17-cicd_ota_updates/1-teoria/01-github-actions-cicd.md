@@ -258,6 +258,8 @@ Para esperar el resultado del build en el workflow: usar `--wait` (pero aumenta 
 
 ---
 
-← [Semana 17 — CI/CD con GitHub Actions y OTA Updates con EAS Update](../README.md) | [EAS Update — OTA Updates y Gestión de Canales](02-eas-update-ota.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Semana 17 — CI/CD con GitHub Actions y OTA Updates con EAS Update](../README.md) | [EAS Update — OTA Updates y Gestión de Canales](02-eas-update-ota.md) |
 
 <!-- nav:end -->

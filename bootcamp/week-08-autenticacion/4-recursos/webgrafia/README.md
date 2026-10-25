@@ -51,6 +51,8 @@
 
 ---
 
-← [🎥 Videografía — Semana 08: Autenticación Completa](../videografia/README.md) | [Glosario — Semana 08: Autenticación Completa](../../5-glosario/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [🎥 Videografía — Semana 08: Autenticación Completa](../videografia/README.md) | [Glosario — Semana 08: Autenticación Completa](../../5-glosario/README.md) |
 
 <!-- nav:end -->

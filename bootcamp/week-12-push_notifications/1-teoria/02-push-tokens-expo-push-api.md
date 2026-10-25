@@ -225,6 +225,8 @@ curl -H "Content-Type: application/json" \
 
 ---
 
-← [Fundamentos de Push Notifications con Expo](01-fundamentos-notificaciones.md) | [Ejercicio 01 — Notificaciones Locales](../2-practicas/ejercicio-01-local-notifications/README.md) →
+| ← Anterior | Siguiente → |
+|:--|--:|
+| [Fundamentos de Push Notifications con Expo](01-fundamentos-notificaciones.md) | [Ejercicio 01 — Notificaciones Locales](../2-practicas/ejercicio-01-local-notifications/README.md) |
 
 <!-- nav:end -->
