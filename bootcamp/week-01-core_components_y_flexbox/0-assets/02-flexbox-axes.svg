@@ -15,15 +15,16 @@
   <!-- Contenedor RN -->
   <rect x="60" y="125" width="280" height="300" rx="10" fill="#161b22" stroke="#30363d" stroke-width="2"/>
 
-  <!-- Eje principal (↓ vertical) -->
-  <line x1="200" y1="135" x2="200" y2="415" stroke="#61DAFB" stroke-width="2" stroke-dasharray="6,3"/>
-  <polygon points="200,420 195,408 205,408" fill="#61DAFB"/>
-  <text x="215" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#61DAFB" transform="rotate(90, 215, 290)">eje principal →</text>
+  <!-- Eje principal (↓ vertical), en el margen izquierdo -->
+  <line x1="72" y1="145" x2="72" y2="352" stroke="#61DAFB" stroke-width="2" stroke-dasharray="6,3"/>
+  <polygon points="72,362 67,350 77,350" fill="#61DAFB"/>
+  <text x="79" y="240" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#61DAFB" transform="rotate(90, 79, 240)">eje principal →</text>
 
-  <!-- Eje cruzado (→ horizontal) -->
-  <line x1="70" y1="275" x2="330" y2="275" stroke="#f1f0ff" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
-  <polygon points="335,275 323,270 323,280" fill="#f1f0ff" opacity="0.4"/>
-  <text x="200" y="268" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#f1f0ff" opacity="0.5">eje cruzado</text>
+  <!-- Eje cruzado (→ horizontal), en el hueco entre Hijo 2 y Hijo 3 -->
+  <line x1="90" y1="291" x2="318" y2="291" stroke="#f1f0ff" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+  <polygon points="328,291 316,286 316,296" fill="#f1f0ff" opacity="0.4"/>
+  <rect x="160" y="285" width="80" height="12" fill="#161b22"/>
+  <text x="200" y="294.5" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#f1f0ff" opacity="0.6">eje cruzado →</text>
 
   <!-- Cajas hijos RN -->
   <rect x="90" y="145" width="220" height="64" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
@@ -47,15 +48,15 @@
   <!-- Contenedor CSS -->
   <rect x="460" y="125" width="280" height="300" rx="10" fill="#161b22" stroke="#30363d" stroke-width="2"/>
 
-  <!-- Eje principal (→ horizontal) -->
-  <line x1="470" y1="275" x2="730" y2="275" stroke="#f97316" stroke-width="2" stroke-dasharray="6,3"/>
-  <polygon points="735,275 723,270 723,280" fill="#f97316"/>
-  <text x="600" y="268" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#f97316">eje principal →</text>
+  <!-- Eje principal (→ horizontal), bajo los hijos -->
+  <line x1="478" y1="356" x2="712" y2="356" stroke="#f97316" stroke-width="2" stroke-dasharray="6,3"/>
+  <polygon points="722,356 710,351 710,361" fill="#f97316"/>
+  <text x="600" y="347" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#f97316">eje principal →</text>
 
-  <!-- Eje cruzado (↓ vertical) -->
-  <line x1="600" y1="135" x2="600" y2="415" stroke="#f1f0ff" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
-  <polygon points="600,420 595,408 605,408" fill="#f1f0ff" opacity="0.4"/>
-  <text x="613" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#f1f0ff" opacity="0.5" transform="rotate(90, 613, 290)">eje cruzado</text>
+  <!-- Eje cruzado (↓ vertical), sobre los hijos -->
+  <line x1="600" y1="140" x2="600" y2="204" stroke="#f1f0ff" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+  <polygon points="600,214 595,202 605,202" fill="#f1f0ff" opacity="0.4"/>
+  <text x="610" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#f1f0ff" opacity="0.6">eje cruzado ↓</text>
 
   <!-- Cajas hijos CSS (en fila) -->
   <rect x="478" y="220" width="74" height="110" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
