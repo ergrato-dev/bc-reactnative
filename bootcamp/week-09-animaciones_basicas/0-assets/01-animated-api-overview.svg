@@ -12,7 +12,7 @@
   <text x="150" y="100" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2563eb" text-anchor="middle">Animated.timing</text>
   <text x="150" y="118" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Velocidad constante o easing</text>
   <rect x="46" y="126" width="208" height="30" rx="4" fill="#0f172a"/>
-  <text x="150" y="145" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#7dd3fc" text-anchor="middle" font-family="monospace">duration: 400ms | easing: Easing.ease</text>
+  <text x="150" y="145" font-size="10" fill="#7dd3fc" text-anchor="middle" font-family="monospace">duration: 400ms | easing: Easing.ease</text>
   <text x="150" y="174" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Fade in/out · Deslizamientos · Transiciones</text>
 
   <!-- spring box -->
@@ -20,7 +20,7 @@
   <text x="410" y="100" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#a78bfa" text-anchor="middle">Animated.spring</text>
   <text x="410" y="118" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Física de resorte — rebote natural</text>
   <rect x="306" y="126" width="208" height="30" rx="4" fill="#0f172a"/>
-  <text x="410" y="145" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#c4b5fd" text-anchor="middle" font-family="monospace">tension: 300 | friction: 10</text>
+  <text x="410" y="145" font-size="10" fill="#c4b5fd" text-anchor="middle" font-family="monospace">tension: 300 | friction: 10</text>
   <text x="410" y="174" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Tap feedback · Cards · Botones interactivos</text>
 
   <!-- decay box -->
@@ -28,7 +28,7 @@
   <text x="670" y="100" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#34d399" text-anchor="middle">Animated.decay</text>
   <text x="670" y="118" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Inercia — desaceleración gradual</text>
   <rect x="566" y="126" width="208" height="30" rx="4" fill="#0f172a"/>
-  <text x="670" y="145" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#6ee7b7" text-anchor="middle" font-family="monospace">velocity: 0.5 | deceleration: 0.997</text>
+  <text x="670" y="145" font-size="10" fill="#6ee7b7" text-anchor="middle" font-family="monospace">velocity: 0.5 | deceleration: 0.997</text>
   <text x="670" y="174" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Swipe · Scroll momentum · Lanzar objetos</text>
 
   <!-- ─── Section: Combinators ─── -->
@@ -76,6 +76,6 @@
   <rect x="690" y="232" width="180" height="90" rx="8" fill="#1e293b"/>
   <text x="780" y="252" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#fb923c" text-anchor="middle">loop</text>
   <text x="780" y="272" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Repite indefinidamente</text>
-  <text x="780" y="292" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#6ee7b7" text-anchor="middle" font-family="monospace">Animated.loop(timing)</text>
+  <text x="780" y="292" font-size="10" fill="#6ee7b7" text-anchor="middle" font-family="monospace">Animated.loop(timing)</text>
   <text x="780" y="310" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Loaders · Pulsos · Spinners</text>
 </svg>

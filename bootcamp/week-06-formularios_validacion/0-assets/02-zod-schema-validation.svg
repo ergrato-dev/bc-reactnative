@@ -92,7 +92,7 @@
 
   <!-- Error example -->
   <rect x="482" y="242" width="316" height="38" rx="4" fill="#1C1917"/>
-  <text x="640" y="258" text-anchor="middle" font-size="10.5" fill="#FCA5A5">{'errors.title && ('}</text>
+  <text x="640" y="258" text-anchor="middle" font-size="10.5" fill="#FCA5A5">{'errors.title &amp;&amp; ('}</text>
   <text x="640" y="272" text-anchor="middle" font-size="10.5" fill="#FCA5A5">{'  <Text>{errors.title.message}</Text>'}</text>
 
   <!-- Arrow connecting schema to screen -->
