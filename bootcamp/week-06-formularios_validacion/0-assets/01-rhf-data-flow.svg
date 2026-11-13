@@ -72,7 +72,7 @@
 
   <!-- Arrow: zodResolver → handleSubmit -->
   <line x1="530" y1="184" x2="560" y2="184" stroke="#22C55E" stroke-width="1.5" marker-end="url(#arrowGreen)"/>
-  <text x="600" y="179" text-anchor="middle" font-size="10" fill="#4ADE80">✓ válido</text>
+  <text x="545" y="176" text-anchor="middle" font-size="9" fill="#4ADE80">✓</text>
 
   <!-- ── Section label: Component ── -->
   <rect x="30" y="240" width="52" height="100" rx="6" fill="#1F2937" stroke="#374151" stroke-width="1"/>

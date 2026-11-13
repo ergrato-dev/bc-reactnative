@@ -77,10 +77,5 @@
 
   <!-- Nota inferior -->
   <rect x="60" y="455" width="680" height="32" rx="6" fill="#161b22"/>
-  <text x="400" y="473" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8b949e">⚠️  En React Native </text>
-  <text x="430" y="473" font-family="monospace" font-size="12" fill="#61DAFB">flexDirection</text>
-  <text x="560" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8b949e"> es </text>
-  <text x="578" y="473" font-family="monospace" font-size="12" fill="#61DAFB">'column'</text>
-  <text x="643" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8b949e"> por defecto, no </text>
-  <text x="755" y="473" font-family="monospace" font-size="12" fill="#f97316">'row'</text>
+  <text x="400" y="476" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#8b949e">⚠️ En React Native <tspan font-family="monospace" fill="#61DAFB">flexDirection</tspan> es <tspan font-family="monospace" fill="#61DAFB">'column'</tspan> por defecto, no <tspan font-family="monospace" fill="#f97316">'row'</tspan></text>
 </svg>

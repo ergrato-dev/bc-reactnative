@@ -15,12 +15,12 @@
   <text x="500" y="93" font-size="12" fill="#34D399">play.google.com/console</text>
 
   <!-- ROW LABELS col -->
-  <text x="18" y="130" text-anchor="middle" font-size="10" fill="#64748B" transform="rotate(0,18,130)">Cuenta</text>
-  <text x="18" y="196" text-anchor="middle" font-size="10" fill="#64748B">Título</text>
-  <text x="18" y="256" text-anchor="middle" font-size="10" fill="#64748B">Desc.</text>
-  <text x="18" y="316" text-anchor="middle" font-size="10" fill="#64748B">Beta</text>
-  <text x="18" y="376" text-anchor="middle" font-size="10" fill="#64748B">Revisión</text>
-  <text x="18" y="436" text-anchor="middle" font-size="10" fill="#64748B">Submit</text>
+  <text x="18" y="138" text-anchor="middle" font-size="10" fill="#64748B" transform="rotate(-90,18,138)">Cuenta</text>
+  <text x="18" y="204" text-anchor="middle" font-size="10" fill="#64748B" transform="rotate(-90,18,204)">Título</text>
+  <text x="18" y="264" text-anchor="middle" font-size="10" fill="#64748B" transform="rotate(-90,18,264)">Desc.</text>
+  <text x="18" y="324" text-anchor="middle" font-size="10" fill="#64748B" transform="rotate(-90,18,324)">Beta</text>
+  <text x="18" y="384" text-anchor="middle" font-size="10" fill="#64748B" transform="rotate(-90,18,384)">Revisión</text>
+  <text x="18" y="444" text-anchor="middle" font-size="10" fill="#64748B" transform="rotate(-90,18,444)">Submit</text>
 
   <!-- === ROW 1: Account === -->
   <rect x="30" y="110" width="400" height="52" rx="8" fill="#1E293B" stroke="#3B82F6" stroke-width="1"/>

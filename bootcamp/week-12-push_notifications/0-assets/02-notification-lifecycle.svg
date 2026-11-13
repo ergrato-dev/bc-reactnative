@@ -101,7 +101,6 @@
 
   <!-- Bottom: key takeaway -->
   <rect x="30" y="432" width="840" height="35" rx="6" fill="#0F172A" stroke="#374151" stroke-width="1"/>
-  <text x="450" y="449" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="700">Regla: </text>
-  <text x="480" y="449" fill="#9CA3AF" font-size="10">addNotificationReceivedListener solo funciona en FOREGROUND. Para BACKGROUND y KILLED usar el Response Listener.</text>
+  <text x="450" y="449" text-anchor="middle" fill="#9CA3AF" font-size="10"><tspan font-weight="700">Regla:</tspan> addNotificationReceivedListener solo funciona en FOREGROUND. Para BACKGROUND y KILLED usar el Response Listener.</text>
 
 </svg>

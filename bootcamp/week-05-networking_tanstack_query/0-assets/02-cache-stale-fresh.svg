@@ -70,17 +70,12 @@
   <text x="710" y="326" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#61DAFB">gcTime: 5 * 60 * 1000 (default)</text>
 
   <!-- ── CODE EXAMPLE ───────────────────────────────────────── -->
-  <rect x="30" y="355" width="800" height="120" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="30" y="355" width="800" height="138" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
   <text x="50" y="378" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#8b949e">// Configuración por QueryClient (global) o por query individual</text>
-  <text x="50" y="398" font-family="monospace, monospace" font-size="12" fill="#61DAFB">const queryClient</text>
-  <text x="182" y="398" font-family="monospace, monospace" font-size="12" fill="#e6edf3"> = new QueryClient({</text>
-  <text x="50" y="416" font-family="monospace, monospace" font-size="12" fill="#e6edf3">  defaultOptions: { queries: {</text>
-  <text x="50" y="434" font-family="monospace, monospace" font-size="12" fill="#d29922">    staleTime</text>
-  <text x="142" y="434" font-family="monospace, monospace" font-size="12" fill="#e6edf3">: 1000 * 60 * 5,  </text>
-  <text x="340" y="434" font-family="monospace, monospace" font-size="12" fill="#484f58">// 5 min → datos fresh por 5 min</text>
-  <text x="50" y="452" font-family="monospace, monospace" font-size="12" fill="#d29922">    gcTime</text>
-  <text x="130" y="452" font-family="monospace, monospace" font-size="12" fill="#e6edf3">: 1000 * 60 * 10, </text>
-  <text x="340" y="452" font-family="monospace, monospace" font-size="12" fill="#484f58">// 10 min → eliminar caché 10 min tras desmontar</text>
-  <text x="50" y="470" font-family="monospace, monospace" font-size="12" fill="#e6edf3">  } },</text>
-  <text x="50" y="458" font-family="monospace, monospace" font-size="12" fill="#e6edf3">});</text>
+  <text x="50" y="394" font-family="monospace, monospace" font-size="12" xml:space="preserve" fill="#e6edf3"><tspan fill="#61DAFB">const queryClient</tspan> = new QueryClient({</text>
+  <text x="50" y="411" font-family="monospace, monospace" font-size="12" xml:space="preserve" fill="#e6edf3">  defaultOptions: { queries: {</text>
+  <text x="50" y="428" font-family="monospace, monospace" font-size="12" xml:space="preserve" fill="#e6edf3">    <tspan fill="#d29922">staleTime</tspan>: 1000 * 60 * 5,   <tspan fill="#484f58">// 5 min → datos fresh por 5 min</tspan></text>
+  <text x="50" y="445" font-family="monospace, monospace" font-size="12" xml:space="preserve" fill="#e6edf3">    <tspan fill="#d29922">gcTime</tspan>:    1000 * 60 * 10,  <tspan fill="#484f58">// 10 min → eliminar caché 10 min tras desmontar</tspan></text>
+  <text x="50" y="462" font-family="monospace, monospace" font-size="12" xml:space="preserve" fill="#e6edf3">  } },</text>
+  <text x="50" y="479" font-family="monospace, monospace" font-size="12" xml:space="preserve" fill="#e6edf3">});</text>
 </svg>

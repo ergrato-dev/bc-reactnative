@@ -28,8 +28,8 @@
   <!-- Step 1: Generate PKCE -->
   <rect x="0" y="108" width="26" height="18" rx="3" fill="#334155"/>
   <text x="13" y="121" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">1</text>
-  <rect x="30" y="118" width="220" height="20" rx="3" fill="#1e293b"/>
-  <text x="140" y="131" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#c4b5fd" text-anchor="middle">expo-crypto: genera code_verifier → code_challenge (SHA256)</text>
+  <rect x="34" y="117" width="300" height="20" rx="3" fill="#1e293b"/>
+  <text x="184" y="131" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#c4b5fd" text-anchor="middle">expo-crypto: genera code_verifier → code_challenge (SHA256)</text>
 
   <!-- Step 2: promptAsync → open browser -->
   <rect x="0" y="150" width="26" height="18" rx="3" fill="#334155"/>
@@ -99,9 +99,6 @@
   <rect x="340" y="460" width="200" height="20" rx="3" fill="#0f172a"/>
   <text x="440" y="473" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#4ade80" text-anchor="middle">{ appToken } → SecureStore → Zustand</text>
 
-  <!-- PKCE box explanation -->
-  <rect x="30" y="118" width="12" height="12" rx="2" fill="#7c3aed"/>
-  <rect x="30" y="118" width="220" height="1" fill="none"/>
 
   <!-- Arrowhead markers -->
   <defs>

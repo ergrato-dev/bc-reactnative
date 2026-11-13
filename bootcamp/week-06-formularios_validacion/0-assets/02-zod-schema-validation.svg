@@ -11,47 +11,21 @@
 
   <!-- Code block -->
   <rect x="46" y="88" width="348" height="244" rx="6" fill="#0F172A"/>
-  <text x="62" y="110" font-size="10.5" fill="#60A5FA">import</text>
-  <text x="102" y="110" font-size="10.5" fill="#F9FAFB">{ z }</text>
-  <text x="142" y="110" font-size="10.5" fill="#60A5FA">from</text>
-  <text x="170" y="110" font-size="10.5" fill="#86EFAC">'zod'</text>
+  <text x="62" y="110" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve"><tspan fill="#60A5FA">import</tspan> { z } <tspan fill="#60A5FA">from</tspan> <tspan fill="#86EFAC">'zod'</tspan></text>
 
-  <text x="62" y="132" font-size="10.5" fill="#60A5FA">export const</text>
-  <text x="152" y="132" font-size="10.5" fill="#FCD34D">itemSchema</text>
-  <text x="222" y="132" font-size="10.5" fill="#F9FAFB">= z.object({</text>
+  <text x="62" y="132" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve"><tspan fill="#60A5FA">export const</tspan> <tspan fill="#FCD34D">itemSchema</tspan> = z.object({</text>
 
-  <text x="78" y="152" font-size="10.5" fill="#F9FAFB">title:</text>
-  <text x="116" y="152" font-size="10.5" fill="#A78BFA">z.string()</text>
-  <text x="186" y="152" font-size="10.5" fill="#F9FAFB">.min(1,</text>
-  <text x="230" y="152" font-size="10.5" fill="#86EFAC">'Requerido'</text>
-  <text x="315" y="152" font-size="10.5" fill="#F9FAFB">),</text>
+  <text x="78" y="152" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve">title: <tspan fill="#A78BFA">z.string()</tspan>.min(1, <tspan fill="#86EFAC">'Requerido'</tspan>),</text>
 
-  <text x="78" y="170" font-size="10.5" fill="#F9FAFB">email:</text>
-  <text x="117" y="170" font-size="10.5" fill="#A78BFA">z.string()</text>
-  <text x="187" y="170" font-size="10.5" fill="#F9FAFB">.email(</text>
-  <text x="226" y="170" font-size="10.5" fill="#86EFAC">'Email inválido'</text>
-  <text x="342" y="170" font-size="10.5" fill="#F9FAFB">),</text>
+  <text x="78" y="170" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve">email: <tspan fill="#A78BFA">z.string()</tspan>.email(<tspan fill="#86EFAC">'Email inválido'</tspan>),</text>
 
-  <text x="78" y="188" font-size="10.5" fill="#F9FAFB">price:</text>
-  <text x="116" y="188" font-size="10.5" fill="#A78BFA">z.coerce.number()</text>
-  <text x="236" y="188" font-size="10.5" fill="#F9FAFB">.positive(</text>
-  <text x="300" y="188" font-size="10.5" fill="#86EFAC">'&gt; 0'</text>
-  <text x="340" y="188" font-size="10.5" fill="#F9FAFB">),</text>
+  <text x="78" y="188" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve">price: <tspan fill="#A78BFA">z.coerce.number()</tspan>.positive(<tspan fill="#86EFAC">'&gt; 0'</tspan>),</text>
 
-  <text x="78" y="206" font-size="10.5" fill="#F9FAFB">notes:</text>
-  <text x="118" y="206" font-size="10.5" fill="#A78BFA">z.string()</text>
-  <text x="186" y="206" font-size="10.5" fill="#F9FAFB">.optional(),</text>
+  <text x="78" y="206" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve">notes: <tspan fill="#A78BFA">z.string()</tspan>.optional(),</text>
 
-  <text x="62" y="224" font-size="10.5" fill="#F9FAFB">}</text>
-  <text x="76" y="224" font-size="10.5" fill="#F9FAFB">)</text>
+  <text x="62" y="224" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve">});</text>
 
-  <text x="62" y="250" font-size="10.5" fill="#60A5FA">export type</text>
-  <text x="138" y="250" font-size="10.5" fill="#FCD34D">ItemFormData</text>
-  <text x="220" y="250" font-size="10.5" fill="#F9FAFB">=</text>
-  <text x="230" y="250" font-size="10.5" fill="#A78BFA">z.infer</text>
-  <text x="272" y="250" font-size="10.5" fill="#F9FAFB">&lt;typeof</text>
-  <text x="328" y="250" font-size="10.5" fill="#FCD34D">itemSchema</text>
-  <text x="372" y="250" font-size="10.5" fill="#F9FAFB">&gt;</text>
+  <text x="62" y="250" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve"><tspan fill="#60A5FA">export type</tspan> <tspan fill="#FCD34D">ItemFormData</tspan> = <tspan fill="#A78BFA">z.infer</tspan>&lt;typeof <tspan fill="#FCD34D">itemSchema</tspan>&gt;</text>
 
   <!-- Type note -->
   <rect x="62" y="263" width="320" height="24" rx="4" fill="#1E3A1A"/>
@@ -62,31 +36,18 @@
   <text x="640" y="78" text-anchor="middle" font-size="12" font-weight="700" fill="#C4B5FD">CreateScreen.tsx</text>
 
   <rect x="466" y="88" width="348" height="244" rx="6" fill="#0F172A"/>
-  <text x="482" y="110" font-size="10.5" fill="#60A5FA">import</text>
-  <text x="522" y="110" font-size="10.5" fill="#F9FAFB">{ zodResolver }</text>
-  <text x="640" y="110" font-size="10.5" fill="#60A5FA">from</text>
-  <text x="670" y="110" font-size="10.5" fill="#86EFAC">'@hookform/resolvers/zod'</text>
+  <text x="482" y="110" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve"><tspan fill="#60A5FA">import</tspan> { zodResolver } <tspan fill="#60A5FA">from</tspan> <tspan fill="#86EFAC">'@hookform/resolvers/zod'</tspan></text>
 
-  <text x="482" y="130" font-size="10.5" fill="#60A5FA">import</text>
-  <text x="522" y="130" font-size="10.5" fill="#F9FAFB">{ itemSchema, type ItemFormData }</text>
+  <text x="482" y="130" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve"><tspan fill="#60A5FA">import</tspan> { itemSchema, type ItemFormData }</text>
 
-  <text x="482" y="154" font-size="10.5" fill="#60A5FA">const</text>
-  <text x="510" y="154" font-size="10.5" fill="#F9FAFB">{ control, handleSubmit,</text>
-  <text x="510" y="170" font-size="10.5" fill="#F9FAFB">  formState: { errors, isSubmitting }</text>
-  <text x="510" y="186" font-size="10.5" fill="#F9FAFB">}</text>
-  <text x="520" y="186" font-size="10.5" fill="#F9FAFB">= </text>
-  <text x="534" y="186" font-size="10.5" fill="#FCD34D">useForm</text>
-  <text x="578" y="186" font-size="10.5" fill="#F9FAFB">&lt;</text>
-  <text x="582" y="186" font-size="10.5" fill="#FCD34D">ItemFormData</text>
-  <text x="654" y="186" font-size="10.5" fill="#F9FAFB">&gt;({})</text>
+  <text x="482" y="154" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve"><tspan fill="#60A5FA">const</tspan> { control, handleSubmit,</text>
+  <text x="498" y="170" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve">formState: { errors, isSubmitting }</text>
+  <text x="482" y="186" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve">} = <tspan fill="#FCD34D">useForm</tspan>&lt;<tspan fill="#FCD34D">ItemFormData</tspan>&gt;({</text>
 
-  <text x="482" y="206" font-size="10.5" fill="#60A5FA">resolver:</text>
-  <text x="540" y="206" font-size="10.5" fill="#A78BFA">zodResolver</text>
-  <text x="606" y="206" font-size="10.5" fill="#F9FAFB">(</text>
-  <text x="614" y="206" font-size="10.5" fill="#FCD34D">itemSchema</text>
-  <text x="674" y="206" font-size="10.5" fill="#F9FAFB">)</text>
+  <text x="498" y="204" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve"><tspan fill="#60A5FA">resolver:</tspan> <tspan fill="#A78BFA">zodResolver</tspan>(<tspan fill="#FCD34D">itemSchema</tspan>),</text>
+  <text x="482" y="221" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB">});</text>
 
-  <text x="482" y="232" font-size="10.5" fill="#F9FAFB">// errors.title?.message → string | undefined</text>
+  <text x="482" y="237" font-family="Consolas, Menlo, monospace" font-size="10" fill="#F9FAFB" xml:space="preserve">// errors.title?.message → string | undefined</text>
 
   <!-- Error example -->
   <rect x="482" y="242" width="316" height="38" rx="4" fill="#1C1917"/>
