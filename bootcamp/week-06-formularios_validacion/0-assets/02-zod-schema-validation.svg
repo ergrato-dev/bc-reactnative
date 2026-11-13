@@ -12,13 +12,13 @@
   <!-- Code block -->
   <rect x="46" y="88" width="348" height="244" rx="6" fill="#0F172A"/>
   <text x="62" y="110" font-size="10.5" fill="#60A5FA">import</text>
-  <text x="102" y="110" font-size="10.5" fill="#F9FAFB">{'{ z }'}</text>
+  <text x="102" y="110" font-size="10.5" fill="#F9FAFB">{ z }</text>
   <text x="142" y="110" font-size="10.5" fill="#60A5FA">from</text>
   <text x="170" y="110" font-size="10.5" fill="#86EFAC">'zod'</text>
 
   <text x="62" y="132" font-size="10.5" fill="#60A5FA">export const</text>
   <text x="152" y="132" font-size="10.5" fill="#FCD34D">itemSchema</text>
-  <text x="222" y="132" font-size="10.5" fill="#F9FAFB">= z.object({'{'}</text>
+  <text x="222" y="132" font-size="10.5" fill="#F9FAFB">= z.object({</text>
 
   <text x="78" y="152" font-size="10.5" fill="#F9FAFB">title:</text>
   <text x="116" y="152" font-size="10.5" fill="#A78BFA">z.string()</text>
@@ -35,14 +35,14 @@
   <text x="78" y="188" font-size="10.5" fill="#F9FAFB">price:</text>
   <text x="116" y="188" font-size="10.5" fill="#A78BFA">z.coerce.number()</text>
   <text x="236" y="188" font-size="10.5" fill="#F9FAFB">.positive(</text>
-  <text x="300" y="188" font-size="10.5" fill="#86EFAC">'{'> 0'}</text>
+  <text x="300" y="188" font-size="10.5" fill="#86EFAC">'&gt; 0'</text>
   <text x="340" y="188" font-size="10.5" fill="#F9FAFB">),</text>
 
   <text x="78" y="206" font-size="10.5" fill="#F9FAFB">notes:</text>
   <text x="118" y="206" font-size="10.5" fill="#A78BFA">z.string()</text>
   <text x="186" y="206" font-size="10.5" fill="#F9FAFB">.optional(),</text>
 
-  <text x="62" y="224" font-size="10.5" fill="#F9FAFB">{'}'}</text>
+  <text x="62" y="224" font-size="10.5" fill="#F9FAFB">}</text>
   <text x="76" y="224" font-size="10.5" fill="#F9FAFB">)</text>
 
   <text x="62" y="250" font-size="10.5" fill="#60A5FA">export type</text>
@@ -63,24 +63,22 @@
 
   <rect x="466" y="88" width="348" height="244" rx="6" fill="#0F172A"/>
   <text x="482" y="110" font-size="10.5" fill="#60A5FA">import</text>
-  <text x="522" y="110" font-size="10.5" fill="#F9FAFB">{'{ zodResolver }'}</text>
+  <text x="522" y="110" font-size="10.5" fill="#F9FAFB">{ zodResolver }</text>
   <text x="640" y="110" font-size="10.5" fill="#60A5FA">from</text>
   <text x="670" y="110" font-size="10.5" fill="#86EFAC">'@hookform/resolvers/zod'</text>
 
   <text x="482" y="130" font-size="10.5" fill="#60A5FA">import</text>
-  <text x="522" y="130" font-size="10.5" fill="#F9FAFB">{'{ itemSchema, type ItemFormData }'}</text>
+  <text x="522" y="130" font-size="10.5" fill="#F9FAFB">{ itemSchema, type ItemFormData }</text>
 
   <text x="482" y="154" font-size="10.5" fill="#60A5FA">const</text>
-  <text x="510" y="154" font-size="10.5" fill="#F9FAFB">{'{ control, handleSubmit,'}</text>
-  <text x="510" y="170" font-size="10.5" fill="#F9FAFB">{'  formState: { errors, isSubmitting }'}</text>
-  <text x="510" y="186" font-size="10.5" fill="#F9FAFB">{'}'}</text>
+  <text x="510" y="154" font-size="10.5" fill="#F9FAFB">{ control, handleSubmit,</text>
+  <text x="510" y="170" font-size="10.5" fill="#F9FAFB">  formState: { errors, isSubmitting }</text>
+  <text x="510" y="186" font-size="10.5" fill="#F9FAFB">}</text>
   <text x="520" y="186" font-size="10.5" fill="#F9FAFB">= </text>
   <text x="534" y="186" font-size="10.5" fill="#FCD34D">useForm</text>
   <text x="578" y="186" font-size="10.5" fill="#F9FAFB">&lt;</text>
   <text x="582" y="186" font-size="10.5" fill="#FCD34D">ItemFormData</text>
-  <text x="654" y="186" font-size="10.5" fill="#F9FAFB">&gt;({'{}'})</text>
-
-  <text x="660" y="186" font-size="10.5" fill="#F9FAFB">({'{}'})</text>
+  <text x="654" y="186" font-size="10.5" fill="#F9FAFB">&gt;({})</text>
 
   <text x="482" y="206" font-size="10.5" fill="#60A5FA">resolver:</text>
   <text x="540" y="206" font-size="10.5" fill="#A78BFA">zodResolver</text>
@@ -88,12 +86,12 @@
   <text x="614" y="206" font-size="10.5" fill="#FCD34D">itemSchema</text>
   <text x="674" y="206" font-size="10.5" fill="#F9FAFB">)</text>
 
-  <text x="482" y="232" font-size="10.5" fill="#F9FAFB">{'// errors.title?.message → string | undefined'}</text>
+  <text x="482" y="232" font-size="10.5" fill="#F9FAFB">// errors.title?.message → string | undefined</text>
 
   <!-- Error example -->
   <rect x="482" y="242" width="316" height="38" rx="4" fill="#1C1917"/>
-  <text x="640" y="258" text-anchor="middle" font-size="10.5" fill="#FCA5A5">{'errors.title &amp;&amp; ('}</text>
-  <text x="640" y="272" text-anchor="middle" font-size="10.5" fill="#FCA5A5">{'  <Text>{errors.title.message}</Text>'}</text>
+  <text x="640" y="258" text-anchor="middle" font-size="10.5" fill="#FCA5A5">errors.title &amp;&amp; (</text>
+  <text x="640" y="272" text-anchor="middle" font-size="10.5" fill="#FCA5A5">&lt;Text&gt;{errors.title.message}&lt;/Text&gt;</text>
 
   <!-- Arrow connecting schema to screen -->
   <path d="M410 210 L450 210" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowV)"/>
